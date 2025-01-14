@@ -1,0 +1,28 @@
+.collapsible {
+  max-height: 0; /* Start as collapsed */
+  overflow: hidden;
+  transition: max-height 0.3s ease-out; /* Smooth animation */
+}
+
+h4.anchored {
+  cursor: pointer;
+  background-color: #001f3f; /* Navy blue */
+  color: white; /* White text */
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 0; /* No gap between heading and content */
+}
+
+h4.anchored:hover {
+  background-color: #003366; /* Lighter navy on hover */
+}
+
+h4.anchored:after {
+  content: " ▼";
+  font-size: 0.8em;
+}
+
+h4.anchored.collapsed:after {
+  content: " ▲";
+  font-size: 0.8em;
+}
