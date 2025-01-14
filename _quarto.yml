@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  title: "Terminologický slovník územního výparu"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - V.qmd
+
+lang: cz
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-in-header:
+      text: |
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            console.log('Inline script loaded. Initializing collapsible sections...');
+            const headings = document.querySelectorAll('h4.anchored');
+            if (headings.length === 0) {
+              console.warn('No h4 elements found.');
+              return;
+            }
+
+            headings.forEach((heading) => {
+              const collapsible = heading.nextElementSibling;
+              if (collapsible && collapsible.classList.contains('collapsible')) {
+                console.log(`Collapsible content found for heading: "${heading.textContent.trim()}"`);
+                heading.addEventListener('click', () => {
+                  if (collapsible.style.maxHeight) {
+                    collapsible.style.maxHeight = null;
+                    console.log(`Collapsing content for: "${heading.textContent.trim()}"`);
+                  } else {
+                    collapsible.style.maxHeight = collapsible.scrollHeight + 'px';
+                    console.log(`Expanding content for: "${heading.textContent.trim()}"`);
+                  }
+                  heading.classList.toggle('collapsed');
+                });
+                collapsible.style.maxHeight = null;
+              } else {
+                console.warn(`No collapsible div found for heading: "${heading.textContent.trim()}"`);
+              }
+            });
+          });
+        </script>
