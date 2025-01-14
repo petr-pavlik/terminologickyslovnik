@@ -14,7 +14,7 @@ h4.anchored {
 }
 
 h4.anchored:hover {
-  background-color: #003366; /* Lighter navy on hover */
+  background-color: #001f3fee; /* Lighter navy on hover */
 }
 
 h4.anchored:after {

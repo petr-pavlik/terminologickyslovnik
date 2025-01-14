@@ -7,16 +7,25 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Domů
+      - A.qmd
+      - B.qmd
+      - E.qmd
+      - G.qmd
+      - I.qmd
+      - K.qmd
+      - L.qmd
       - V.qmd
 
 lang: cz
 
 format:
   html:
+    lang: cs
     theme: cosmo
     css: styles.css
     toc: true
+    toc-depth: 4
     include-in-header:
       text: |
         <script>
@@ -53,8 +62,8 @@ format:
       text: |
         <footer style="background-color: #001f3f; color: white; padding: 20px; text-align: center; margin-top: 20px;">
           <div>
-            <img src="images/LOGO_CZU.png" alt="Logo 1" style="height: 80px; margin: 0 10px;">
-            <img src="images/LOGO_VUV.png" alt="Logo 2" style="height: 80px; margin: 0 10px;">
+            <img src="images/LOGO_VUV.png" alt="Logo 1" style="height: 100px; margin: 0 10px;">
+            <img src="images/LOGO_CZU.png" alt="Logo 2" style="height: 80px; margin: 0 10px;">
           </div>
           <p>© 2025 Terminologický slovník územního výparu. All rights reserved.</p>
         </footer>
