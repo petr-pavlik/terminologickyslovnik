@@ -1,29 +1,29 @@
 ## V
 
 #### Výpar
-<div class="collapsible">
+::: collapsible
   <p>This is the content inside the collapsible div.</p>
   <ul>
     <li>Item 1</li>
     <li>Item 2</li>
   </ul>
-</div>
+:::
 
 #### Výpar z vodní plochy
-<div class="collapsible">
+::: collapsible
   <p>This is the content inside the collapsible div.</p>
   <ul>
     <li>Item 1</li>
     <li>Item 2</li>
   </ul>
-</div>
+:::
 
 #### Výpar
-<div class="collapsible">
-  <p>This is the content inside the collapsible div.</p>
+::: collapsible
+This is the content inside the collapsible div
   <ul>
     <li>Item 1</li>
     <li>Item 2</li>
   </ul>
-</div>
+:::
 

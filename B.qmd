@@ -1,3 +1,6 @@
 # B
 
 #### Budykova křivka
+::: collapsible
+
+:::

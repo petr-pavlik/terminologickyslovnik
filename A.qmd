@@ -1,10 +1,21 @@
 # A
 
 #### Absolutní vlhkost
+::: collapsible
+
+:::
 
 #### Aerodynamický odpor
+::: collapsible
+
+:::
 
 #### Aktuální evapotranspirace
+::: collapsible
+
+:::
 
 #### Albedo
+::: collapsible
 
+:::

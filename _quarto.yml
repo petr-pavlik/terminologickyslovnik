@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Terminologický slovník územního výparu"
+  title: "Terminologický slovník výparu"
   navbar:
     left:
       - href: index.qmd
@@ -15,6 +15,8 @@ website:
       - I.qmd
       - K.qmd
       - L.qmd
+      - P.qmd
+      - S.qmd
       - V.qmd
 
 lang: cz
@@ -60,10 +62,12 @@ format:
         </script>
     include-after-body:
       text: |
-        <footer style="background-color: #001f3f; color: white; padding: 20px; text-align: center; margin-top: 20px;">
+        <footer style="background-color: #628395; color: white; padding: 20px; text-align: center; margin-top: 20px;">
           <div>
             <img src="images/LOGO_VUV.png" alt="Logo 1" style="height: 100px; margin: 0 10px;">
             <img src="images/LOGO_CZU.png" alt="Logo 2" style="height: 80px; margin: 0 10px;">
           </div>
-          <p>© 2025 Terminologický slovník územního výparu. All rights reserved.</p>
+          <span>
+            2025 Terminologický slovník výparu. <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/CC_BY_icon.svg/2880px-CC_BY_icon.svg.png" width=100 style="margin-left:10px">
+          <span>
         </footer>

@@ -1,11 +1,13 @@
 ---
-title: "website"
+wbsite:
+  title: "WARM-ET"
+  sidebar: false
 ---
 
-This is a Quarto website.
+### Vliv změny klimatu na evapotranspiraci a vodní bilanci v krajině v kontextu zabezpečenosti a udržitelnosti vodních zdrojů 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Tato stránka vznikla s podporoou ...
 
-```{r}
-1 + 1
-```
+##### Autoři
+
+  - Milan Fischer ![](images/ORCIDiD_iconvector.svg){width="15"}, Petr Máca ![](images/ORCIDiD_iconvector.svg){width="15"}, Petr Pavlík ![](images/ORCIDiD_iconvector.svg){width="15"}, ...

@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "E.html",
-    "href": "E.html",
-    "title": "Terminologický slovník územního výparu",
+    "objectID": "S.html",
+    "href": "S.html",
+    "title": "S",
     "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2"
+    "text": "S\n\nSublimace"
   },
   {
-    "objectID": "E.html#e",
-    "href": "E.html#e",
-    "title": "Terminologický slovník územního výparu",
+    "objectID": "P.html",
+    "href": "P.html",
+    "title": "P",
     "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2"
+    "text": "P\n\nPotenciální evapotranspirace"
   },
   {
     "objectID": "B.html",
@@ -23,16 +23,16 @@
   {
     "objectID": "V.html",
     "href": "V.html",
-    "title": "Terminologický slovník územního výparu",
+    "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2"
+    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
   },
   {
     "objectID": "V.html#v",
     "href": "V.html#v",
-    "title": "Terminologický slovník územního výparu",
+    "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2"
+    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
   },
   {
     "objectID": "L.html",
@@ -46,7 +46,7 @@
     "href": "I.html",
     "title": "I",
     "section": "",
-    "text": "I\n\nIntercepční výpar"
+    "text": "I\n\nIndex aridity\n\n\n\n\n\nIndex sucha\n\n\n\n\n\nIntercepční výpar"
   },
   {
     "objectID": "K.html",
@@ -58,16 +58,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website",
+    "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Vliv změny klimatu na evapotranspiraci a vodní bilanci v krajině v kontextu zabezpečenosti a udržitelnosti vodních zdrojů\nTato stránka vznikla s podporoou …\n\nAutoři\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
   },
   {
     "objectID": "A.html",
     "href": "A.html",
     "title": "A",
     "section": "",
-    "text": "A\n\nAbsolutní vlhkost\n\n\nAerodynamický odpor\n\n\nAktuální evapotranspirace\n\n\nAlbedo"
+    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\n\n\n\n\nAlbedo"
   },
   {
     "objectID": "G.html",
@@ -75,5 +75,19 @@
     "title": "G",
     "section": "",
     "text": "G\n\nGutace"
+  },
+  {
+    "objectID": "E.html",
+    "href": "E.html",
+    "title": "Terminologický slovník výparu",
+    "section": "",
+    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze ?@sec-sublimace.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\nrunif(1)\n\n[1] 0.088784\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
+  },
+  {
+    "objectID": "E.html#e",
+    "href": "E.html#e",
+    "title": "Terminologický slovník výparu",
+    "section": "",
+    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze ?@sec-sublimace.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\nrunif(1)\n\n[1] 0.088784\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
   }
 ]

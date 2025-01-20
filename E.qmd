@@ -1,20 +1,35 @@
 ## E
 
 #### Evaporace
-<div class="collapsible">
-  <p>This is the content inside the collapsible div.</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-  </ul>
-</div>
+::: collapsible
+  <p>
+    **Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára).** Voda se ze zemského povrchu
+    do atmosféry dostává procesem zvaným výpar.
+  </p>
+  <p>
+    K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 \%$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než $70 \%$ zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze @sec-sublimace.
+    <br>
+    V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.
+  </p>
+:::
 
 #### Evapotranspirace
-<div class="collapsible">
-  <p>This is the content inside the collapsible div.</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-  </ul>
-</div>
+::: collapsible
+```{r}
+runif(1)
+```
+    
+:::
+
+#### Evapotranspirace aktuální
+::: collapsible
+Viz. [*Aktuální evapotranpirace*](./A.html#)
+$1-5*6$
+
+:::
+
+#### Evapotranspirace referenční
+::: collapsible
+  <p>Viz <a href="R.html/#">Referenční evapotranspirace</a></p>
+:::
 
