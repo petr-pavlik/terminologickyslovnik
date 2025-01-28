@@ -7,7 +7,7 @@
 
 h4.anchored {
   cursor: pointer;
-  background-color: #dbad6a; /* Navy blue #001f3f*/ 
+  background-color: #007bff; /* Navy blue #001f3f*/ 
   color: white; /* White text */
   padding: 10px;
   border-radius: 5px; /* Rounded corners */
@@ -15,7 +15,7 @@ h4.anchored {
 }
 
 h4.anchored:hover {
-  background-color: #dfd5a5; /* Lighter navy on hover */
+  background-color: #80c7ff; /* Lighter navy on hover */
 }
 
 h4.anchored:after {
