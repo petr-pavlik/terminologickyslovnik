@@ -14,6 +14,8 @@
 :::
 
 #### Evapotranspirace
+
+Pod pojmem *evapotranspirace* se rozumí celkový výpar do atmosféry na určitém území.
 ::: collapsible
 ```{r}
 runif(1)
