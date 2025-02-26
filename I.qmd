@@ -1,16 +1,34 @@
 # I
 
 #### Index aridity
+
 ::: collapsible
+Číselný index, vyjadřující stuoeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, nebo-li vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha je naproti tomu epizodní. Ke sledování aridity se používá více indexů.
+
+$$
+\mathrm{AI_T} = 100\dfrac{d}{n}
+$$ 
+$$
+\mathrm{AI_B} = 100\dfrac{R}{LP}
+$$ 
+další navrhl významný ruský klimatolog Mikhail Ivanovich Budyko.
+
+
+| Klasifikace      | Index aridity     | Globální Zemský povrch |
+|------------------|-------------------|------------------------|
+| Hyperaridní      |  $< 0.05$         | 7.5 %                  |
+| Aridní           | $0.05 < AI < 0.2$ | 12.1 %                 |
+| Semi-aridní      | $0.2 < AI < 0.5 $ | 17.7 %                 |
+| Suché subhumidní | $0.5 < AI < 0.65$ | 9.9 %                  |
 
 :::
 
 #### Index sucha
-::: collapsible
 
+::: collapsible
 :::
 
 #### Intercepční výpar
-::: collapsible
 
+::: collapsible
 :::

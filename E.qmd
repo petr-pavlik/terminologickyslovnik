@@ -7,16 +7,20 @@
     do atmosféry dostává procesem zvaným výpar.
   </p>
   <p>
-    K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 \%$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než $70 \%$ zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze @sec-sublimace.
+    K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 \%$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než $70 \%$ zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {@sec-sublimace}.
     <br>
     V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.
   </p>
 :::
 
-#### Evapotranspirace
-
-Pod pojmem *evapotranspirace* se rozumí celkový výpar do atmosféry na určitém území.
+#### Evaporační poptávka
 ::: collapsible
+
+:::
+
+#### Evapotranspirace
+::: collapsible
+Pod pojmem *evapotranspirace* se rozumí celkový výpar do atmosféry na určitém území.
 ```{r}
 runif(1)
 ```
@@ -32,6 +36,6 @@ $1-5*6$
 
 #### Evapotranspirace referenční
 ::: collapsible
-  <p>Viz <a href="R.html/#">Referenční evapotranspirace</a></p>
+  <p>Viz <a href="R.html#">Referenční evapotranspirace</a></p>
 :::
 

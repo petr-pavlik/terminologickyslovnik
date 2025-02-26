@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "V.html",
-    "href": "V.html",
-    "title": "Terminologický slovník výparu",
+    "objectID": "S.html",
+    "href": "S.html",
+    "title": "S",
     "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
-  },
-  {
-    "objectID": "V.html#v",
-    "href": "V.html#v",
-    "title": "Terminologický slovník výparu",
-    "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
+    "text": "S\n\nSublimace"
   },
   {
     "objectID": "R.html",
@@ -28,20 +21,6 @@
     "text": "Referenční evapotranspirace (ETo) představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s m-1).\n\n\nReferenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ETo se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ETo velmi vhodná pro normalizaci hodnot aktuální evpotrapsirace (ETa) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ETa.\n\n\nDle metodiky FAO-56 (Allen et al., 1998) je ETo vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru."
   },
   {
-    "objectID": "L.html",
-    "href": "L.html",
-    "title": "L",
-    "section": "",
-    "text": "L\n\nLysimetr"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Terminologický slovník výparu",
-    "section": "",
-    "text": "Vliv změny klimatu na evapotranspiraci a vodní bilanci v krajině v kontextu zabezpečenosti a udržitelnosti vodních zdrojů\nTato stránka vznikla s podporoou …\n\nAutoři\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
-  },
-  {
     "objectID": "G.html",
     "href": "G.html",
     "title": "G",
@@ -49,39 +28,25 @@
     "text": "G\n\nGutace"
   },
   {
-    "objectID": "B.html",
-    "href": "B.html",
-    "title": "B",
-    "section": "",
-    "text": "B\n\nBudykova křivka"
-  },
-  {
     "objectID": "A.html",
     "href": "A.html",
     "title": "A",
     "section": "",
-    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\n\n\n\n\nAlbedo"
+    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\nSyn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.\n\n\n\nAlbedo\n\nAlbedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. Povrchové albedo je definováno jako poměr zářivosti a ozáření"
   },
   {
-    "objectID": "E.html",
-    "href": "E.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze ?@sec-sublimace.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\nrunif(1)\n\n[1] 0.7510326\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
+    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
   },
   {
-    "objectID": "E.html#e",
-    "href": "E.html#e",
+    "objectID": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
+    "href": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze ?@sec-sublimace.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\nrunif(1)\n\n[1] 0.7510326\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
-  },
-  {
-    "objectID": "I.html",
-    "href": "I.html",
-    "title": "I",
-    "section": "",
-    "text": "I\n\nIndex aridity\n\n\n\n\n\nIndex sucha\n\n\n\n\n\nIntercepční výpar"
+    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
   },
   {
     "objectID": "K.html",
@@ -91,17 +56,59 @@
     "text": "K\n\nKapilární vzlínání\n\n\nKutikulární výpar"
   },
   {
+    "objectID": "I.html",
+    "href": "I.html",
+    "title": "I",
+    "section": "",
+    "text": "I\n\nIndex aridity\n\nČíselný index, vyjadřující stuoeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, nebo-li vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha je naproti tomu epizodní. Ke sledování aridity se používá více indexů.\n\\[\n\\mathrm{AI_T} = 100\\dfrac{d}{n}\n\\] \\[\n\\mathrm{AI_B} = 100\\dfrac{R}{LP}\n\\] další navrhl významný ruský klimatolog Mikhail Ivanovich Budyko.\n\n\n\nKlasifikace\nIndex aridity\nGlobální Zemský povrch\n\n\n\n\nHyperaridní\n\\(&lt; 0.05\\)\n7.5 %\n\n\nAridní\n\\(0.05 &lt; AI &lt; 0.2\\)\n12.1 %\n\n\nSemi-aridní\n$0.2 &lt; AI &lt; 0.5 $\n17.7 %\n\n\nSuché subhumidní\n\\(0.5 &lt; AI &lt; 0.65\\)\n9.9 %\n\n\n\n\n\n\nIndex sucha\n\n\n\n\n\nIntercepční výpar"
+  },
+  {
+    "objectID": "L.html",
+    "href": "L.html",
+    "title": "L",
+    "section": "",
+    "text": "L\n\nLysimetr"
+  },
+  {
+    "objectID": "V.html",
+    "href": "V.html",
+    "title": "Terminologický slovník výparu",
+    "section": "",
+    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
+  },
+  {
+    "objectID": "V.html#v",
+    "href": "V.html#v",
+    "title": "Terminologický slovník výparu",
+    "section": "",
+    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
+  },
+  {
+    "objectID": "B.html",
+    "href": "B.html",
+    "title": "B",
+    "section": "",
+    "text": "B\n\nBudykova křivka\n\n\n\n\n\nBowenův poměr\n\nPoměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry k množství tepla, jež se na něm spotřebovává na výpařování vody se nazývá Bowenův poměr. Tento poměr je přímo měřitelný\n\\[\nB = \\dfrac{Q_h}{Q_e}\n\\] kde \\(Q_h\\) je teplo zjevné a \\(Q_e\\) teplo latentní."
+  },
+  {
     "objectID": "P.html",
     "href": "P.html",
     "title": "P",
     "section": "",
-    "text": "P\n\nPotenciální evapotranspirace"
+    "text": "P\n\nPotenciální evapotranspirace\n\nČasto se pod akronymem \\(\\mathrm{PET}\\) označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem."
   },
   {
-    "objectID": "S.html",
-    "href": "S.html",
-    "title": "S",
+    "objectID": "E.html",
+    "href": "E.html",
+    "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "S\n\nSublimace"
+    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.1131444\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
+  },
+  {
+    "objectID": "E.html#e",
+    "href": "E.html#e",
+    "title": "Terminologický slovník výparu",
+    "section": "",
+    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.1131444\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
   }
 ]

@@ -1,3 +1,6 @@
 # P
 
 #### Potenciální evapotranspirace
+::: collapsible
+Často se pod akronymem $\mathrm{PET}$ označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem. 
+:::

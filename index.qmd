@@ -2,11 +2,12 @@
 wbsite:
   title: "WARM-ET"
   sidebar: false
+  
 ---
 
-### Vliv změny klimatu na evapotranspiraci a vodní bilanci v krajině v kontextu zabezpečenosti a udržitelnosti vodních zdrojů 
+## Vliv změny klimatu na evapotranspiraci a vodní bilanci v krajině v kontextu zabezpečenosti a udržitelnosti vodních zdrojů
 
-Tato stránka vznikla s podporoou ...
+Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.
 
 ##### Autoři
 

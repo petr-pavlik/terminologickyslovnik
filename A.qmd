@@ -12,10 +12,10 @@
 
 #### Aktuální evapotranspirace
 ::: collapsible
-
+Syn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách. 
 :::
 
 #### Albedo
 ::: collapsible
-
+Albedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. **Povrchové albedo** je definováno jako poměr **zářivosti** a *ozáření* 
 :::

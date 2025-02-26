@@ -7,15 +7,15 @@
 
 h4.anchored {
   cursor: pointer;
-  background-color: #001f3f50; /* Navy blue #001f3f*/ 
-  color: white; /* White text */
+  background: linear-gradient(to right, #dbad6aaa, rgba(255, 217, 0, 0.7)); /* Navy blue #001f3f*/ 
+  color: black; /* White text */
   padding: 10px;
   border-radius: 5px; /* Rounded corners */
   margin-bottom: 0; /* No gap between heading and content */
 }
 
 h4.anchored:hover {
-  background-color: #001f3f75; /* Lighter navy on hover */
+  background: linear-gradient(to right, #dbad6a22, rgba(255, 217, 0, 0.3)); /* Navy blue #001f3f*/ 
 }
 
 h4.anchored:after {
