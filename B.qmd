@@ -25,8 +25,15 @@ $$ kde $AI$ je index aridity, který je definován jako
 $$
 AI = \frac{PET_{LT}}{P_{LT}}.
 $$
+Index aridity rozděluje území do dvou skupin:
+
+*   aridní území  $PET_{LT} > P_{LT}$
+*   humidní území $PET_{LT} < P_{LT}$
 
 
+Jejich limitní faktory ukazuje následující obrázek.
+
+![Příklad Budykovi křivky a limitních faktorů povodí, $E_p = PET_{LT}$](images/BCmodel/bc.png){width="4000"}
 
 :::
 
