@@ -1,6 +1,16 @@
 # P
 
+#### Penman-Monteithova rovnice
+::: collapsible
+
+$$
+\lambda\mathrm{ET} = \dfrac{\Delta(R_n - G) + \rho_ac_p\dfrac{e_s-e_a}{r_a}}{\Delta+\gamma(1 + \dfrac{r_s}{r_a})}
+$$
+
+:::
+
 #### Potenciální evapotranspirace
 ::: collapsible
 Často se pod akronymem $\mathrm{PET}$ označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem. 
 :::
+

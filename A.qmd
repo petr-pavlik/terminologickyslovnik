@@ -18,4 +18,9 @@ Syn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný
 #### Albedo
 ::: collapsible
 Albedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. **Povrchové albedo** je definováno jako poměr **zářivosti** a *ozáření* 
+
+##### Albedo zemského povrchu
+
+Albedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší.
+
 :::

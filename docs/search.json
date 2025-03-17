@@ -11,14 +11,14 @@
     "href": "R.html",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Referenční evapotranspirace (ETo) představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s m-1).\n\n\nReferenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ETo se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ETo velmi vhodná pro normalizaci hodnot aktuální evpotrapsirace (ETa) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ETa.\n\n\nDle metodiky FAO-56 (Allen et al., 1998) je ETo vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru."
+    "text": "Referenční evapotranspirace (ETo) představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s·m-1).\n\n\nReferenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ETo se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ETo velmi vhodná pro normalizaci hodnot aktuální evpotrapsirace (ETa) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ETa.\n\n\nDle metodiky FAO-56 (Allen et al., 1998) je ETo vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru."
   },
   {
     "objectID": "R.html#r",
     "href": "R.html#r",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Referenční evapotranspirace (ETo) představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s m-1).\n\n\nReferenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ETo se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ETo velmi vhodná pro normalizaci hodnot aktuální evpotrapsirace (ETa) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ETa.\n\n\nDle metodiky FAO-56 (Allen et al., 1998) je ETo vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru."
+    "text": "Referenční evapotranspirace (ETo) představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s·m-1).\n\n\nReferenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ETo se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ETo velmi vhodná pro normalizaci hodnot aktuální evpotrapsirace (ETa) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ETa.\n\n\nDle metodiky FAO-56 (Allen et al., 1998) je ETo vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru."
   },
   {
     "objectID": "G.html",
@@ -32,7 +32,7 @@
     "href": "A.html",
     "title": "A",
     "section": "",
-    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\nSyn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.\n\n\n\nAlbedo\n\nAlbedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. Povrchové albedo je definováno jako poměr zářivosti a ozáření"
+    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\nSyn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.\n\n\n\nAlbedo\n\nAlbedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. Povrchové albedo je definováno jako poměr zářivosti a ozáření\n\nAlbedo zemského povrchu\nAlbedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší."
   },
   {
     "objectID": "index.html",
@@ -95,20 +95,20 @@
     "href": "P.html",
     "title": "P",
     "section": "",
-    "text": "P\n\nPotenciální evapotranspirace\n\nČasto se pod akronymem \\(\\mathrm{PET}\\) označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem."
+    "text": "P\n\nPenman-Monteithova rovnice\n\n\\[\n\\lambda\\mathrm{ET} = \\dfrac{\\Delta(R_n - G) + \\rho_ac_p\\dfrac{e_s-e_a}{r_a}}{\\Delta+\\gamma(1 + \\dfrac{r_s}{r_a})}\n\\]\n\n\n\nPotenciální evapotranspirace\n\nČasto se pod akronymem \\(\\mathrm{PET}\\) označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem."
   },
   {
     "objectID": "E.html",
     "href": "E.html",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.8457781\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
+    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.1127643\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
   },
   {
     "objectID": "E.html#e",
     "href": "E.html#e",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.8457781\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
+    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.1127643\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
   }
 ]

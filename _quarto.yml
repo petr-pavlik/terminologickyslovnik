@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Terminologický slovník výparu"
+  favicon: ""
   navbar:
     left:
       - href: index.qmd
