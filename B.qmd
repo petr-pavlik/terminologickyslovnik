@@ -4,39 +4,41 @@
 ::: collapsible
 Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu
 $$
-P_{LT} = Ea_{LT} + Q_{LT},
-$$ kde $P_{LT}$ je dlouhodobý roční srážkový úhrn, $Ea_{LT}$ je výška douhodobé roční aktuální evapotranspirace a $Q_{LT}$ je dlouhodobá výška ročního odtoku.
+P = Ea + Q,
+$$ kde $P$ je dlouhodobý roční srážkový úhrn, $Ea$ je výška dlouhodobé roční aktuální evapotranspirace a $Q$ je dlouhodobá výška ročního odtoku.
 
 Dle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku
 
 $$
-\frac{Q_{LT}}{P_{LT}} = 1- \frac{Ea_{LT}}{P_{LT}}.
+\frac{Q}{P} = 1- \frac{Ea}{P}.
 $$
 Dále je základním předpokladem platnost následujícího předpokladu
 $$
-\frac{Ea_{LT}}{P_{LT}} = f (P_{LT}, PET_{LT}),
-$$ kde $PET_{LT}$ je výška dlouhodobé roční potenciální evapotranspirace.
+\frac{Ea}{P} = f (P, Ep),
+$$ kde $Ep$ je výška dlouhodobé roční potenciální evapotranspirace.
 
 Budykovu křivku je možné vyjádřit například Schreiberovým modelem
 $$
-\frac{Ea_{LT}}{P_{LT}} = 1- exp(-AI),
+\frac{Ea}{P} = 1- exp(-AI),
 $$ kde $AI$ je index aridity, který je definován jako
 
 $$
-AI = \frac{PET_{LT}}{P_{LT}}.
+AI = \frac{Ep}{P}.
 $$
 Index aridity rozděluje území do dvou skupin:
 
-*   aridní území  $PET_{LT} > P_{LT}$
-*   humidní území $PET_{LT} < P_{LT}$
+*   aridní území  $Ep > P$
+*   humidní území $Ep < P$
 
 
 Jejich limitní faktory ukazuje následující obrázek.
 
-![Příklad Budykovi křivky a limitních faktorů povodí, $E_p = PET_{LT}$](images/BCmodel/bc.png){width="4000"}
-
+![Příklad Budykovi křivky a limitních faktorů povodí, $E_p = PET_{LT}$](images/BCmodel/bc.png){width="2000"}
 :::
+##### Modely Budykovy křivky
+:::: collapsible
 
+::::
 #### Bowenův poměr
 ::: collapsible
 Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá *Bowenův poměr*. Tento poměr je přímo měřitelný

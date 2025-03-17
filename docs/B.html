@@ -252,32 +252,38 @@ window.Quarto = {
 <h4 class="anchored" data-anchor-id="budykova-křivka">Budykova křivka</h4>
 <div class="collapsible">
 <p>Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu <span class="math display">\[
-P_{LT} = Ea_{LT} + Q_{LT},
-\]</span> kde <span class="math inline">\(P_{LT}\)</span> je dlouhodobý roční srážkový úhrn, <span class="math inline">\(Ea_{LT}\)</span> je výška douhodobé roční aktuální evapotranspirace a <span class="math inline">\(Q_{LT}\)</span> je dlouhodobá výška ročního odtoku.</p>
+P = Ea + Q,
+\]</span> kde <span class="math inline">\(P\)</span> je dlouhodobý roční srážkový úhrn, <span class="math inline">\(Ea\)</span> je výška dlouhodobé roční aktuální evapotranspirace a <span class="math inline">\(Q\)</span> je dlouhodobá výška ročního odtoku.</p>
 <p>Dle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku</p>
 <p><span class="math display">\[
-\frac{Q_{LT}}{P_{LT}} = 1- \frac{Ea_{LT}}{P_{LT}}.
+\frac{Q}{P} = 1- \frac{Ea}{P}.
 \]</span> Dále je základním předpokladem platnost následujícího předpokladu <span class="math display">\[
-\frac{Ea_{LT}}{P_{LT}} = f (P_{LT}, PET_{LT}),
-\]</span> kde <span class="math inline">\(PET_{LT}\)</span> je výška dlouhodobé roční potenciální evapotranspirace.</p>
+\frac{Ea}{P} = f (P, Ep),
+\]</span> kde <span class="math inline">\(Ep\)</span> je výška dlouhodobé roční potenciální evapotranspirace.</p>
 <p>Budykovu křivku je možné vyjádřit například Schreiberovým modelem <span class="math display">\[
-\frac{Ea_{LT}}{P_{LT}} = 1- exp(-AI),
+\frac{Ea}{P} = 1- exp(-AI),
 \]</span> kde <span class="math inline">\(AI\)</span> je index aridity, který je definován jako</p>
 <p><span class="math display">\[
-AI = \frac{PET_{LT}}{P_{LT}}.
+AI = \frac{Ep}{P}.
 \]</span> Index aridity rozděluje území do dvou skupin:</p>
 <ul>
-<li>aridní území <span class="math inline">\(PET_{LT} &gt; P_{LT}\)</span></li>
-<li>humidní území <span class="math inline">\(PET_{LT} &lt; P_{LT}\)</span></li>
+<li>aridní území <span class="math inline">\(Ep &gt; P\)</span></li>
+<li>humidní území <span class="math inline">\(Ep &lt; P\)</span></li>
 </ul>
 <p>Jejich limitní faktory ukazuje následující obrázek.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/BCmodel/bc.png" class="img-fluid figure-img" width="4000"></p>
+<p><img src="images/BCmodel/bc.png" class="img-fluid figure-img" width="2000"></p>
 <figcaption>Příklad Budykovi křivky a limitních faktorů povodí, <span class="math inline">\(E_p = PET_{LT}\)</span></figcaption>
 </figure>
 </div>
 </div>
+<section id="modely-budykovy-křivky" class="level5">
+<h5 class="anchored" data-anchor-id="modely-budykovy-křivky">Modely Budykovy křivky</h5>
+<div class="collapsible">
+
+</div>
+</section>
 </section>
 <section id="bowenův-poměr" class="level4">
 <h4 class="anchored" data-anchor-id="bowenův-poměr">Bowenův poměr</h4>
