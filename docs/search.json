@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "B.html",
+    "href": "B.html",
+    "title": "B",
+    "section": "",
+    "text": "B\n\nBudykova křivka\n\n\n\n\n\nBowenův poměr\n\nPoměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry k množství tepla, jež se na něm spotřebovává na výpařování vody se nazývá Bowenův poměr. Tento poměr je přímo měřitelný\n\\[\nB = \\dfrac{Q_h}{Q_e}\n\\] kde \\(Q_h\\) je teplo zjevné a \\(Q_e\\) teplo latentní."
+  },
+  {
     "objectID": "S.html",
     "href": "S.html",
     "title": "S",
@@ -28,25 +35,18 @@
     "text": "G\n\nGutace"
   },
   {
-    "objectID": "A.html",
-    "href": "A.html",
-    "title": "A",
-    "section": "",
-    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\nSyn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.\n\n\n\nAlbedo\n\nAlbedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. Povrchové albedo je definováno jako poměr zářivosti a ozáření\n\nAlbedo zemského povrchu\nAlbedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "V.html",
+    "href": "V.html",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
+    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
   },
   {
-    "objectID": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
-    "href": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
+    "objectID": "V.html#v",
+    "href": "V.html#v",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
+    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
   },
   {
     "objectID": "K.html",
@@ -70,25 +70,11 @@
     "text": "L\n\nLysimetr"
   },
   {
-    "objectID": "V.html",
-    "href": "V.html",
-    "title": "Terminologický slovník výparu",
+    "objectID": "A.html",
+    "href": "A.html",
+    "title": "A",
     "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
-  },
-  {
-    "objectID": "V.html#v",
-    "href": "V.html#v",
-    "title": "Terminologický slovník výparu",
-    "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
-  },
-  {
-    "objectID": "B.html",
-    "href": "B.html",
-    "title": "B",
-    "section": "",
-    "text": "B\n\nBudykova křivka\n\n\n\n\n\nBowenův poměr\n\nPoměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry k množství tepla, jež se na něm spotřebovává na výpařování vody se nazývá Bowenův poměr. Tento poměr je přímo měřitelný\n\\[\nB = \\dfrac{Q_h}{Q_e}\n\\] kde \\(Q_h\\) je teplo zjevné a \\(Q_e\\) teplo latentní."
+    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\nSyn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.\n\n\n\nAlbedo\n\nAlbedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. Povrchové albedo je definováno jako poměr zářivosti a ozáření\n\nAlbedo zemského povrchu\nAlbedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší."
   },
   {
     "objectID": "P.html",
