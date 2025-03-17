@@ -17,7 +17,7 @@ $$
 \frac{Ea_{LT}}{P_{LT}} = f (P_{LT}, PET_{LT}),
 $$ kde $PET_{LT}$ je výška dlouhodobé roční potenciální evapotranspirace.
 
-Model Budykovy křivky je možné vyjádřit například Schreiberovým modelem
+Budykovu křivku je možné vyjádřit například Schreiberovým modelem
 $$
 \frac{Ea_{LT}}{P_{LT}} = 1- exp(-AI),
 $$ kde $AI$ je index aridity, který je definován jako
