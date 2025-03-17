@@ -2,6 +2,31 @@
 
 #### Budykova křivka
 ::: collapsible
+Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu
+$$
+P_{LT} = Ea_{LT} + Q_{LT},
+$$ kde $P_{LT}$ je dlouhodobý roční srážkový úhrn, $Ea_{LT}$ je výška douhodobé roční aktuální evapotranspirace a $Q_{LT}$ je dlouhodobá výška ročního odtoku.
+
+Dle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku
+
+$$
+\frac{Q_{LT}}{P_{LT}} = 1- \frac{Ea_{LT}}{P_{LT}}.
+$$
+Dále je základním předpokladem platnost následujícího předpokladu
+$$
+\frac{Ea_{LT}}{P_{LT}} = f (P_{LT}, PET_{LT}),
+$$ kde $PET_{LT}$ je výška dlouhodobé roční potenciální evapotranspirace.
+
+Model Budykovy křivky je možné vyjádřit například Schreiberovým modelem
+$$
+\frac{Ea_{LT}}{P_{LT}} = 1- exp(-AI),
+$$ kde $AI$ je index aridity, který je definován jako
+
+$$
+AI = \frac{PET_{LT}}{P_{LT}}.
+$$
+
+
 
 :::
 
