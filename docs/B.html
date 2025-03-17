@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -202,17 +221,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="bowenův-poměr" class="level4">
 <h4 class="anchored" data-anchor-id="bowenův-poměr">Bowenův poměr</h4>
 <div class="collapsible">
-<p>Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry k množství tepla, jež se na něm spotřebovává na výpařování vody se nazývá <em>Bowenův poměr</em>. Tento poměr je přímo měřitelný</p>
+<p>Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá <em>Bowenův poměr</em>. Tento poměr je přímo měřitelný</p>
 <p><span class="math display">\[
 B = \dfrac{Q_h}{Q_e}
 \]</span> kde <span class="math inline">\(Q_h\)</span> je teplo zjevné a <span class="math inline">\(Q_e\)</span> teplo latentní.</p>
+<p>Typické hodnoty bowenova poměru uvádí tabulka <span class="citation" data-cites="campbell2000introduction">(<a href="#ref-campbell2000introduction" role="doc-biblioref">Campbell a Norman 2000</a>)</span></p>
 </div>
 
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Reference</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-campbell2000introduction" class="csl-entry" role="listitem">
+Campbell, Gaylon S, a John M Norman. 2000. <em>An introduction to environmental biophysics</em>. Springer Science &amp; Business Media.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
