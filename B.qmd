@@ -1,9 +1,9 @@
 # B
 
 #### Budykova křivka
+
 ::: collapsible
-Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu
-$$
+Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu $$
 P = Ea + Q,
 $$ kde $P$ je dlouhodobý roční srážkový úhrn, $Ea$ je výška dlouhodobé roční aktuální evapotranspirace a $Q$ je dlouhodobá výška ročního odtoku.
 
@@ -11,35 +11,158 @@ Dle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku
 
 $$
 \frac{Q}{P} = 1- \frac{Ea}{P}.
-$$
-Dále je základním předpokladem platnost následujícího předpokladu
-$$
+$$ Dále je základním předpokladem platnost následujícího předpokladu $$
 \frac{Ea}{P} = f (P, Ep),
 $$ kde $Ep$ je výška dlouhodobé roční potenciální evapotranspirace.
 
-Budykovu křivku je možné vyjádřit například Schreiberovým modelem
-$$
-\frac{Ea}{P} = 1- exp(-AI),
-$$ kde $AI$ je index aridity, který je definován jako
+Budykovu křivku je možné vyjádřit například Schreiberovým modelem $$
+\frac{Ea}{P} = 1- \exp(-\mathrm{AI}),
+$$ kde $\mathrm{AI}$ je *index aridity*, který je definován jako
 
 $$
-AI = \frac{Ep}{P}.
-$$
-Index aridity rozděluje území do dvou skupin:
+\mathrm{AI} = \frac{Ep}{P}.
+$$ Index aridity rozděluje území do dvou skupin:
 
-*   aridní území  $Ep > P$
-*   humidní území $Ep < P$
-
+-   aridní území $Ep > P$
+-   humidní území $Ep < P$
 
 Jejich limitní faktory ukazuje následující obrázek.
 
-![Příklad Budykovi křivky a limitních faktorů povodí, $E_p = PET_{LT}$](images/BCmodel/bc.png){width="2000"}
-:::
-##### Modely Budykovy křivky
-:::: collapsible
+![Příklad Budykovy křivky a limitních faktorů povodí, $E_p = PET_{LT}$](images/BCmodel/bc.png){width="2000"}
 
-::::
+
+```{=html}
+<style>
+  .slider-container {
+    margin-bottom: 1rem;
+  }
+</style>
+
+<div class="slider-container">
+  <label for="epSlider"><strong>Ep/P</strong> (climatic dryness index): </label>
+  <input id="epSlider" type="range" min="0.1" max="4.0" step="0.1" value="2.0">
+  <span id="epValue">2.0</span>
+</div>
+
+<div class="slider-container">
+  <label for="eaSlider"><strong>Ea/P</strong> (actual evapotranspiration ratio): </label>
+  <input id="eaSlider" type="range" min="0.0" max="2.0" step="0.05" value="1.0">
+  <span id="eaValue">1.0</span>
+</div>
+
+<div id="chart_budyko" class="chart" style="width: 100vw; height: 400px; self-align: center;"></div>
+
+<script type="module">
+  import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+
+  // Budyko curve function: Fu's equation (w = 2 as a typical value)
+  function budyko(ep_p, w = 2) {
+    return ep_p / Math.pow(1 + Math.pow(ep_p, w), 1/w);
+  }
+
+  // Generate Budyko curve data
+  const budykoData = Array.from({ length: 100 }, (_, i) => {
+    const ep = 0.1 + (4.0 - 0.1) * i / 99;
+    return { Ep_P: ep, Ea_P: budyko(ep) };
+  });
+
+  // Define humid/arid shading regions
+  const humidRegion = [
+    { Ep_P: 0.1, ymin: 0, ymax: 1 },
+    { Ep_P: 1.0, ymin: 0, ymax: 1 }
+  ];
+
+  const aridRegion = [
+    { Ep_P: 1.0, ymin: 0, ymax: 1 },
+    { Ep_P: 4.0, ymin: 0, ymax: 1 }
+  ];
+
+  // Create chart with given Ep/P and Ea/P values
+  function createChart(userPoint) {
+    return Plot.plot({
+      x: { label: "Ep / P", domain: [0, 4.2] },
+      y: { label: "Ea / P", domain: [0, 1.5] },
+      marks: [
+        // Shaded humid region
+        Plot.areaY(humidRegion, {
+          x: "Ep_P",
+          y1: "ymin",
+          y2: "ymax",
+          fill: "#cceeff",
+          opacity: 0.4
+        }),
+
+        // Shaded arid region
+        Plot.areaY(aridRegion, {
+          x: "Ep_P",
+          y1: "ymin",
+          y2: "ymax",
+          fill: "#ffe0cc",
+          opacity: 0.4
+        }),
+
+        // Budyko curve
+        Plot.line(budykoData, {
+          x: "Ep_P",
+          y: "Ea_P",
+          stroke: "black",
+          strokeWidth: 2
+        }),
+
+        // Point for user-defined Ep/P and Ea/P
+        Plot.dot([userPoint], {
+          x: "Ep_P",
+          y: "Ea_P",
+          r: 6,
+          fill: "red"
+        })
+      ],
+      marginLeft: 50,
+      marginBottom: 30
+    });
+  }
+
+  const chartContainer = document.getElementById("chart_budyko");
+  let currentEp = 2.0;
+  let currentEa = 1.0;
+  let chart_budyko = createChart({ Ep_P: currentEp, Ea_P: currentEa });
+  chartContainer.append(chart_budyko);
+
+  function updateChart() {
+    chart_budyko.remove();
+    chart_budyko = createChart({ Ep_P: currentEp, Ea_P: currentEa });
+    chartContainer.append(chart_budyko);
+  }
+
+  // Slider event listeners
+  const epSlider = document.getElementById("epSlider");
+  const eaSlider = document.getElementById("eaSlider");
+
+  epSlider.addEventListener("input", (e) => {
+    currentEp = parseFloat(e.target.value);
+    document.getElementById("epValue").textContent = currentEp.toFixed(1);
+    updateChart();
+  });
+
+  eaSlider.addEventListener("input", (e) => {
+    currentEa = parseFloat(e.target.value);
+    document.getElementById("eaValue").textContent = currentEa.toFixed(2);
+    updateChart();
+  });
+</script>
+```
+
+
+
+
+##### Modely Budykovy křivky
+::: collapsible
+:::
+
+:::
+
 #### Bowenův poměr
+
 ::: collapsible
 Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá *Bowenův poměr*. Tento poměr je přímo měřitelný
 
@@ -49,4 +172,3 @@ $$ kde $Q_h$ je teplo zjevné a $Q_e$ teplo latentní.
 
 Typické hodnoty bowenova poměru uvádí tabulka [@campbell2000introduction]
 :::
-

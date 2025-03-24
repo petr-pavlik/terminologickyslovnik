@@ -29,3 +29,12 @@ h4.anchored.collapsed:before {
   content: "▲ ";
   font-size: 0.8em;
 }
+
+
+.chart {
+    width: 100vw;
+    max-width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}

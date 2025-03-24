@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "B.html",
-    "href": "B.html",
-    "title": "B",
-    "section": "",
-    "text": "B\n\nBudykova křivka\n\nBudykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu \\[\nP = Ea + Q,\n\\] kde \\(P\\) je dlouhodobý roční srážkový úhrn, \\(Ea\\) je výška dlouhodobé roční aktuální evapotranspirace a \\(Q\\) je dlouhodobá výška ročního odtoku.\nDle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku\n\\[\n\\frac{Q}{P} = 1- \\frac{Ea}{P}.\n\\] Dále je základním předpokladem platnost následujícího předpokladu \\[\n\\frac{Ea}{P} = f (P, Ep),\n\\] kde \\(Ep\\) je výška dlouhodobé roční potenciální evapotranspirace.\nBudykovu křivku je možné vyjádřit například Schreiberovým modelem \\[\n\\frac{Ea}{P} = 1- exp(-AI),\n\\] kde \\(AI\\) je index aridity, který je definován jako\n\\[\nAI = \\frac{Ep}{P}.\n\\] Index aridity rozděluje území do dvou skupin:\n\naridní území \\(Ep &gt; P\\)\nhumidní území \\(Ep &lt; P\\)\n\nJejich limitní faktory ukazuje následující obrázek.\n\n\n\nPříklad Budykovi křivky a limitních faktorů povodí, \\(E_p = PET_{LT}\\)\n\n\n\n\nModely Budykovy křivky\n\n\n\n\n\n\nBowenův poměr\n\nPoměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá Bowenův poměr. Tento poměr je přímo měřitelný\n\\[\nB = \\dfrac{Q_h}{Q_e}\n\\] kde \\(Q_h\\) je teplo zjevné a \\(Q_e\\) teplo latentní.\nTypické hodnoty bowenova poměru uvádí tabulka (Campbell a Norman 2000)\n\n\n\n\n\n\n\nReference\n\nCampbell, Gaylon S, a John M Norman. 2000. An introduction to environmental biophysics. Springer Science & Business Media."
-  },
-  {
     "objectID": "S.html",
     "href": "S.html",
     "title": "S",
@@ -35,18 +28,25 @@
     "text": "G\n\nGutace"
   },
   {
-    "objectID": "V.html",
-    "href": "V.html",
-    "title": "Terminologický slovník výparu",
+    "objectID": "A.html",
+    "href": "A.html",
+    "title": "A",
     "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
+    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\nSyn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.\n\n\n\nAlbedo\n\nAlbedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. Povrchové albedo je definováno jako poměr zářivosti a ozáření\n\nAlbedo zemského povrchu\nAlbedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší."
   },
   {
-    "objectID": "V.html#v",
-    "href": "V.html#v",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
+    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
+  },
+  {
+    "objectID": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
+    "href": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
+    "title": "Terminologický slovník výparu",
+    "section": "",
+    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
   },
   {
     "objectID": "K.html",
@@ -70,11 +70,25 @@
     "text": "L\n\nLysimetr"
   },
   {
-    "objectID": "A.html",
-    "href": "A.html",
-    "title": "A",
+    "objectID": "V.html",
+    "href": "V.html",
+    "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\nSyn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.\n\n\n\nAlbedo\n\nAlbedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. Povrchové albedo je definováno jako poměr zářivosti a ozáření\n\nAlbedo zemského povrchu\nAlbedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší."
+    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
+  },
+  {
+    "objectID": "V.html#v",
+    "href": "V.html#v",
+    "title": "Terminologický slovník výparu",
+    "section": "",
+    "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
+  },
+  {
+    "objectID": "B.html",
+    "href": "B.html",
+    "title": "B",
+    "section": "",
+    "text": "B\n\nBudykova křivka\n\nBudykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu \\[\nP = Ea + Q,\n\\] kde \\(P\\) je dlouhodobý roční srážkový úhrn, \\(Ea\\) je výška dlouhodobé roční aktuální evapotranspirace a \\(Q\\) je dlouhodobá výška ročního odtoku.\nDle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku\n\\[\n\\frac{Q}{P} = 1- \\frac{Ea}{P}.\n\\] Dále je základním předpokladem platnost následujícího předpokladu \\[\n\\frac{Ea}{P} = f (P, Ep),\n\\] kde \\(Ep\\) je výška dlouhodobé roční potenciální evapotranspirace.\nBudykovu křivku je možné vyjádřit například Schreiberovým modelem \\[\n\\frac{Ea}{P} = 1- \\exp(-\\mathrm{AI}),\n\\] kde \\(\\mathrm{AI}\\) je index aridity, který je definován jako\n\\[\n\\mathrm{AI} = \\frac{Ep}{P}.\n\\] Index aridity rozděluje území do dvou skupin:\n\naridní území \\(Ep &gt; P\\)\nhumidní území \\(Ep &lt; P\\)\n\nJejich limitní faktory ukazuje následující obrázek.\n\n\n\nPříklad Budykovy křivky a limitních faktorů povodí, \\(E_p = PET_{LT}\\)\n\n\n\n\n\n  Ep/P (climatic dryness index): \n  \n  2.0\n\n\n\n  Ea/P (actual evapotranspiration ratio): \n  \n  1.0\n\n\n\n\n\n\nModely Budykovy křivky\n\n\n\n\n\n\n\nBowenův poměr\n\nPoměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá Bowenův poměr. Tento poměr je přímo měřitelný\n\\[\nB = \\dfrac{Q_h}{Q_e}\n\\] kde \\(Q_h\\) je teplo zjevné a \\(Q_e\\) teplo latentní.\nTypické hodnoty bowenova poměru uvádí tabulka (Campbell a Norman 2000)\n\n\n\n\n\n\n\nReference\n\nCampbell, Gaylon S, a John M Norman. 2000. An introduction to environmental biophysics. Springer Science & Business Media."
   },
   {
     "objectID": "P.html",
@@ -88,27 +102,13 @@
     "href": "E.html",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.3025271\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
+    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.5520204\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
   },
   {
     "objectID": "E.html#e",
     "href": "E.html#e",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.3025271\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Terminologický slovník výparu",
-    "section": "",
-    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
-  },
-  {
-    "objectID": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
-    "href": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
-    "title": "Terminologický slovník výparu",
-    "section": "",
-    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
+    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.5520204\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
   }
 ]
