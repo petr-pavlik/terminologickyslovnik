@@ -178,8 +178,16 @@ div.csl-indent {
  <span class="menu-text">S</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./T.html" rel="" target="">
+ <span class="menu-text">T</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./V.html" rel="" target="">
  <span class="menu-text">V</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Rozcestnik.html" rel="" target="">
+ <span class="menu-text">Rozcestník</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -199,7 +207,7 @@ div.csl-indent {
   <ul>
   <li><a href="#b" id="toc-b" class="nav-link active" data-scroll-target="#b">B</a>
   <ul>
-  <li><a href="#budykova-křivka" id="toc-budykova-křivka" class="nav-link" data-scroll-target="#budykova-křivka">Budykova křivka</a></li>
+  <li><a href="#sec-b-budykova-krivka" id="toc-sec-b-budykova-krivka" class="nav-link" data-scroll-target="#sec-b-budykova-krivka">Budykova křivka</a></li>
   <li><a href="#bowenův-poměr" id="toc-bowenův-poměr" class="nav-link" data-scroll-target="#bowenův-poměr">Bowenův poměr</a></li>
   </ul></li>
   </ul>
@@ -210,17 +218,17 @@ div.csl-indent {
 
 
 
-<section id="b" class="level1">
-<h1>B</h1>
-<section id="budykova-křivka" class="level4">
-<h4 class="anchored" data-anchor-id="budykova-křivka">Budykova křivka</h4>
+<section id="b" class="level2">
+<h2 class="anchored" data-anchor-id="b">B</h2>
+<section id="sec-b-budykova-krivka" class="level4">
+<h4 class="anchored" data-anchor-id="sec-b-budykova-krivka">Budykova křivka</h4>
 <div class="collapsible">
 <p>Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu <span class="math display">\[
 P = Ea + Q,
-\]</span> kde <span class="math inline">\(P\)</span> je dlouhodobý roční srážkový úhrn, <span class="math inline">\(Ea\)</span> je výška dlouhodobé roční aktuální evapotranspirace a <span class="math inline">\(Q\)</span> je dlouhodobá výška ročního odtoku.</p>
+\]</span> kde <span class="math inline">\(\mathsf{P}\)</span> je dlouhodobý roční srážkový úhrn, <span class="math inline">\(\mathsf{Ea}\)</span> je výška dlouhodobé roční aktuální evapotranspirace a <span class="math inline">\(Q\)</span> je dlouhodobá výška ročního odtoku.</p>
 <p>Dle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku</p>
 <p><span class="math display">\[
-\frac{Q}{P} = 1- \frac{Ea}{P}.
+\frac{\mathsf{Q}}{\mathsf{P}} = 1- \frac{Ea}{P}.
 \]</span> Dále je základním předpokladem platnost následujícího předpokladu <span class="math display">\[
 \frac{Ea}{P} = f (P, Ep),
 \]</span> kde <span class="math inline">\(Ep\)</span> je výška dlouhodobé roční potenciální evapotranspirace.</p>
@@ -246,18 +254,18 @@ P = Ea + Q,
     margin-bottom: 1rem;
   }
 </style>
-
 <div class="slider-container">
-  <label for="epSlider"><strong>Ep/P</strong> (climatic dryness index): </label>
-  <input id="epSlider" type="range" min="0.1" max="4.0" step="0.1" value="2.0">
-  <span id="epValue">2.0</span>
+    <label for="epSlider"><strong>Ep/P</strong> (climatic dryness index): </label>
+    <input id="epSlider" type="range" min="0.1" max="4.0" step="0.1" value="0.5">
+    <span id="epValue">2.0</span>
 </div>
 
 <div class="slider-container">
   <label for="eaSlider"><strong>Ea/P</strong> (actual evapotranspiration ratio): </label>
-  <input id="eaSlider" type="range" min="0.0" max="2.0" step="0.05" value="1.0">
+  <input id="eaSlider" type="range" min="0.0" max="2.0" step="0.05" value="0.5">
   <span id="eaValue">1.0</span>
 </div>
+
 
 <div id="chart_budyko" class="chart" style="width: 100vw; height: 400px; self-align: center;"></div>
 
@@ -332,8 +340,8 @@ P = Ea + Q,
   }
 
   const chartContainer = document.getElementById("chart_budyko");
-  let currentEp = 2.0;
-  let currentEa = 1.0;
+  let currentEp = 0.5;
+  let currentEa = 0.5;
   let chart_budyko = createChart({ Ep_P: currentEp, Ea_P: currentEa });
   chartContainer.append(chart_budyko);
 
@@ -370,10 +378,10 @@ P = Ea + Q,
 <section id="bowenův-poměr" class="level4">
 <h4 class="anchored" data-anchor-id="bowenův-poměr">Bowenův poměr</h4>
 <div class="collapsible">
-<p>Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá <em>Bowenův poměr</em>. Tento poměr je přímo měřitelný</p>
+<p>Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá <em>Bowenův poměr</em>. Tento poměr je přímo měřitelný.</p>
 <p><span class="math display">\[
 B = \dfrac{Q_h}{Q_e}
-\]</span> kde <span class="math inline">\(Q_h\)</span> je teplo zjevné a <span class="math inline">\(Q_e\)</span> teplo latentní.</p>
+\]</span> kde <span class="math inline">\(Q_h\)</span> je teplo zjevné a <span class="math inline">\(Q_e\)</span> teplo latentní <a href="#sec-b-budykova-krivka">Sekce&nbsp;1.0.1</a>.</p>
 <p>Typické hodnoty bowenova poměru uvádí tabulka <span class="citation" data-cites="campbell2000introduction">(<a href="#ref-campbell2000introduction" role="doc-biblioref">Campbell a Norman 2000</a>)</span></p>
 </div>
 

@@ -1,3 +1,11 @@
+a {
+  color: #dbad6aFF;
+}
+
+a:hover {
+  color: rgba(255, 217, 0, 0.9);
+}
+
 .collapsible {
   max-height: 0; /* Start as collapsed */
   overflow: hidden;
@@ -18,8 +26,6 @@ h4.anchored:hover {
   background: linear-gradient(to right, #dbad6a22, rgba(255, 217, 0, 0.3)); /* Navy blue #001f3f*/ 
 }
 
-
-
 h4.anchored:before {
   content: "▼ ";
   font-size: 0.8em;
@@ -37,4 +43,41 @@ h4.anchored.collapsed:before {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 25%;
+  height: 2.5px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.3s;
+}
+
+input[type=range]:hover {
+  background: #888;
+}
+
+/* Chrome & Safari Thumb */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #dbad6a;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+/* Firefox Thumb */
+input[type=range]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: #dbad6a;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
 }

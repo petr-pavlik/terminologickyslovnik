@@ -1,6 +1,12 @@
 # G
 
-#### Gutace
+#### GLEAM {#sec-g-gleam}
+::: collapsible
+**Global Land Evapotranspiration Amsteram Model** je produkt dálkového zpracování dat, který patří mezi vegetačně určené modely. Pokrývá continuálně v denním kroku časové rozpětí 1980--2023 v prostorovém měřítku 0.1<sup>o</sup>. V aktuální verzi GLEAM4 vychází z 
+:::
+
+
+#### Gutace {#sec-g-gutace}
 ::: collapsible
 
 :::

@@ -1,0 +1,19 @@
+---
+format:
+  html:
+    toc: false
+---
+
+
+# Rozcestník
+
+### Soupis hesel obsažených v tomto slovníku:
+[*Alfalfa*](./B.html#sec-b-budykova-krivka)\
+[*Absolutní vlhkost*](./A.html#sec-a-absolutni-vlhost)\
+[*Aerodynamický odpor*](./A.html#sec-a-aerodynamicky-odpor)\
+[*Aktuální evapotranspirace*](./A.html#sec-a-aktualni-evapotranspirace)\
+[*Albedo*](./A.html#sec-a-albedo)\
+[*Aerodynamická resistence*](./A.html#sec-a-aerodynamicka-resistence)\
+
+
+### Applety:

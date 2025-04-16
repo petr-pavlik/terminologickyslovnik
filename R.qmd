@@ -1,6 +1,6 @@
 ## R
 
-#### Referenční evapotranspirace
+#### Referenční evapotranspirace $\mathsf{(ET_o)}\:$ {#sec-r-referencni-evapotranspirace}
 ::: collapsible
 <p>
     **Referenční evapotranspirace (ET<sub>o</sub>)** představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s&#183;m<sup>-1</sup>). 
@@ -9,6 +9,10 @@
     Referenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ET<sub>o</sub> se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ET<sub>o</sub> velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace (ET<sub>a</sub>) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ET<sub>a</sub>. 
 </p>
 <p>
-    Dle metodiky FAO-56 (Allen et al., 1998) je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
+    Dle metodiky FAO-56 [@allen1998crop] je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
 </p>
+:::
+
+#### Referenční povrch {#sec-r-referencni-povrch}
+::: collapsible
 :::

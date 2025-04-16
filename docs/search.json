@@ -4,70 +4,35 @@
     "href": "S.html",
     "title": "S",
     "section": "",
-    "text": "S\n\nSublimace"
+    "text": "S\n\nScintilometrie\n\nEvapotranspiraci lze měřit přístroji, zvanými scintilometry. tyto nástroje přenášejí horizontální optické nebo radiofrekvenční paprsky mezi emitorem a přijímačem skrze vrstvu, která obsahuje turbulentní proudění nad zájmovým povrchem. Jak se paprsky šíří skrze turbulentní vrstvu mění se intenzita záření, neboť dochází ke změně indexu lomu v důsledku kolísání teploty a vlhkosti. \n\n\n\nSublimace\n\nPři sublimaci je pevná fáze přeměněna přímo na plynný stav bez přechodem přes kapalnou fázi. Při výparu dochází k přeměně kapalné fáze na plynou. Sublimace hraje v hydrologickém cyklu řádově menší roli, než evaporace. Sublimace se vyskytuje ve vyšší míře ve vyšších nadmořských výškách, kde je tlak vzduchu menší nž v nižsích. K sublimaci je potřebná silná sluneční energie. Nízké teploty, silný vítr, intenzivní sluneční záření, velmi nízký tlak vzduchu.\nV případě sněhové a ledové pokrývky\nNa západě USA existují větry Chinook, “žrout sněhu”, která odpařuje snín ještě předtím, než má šanci roztát. Chinooské větry jsou západní od Pacifiku, jejichž vlhkost se vyždímá při průchodu Skalistými horami. Když tyto větry sestoupí z hor na vysoké pláně, mohou být docela mírné a extrémně suché. Teplé až 60–70 Fahrenheita (přes 15 stupňů Celsia).\nKrychlový centimetr (1 gram) ve formě ledu vyžaduje 80 kalorií k roztavení, 100 kalorií k dosažení bodu varu a dalších 540 kalorií k odpaření. Celkem 720 kalorií. Sublimace vyžaduje stejný přísun energie, ale obchází kapalnou fázi."
   },
   {
     "objectID": "R.html",
     "href": "R.html",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Referenční evapotranspirace (ETo) představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s·m-1).\n\n\nReferenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ETo se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ETo velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace (ETa) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ETa.\n\n\nDle metodiky FAO-56 (Allen et al., 1998) je ETo vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru."
+    "text": "Referenční evapotranspirace (ETo) představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s·m-1).\n\n\nReferenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ETo se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ETo velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace (ETa) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ETa.\n\n\nDle metodiky FAO-56 (Allen et al. 1998) je ETo vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru."
   },
   {
     "objectID": "R.html#r",
     "href": "R.html#r",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Referenční evapotranspirace (ETo) představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s·m-1).\n\n\nReferenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ETo se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ETo velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace (ETa) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ETa.\n\n\nDle metodiky FAO-56 (Allen et al., 1998) je ETo vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru."
+    "text": "Referenční evapotranspirace (ETo) představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s·m-1).\n\n\nReferenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ETo se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ETo velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace (ETa) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ETa.\n\n\nDle metodiky FAO-56 (Allen et al. 1998) je ETo vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru."
   },
   {
     "objectID": "G.html",
     "href": "G.html",
     "title": "G",
     "section": "",
-    "text": "G\n\nGutace"
+    "text": "G\n\nGLEAM\n\nGlobal Land Evapotranspiration Amsteram Model je produkt dálkového zpracování dat, který patří mezi vegetačně určené modely. Pokrývá continuálně v denním kroku časové rozpětí 1980–2023 v prostorovém měřítku 0.1o. V aktuální verzi GLEAM4 vychází z\n\n\n\nGutace"
   },
   {
-    "objectID": "A.html",
-    "href": "A.html",
-    "title": "A",
+    "objectID": "T.html",
+    "href": "T.html",
+    "title": "T",
     "section": "",
-    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\nSyn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.\n\n\n\nAlbedo\n\nAlbedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. Povrchové albedo je definováno jako poměr zářivosti a ozáření\n\nAlbedo zemského povrchu\nAlbedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Terminologický slovník výparu",
-    "section": "",
-    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
-  },
-  {
-    "objectID": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
-    "href": "index.html#vliv-změny-klimatu-na-evapotranspiraci-a-vodní-bilanci-v-krajině-v-kontextu-zabezpečenosti-a-udržitelnosti-vodních-zdrojů",
-    "title": "Terminologický slovník výparu",
-    "section": "",
-    "text": "Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.\n\n\n\nMilan Fischer , Petr Máca , Petr Pavlík , …"
-  },
-  {
-    "objectID": "K.html",
-    "href": "K.html",
-    "title": "K",
-    "section": "",
-    "text": "K\n\nKapilární vzlínání\n\n\nKutikulární výpar"
-  },
-  {
-    "objectID": "I.html",
-    "href": "I.html",
-    "title": "I",
-    "section": "",
-    "text": "I\n\nIndex aridity\n\nČíselný index, vyjadřující stuoeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, nebo-li vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha je naproti tomu epizodní. Ke sledování aridity se používá více indexů.\n\\[\n\\mathrm{AI_T} = 100\\dfrac{d}{n}\n\\] \\[\n\\mathrm{AI_B} = 100\\dfrac{R}{LP}\n\\] další navrhl významný ruský klimatolog Mikhail Ivanovich Budyko.\n\n\n\nKlasifikace\nIndex aridity\nGlobální Zemský povrch\n\n\n\n\nHyperaridní\n\\(&lt; 0.05\\)\n7.5 %\n\n\nAridní\n\\(0.05 &lt; AI &lt; 0.2\\)\n12.1 %\n\n\nSemi-aridní\n$0.2 &lt; AI &lt; 0.5 $\n17.7 %\n\n\nSuché subhumidní\n\\(0.5 &lt; AI &lt; 0.65\\)\n9.9 %\n\n\n\n\n\n\nIndex sucha\n\n\n\n\n\nIntercepční výpar"
-  },
-  {
-    "objectID": "L.html",
-    "href": "L.html",
-    "title": "L",
-    "section": "",
-    "text": "L\n\nLysimetr"
+    "text": "T\n\nThorntwaitova rovnice\n\n\n\n\n\nTranspirace\n\nČíselný index, vyjadřující stuoeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, nebo-li vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha je naproti tomu epizodní. Ke sledování aridity se používá více indexů.\n\n\n\nTranspirační vláhová potřeba"
   },
   {
     "objectID": "V.html",
@@ -84,31 +49,80 @@
     "text": "This is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\n\nThis is the content inside the collapsible div.\n\n\n\nItem 1\n\n\nItem 2\n\n\n\n\n\n\n\nThis is the content inside the collapsible div\n\n\nItem 1\n\n\nItem 2"
   },
   {
+    "objectID": "L.html",
+    "href": "L.html",
+    "title": "L",
+    "section": "",
+    "text": "L\n\nLysimetr"
+  },
+  {
+    "objectID": "K.html",
+    "href": "K.html",
+    "title": "K",
+    "section": "",
+    "text": "K\n\nKapilární vzlínání\n\n\nKutikulární výpar"
+  },
+  {
+    "objectID": "I.html",
+    "href": "I.html",
+    "title": "I",
+    "section": "",
+    "text": "I\n\nIndex aridity\n\nČíselný index, vyjadřující stuoeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, nebo-li vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha je naproti tomu epizodní. Ke sledování aridity se používá více indexů.\n\\[\n\\mathrm{AI_T} = 100\\dfrac{d}{n}\n\\] \\[\n\\mathrm{AI_B} = 100\\dfrac{R}{LP}\n\\] další navrhl významný ruský klimatolog Mikhail Ivanovich Budyko.\n\n\n\nKlasifikace\nIndex aridity\nGlobální Zemský povrch\n\n\n\n\nHyperaridní\n\\(&lt; 0.05\\)\n7.5 %\n\n\nAridní\n\\(0.05 &lt; AI &lt; 0.2\\)\n12.1 %\n\n\nSemi-aridní\n$0.2 &lt; AI &lt; 0.5 $\n17.7 %\n\n\nSuché subhumidní\n\\(0.5 &lt; AI &lt; 0.65\\)\n9.9 %\n\n\n\n\n\n\nIndex sucha\n\n\n\n\n\nIntercepční výpar"
+  },
+  {
+    "objectID": "Rozcestnik.html",
+    "href": "Rozcestnik.html",
+    "title": "Rozcestník",
+    "section": "",
+    "text": "Rozcestník\n\nSoupis hesel obsažených v tomto slovníku:\nAlfalfa\nAbsolutní vlhkost\nAerodynamický odpor\nAktuální evapotranspirace\nAlbedo\nAerodynamická resistence\n\n\n\nApplety:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Terminologický slovník výparu",
+    "section": "",
+    "text": "Územní výpar hraje kritickou roli v energetickém toku klimatického systému. Je spojovacím článek mezi vodním, eneregtickým a uhlíkovým cyklem, reagujícím na antropogenní změny a propagujícím jejich vliv napříč globaálním hydrologickým cyklem.\n\nDetailní porozumnění tohoto procesu se podmínkách České republiky a dále regionu Střední Evropy hraje bude hrát klíčovou roli pro zabezpečení vodních zdrojů v dostatečné kvantitě i kvalitě pro další generace.\nÚčelem slovníku je poskytnout výkladovou oporu pojmů týkajících se procesu evapotranspirace.\n\n  \n    \n    \n    \n  \n\n  \n    \n      \n    \n    \n      \n    \n  \n\n  \n    \n    Předchozí\n  \n  \n    \n    Další\n  \n\n\nVznik tohoto slovníku byl podpořen Národní agenturou pro zemědělský výzkum. Vliv změny klimatu na evapotranspiraci a vodní bilanci v krajině v kontextu zabezpečenosti a udržitelnosti vodních zdrojů\n\n\nAutoři\nMilan Fischer , Petr Máca , Petr Pavlík , …"
+  },
+  {
+    "objectID": "A.html",
+    "href": "A.html",
+    "title": "A",
+    "section": "",
+    "text": "A\n\nAbsolutní vlhkost\n\n\n\n\n\nAerodynamický odpor\n\n\n\n\n\nAktuální evapotranspirace\n\nSyn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.\n\n\n\nAlbedo\n\nAlbedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. Povrchové albedo je definováno jako poměr zářivosti a ozáření\n\nAlbedo zemského povrchu\nAlbedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší."
+  },
+  {
     "objectID": "B.html",
     "href": "B.html",
-    "title": "B",
+    "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "B\n\nBudykova křivka\n\nBudykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu \\[\nP = Ea + Q,\n\\] kde \\(P\\) je dlouhodobý roční srážkový úhrn, \\(Ea\\) je výška dlouhodobé roční aktuální evapotranspirace a \\(Q\\) je dlouhodobá výška ročního odtoku.\nDle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku\n\\[\n\\frac{Q}{P} = 1- \\frac{Ea}{P}.\n\\] Dále je základním předpokladem platnost následujícího předpokladu \\[\n\\frac{Ea}{P} = f (P, Ep),\n\\] kde \\(Ep\\) je výška dlouhodobé roční potenciální evapotranspirace.\nBudykovu křivku je možné vyjádřit například Schreiberovým modelem \\[\n\\frac{Ea}{P} = 1- \\exp(-\\mathrm{AI}),\n\\] kde \\(\\mathrm{AI}\\) je index aridity, který je definován jako\n\\[\n\\mathrm{AI} = \\frac{Ep}{P}.\n\\] Index aridity rozděluje území do dvou skupin:\n\naridní území \\(Ep &gt; P\\)\nhumidní území \\(Ep &lt; P\\)\n\nJejich limitní faktory ukazuje následující obrázek.\n\n\n\nPříklad Budykovy křivky a limitních faktorů povodí, \\(E_p = PET_{LT}\\)\n\n\n\n\n\n  Ep/P (climatic dryness index): \n  \n  2.0\n\n\n\n  Ea/P (actual evapotranspiration ratio): \n  \n  1.0\n\n\n\n\n\n\nModely Budykovy křivky\n\n\n\n\n\n\n\nBowenův poměr\n\nPoměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá Bowenův poměr. Tento poměr je přímo měřitelný\n\\[\nB = \\dfrac{Q_h}{Q_e}\n\\] kde \\(Q_h\\) je teplo zjevné a \\(Q_e\\) teplo latentní.\nTypické hodnoty bowenova poměru uvádí tabulka (Campbell a Norman 2000)\n\n\n\n\n\n\n\nReference\n\nCampbell, Gaylon S, a John M Norman. 2000. An introduction to environmental biophysics. Springer Science & Business Media."
+    "text": "Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu \\[\nP = Ea + Q,\n\\] kde \\(\\mathsf{P}\\) je dlouhodobý roční srážkový úhrn, \\(\\mathsf{Ea}\\) je výška dlouhodobé roční aktuální evapotranspirace a \\(Q\\) je dlouhodobá výška ročního odtoku.\nDle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku\n\\[\n\\frac{\\mathsf{Q}}{\\mathsf{P}} = 1- \\frac{Ea}{P}.\n\\] Dále je základním předpokladem platnost následujícího předpokladu \\[\n\\frac{Ea}{P} = f (P, Ep),\n\\] kde \\(Ep\\) je výška dlouhodobé roční potenciální evapotranspirace.\nBudykovu křivku je možné vyjádřit například Schreiberovým modelem \\[\n\\frac{Ea}{P} = 1- \\exp(-\\mathrm{AI}),\n\\] kde \\(\\mathrm{AI}\\) je index aridity, který je definován jako\n\\[\n\\mathrm{AI} = \\frac{Ep}{P}.\n\\] Index aridity rozděluje území do dvou skupin:\n\naridní území \\(Ep &gt; P\\)\nhumidní území \\(Ep &lt; P\\)\n\nJejich limitní faktory ukazuje následující obrázek.\n\n\n\nPříklad Budykovy křivky a limitních faktorů povodí, \\(E_p = PET_{LT}\\)\n\n\n\n\n    Ep/P (climatic dryness index): \n    \n    2.0\n\n\n\n  Ea/P (actual evapotranspiration ratio): \n  \n  1.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá Bowenův poměr. Tento poměr je přímo měřitelný.\n\\[\nB = \\dfrac{Q_h}{Q_e}\n\\] kde \\(Q_h\\) je teplo zjevné a \\(Q_e\\) teplo latentní Sekce 1.0.1.\nTypické hodnoty bowenova poměru uvádí tabulka (Campbell a Norman 2000)"
+  },
+  {
+    "objectID": "B.html#b",
+    "href": "B.html#b",
+    "title": "Terminologický slovník výparu",
+    "section": "",
+    "text": "Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu \\[\nP = Ea + Q,\n\\] kde \\(\\mathsf{P}\\) je dlouhodobý roční srážkový úhrn, \\(\\mathsf{Ea}\\) je výška dlouhodobé roční aktuální evapotranspirace a \\(Q\\) je dlouhodobá výška ročního odtoku.\nDle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku\n\\[\n\\frac{\\mathsf{Q}}{\\mathsf{P}} = 1- \\frac{Ea}{P}.\n\\] Dále je základním předpokladem platnost následujícího předpokladu \\[\n\\frac{Ea}{P} = f (P, Ep),\n\\] kde \\(Ep\\) je výška dlouhodobé roční potenciální evapotranspirace.\nBudykovu křivku je možné vyjádřit například Schreiberovým modelem \\[\n\\frac{Ea}{P} = 1- \\exp(-\\mathrm{AI}),\n\\] kde \\(\\mathrm{AI}\\) je index aridity, který je definován jako\n\\[\n\\mathrm{AI} = \\frac{Ep}{P}.\n\\] Index aridity rozděluje území do dvou skupin:\n\naridní území \\(Ep &gt; P\\)\nhumidní území \\(Ep &lt; P\\)\n\nJejich limitní faktory ukazuje následující obrázek.\n\n\n\nPříklad Budykovy křivky a limitních faktorů povodí, \\(E_p = PET_{LT}\\)\n\n\n\n\n    Ep/P (climatic dryness index): \n    \n    2.0\n\n\n\n  Ea/P (actual evapotranspiration ratio): \n  \n  1.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá Bowenův poměr. Tento poměr je přímo měřitelný.\n\\[\nB = \\dfrac{Q_h}{Q_e}\n\\] kde \\(Q_h\\) je teplo zjevné a \\(Q_e\\) teplo latentní Sekce 1.0.1.\nTypické hodnoty bowenova poměru uvádí tabulka (Campbell a Norman 2000)"
   },
   {
     "objectID": "P.html",
     "href": "P.html",
     "title": "P",
     "section": "",
-    "text": "P\n\nPenman-Monteithova rovnice\n\n\\[\n\\lambda\\mathrm{ET} = \\dfrac{\\Delta(R_n - G) + \\rho_ac_p\\dfrac{e_s-e_a}{r_a}}{\\Delta+\\gamma(1 + \\dfrac{r_s}{r_a})}\n\\]\n\n\n\nPotenciální evapotranspirace\n\nČasto se pod akronymem \\(\\mathrm{PET}\\) označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem."
+    "text": "P\n\nPenman-Monteithova rovnice\n\nFyzikální kombinace energetické bilance a aerodynamického přenosu. Počítá se s využitím tzv. referenčního povrchu, což je travina tollice vojtěška (také pod označením alfalfa).\n\\[\n\\lambda\\mathrm{ET} = \\dfrac{\\Delta(R_n - G) + \\rho_ac_p\\dfrac{e_s-e_a}{r_a}}{\\Delta+\\gamma(1 + \\dfrac{r_s}{r_a})}\n\\] Výhodou rovnice je její univerzálkní použití, nevýhodou pak množství dat, které je potřeba k jejímu spočtení.\n\n\n\n\n\n\n\n\nZnačka\nPopis\nHodnota\n\n\n\n\n\\(\\mathsf{\\lambda}\\)\n\n\n\n\n\\(\\mathsf{\\gamma}\\)\npsychrometrická konstanta\n\n\n\n\\(e_s\\)\n\n\n\n\n\\(e_a\\)\n\n\n\n\n\\(r_a\\)\n\n\n\n\n\\(r_s\\)\n\n\n\n\n\\(\\mathsf{\\rho_a}\\)\n\n\n\n\n\\(c_p\\)\n\n\n\n\n\n\n\n\nPotenciální evapotranspirace\n\nČasto se pod akronymem \\(\\mathrm{PET}\\) označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem. Definice potenciální evapotranspirace prošla vývvojem.\n\nThorntwaite: Evapotranspirace z libovolného území, na kterém rose libovolná vegetace dostatečně zásobená půdní vláhou, přičemž na povrchu listů není žádná intercipovaná voda.\n\nPenmman dále rozvinul vztah obecného porostu na referenční vegataci.\n\nPenman: Evapotranspirace krátce střiženého hustého trávníku, dostatečně zásobeného půvní vláhou.\n\nS pomoci specificky zvolené rostliny - Tolice vojtěšky, jinak alfalfa (Medicago sativa sp.), byl urřen výpar z referenčního povrchu - tzv. referenční plodinu."
   },
   {
     "objectID": "E.html",
     "href": "E.html",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.5520204\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
+    "text": "(ekv. eddy covariance) Tento termín se do českého jazyka obvykle nepřekládá. Označuje se tak běžně kovariance vzduchového víření.\n\n\n\n\n\nEvaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze sublimace.\nV území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.9637407\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace\n\n\n\n\n\n\nViz Referenční evapotranspirace"
   },
   {
     "objectID": "E.html#e",
     "href": "E.html#e",
     "title": "Terminologický slovník výparu",
     "section": "",
-    "text": "Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\n\n\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {?@sec-sublimace}.  V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.5520204\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace \\(1-5*6\\)\n\n\n\n\n\n\nViz Referenční evapotranspirace"
+    "text": "(ekv. eddy covariance) Tento termín se do českého jazyka obvykle nepřekládá. Označuje se tak běžně kovariance vzduchového víření.\n\n\n\n\n\nEvaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára). Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.\nK vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než \\(70 \\%\\) zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze sublimace.\nV území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.\n\n\n\n\n\n\n\n\n\n\n\nPod pojmem evapotranspirace se rozumí celkový výpar do atmosféry na určitém území.\n\nrunif(1)\n\n[1] 0.9637407\n\n\n\n\n\n\n\nViz. Aktuální evapotranpirace\n\n\n\n\n\n\nViz Referenční evapotranspirace"
   }
 ]

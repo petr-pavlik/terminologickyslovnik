@@ -159,8 +159,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">S</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./T.html" rel="" target="">
+ <span class="menu-text">T</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./V.html" rel="" target="">
  <span class="menu-text">V</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Rozcestnik.html" rel="" target="">
+ <span class="menu-text">Rozcestník</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -180,8 +188,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#p" id="toc-p" class="nav-link active" data-scroll-target="#p">P</a>
   <ul>
-  <li><a href="#penman-monteithova-rovnice" id="toc-penman-monteithova-rovnice" class="nav-link" data-scroll-target="#penman-monteithova-rovnice">Penman-Monteithova rovnice</a></li>
-  <li><a href="#potenciální-evapotranspirace" id="toc-potenciální-evapotranspirace" class="nav-link" data-scroll-target="#potenciální-evapotranspirace">Potenciální evapotranspirace</a></li>
+  <li><a href="#sec-p-penman-monteithova-rovnice" id="toc-sec-p-penman-monteithova-rovnice" class="nav-link" data-scroll-target="#sec-p-penman-monteithova-rovnice">Penman-Monteithova rovnice</a></li>
+  <li><a href="#sec-p-potencialni-evapotranspirace" id="toc-sec-p-potencialni-evapotranspirace" class="nav-link" data-scroll-target="#sec-p-potencialni-evapotranspirace">Potenciální evapotranspirace</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -193,18 +201,83 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="p" class="level1">
 <h1>P</h1>
-<section id="penman-monteithova-rovnice" class="level4">
-<h4 class="anchored" data-anchor-id="penman-monteithova-rovnice">Penman-Monteithova rovnice</h4>
+<section id="sec-p-penman-monteithova-rovnice" class="level4">
+<h4 class="anchored" data-anchor-id="sec-p-penman-monteithova-rovnice">Penman-Monteithova rovnice</h4>
 <div class="collapsible">
+<p>Fyzikální kombinace energetické bilance a aerodynamického přenosu. Počítá se s využitím tzv. <em>referenčního povrchu</em>, což je travina tollice vojtěška (také pod označením <em>alfalfa</em>).</p>
 <p><span class="math display">\[
 \lambda\mathrm{ET} = \dfrac{\Delta(R_n - G) + \rho_ac_p\dfrac{e_s-e_a}{r_a}}{\Delta+\gamma(1 + \dfrac{r_s}{r_a})}
-\]</span></p>
+\]</span> Výhodou rovnice je její univerzálkní použití, nevýhodou pak množství dat, které je potřeba k jejímu spočtení.</p>
+<table class="table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 62%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Značka</th>
+<th>Popis</th>
+<th>Hodnota</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\mathsf{\lambda}\)</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\mathsf{\gamma}\)</span></td>
+<td>psychrometrická konstanta</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(e_s\)</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(e_a\)</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(r_a\)</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(r_s\)</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\mathsf{\rho_a}\)</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(c_p\)</span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </div>
 </section>
-<section id="potenciální-evapotranspirace" class="level4">
-<h4 class="anchored" data-anchor-id="potenciální-evapotranspirace">Potenciální evapotranspirace</h4>
+<section id="sec-p-potencialni-evapotranspirace" class="level4">
+<h4 class="anchored" data-anchor-id="sec-p-potencialni-evapotranspirace">Potenciální evapotranspirace</h4>
 <div class="collapsible">
-<p>Často se pod akronymem <span class="math inline">\(\mathrm{PET}\)</span> označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem.</p>
+<p>Často se pod akronymem <span class="math inline">\(\mathrm{PET}\)</span> označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem. Definice potenciální evapotranspirace prošla vývvojem.</p>
+<blockquote class="blockquote">
+<p><strong>Thorntwaite</strong>: Evapotranspirace z libovolného území, na kterém rose libovolná vegetace dostatečně zásobená půdní vláhou, přičemž na povrchu listů není žádná intercipovaná voda.</p>
+</blockquote>
+<p>Penmman dále rozvinul vztah obecného porostu na referenční vegataci.</p>
+<blockquote class="blockquote">
+<p><strong>Penman</strong>: Evapotranspirace krátce střiženého hustého trávníku, dostatečně zásobeného půvní vláhou.</p>
+</blockquote>
+<p>S pomoci specificky zvolené rostliny - Tolice vojtěšky, jinak alfalfa (<em>Medicago sativa sp.</em>), byl urřen výpar z referenčního povrchu - tzv. <em>referenční plodinu</em>.</p>
 </div>
 
 

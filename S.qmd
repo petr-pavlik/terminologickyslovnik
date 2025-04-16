@@ -1,3 +1,155 @@
+---
+toc-title: "Na této stránce"
+---
+
 # S
 
-#### Sublimace {#sec-sublimace}
+#### Scintilometrie {#sec-s-scintilometrie}
+::: collapsible
+Evapotranspiraci lze měřit přístroji, zvanými *scintilometry*. tyto nástroje přenášejí horizontální optické nebo radiofrekvenční paprsky mezi emitorem a přijímačem  skrze vrstvu, která obsahuje turbulentní proudění nad zájmovým povrchem. Jak se paprsky šíří skrze turbulentní vrstvu mění se intenzita záření, neboť dochází ke změně indexu lomu v důsledku kolísání teploty a vlhkosti. <br>
+:::
+
+
+#### Sublimace {#sec-s-sublimace}
+::: collapsible
+Při sublimaci je pevná fáze přeměněna přímo na plynný stav bez přechodem přes kapalnou fázi. Při výparu dochází k přeměně kapalné fáze na plynou. Sublimace hraje v hydrologickém cyklu řádově menší roli, než evaporace.
+Sublimace se vyskytuje ve vyšší míře ve vyšších nadmořských výškách, kde je tlak vzduchu menší nž v nižsích. K sublimaci je potřebná silná sluneční energie. Nízké teploty, silný vítr, intenzivní sluneční záření, velmi nízký tlak vzduchu.
+
+V případě sněhové a ledové pokrývky 
+
+Na západě USA existují větry Chinook, "žrout sněhu", která odpařuje snín ještě předtím, než má šanci roztát.
+Chinooské větry jsou západní od Pacifiku, jejichž vlhkost se vyždímá při průchodu Skalistými horami. Když tyto větry sestoupí z hor na vysoké pláně, mohou být docela mírné a extrémně suché. Teplé až 60--70 Fahrenheita (přes 15 stupňů Celsia).
+
+Krychlový centimetr (1 gram) ve formě ledu vyžaduje 80 kalorií k roztavení, 100 kalorií k dosažení bodu varu a dalších 540 kalorií k odpaření. Celkem 720 kalorií. Sublimace vyžaduje stejný přísun energie, ale obchází kapalnou fázi.
+
+```{=html}
+<svg id="chart_budyko" width="1000" height="600" viewBox="0 0 1000 600"></svg>
+
+<script type="module">
+  import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+  const svg = d3.select("#chart_budyko");
+  const width = +svg.attr("width");
+  const height = +svg.attr("height");
+
+  const margin = {top: 30, right: 50, bottom: 60, left: 80};
+  const plotWidth = width - margin.left - margin.right;
+  const plotHeight = height - margin.top - margin.bottom;
+
+  const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+  const x = d3.scaleLinear()
+              .domain([100, 1000])
+              .range([0, plotWidth]);
+
+  const y = d3.scaleLog()
+              .domain([1e0, 1e9])
+              .range([plotHeight, 0]);
+
+  g.append("g")
+    .attr("transform", `translate(0,${plotHeight})`)
+    .call(d3.axisBottom(x).ticks(10).tickFormat(d => d + " K"));
+
+  g.append("g")
+    .call(d3.axisLeft(y).ticks(10, "~s").tickFormat(d => d + " Pa"));
+
+  g.append("text")
+    .attr("x", plotWidth / 2)
+    .attr("y", plotHeight + 50)
+    .style("text-anchor", "middle")
+    .text("Temperature (K)");
+
+  g.append("text")
+    .attr("x", -plotHeight / 2)
+    .attr("y", -60)
+    .attr("transform", "rotate(-90)")
+    .style("text-anchor", "middle")
+    .text("Pressure (Pa)");
+
+  // Restore original boundaries and areas
+  const meltingCurve = [
+    { T: 251, P: 2.0e8 },
+    { T: 273, P: 611 },
+    { T: 373, P: 1.01e5 },
+    { T: 647, P: 2.2e7 }
+  ];
+
+  const vaporizationCurve = [
+    { T: 373, P: 1.01e5 },
+    { T: 647, P: 2.2e7 },
+    { T: 800, P: 1e8 }
+  ];
+
+  const sublimationCurve = [
+    { T: 140, P: 1e-1 },
+    { T: 160, P: 1 },
+    { T: 180, P: 10 },
+    { T: 200, P: 50 },
+    { T: 220, P: 100 },
+    { T: 250, P: 400 },
+    { T: 273, P: 611 }
+  ];
+
+  g.append("path")
+    .datum([...sublimationCurve, ...meltingCurve.slice(0, 2).reverse()])
+    .attr("fill", "#d0e8ff")
+    .attr("stroke", "none")
+    .attr("d", d3.line().x(d => x(d.T)).y(d => y(d.P)).curve(d3.curveBasisClosed));
+
+  g.append("path")
+    .datum([meltingCurve[1], meltingCurve[2], meltingCurve[3], vaporizationCurve[2], { T: 647, P: 1e0 }, { T: 273, P: 1e0 }])
+    .attr("fill", "#ccffe0")
+    .attr("stroke", "none")
+    .attr("d", d3.line().x(d => x(d.T)).y(d => y(d.P)).curve(d3.curveBasisClosed));
+
+  g.append("path")
+    .datum([...sublimationCurve, { T: 273, P: 1e0 }, { T: 647, P: 1e0 }, { T: 800, P: 1e0 }, vaporizationCurve[2], ...vaporizationCurve.slice(0, 2).reverse()])
+    .attr("fill", "#fff3cc")
+    .attr("stroke", "none")
+    .attr("d", d3.line().x(d => x(d.T)).y(d => y(d.P)).curve(d3.curveBasisClosed));
+
+  function drawLine(data, color, width = 2, dash = null) {
+    g.append("path")
+      .datum(data)
+      .attr("fill", "none")
+      .attr("stroke", color)
+      .attr("stroke-width", width)
+      .attr("stroke-dasharray", dash)
+      .attr("d", d3.line().x(d => x(d.T)).y(d => y(d.P)));
+  }
+
+  drawLine(meltingCurve, "red");
+  drawLine(vaporizationCurve, "orange");
+  drawLine(sublimationCurve, "blue", 2, "5,5");
+
+  const criticalPoint = { T: 647, P: 2.2e7 };
+  const triplePoint = { T: 273.16, P: 611.657 };
+
+  const iceVI_VII_boundary = [
+    { T: 290, P: 6.2e8 },
+    { T: 350, P: 1e9 }
+  ];
+
+  const iceVII_X_boundary = [
+    { T: 400, P: 1e9 },
+    { T: 500, P: 1.5e9 }
+  ];
+
+  drawLine(iceVI_VII_boundary, "purple", 2, "3,3");
+  drawLine(iceVII_X_boundary, "purple", 2, "3,3");
+
+  g.append("circle").attr("cx", x(criticalPoint.T)).attr("cy", y(criticalPoint.P)).attr("r", 5).attr("fill", "black");
+  g.append("text").attr("x", x(criticalPoint.T) + 5).attr("y", y(criticalPoint.P) - 10).text("Critical Point").style("font-size", "12px").style("fill", "black");
+
+  g.append("circle").attr("cx", x(triplePoint.T)).attr("cy", y(triplePoint.P)).attr("r", 5).attr("fill", "black");
+  g.append("text").attr("x", x(triplePoint.T) + 5).attr("y", y(triplePoint.P) - 10).text("Triple Point").style("font-size", "12px").style("fill", "black");
+
+  g.append("text").attr("x", x(150)).attr("y", y(1e3)).text("Solid").style("font-size", "18px").style("fill", "navy");
+  g.append("text").attr("x", x(400)).attr("y", y(1e3)).text("Liquid").style("font-size", "18px").style("fill", "green");
+  g.append("text").attr("x", x(700)).attr("y", y(100)).text("Vapor").style("font-size", "18px").style("fill", "darkorange");
+  g.append("text").attr("x", x(300)).attr("y", y(7e8)).text("Ice VI → VII").style("font-size", "12px").style("fill", "purple");
+  g.append("text").attr("x", x(420)).attr("y", y(1.2e9)).text("Ice VII → X").style("font-size", "12px").style("fill", "purple");
+</script>
+```
+
+:::

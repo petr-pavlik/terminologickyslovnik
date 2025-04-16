@@ -1,25 +1,25 @@
 # A
 
-#### Absolutní vlhkost
+#### Absolutní vlhkost {#sec-a-absolutni-vlhkost}
 ::: collapsible
 
 :::
 
-#### Aerodynamický odpor
+#### Aerodynamický odpor {#sec-a-aerodynamicky-odpor}
 ::: collapsible
 
 :::
 
-#### Aktuální evapotranspirace
+#### Aktuální evapotranspirace {#sec-a-aktualni-evapotranspirace}
 ::: collapsible
 Syn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách. 
 :::
 
-#### Albedo
+#### Albedo {#sec-a-albedo}
 ::: collapsible
 Albedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. **Povrchové albedo** je definováno jako poměr **zářivosti** a *ozáření* 
 
-##### Albedo zemského povrchu
+##### Albedo zemského povrchu {#sec-a-albedo-zemskeho-povrchu}
 
 Albedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší.
 
