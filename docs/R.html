@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -91,6 +110,8 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -157,8 +178,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">S</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./T.html" rel="" target="">
+ <span class="menu-text">T</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./V.html" rel="" target="">
  <span class="menu-text">V</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Rozcestnik.html" rel="" target="">
+ <span class="menu-text">Rozcestník</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -178,7 +207,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#r" id="toc-r" class="nav-link active" data-scroll-target="#r">R</a>
   <ul>
-  <li><a href="#referenční-evapotranspirace" id="toc-referenční-evapotranspirace" class="nav-link" data-scroll-target="#referenční-evapotranspirace">Referenční evapotranspirace</a></li>
+  <li><a href="#sec-r-referencni-evapotranspirace" id="toc-sec-r-referencni-evapotranspirace" class="nav-link" data-scroll-target="#sec-r-referencni-evapotranspirace">Referenční evapotranspirace <span class="math inline">\(\mathsf{(ET_o)}\:\)</span></a></li>
+  <li><a href="#sec-r-referencni-povrch" id="toc-sec-r-referencni-povrch" class="nav-link" data-scroll-target="#sec-r-referencni-povrch">Referenční povrch</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -190,8 +220,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="r" class="level2">
 <h2 class="anchored" data-anchor-id="r">R</h2>
-<section id="referenční-evapotranspirace" class="level4">
-<h4 class="anchored" data-anchor-id="referenční-evapotranspirace">Referenční evapotranspirace</h4>
+<section id="sec-r-referencni-evapotranspirace" class="level4">
+<h4 class="anchored" data-anchor-id="sec-r-referencni-evapotranspirace">Referenční evapotranspirace <span class="math inline">\(\mathsf{(ET_o)}\:\)</span></h4>
 <div class="collapsible">
 <p>
 <strong>Referenční evapotranspirace (ET<sub>o</sub>)</strong> představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s·m<sup>-1</sup>).
@@ -200,15 +230,26 @@ ul.task-list li input[type="checkbox"] {
 Referenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ET<sub>o</sub> se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ET<sub>o</sub> velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace (ET<sub>a</sub>) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ET<sub>a</sub>.
 </p>
 <p>
-Dle metodiky FAO-56 (Allen et al., 1998) je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
+Dle metodiky FAO-56 <span class="citation" data-cites="allen1998crop">(<a href="#ref-allen1998crop" role="doc-biblioref">Allen et al. 1998</a>)</span> je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
 </p>
+</div>
+</section>
+<section id="sec-r-referencni-povrch" class="level4">
+<h4 class="anchored" data-anchor-id="sec-r-referencni-povrch">Referenční povrch</h4>
+<div class="collapsible">
+
 </div>
 
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Reference</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-allen1998crop" class="csl-entry" role="listitem">
+Allen, Richard G, Luis S Pereira, Dirk Raes, Martin Smith, et al. 1998. <span>„Crop evapotranspiration-Guidelines for computing crop water requirements-FAO Irrigation and drainage paper 56"</span>. <em>Fao, Rome</em> 300 (9): D05109.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

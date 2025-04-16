@@ -1,14 +1,47 @@
 ---
-wbsite:
-  title: "WARM-ET"
-  sidebar: false
-  
+title: "Terminologický slovník výparu"
+format:
+  html:
+    toc: false
 ---
 
-## Vliv změny klimatu na evapotranspiraci a vodní bilanci v krajině v kontextu zabezpečenosti a udržitelnosti vodních zdrojů
+Územní výpar hraje kritickou roli v energetickém toku klimatického systému. Je spojovacím článek mezi vodním, eneregtickým a uhlíkovým cyklem, reagujícím na antropogenní změny a propagujícím jejich vliv napříč globaálním hydrologickým cyklem. \
 
-Účelem slovníku je poskytnout jednoduchou oporu ve výkladu pojmů evapotranspirace, a tím zamezení jejich nesprávného výkladu.
+Detailní porozumnění tohoto procesu se podmínkách České republiky a dále regionu Střední Evropy hraje bude hrát klíčovou roli pro zabezpečení vodních zdrojů v dostatečné kvantitě i kvalitě pro další generace.
+
+Účelem slovníku je poskytnout výkladovou oporu pojmů týkajících se procesu evapotranspirace.
+
+```{=html}
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/carousel/1.jpg" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/carousel/2.jpg" class="d-block w-100" alt="Slide 2">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Předchozí</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Další</span>
+  </button>
+</div>
+```
+
+\
+Vznik tohoto slovníku byl podpořen **Národní agenturou pro zemědělský výzkum**. Vliv změny klimatu na evapotranspiraci a vodní bilanci v krajině v kontextu zabezpečenosti a udržitelnosti vodních zdrojů \
 
 ##### Autoři
 
-  - Milan Fischer ![](images/ORCIDiD_iconvector.svg){width="15"}, Petr Máca ![](images/ORCIDiD_iconvector.svg){width="15"}, Petr Pavlík ![](images/ORCIDiD_iconvector.svg){width="15"}, ...
+Milan Fischer ![](images/ORCIDiD_iconvector.svg){width="15"}, Petr Máca ![](images/ORCIDiD_iconvector.svg){width="15"}, Petr Pavlík ![](images/ORCIDiD_iconvector.svg){width="15"}, ...

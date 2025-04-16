@@ -1,6 +1,6 @@
 # I
 
-#### Index aridity
+#### Index aridity {#sec-i-index-aridity}
 
 ::: collapsible
 Číselný index, vyjadřující stuoeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, nebo-li vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha je naproti tomu epizodní. Ke sledování aridity se používá více indexů.
@@ -23,12 +23,10 @@ další navrhl významný ruský klimatolog Mikhail Ivanovich Budyko.
 
 :::
 
-#### Index sucha
-
+#### Index sucha {#sec-i-index-sucha}
 ::: collapsible
 :::
 
-#### Intercepční výpar
-
+#### Intercepční výpar {#sec-i-intercepcni-vypar}
 ::: collapsible
 :::

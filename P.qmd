@@ -1,16 +1,38 @@
 # P
 
-#### Penman-Monteithova rovnice
+#### Penman-Monteithova rovnice {#sec-p-penman-monteithova-rovnice}
+
 ::: collapsible
+Fyzikální kombinace energetické bilance a aerodynamického přenosu. Počítá se s využitím tzv. *referenčního povrchu*, což je travina tollice vojtěška (také pod označením *alfalfa*).
 
 $$
 \lambda\mathrm{ET} = \dfrac{\Delta(R_n - G) + \rho_ac_p\dfrac{e_s-e_a}{r_a}}{\Delta+\gamma(1 + \dfrac{r_s}{r_a})}
-$$
+$$ Výhodou rovnice je její univerzálkní použití, nevýhodou pak množství dat, které je potřeba k jejímu spočtení.
+
+
+| Značka               | Popis                                             | Hodnota |
+|----------------------|---------------------------------------------------|---------|
+| $\mathsf{\lambda}$   |                                                   |         |
+| $\mathsf{\gamma}$    | psychrometrická konstanta                         |         |
+| $e_s$                |                                                   |         |  
+| $e_a$                |                                                   |         |
+| $r_a$                |                                                   |         |  
+| $r_s$                |                                                   |         |  
+| $\mathsf{\rho_a}$    |                                                   |         |
+| $c_p$                |                                                   |         |
 
 :::
 
-#### Potenciální evapotranspirace
+#### Potenciální evapotranspirace {#sec-p-potencialni-evapotranspirace}
+
 ::: collapsible
-Často se pod akronymem $\mathrm{PET}$ označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem. 
-:::
+Často se pod akronymem $\mathrm{PET}$ označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem. Definice potenciální evapotranspirace prošla vývvojem.
 
+> **Thorntwaite**: Evapotranspirace z libovolného území, na kterém rose libovolná vegetace dostatečně zásobená půdní vláhou, přičemž na povrchu listů není žádná intercipovaná voda.
+
+Penmman dále rozvinul vztah obecného porostu na referenční vegataci.
+
+> **Penman**: Evapotranspirace krátce střiženého hustého trávníku, dostatečně zásobeného půvní vláhou.
+
+S pomoci specificky zvolené rostliny - Tolice vojtěšky, jinak alfalfa (*Medicago sativa sp.*), byl urřen výpar z referenčního povrchu - tzv. *referenční plodinu*.
+:::

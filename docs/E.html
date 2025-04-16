@@ -193,8 +193,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">S</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./T.html" rel="" target="">
+ <span class="menu-text">T</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./V.html" rel="" target="">
  <span class="menu-text">V</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Rozcestnik.html" rel="" target="">
+ <span class="menu-text">Rozcestník</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -214,11 +222,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#e" id="toc-e" class="nav-link active" data-scroll-target="#e">E</a>
   <ul>
-  <li><a href="#evaporace" id="toc-evaporace" class="nav-link" data-scroll-target="#evaporace">Evaporace</a></li>
-  <li><a href="#evaporační-poptávka" id="toc-evaporační-poptávka" class="nav-link" data-scroll-target="#evaporační-poptávka">Evaporační poptávka</a></li>
-  <li><a href="#evapotranspirace" id="toc-evapotranspirace" class="nav-link" data-scroll-target="#evapotranspirace">Evapotranspirace</a></li>
-  <li><a href="#evapotranspirace-aktuální" id="toc-evapotranspirace-aktuální" class="nav-link" data-scroll-target="#evapotranspirace-aktuální">Evapotranspirace aktuální</a></li>
-  <li><a href="#evapotranspirace-referenční" id="toc-evapotranspirace-referenční" class="nav-link" data-scroll-target="#evapotranspirace-referenční">Evapotranspirace referenční</a></li>
+  <li><a href="#sec-e-eddy-kovariance" id="toc-sec-e-eddy-kovariance" class="nav-link" data-scroll-target="#sec-e-eddy-kovariance">Eddy-kovariance</a></li>
+  <li><a href="#sec-e-evaporace" id="toc-sec-e-evaporace" class="nav-link" data-scroll-target="#sec-e-evaporace">Evaporace</a></li>
+  <li><a href="#sec-e-evapotranspiracni-vlahova-potreba" id="toc-sec-e-evapotranspiracni-vlahova-potreba" class="nav-link" data-scroll-target="#sec-e-evapotranspiracni-vlahova-potreba">Evaporační vláhová potřeba</a></li>
+  <li><a href="#sec-e-evapotranspirace" id="toc-sec-e-evapotranspirace" class="nav-link" data-scroll-target="#sec-e-evapotranspirace">Evapotranspirace</a></li>
+  <li><a href="#sec-e-evapotranspirace-aktualni" id="toc-sec-e-evapotranspirace-aktualni" class="nav-link" data-scroll-target="#sec-e-evapotranspirace-aktualni">Evapotranspirace aktuální</a></li>
+  <li><a href="#sec-e-evapotranspirace-referencni" id="toc-sec-e-evapotranspirace-referencni" class="nav-link" data-scroll-target="#sec-e-evapotranspirace-referencni">Evapotranspirace referenční</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -230,43 +239,46 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="e" class="level2">
 <h2 class="anchored" data-anchor-id="e">E</h2>
-<section id="evaporace" class="level4">
-<h4 class="anchored" data-anchor-id="evaporace">Evaporace</h4>
+<section id="sec-e-eddy-kovariance" class="level4">
+<h4 class="anchored" data-anchor-id="sec-e-eddy-kovariance">Eddy-kovariance</h4>
 <div class="collapsible">
-<p>
-<strong>Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára).</strong> Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.
-</p>
-<p>
-K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než <span class="math inline">\(70 \%\)</span> zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze {<strong>?@sec-sublimace</strong>}. <br> V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.
-</p>
+<p>(ekv. <em>eddy covariance</em>) Tento termín se do českého jazyka obvykle nepřekládá. Označuje se tak běžně kovariance vzduchového víření.</p>
 </div>
 </section>
-<section id="evaporační-poptávka" class="level4">
-<h4 class="anchored" data-anchor-id="evaporační-poptávka">Evaporační poptávka</h4>
+<section id="sec-e-evaporace" class="level4">
+<h4 class="anchored" data-anchor-id="sec-e-evaporace">Evaporace</h4>
+<div class="collapsible">
+<p><strong>Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára).</strong> Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.</p>
+<p>K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než <span class="math inline">\(70 \%\)</span> zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze <a href="./S.html#sec-s-sublimace">sublimace</a>.</p>
+<p>V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.</p>
+</div>
+</section>
+<section id="sec-e-evapotranspiracni-vlahova-potreba" class="level4">
+<h4 class="anchored" data-anchor-id="sec-e-evapotranspiracni-vlahova-potreba">Evaporační vláhová potřeba</h4>
 <div class="collapsible">
 
 </div>
 </section>
-<section id="evapotranspirace" class="level4">
-<h4 class="anchored" data-anchor-id="evapotranspirace">Evapotranspirace</h4>
+<section id="sec-e-evapotranspirace" class="level4">
+<h4 class="anchored" data-anchor-id="sec-e-evapotranspirace">Evapotranspirace</h4>
 <div class="collapsible">
 <p>Pod pojmem <em>evapotranspirace</em> se rozumí celkový výpar do atmosféry na určitém území.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">runif</span>(<span class="dv">1</span>)</span></code><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.5520204</code></pre>
+<pre><code>[1] 0.9637407</code></pre>
 </div>
 </div>
 </div>
 </section>
-<section id="evapotranspirace-aktuální" class="level4">
-<h4 class="anchored" data-anchor-id="evapotranspirace-aktuální">Evapotranspirace aktuální</h4>
+<section id="sec-e-evapotranspirace-aktualni" class="level4">
+<h4 class="anchored" data-anchor-id="sec-e-evapotranspirace-aktualni">Evapotranspirace aktuální</h4>
 <div class="collapsible">
-<p>Viz. <a href="./A.html#"><em>Aktuální evapotranpirace</em></a> <span class="math inline">\(1-5*6\)</span></p>
+<p>Viz. <a href="./A.html#"><em>Aktuální evapotranpirace</em></a></p>
 </div>
 </section>
-<section id="evapotranspirace-referenční" class="level4">
-<h4 class="anchored" data-anchor-id="evapotranspirace-referenční">Evapotranspirace referenční</h4>
+<section id="sec-e-evapotranspirace-referencni" class="level4">
+<h4 class="anchored" data-anchor-id="sec-e-evapotranspirace-referencni">Evapotranspirace referenční</h4>
 <div class="collapsible">
 <p>
 Viz <a href="R.html#">Referenční evapotranspirace</a>

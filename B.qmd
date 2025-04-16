@@ -1,16 +1,20 @@
-# B
+---
+toc-title: "Na této stránce"
+---
 
-#### Budykova křivka
+## B 
+
+#### Budykova křivka {#sec-b-budykova-krivka}
 
 ::: collapsible
 Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu $$
 P = Ea + Q,
-$$ kde $P$ je dlouhodobý roční srážkový úhrn, $Ea$ je výška dlouhodobé roční aktuální evapotranspirace a $Q$ je dlouhodobá výška ročního odtoku.
+$$ kde $\mathsf{P}$ je dlouhodobý roční srážkový úhrn, $\mathsf{Ea}$ je výška dlouhodobé roční aktuální evapotranspirace a $Q$ je dlouhodobá výška ročního odtoku.
 
 Dle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku
 
 $$
-\frac{Q}{P} = 1- \frac{Ea}{P}.
+\frac{\mathsf{Q}}{\mathsf{P}} = 1- \frac{Ea}{P}.
 $$ Dále je základním předpokladem platnost následujícího předpokladu $$
 \frac{Ea}{P} = f (P, Ep),
 $$ kde $Ep$ je výška dlouhodobé roční potenciální evapotranspirace.
@@ -37,18 +41,18 @@ Jejich limitní faktory ukazuje následující obrázek.
     margin-bottom: 1rem;
   }
 </style>
-
 <div class="slider-container">
-  <label for="epSlider"><strong>Ep/P</strong> (climatic dryness index): </label>
-  <input id="epSlider" type="range" min="0.1" max="4.0" step="0.1" value="2.0">
-  <span id="epValue">2.0</span>
+    <label for="epSlider"><strong>Ep/P</strong> (climatic dryness index): </label>
+    <input id="epSlider" type="range" min="0.1" max="4.0" step="0.1" value="0.5">
+    <span id="epValue">2.0</span>
 </div>
 
 <div class="slider-container">
   <label for="eaSlider"><strong>Ea/P</strong> (actual evapotranspiration ratio): </label>
-  <input id="eaSlider" type="range" min="0.0" max="2.0" step="0.05" value="1.0">
+  <input id="eaSlider" type="range" min="0.0" max="2.0" step="0.05" value="0.5">
   <span id="eaValue">1.0</span>
 </div>
+
 
 <div id="chart_budyko" class="chart" style="width: 100vw; height: 400px; self-align: center;"></div>
 
@@ -123,8 +127,8 @@ Jejich limitní faktory ukazuje následující obrázek.
   }
 
   const chartContainer = document.getElementById("chart_budyko");
-  let currentEp = 2.0;
-  let currentEa = 1.0;
+  let currentEp = 0.5;
+  let currentEa = 0.5;
   let chart_budyko = createChart({ Ep_P: currentEp, Ea_P: currentEa });
   chartContainer.append(chart_budyko);
 
@@ -164,11 +168,14 @@ Jejich limitní faktory ukazuje následující obrázek.
 #### Bowenův poměr
 
 ::: collapsible
-Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá *Bowenův poměr*. Tento poměr je přímo měřitelný
+Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá *Bowenův poměr*. Tento poměr je přímo měřitelný. 
 
 $$
 B = \dfrac{Q_h}{Q_e}
-$$ kde $Q_h$ je teplo zjevné a $Q_e$ teplo latentní.
+$$ 
+kde $Q_h$ je teplo zjevné a $Q_e$ teplo latentní @sec-b-budykova-krivka.
+
+
 
 Typické hodnoty bowenova poměru uvádí tabulka [@campbell2000introduction]
 :::
