@@ -5,8 +5,7 @@
 **Global Land Evapotranspiration Amsteram Model** je produkt dálkového zpracování dat, který patří mezi vegetačně určené modely. Pokrývá continuálně v denním kroku časové rozpětí 1980--2023 v prostorovém měřítku 0.1<sup>o</sup>. V aktuální verzi GLEAM4 vychází z 
 :::
 
-
 #### Gutace {#sec-g-gutace}
 ::: collapsible
-
+Gutace je vylučování kapek vnitřní tektutiny z konečků nebo okrajů listů některých cévnatých rostlin a také řady hub. Starověkké latinské slovo gutta znamená "kapka tekutiny", odkud modení botanika vytvořila slovo gutation, které označuje, že rostlina vylučuje kapky tekutiny na vnější povrch rostliny, když je zdroj tekutiny uvnitř rostliny. Gutace se vyskytuje u různých rostlinných druhů.
 :::

@@ -23,6 +23,8 @@ website:
       - V.qmd
       - href: Rozcestnik.qmd
         text: Rozcestník
+      - href: Literatura.qmd
+        text: Literatura
 lang: cz
 
 format:

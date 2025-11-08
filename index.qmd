@@ -7,11 +7,15 @@ format:
 
 <h2 style="color:red;">Ve výstavbě</h2>
 
-Územní výpar hraje kritickou roli v energetickém toku klimatického systému. Je spojovacím článek mezi vodním, eneregtickým a uhlíkovým cyklem, reagujícím na antropogenní změny a propagujícím jejich vliv napříč globálním hydrologickým cyklem. \
+Územní výpar hraje kritickou roli v energetickém toku klimatického systému. 
+V podmínkách České republiky je role výparu o to více klíčová, že roční průměr 
+výparu tvoří 60% až 80% vláhové bilance. Je spojovacím článek mezi vodním, eneregtickým 
+a uhlíkovým cyklem, reagujícím na antropogenní změny a propagujícím jejich vliv 
+napříč globálním hydrologickým cyklem. \
 
 Detailní porozumnění tohoto procesu v podmínkách České republiky a regionu Střední Evropy hraje a bude hrát klíčovou roli pro zabezpečení vodních zdrojů v požadované kvantitě a kvalitě pro budoucí generace.
 
-Účelem slovníku je poskytnout výkladovou oporu pojmů týkajících se procesu evapotranspirace.
+Účelem slovníku je poskytnout výkladovou oporu pojmů, týkajících se procesu evapotranspirace.
 
 ```{=html}
 <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">

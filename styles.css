@@ -26,14 +26,14 @@ h4.anchored:hover {
   background: linear-gradient(to right, #dbad6a22, rgba(255, 217, 0, 0.3)); /* Navy blue #001f3f*/ 
 }
 
-h4.anchored:before {
-  content: "▼ ";
-  font-size: 0.8em;
+h5.anchored:before {
+  content: "▶ ";
+  font-size: 0.75em;
 }
 
-h4.anchored.collapsed:before {
-  content: "▲ ";
-  font-size: 0.8em;
+h5.anchored.collapsed:before {
+  content: "▼ ";
+  font-size: 0.75em;
 }
 
 

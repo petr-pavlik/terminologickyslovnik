@@ -231,3 +231,140 @@ Krychlový centimetr (1 gram) ve formě ledu vyžaduje 80 kalorií k roztavení,
 
 <!-- ``` -->
 :::
+
+#### Sytostní doplněk
+::: collapsible
+Doplněk do maxima vlhkosti
+
+$$
+d_A = A-a\quad(\mathrm{g\cdot m^{-3}})
+$$
+
+| Teplota               | Doplněk                                 |
+|-----------------------|-----------------------------------------|
+| $0^{\circ}\mathrm{C}$ | $4,8\:\mathrm{g}\cdot\mathrm{m}^{-3}$   |
+| $5^{\circ}\mathrm{C}$ | $6,8\:\mathrm{g}\cdot\mathrm{m}^{-3}$   |
+| $10^{\circ}\mathrm{C}$| $9,4\:\mathrm{g}\cdot\mathrm{m}^{-3}$   |
+| $15^{\circ}\mathrm{C}$| $12,8\:\mathrm{g}\cdot\mathrm{m}^{-3}$  |
+| $20^{\circ}\mathrm{C}$| $17,3\:\mathrm{g}\cdot\mathrm{m}^{-3}$  |
+| $25^{\circ}\mathrm{C}$| $23,0\:\mathrm{g}\cdot\mathrm{m}^{-3}$  |
+| $30^{\circ}\mathrm{C}$| $30,4\:\mathrm{g}\cdot\mathrm{m}^{-3}$  |
+| $35^{\circ}\mathrm{C}$| $39,6\:\mathrm{g}\cdot\mathrm{m}^{-3}$  |
+| $40^{\circ}\mathrm{C}$| $51,1\:\mathrm{g}\cdot\mathrm{m}^{-3}$  |
+
+Z údajů je vidět, schopnost vzduchu vázat molekuly vody se s rostoucí teplotou zvyšuje.
+
+```{=html}
+<div id="chart_doplnek" style="width: 100%; height: 400px;"></div>
+
+<script type="module">
+  import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+
+  // Your data
+  const data = [
+    { teplota: 0,  doplnek: 4.8 },
+    { teplota: 5,  doplnek: 6.8 },
+    { teplota: 10, doplnek: 9.4 },
+    { teplota: 15, doplnek: 12.8 },
+    { teplota: 20, doplnek: 17.3 },
+    { teplota: 25, doplnek: 23.0 },
+    { teplota: 30, doplnek: 30.4 },
+    { teplota: 35, doplnek: 39.6 },
+    { teplota: 40, doplnek: 51.1 }
+  ];
+
+  const chart = Plot.plot({
+    width: 800,
+    height: 400,
+    marginLeft: 50,
+    marginBottom: 50,
+    x: {
+      label: "Teplota (°C)",
+      domain: [0, 40],
+    },
+    y: {
+      label: "Doplněk (g·m⁻³)",
+      domain: [0, 55],
+    },
+    marks: [
+      Plot.line(data, {
+        x: "teplota",
+        y: "doplnek",
+        stroke: "black",
+        strokeWidth: 2
+      }),
+      Plot.dot(data, {
+        x: "teplota",
+        y: "doplnek",
+        r: 4,
+        fill: "black"
+      })
+    ]
+  });
+
+  document.getElementById("chart_doplnek").append(chart);
+</script>
+```
+
+Ve skutečnosti je tento graf možné prodloužit až do:
+
+```{=html}
+<div id="chart_max_vapor" style="width: 100%; height: 400px;"></div>
+
+<script type="module">
+  import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+
+  // Saturation vapor pressure function (approximation with Magnus formula)
+  function saturationVaporPressure(T_C) {
+    // T_C in Celsius
+    return 6.112 * Math.exp((17.62 * T_C) / (243.12 + T_C)); // in hPa
+  }
+
+  // Maximum water vapor content in g/m³
+  function maxWaterContent(T_C) {
+    const e_s_hPa = saturationVaporPressure(T_C);
+    const e_s_Pa = e_s_hPa * 100; // convert hPa to Pa
+    const R_v = 461.5; // specific gas constant for water vapor, J/(kg·K)
+    const T_K = T_C + 273.15; // convert to Kelvin
+    const rho_v = e_s_Pa / (R_v * T_K); // in kg/m³
+    return rho_v * 1000; // convert to g/m³
+  }
+
+  // Generate data
+  const data = [];
+  for (let T = -30; T <= 100; T++) {
+    data.push({
+      temperature: T,
+      maxWater: maxWaterContent(T)
+    });
+  }
+
+  // Create the plot
+  const chart = Plot.plot({
+    width: 800,
+    height: 400,
+    marginLeft: 50,
+    marginBottom: 50,
+    x: {
+      label: "Teplota (°C)",
+      domain: [-30, 100]
+    },
+    y: {
+      label: "Maximální obsah vody (g/m³)",
+      domain: [0, 650]
+    },
+    marks: [
+      Plot.line(data, {
+        x: "temperature",
+        y: "maxWater",
+        stroke: "black",
+        strokeWidth: 2
+      })
+    ]
+  });
+
+  document.getElementById("chart_max_vapor").append(chart);
+</script>
+
+
+:::
