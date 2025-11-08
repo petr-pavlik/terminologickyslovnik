@@ -21,6 +21,19 @@ $$
 
 :::
 
+#### Tlak vodní páry {#sec-t-tlak-vodni-pary}
+
+some text
+
+##### Detail {.detail}
+
+::: collapsible
+text in more detail 
+
+:::
+
+
+
 #### Transpirace {#sec-t-transpirace}
 ::: collapsible
 Číselný index, vyjadřující stuoeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, nebo-li vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha je naproti tomu epizodní. Ke sledování aridity se používá více indexů.

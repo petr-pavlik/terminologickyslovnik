@@ -3,7 +3,7 @@
 #### Penman-Monteithova rovnice {#sec-p-penman-monteithova-rovnice}
 
 ::: collapsible
-Fyzikální kombinace energetické bilance a aerodynamického přenosu. Počítá se s využitím tzv. *referenčního povrchu*, což je travina tollice vojtěška (také pod označením *alfalfa*).
+Fyzikální kombinace energetické bilance a aerodynamického přenosu. Počítá se s využitím tzv. *referenčního povrchu*, což je travina tolice vojtěška (také pod označením *alfalfa*).
 
 $$
 \lambda\mathrm{ET} = \dfrac{\Delta(R_n - G) + \rho_ac_p\dfrac{e_s-e_a}{r_a}}{\Delta+\gamma(1 + \dfrac{r_s}{r_a})}
@@ -37,7 +37,8 @@ Penmman dále rozvinul vztah obecného porostu na referenční vegataci.
 S pomoci specificky zvolené rostliny - Tolice vojtěšky, jinak alfalfa (*Medicago sativa sp.*), byl urřen výpar z referenčního povrchu - tzv. *referenční plodinu*.
 :::
 
-#### Psachrometrická konstanta {#sec-p-psychrometricka-konstanta}
+#### Psychrometrická konstanta {#sec-p-psychrometricka-konstanta}
+Fyzikální konstanta, která se používá při výpočtech vlhkosti vzduchu v psychrometrické rovnici.
 
 ::: collapsible
 :::
