@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     console.log('Inline script loaded. Initializing collapsible sections...');
-    const headings = document.querySelectorAll('h4.anchored');
+    const headings = document.querySelectorAll('h5.anchored');
     if (headings.length === 0) {
-      console.warn('No h4 elements found.');
+      console.warn('No h5 elements found.');
       return;
     }
 
@@ -245,8 +245,10 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="i">I</h2>
 <section id="sec-i-index-aridity" class="level4">
 <h4 class="anchored" data-anchor-id="sec-i-index-aridity">Index aridity</h4>
-<div class="collapsible">
 <p>Číselný index, vyjadřující stupeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, neboli vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha naproti tomu bývá epizodní. Ke sledování aridity se používá více indexů.</p>
+<section id="více" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více">Více</h5>
+<div class="collapsible">
 <p><span class="math display">\[
 \mathrm{AI_T} = 100\dfrac{d}{n}
 \]</span> <span class="math display">\[
@@ -287,6 +289,7 @@ window.Quarto = {
 </tbody>
 </table>
 </div>
+</section>
 </section>
 <section id="sec-i-index-sucha" class="level4">
 <h4 class="anchored" data-anchor-id="sec-i-index-sucha">Index sucha</h4>

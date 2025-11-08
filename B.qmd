@@ -6,11 +6,14 @@ toc-title: "Na této stránce"
 
 #### Budykova křivka {#sec-b-budykova-krivka}
 
-::: collapsible
+
 Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu $$
 P = Ea + Q,
 $$ kde $\mathsf{P}$ je dlouhodobý roční srážkový úhrn, $\mathsf{Ea}$ je výška dlouhodobé roční aktuální evapotranspirace a $Q$ je dlouhodobá výška ročního odtoku.
 
+##### Více {.detail}
+
+::: collapsible
 Dle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku
 
 $$

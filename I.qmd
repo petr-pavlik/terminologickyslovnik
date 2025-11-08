@@ -2,8 +2,11 @@
 
 #### Index aridity {#sec-i-index-aridity}
 
-::: collapsible
 Číselný index, vyjadřující stupeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, neboli vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha naproti tomu bývá epizodní. Ke sledování aridity se používá více indexů.
+
+##### Více {.detail}
+::: collapsible
+
 
 $$
 \mathrm{AI_T} = 100\dfrac{d}{n}
@@ -44,3 +47,4 @@ V podmínkách ČR je zejména v průběhu vegetačního období množství srá
 ::: collapsible
 Evapotranspirace je celkový výpar ze zemského povrchu do atmosféry, který se vztahuje k určitému území. Zahrnuje pohyb vody do vzduchu z půdy, vodních ploch a dešťovou vodu zachycenou na vegetaci - **intercepci srážek**. 
 :::
+ 

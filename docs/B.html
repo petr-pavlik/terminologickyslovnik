@@ -91,9 +91,9 @@ div.csl-indent {
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     console.log('Inline script loaded. Initializing collapsible sections...');
-    const headings = document.querySelectorAll('h4.anchored');
+    const headings = document.querySelectorAll('h5.anchored');
     if (headings.length === 0) {
-      console.warn('No h4 elements found.');
+      console.warn('No h5 elements found.');
       return;
     }
 
@@ -263,10 +263,12 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="b">B</h2>
 <section id="sec-b-budykova-krivka" class="level4">
 <h4 class="anchored" data-anchor-id="sec-b-budykova-krivka">Budykova křivka</h4>
-<div class="collapsible">
 <p>Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu <span class="math display">\[
 P = Ea + Q,
 \]</span> kde <span class="math inline">\(\mathsf{P}\)</span> je dlouhodobý roční srážkový úhrn, <span class="math inline">\(\mathsf{Ea}\)</span> je výška dlouhodobé roční aktuální evapotranspirace a <span class="math inline">\(Q\)</span> je dlouhodobá výška ročního odtoku.</p>
+<section id="více" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více">Více</h5>
+<div class="collapsible">
 <p>Dle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku</p>
 <p><span class="math display">\[
 \frac{\mathsf{Q}}{\mathsf{P}} = 1- \frac{Ea}{P}.
@@ -415,6 +417,7 @@ P = Ea + Q,
 </div>
 </section>
 </div>
+</section>
 </section>
 <section id="bowenův-poměr" class="level4">
 <h4 class="anchored" data-anchor-id="bowenův-poměr">Bowenův poměr</h4>
