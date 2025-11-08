@@ -1,14 +1,21 @@
 ## E
 
 #### Eddy-kovariance {#sec-e-eddy-kovariance}
-::: collapsible
+
 (ekv. *eddy covariance*) Tento termín se do českého jazyka obvykle nepřekládá. Označuje se tak běžně kovariance vzduchového víření. 
+
+##### V detailu
+::: collapsible
+A tak ale himl
 :::
 
 #### Evaporace {#sec-e-evaporace}
+
+Odpařování z volné vodní hladiny, půdy a dalších povrchů bez zapojení živé vegetace.
+
 ::: collapsible
 
-**Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára).** Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.
+**Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára)**. Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.
 
 K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 \%$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než $70 \%$ zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze [sublimace](S.qmd#sec-s-sublimace).
 

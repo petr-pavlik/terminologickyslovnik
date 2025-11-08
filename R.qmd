@@ -15,4 +15,8 @@
 
 #### Referenční povrch {#sec-r-referencni-povrch}
 ::: collapsible
+
+Hypotetický povrch s níže uvedenými celoročně konstantní vlastnostmi označujeme jako referenční povrch.
+Výškou 0,12 m a konstantním albedem 0,23 
+
 :::

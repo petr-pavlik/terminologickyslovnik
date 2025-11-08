@@ -1,9 +1,9 @@
-# I
+## I
 
 #### Index aridity {#sec-i-index-aridity}
 
 ::: collapsible
-Číselný index, vyjadřující stuoeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, nebo-li vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha je naproti tomu epizodní. Ke sledování aridity se používá více indexů.
+Číselný index, vyjadřující stupeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, neboli vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha naproti tomu bývá epizodní. Ke sledování aridity se používá více indexů.
 
 $$
 \mathrm{AI_T} = 100\dfrac{d}{n}
@@ -14,19 +14,33 @@ $$
 další navrhl významný ruský klimatolog Mikhail Ivanovich Budyko.
 
 
-| Klasifikace      | Index aridity     | Globální Zemský povrch |
-|------------------|-------------------|------------------------|
-| Hyperaridní      |  $< 0.05$         | 7.5 %                  |
-| Aridní           | $0.05 < AI < 0.2$ | 12.1 %                 |
-| Semi-aridní      | $0.2 < AI < 0.5 $ | 17.7 %                 |
-| Suché subhumidní | $0.5 < AI < 0.65$ | 9.9 %                  |
+| Klasifikace      | Index aridity              |
+|------------------|----------------------------|
+| Hyper-aridní     |  $< 0.05$                  |
+| Aridní           | $0.05 < \mathrm{AI} < 0.2$ |
+| Semi-aridní      | $0.2 < \mathrm{AI} < 0.5$  |
+| Suché subhumidní | $0.5 < \mathrm{AI} < 0.65$ |
+| Humidní          | $0.65 < \mathrm{AI} < 0.75$|
+| Hyper-humidní    | $\mathrm{AI} > 0.75$       |
 
 :::
 
 #### Index sucha {#sec-i-index-sucha}
 ::: collapsible
+Hodnocení sucha z klimatologického hlediska je prováděno s pomocí standardizačních postupů, které vychází z místních dlouhodobých časových řad. 
+
+Rozlišujeme indexy:
+  - Standardizovaný srážkový index (zkráceně SPI)
+  - Palmerův index intenzity sucha (PDSI)
+  - Souhrnný index sucha
+:::
+
+#### Intercepce
+::: collapsible
+V podmínkách ČR je zejména v průběhu vegetačního období množství srážek zachyceno na vegetací. V celkovém objemu se nevsákne do země ani se nepodílí na odtokovém procesu. Zachycené srážky zůstanou například na listech. V hydrologickém modelování se odpařování zachycených srážek často opomíjí, nicméně toto množství ve specifických podmínkách může dosahovat až 20-40%. 
 :::
 
 #### Intercepční výpar {#sec-i-intercepcni-vypar}
 ::: collapsible
+Evapotranspirace je celkový výpar ze zemského povrchu do atmosféry, který se vztahuje k určitému území. Zahrnuje pohyb vody do vzduchu z půdy, vodních ploch a dešťovou vodu zachycenou na vegetaci - **intercepci srážek**. 
 :::

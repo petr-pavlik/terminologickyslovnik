@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
   console.log('Script loaded. Initializing collapsible sections...');
 
-  // Select all h4 elements with class 'anchored'
-  const headings = document.querySelectorAll('h4.anchored');
+  // Select all h5 elements with class 'anchored'
+  const headings = document.querySelectorAll('h5.anchored');
   if (headings.length === 0) {
-    console.warn('No h4 elements found.');
+    console.warn('No h5 elements found.');
     return;
   }
 

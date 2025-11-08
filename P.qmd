@@ -36,3 +36,8 @@ Penmman dále rozvinul vztah obecného porostu na referenční vegataci.
 
 S pomoci specificky zvolené rostliny - Tolice vojtěšky, jinak alfalfa (*Medicago sativa sp.*), byl urřen výpar z referenčního povrchu - tzv. *referenční plodinu*.
 :::
+
+#### Psachrometrická konstanta {#sec-p-psychrometricka-konstanta}
+
+::: collapsible
+:::

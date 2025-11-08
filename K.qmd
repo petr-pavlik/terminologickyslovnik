@@ -1,8 +1,19 @@
 # K 
 
 #### Kapilární vzlínání {#sec-k-kapilarni-vzlinani}
+::: collapsible
+Voda přilínající k půdním částečkám a molekulám půdní matrice začíná šplhat 
+:::
+
 
 #### Kondenzace {#sec-k-kondenzace}
+::: collapsible
+Kondenzace je proces, kdy vodní pára přechází do kapalného stavu, jedná se tedy o reverzní proces [*vypařování*](./E.html#sec-e-evaporace).
+
+:::
+
 
 #### Kutikulární výpar {#sec-k-kutikulareni-vypar}
+::: collapsible
 
+:::
