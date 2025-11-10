@@ -1,0 +1,19 @@
+# O
+
+#### Odtok {#sec-t-odtok}
+
+**Odtok** (angl. *runoff*) je **část srážkové vody, která po dopadu na zemský povrch odtéká z určitého území** buď **po povrchu** (*povrchový odtok*), nebo **pod povrchem půdy** (*podpovrchový* a *základní odtok*).  
+Odtok představuje **hlavní složku vodní bilance povodí** a je výsledkem **interakce srážek, výparu, vsakování, půdních a geologických podmínek** i **využívání krajiny**.
+
+##### Více {.detail}
+::: collapsible
+Rozlišujeme několik základních forem odtoku:
+
+- **povrchový odtok** – rychlý odtok vody po povrchu země, vznikající při přesycení půdy nebo při intenzivních srážkách,  
+- **podpovrchový odtok (interflow)** – pomalý pohyb vody nenasycenou zónou půdy směrem ke korytům,  
+- **základní (podzemní) odtok (baseflow)** – pozvolný přítok vody z nasycené zóny (podzemí) do vodních toků.
+
+Odtok se kvantifikuje v **hydrologických stanicích** měřením **průtoku ($Q$)** a vyjadřuje se v **m³·s⁻¹** nebo jako **výškový úhrn odtoku (mm)** za určité období.  
+
+Je klíčovým ukazatelem při **modelování hydrologických procesů**, **návrhu vodních staveb**, **řízení povodní** i **hodnocení vodní bilance území**.
+:::
