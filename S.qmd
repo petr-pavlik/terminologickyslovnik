@@ -386,13 +386,10 @@ $$
 D = e_s - e_a
 $$
 
-kde:
-
-\begin{itemize}
-  \item $D$ – sytostní doplněk (kPa),
-  \item $e_s$ – nasycený tlak vodní páry při dané teplotě (kPa),
-  \item $e_a$ – aktuální (skutečný) tlak vodní páry (kPa).
-\end{itemize}
+kde:<br>
+– $D$ je sytostní doplněk (kPa),<br>
+– $e_s$ nasycený tlak vodní páry při dané teplotě (kPa),<br>
+– $e_a$ aktuální (skutečný) tlak vodní páry (kPa).
 
 Vysoké hodnoty sytostního doplňku znamenají **suchý vzduch s vysokým potenciálem výparu**, zatímco nízké hodnoty odpovídají **vlhkému vzduchu blízkému nasycení**.  
 
@@ -415,15 +412,13 @@ $$
 H = \rho \, c_p \, \alpha \, \frac{A}{\tau}
 $$
 
-kde:
+kde:<br>
+– $\rho$ je hustota vzduchu (kg·m⁻³),
+– $c_p$ měrná tepelná kapacita vzduchu (J·kg⁻¹·K⁻¹),
+– $A$ průměrná amplituda rampy (°C·s),
+– $\tau$ průměrná doba trvání rampy (s),
+– $\alpha$ empirický kalibrační koeficient.
 
-\begin{itemize}
-  \item $\rho$ – hustota vzduchu (kg·m⁻³),
-  \item $c_p$ – měrná tepelná kapacita vzduchu (J·kg⁻¹·K⁻¹),
-  \item $A$ – průměrná amplituda rampy (°C·s),
-  \item $\tau$ – průměrná doba trvání rampy (s),
-  \item $\alpha$ – empirický kalibrační koeficient.
-\end{itemize}
 
 Metoda *surface renewal* je často **kalibrována vůči metodě eddy covariance**, přičemž umožňuje **měřit turbulentní toky s nižšími náklady**, protože vyžaduje pouze **rychlý teplotní senzor (termistor)** místo plné soustavy **trojosých anemometrů**.
 

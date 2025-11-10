@@ -12,13 +12,11 @@ Teorie optimality vychází z předpokladu, že stomatární vodivost ($g_s$) je
 $$
 \frac{\partial A}{\partial g_s} = \lambda \frac{\partial E}{\partial g_s}
 $$
-kde:
+kde:<br>
+– $A$ je rychlost asimilace CO$_2$,<br>
+– $E$ je rychlost transpirace,<br>
+– $\lambda$ je parametr vyjadřující poměr mezi hodnotou uhlíku a náklady na ztrátu vody.
 
-\begin{itemize}
-  \item $A$ – rychlost asimilace CO$_2$,
-  \item $E$ – rychlost transpirace,
-  \item $\lambda$ – parametr vyjadřující poměr mezi hodnotou uhlíku a náklady na ztrátu vody.
-\end{itemize}
 
 Z teorie optimality vycházejí moderní modely stomatární vodivosti (např. Ball–Berry, Leuning, Medlyn, Katul) i pokročilé modely fotosyntézy a výměny energie.
 
@@ -63,16 +61,13 @@ $$
 ET_m = 16 \left( \frac{L_m}{12} \right) \left( \frac{N_m}{30} \right) \left( \frac{10 \, T_m}{I} \right)^a
 $$
 
-kde:
-
-\begin{itemize}
-  \item $ET_m$ – měsíční potenciální evapotranspirace (mm),
-  \item $T_m$ – průměrná měsíční teplota (°C),
-  \item $L_m$ – průměrná délka dne (h),
-  \item $N_m$ – počet dní v měsíci,
-  \item $I$ – teplotní index, tj. součet $\left( \frac{T_m}{5} \right)^{1.514}$ za celý rok,
-  \item $a$ – empirický exponent vypočítaný z hodnoty $I$ podle vztahu:
-\end{itemize}
+kde:<br>
+– $ET_m$ je měsíční potenciální evapotranspirace (mm),<br>
+– $T_m$ průměrná měsíční teplota (°C),<br>
+– $L_m$ průměrná délka dne (h),<br>
+– $N_m$ počet dní v měsíci,<br>
+– $I$ teplotní index, tj. součet $\left( \frac{T_m}{5} \right)^{1.514}$ za celý rok,<br>
+– $a$ empirický exponent vypočítaný z hodnoty $I$ podle vztahu:
 
 $$
 a = 6.75 \times 10^{-7} I^3 - 7.71 \times 10^{-5} I^2 + 1.79 \times 10^{-2} I + 0.492
@@ -142,13 +137,11 @@ $$
 ET_c = K_c \times ET_0
 $$
 
-kde:
+kde:<br>
+– $ET_c$ je transpirační (celková) vláhová potřeba plodiny,<br>
+– $K_c$ koeficient plodiny, vyjadřující poměr mezi výparem konkrétní plodiny a referenční evapotranspirací,<br>
+– $ET_0$ referenční evapotranspirace stanovená pro standardní povrch.
 
-\begin{itemize}
-  \item $ET_c$ – transpirační (celková) vláhová potřeba plodiny,
-  \item $K_c$ – koeficient plodiny, vyjadřující poměr mezi výparem konkrétní plodiny a referenční evapotranspirací,
-  \item $ET_0$ – referenční evapotranspirace stanovená pro standardní povrch.
-\end{itemize}
 
 Transpirační vláhová potřeba je klíčovým ukazatelem při **plánování závlah**, **hodnocení vodní bilance** a **řízení hospodaření s vodou v zemědělství**, protože umožňuje stanovit, kolik vody je třeba dodat pro udržení optimálních podmínek růstu a produkce.
 :::
@@ -166,13 +159,10 @@ $$
 K_t = \frac{W}{B}
 $$
 
-kde:
-
-\begin{itemize}
-  \item $K_t$ – transpirační koeficient,
-  \item $W$ – množství vody spotřebované rostlinou (obvykle v litrech nebo kilogramech),
-  \item $B$ – množství vytvořené sušiny (v kilogramech).
-\end{itemize}
+kde:<br>
+– $K_t$ je transpirační koeficient,<br>
+– $W$ množství vody spotřebované rostlinou (obvykle v litrech nebo kilogramech),<br>
+– $B$ množství vytvořené sušiny (v kilogra– 
 
 Hodnoty transpiračního koeficientu se obvykle pohybují v rozmezí **200 až 1000**, což znamená, že rostlina spotřebuje přibližně **200–1000 kg vody na vytvoření 1 kg sušiny**.  
 Rozdíly závisí na druhu rostliny, podmínkách prostředí a intenzitě transpirace.
@@ -214,14 +204,12 @@ $$
 R_n - G = H + \lambda E
 $$
 
-kde:
+kde:<br>
+– $R_n$ je čistá radiační bilance,<br>
+– $G$ tok tepla do půdy,<br>
+– $H$ tok citelného tepla,<br>
+– $\lambda E$ latentní tok tepla (evapotranspirace).
 
-\begin{itemize}
-  \item $R_n$ – čistá radiační bilance,
-  \item $G$ – tok tepla do půdy,
-  \item $H$ – tok citelného tepla,
-  \item $\lambda E$ – latentní tok tepla (evapotranspirace).
-\end{itemize}
 
 V rámci modelu **TSEB** se celkový tok citelného i latentního tepla dělí na **složku půdní** ($H_s$, $\lambda E_s$) a **složku vegetační** ($H_c$, $\lambda E_c$).  
 Tento přístup umožňuje přesnější popis **heterogenních povrchů**, kde se teploty půdy a porostu výrazně liší.

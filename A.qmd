@@ -20,20 +20,19 @@ tření a turbulence způsobené překážkami (např. vegetací, budovami, reli
 ::: collapsible
 Formálně je aerodynamická drsnost parametrem v logaritmickém profilu větru:
 $$
-u(z)=u\cdot\kappa\ln⁡(z_z0)u(z)=\frac{u_{*}}{\kappa}\ln\left(\frac{z}{z_0}\right)u(z)\kappa u\cdot\ln(z_0z)
+u(z) = \frac{u_*}{\kappa} \ln\!\left(\frac{z}{z_0}\right)
 $$
-kde:
-
- -  $u(z)$ - je průměrná rychlost větru ve výšce $z$,\
- -  $u_{*}$ - třecí rychlost (*friction velocity*),\
- -  $\kappa$ - von Kármánova konstanta ($\approx)0.41$,\
- -  $Z_0$ - délka drsnosti, tedy výška, kde se rychlost větru teoreticky rovná nule.
+kde:<br>
+– $u(z)$ je průměrná rychlost větru ve výšce $z$,<br>
+– $u_{*}$ třecí rychlost (*friction velocity*),<br>
+– $\kappa$ von Kármánova konstanta ($\approx 0.41$),<br>
+– $z_0$ délka drsnosti, tedy výška, kde se rychlost větru teoreticky rovná nule.
 
 Hodnota $z$ závisí na charakteru povrchu:\ 
- -  hladká vodní hladina = $Z_0\approx0.0002\:\mathrm{m}$,\ 
- -  nízká tráva = $Z_0\approx0.01-0.03\:\mathrm{m}$,\ 
- -  obilné pole = $Z_0\approx0.01\:\mathrm{m}$,\ 
- -  les nebo město = $Z_0\approx0.5-2\:\mathrm{m}$.
+ -  hladká vodní hladina = $z_0\approx0.0002\:\mathrm{m}$,\ 
+ -  nízká tráva = $z_0\approx0.01-0.03\:\mathrm{m}$,\ 
+ -  obilné pole = $z_0\approx0.01\:\mathrm{m}$,\ 
+ -  les nebo město = $z_0\approx0.5-2\:\mathrm{m}$.
 
 **Aerodynamická drsnost** je klíčovým **parametrem pro výpočty proudění vzduchu, 
 výměny tepla, vodní páry a plynů mezi povrchem a atmosférou** a používá se v mikrometeorologii, 
