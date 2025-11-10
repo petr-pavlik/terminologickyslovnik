@@ -22,7 +22,6 @@ website:
       - S.qmd
       - T.qmd
       - V.qmd
-      - Z.qmd
       - href: Rozcestnik.qmd
         text: Rozcestník
       - href: Literatura.qmd
