@@ -247,8 +247,8 @@ window.Quarto = {
   <li><a href="#sec-t-stres-suchem" id="toc-sec-t-stres-suchem" class="nav-link" data-scroll-target="#sec-t-stres-suchem">Stres suchem</a></li>
   <li><a href="#sec-s-sublimace" id="toc-sec-s-sublimace" class="nav-link" data-scroll-target="#sec-s-sublimace">Sublimace</a></li>
   <li><a href="#sec-t-sytostni-doplnek" id="toc-sec-t-sytostni-doplnek" class="nav-link" data-scroll-target="#sec-t-sytostni-doplnek">Sytostní doplněk</a></li>
-  <li><a href="#sytostní-doplněk" id="toc-sytostní-doplněk" class="nav-link" data-scroll-target="#sytostní-doplněk">Sytostní doplněk</a></li>
   <li><a href="#sec-t-surface-renewal" id="toc-sec-t-surface-renewal" class="nav-link" data-scroll-target="#sec-t-surface-renewal">Surface renewal</a></li>
+  <li><a href="#sytostní-doplněk" id="toc-sytostní-doplněk" class="nav-link" data-scroll-target="#sytostní-doplněk">Sytostní doplněk</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -557,6 +557,30 @@ D = e_s - e_a
 </div>
 </section>
 </section>
+<section id="sec-t-surface-renewal" class="level4">
+<h4 class="anchored" data-anchor-id="sec-t-surface-renewal">Surface renewal</h4>
+<p><strong>Surface renewal</strong> (nemá zavedený český ekvivalent) je <strong>mikrometeorologická metoda</strong> používaná k <strong>odhadu turbulentních toků tepla, vodní páry nebo CO₂</strong> mezi povrchem a atmosférou.<br>
+Zakládá se na <strong>analýze rychlých teplotních fluktuací</strong> v přízemní vrstvě vzduchu nad povrchem.</p>
+<section id="více-9" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-9">Více</h5>
+<div class="collapsible">
+<p>Principem je, že <strong>turbulentní víry periodicky „obnovují“ vzduch u povrchu</strong> – střídavě přinášejí teplejší nebo chladnější vzduch z vyšších vrstev a odvádějí vzduch ochlazený nebo ohřátý kontaktem s povrchem.<br>
+Tvar těchto teplotních změn v čase (tzv. <em>rampový signál</em>) obsahuje informaci o <strong>intenzitě turbulentní výměny</strong>.</p>
+<p>Z analýzy časového průběhu teploty se určuje <strong>tok citelného tepla (<span class="math inline">\(H\)</span>)</strong> podle vztahu:</p>
+<p><span class="math display">\[
+H = \rho \, c_p \, \alpha \, \frac{A}{\tau}
+\]</span></p>
+<p>kde:</p>
+<p>Metoda <em>surface renewal</em> je často <strong>kalibrována vůči metodě eddy covariance</strong>, přičemž umožňuje <strong>měřit turbulentní toky s nižšími náklady</strong>, protože vyžaduje pouze <strong>rychlý teplotní senzor (termistor)</strong> místo plné soustavy <strong>trojosých anemometrů</strong>.</p>
+<p><strong>Výhody:</strong> - nižší cena a spotřeba energie,<br>
+- vhodná i pro malé a vzdálené experimentální plochy,<br>
+- možnost odhadu toků v reálném čase.</p>
+<p><strong>Nevýhody:</strong> - nutnost kalibrace,<br>
+- menší přesnost při nestabilních nebo silně proměnlivých podmínkách.</p>
+<p>Metoda <em>surface renewal</em> se používá v <strong>agrometeorologii, hydrologii, ekofyziologii a monitoringu evapotranspirace</strong>, zejména pro <strong>kvantifikaci toků energie a vody</strong> nad vegetací či půdou.</p>
+</div>
+</section>
+</section>
 <section id="sytostní-doplněk" class="level4 collapsible">
 <h4 class="anchored" data-anchor-id="sytostní-doplněk">Sytostní doplněk</h4>
 <p>Doplněk do maxima vlhkosti</p>
@@ -718,32 +742,8 @@ d_A = A-a\quad(\mathrm{g\cdot m^{-3}})
   document.getElementById("chart_max_vapor").append(chart);
 </script>
 </section>
-<section id="sec-t-surface-renewal" class="level4">
-<h4 class="anchored" data-anchor-id="sec-t-surface-renewal">Surface renewal</h4>
-<p><strong>Surface renewal</strong> (nemá zavedený český ekvivalent) je <strong>mikrometeorologická metoda</strong> používaná k <strong>odhadu turbulentních toků tepla, vodní páry nebo CO₂</strong> mezi povrchem a atmosférou.<br>
-Zakládá se na <strong>analýze rychlých teplotních fluktuací</strong> v přízemní vrstvě vzduchu nad povrchem.</p>
-<section id="více-9" class="level5 detail">
-<h5 class="detail anchored" data-anchor-id="více-9">Více</h5>
-<div class="collapsible">
-<p>Principem je, že <strong>turbulentní víry periodicky „obnovují“ vzduch u povrchu</strong> – střídavě přinášejí teplejší nebo chladnější vzduch z vyšších vrstev a odvádějí vzduch ochlazený nebo ohřátý kontaktem s povrchem.<br>
-Tvar těchto teplotních změn v čase (tzv. <em>rampový signál</em>) obsahuje informaci o <strong>intenzitě turbulentní výměny</strong>.</p>
-<p>Z analýzy časového průběhu teploty se určuje <strong>tok citelného tepla (<span class="math inline">\(H\)</span>)</strong> podle vztahu:</p>
-<p><span class="math display">\[
-H = \rho \, c_p \, \alpha \, \frac{A}{\tau}
-\]</span></p>
-<p>kde:</p>
-<p>Metoda <em>surface renewal</em> je často <strong>kalibrována vůči metodě eddy covariance</strong>, přičemž umožňuje <strong>měřit turbulentní toky s nižšími náklady</strong>, protože vyžaduje pouze <strong>rychlý teplotní senzor (termistor)</strong> místo plné soustavy <strong>trojosých anemometrů</strong>.</p>
-<p><strong>Výhody:</strong> - nižší cena a spotřeba energie,<br>
-- vhodná i pro malé a vzdálené experimentální plochy,<br>
-- možnost odhadu toků v reálném čase.</p>
-<p><strong>Nevýhody:</strong> - nutnost kalibrace,<br>
-- menší přesnost při nestabilních nebo silně proměnlivých podmínkách.</p>
-<p>Metoda <em>surface renewal</em> se používá v <strong>agrometeorologii, hydrologii, ekofyziologii a monitoringu evapotranspirace</strong>, zejména pro <strong>kvantifikaci toků energie a vody</strong> nad vegetací či půdou.</p>
-</div>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
