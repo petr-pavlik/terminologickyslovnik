@@ -33,8 +33,9 @@ $$
 $$
 
 kde:
-- $\lambda E$ – energetický tok (W·m⁻²),  
-- $ET_a$ – množství odpařené vody (kg·m⁻²·s⁻¹ nebo mm·den⁻¹).
+
+-  $\lambda E$ je energetický tok (W·m⁻²),\  
+-  $ET_a$ je množství odpařené vody (kg·m⁻²·s⁻¹ nebo mm·den⁻¹).
 
 Latentní teplo výparu je klíčovým faktorem při **výpočtech výparu, přenosu energie, tvorbě oblaků** i **stabilitě atmosféry**, protože představuje **hlavní cestu přeměny energie mezi povrchem Země a atmosférou**.
 :::

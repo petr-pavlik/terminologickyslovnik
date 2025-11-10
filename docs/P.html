@@ -276,6 +276,18 @@ Popisuje <strong>výpar z povrchu (včetně vegetace)</strong> na základě <str
 \lambda E = \frac{ \Delta (R_n - G) + \rho c_p \frac{(e_s - e_a)}{r_a} }{ \Delta + \gamma \left( 1 + \frac{r_s}{r_a} \right) }
 \]</span></p>
 <p>kde:</p>
+<ul>
+<li><span class="math inline">\(\lambda E\)</span> – je latentní tok tepla (W·m⁻²),</li>
+<li><span class="math inline">\(R_n\)</span> – tok čisté sálavé energie (W·m⁻²),</li>
+<li><span class="math inline">\(G\)</span> – tok tepla do půdy (W·m⁻²),</li>
+<li><span class="math inline">\(\rho\)</span> – hustota vzduchu (kg·m⁻³),</li>
+<li><span class="math inline">\(c_p\)</span> – měrná tepelná kapacita vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),</li>
+<li><span class="math inline">\((e_s - e_a)\)</span> – rozdíl mezi nasyceným a skutečným tlakem vodní páry (Pa),</li>
+<li><span class="math inline">\(r_a\)</span> – aerodynamický odpor (s·m⁻¹),</li>
+<li><span class="math inline">\(r_s\)</span> – stomatární (povrchový) odpor (s·m⁻¹),</li>
+<li><span class="math inline">\(\Delta\)</span> – směrnice křivky nasycení vodní párou (Pa·K⁻¹),</li>
+<li><span class="math inline">\(\gamma\)</span> – psychrometrická konstanta (Pa·K⁻¹).</li>
+</ul>
 <p>Penman–Monteithova rovnice vyjadřuje <strong>rovnováhu mezi energií dostupnou pro výpar a schopností atmosféry odvádět vodní páru</strong>.<br>
 Tvoří základ <strong>moderních metod pro výpočet evapotranspirace</strong>, <strong>hodnocení vodní bilance</strong> a <strong>modelování výměny energie mezi povrchem a atmosférou</strong>.</p>
 </div>
@@ -316,9 +328,18 @@ Udává, <strong>o kolik se musí změnit teplota vzduchu, aby došlo ke změně
 <p>Psychrometrická konstanta se používá při <strong>výpočtu evapotranspirace</strong>, <strong>vlhkosti vzduchu</strong> a v <strong>psychrometrických rovnicích</strong> (např. v <em>Penman–Monteithově rovnici</em>).<br>
 Její hodnota závisí na <strong>atmosférickém tlaku</strong> a přibližně se určuje ze vztahu:</p>
 <p><span class="math display">\[
-\gamma = \frac{c_p \, P}{\varepsilon \, \lambda}
+\gamma = \frac{c_p \, AP}{\varepsilon \, \lambda}
 \]</span></p>
 <p>kde:</p>
+<ul>
+<li><span class="math inline">\(c_p\)</span> – je měrná tepelná kapacita suchého vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),<br>
+</li>
+<li><span class="math inline">\(AP\)</span> – atmosférický tlak (Pa),<br>
+</li>
+<li><span class="math inline">\(\varepsilon\)</span> – poměr molekulových hmotností vodní páry a suchého vzduchu (≈ 0,622),<br>
+</li>
+<li><span class="math inline">\(\lambda\)</span> – latentní výparné teplo vody (J·kg⁻¹).</li>
+</ul>
 <p>Při <strong>standardním atmosférickém tlaku</strong> (101,3 kPa) má psychrometrická konstanta hodnotu přibližně <strong>0,066 kPa·°C⁻¹</strong>.<br>
 Je klíčovým parametrem pro <strong>popis výměny energie a vodní páry</strong> mezi povrchem a atmosférou.</p>
 </div>
@@ -326,14 +347,14 @@ Je klíčovým parametrem pro <strong>popis výměny energie a vodní páry</str
 </section>
 <section id="sec-t-potencialni-evapotranspirace" class="level4">
 <h4 class="anchored" data-anchor-id="sec-t-potencialni-evapotranspirace">Potenciální evapotranspirace</h4>
-<p><strong>Potenciální evapotranspirace</strong> (angl. <em>potential evapotranspiration</em>, zkr. <em>ETₚ</em>) je <strong>množství vody, které by se mohlo odpařit a transpirovat z povrchu půdy a vegetace</strong>, pokud by byla <strong>k dispozici neomezená zásoba vody</strong>.<br>
+<p><strong>Potenciální evapotranspirace</strong> (angl. <em>potential evapotranspiration</em>, zkr. *<span class="math inline">\(PET\)</span>) je <strong>množství vody, které by se mohlo odpařit a transpirovat z povrchu půdy a vegetace</strong>, pokud by byla <strong>k dispozici neomezená zásoba vody</strong>.<br>
 Vyjadřuje tedy <strong>maximální možnou intenzitu výparu</strong> za daných <strong>meteorologických podmínek</strong> (teplota, sluneční záření, vítr, vlhkost vzduchu).</p>
 <section id="více-3" class="level5 detail">
 <h5 class="detail anchored" data-anchor-id="více-3">Více</h5>
 <div class="collapsible">
 <p>Potenciální evapotranspirace představuje <strong>atmosférickou poptávku po vodě</strong> a závisí výhradně na <strong>klimatických faktorech</strong>, nikoli na dostupnosti vody v půdě.<br>
 Při skutečném nedostatku vody bývá reálná (aktuální) evapotranspirace nižší než potenciální.</p>
-<p>Hodnota <em>ETₚ</em> se obvykle určuje z empirických nebo fyzikálních rovnic, např. podle <strong>Penman–Monteithovy</strong> či <strong>Thornthwaitovy</strong> rovnice.</p>
+<p>Hodnota <span class="math inline">\(PET\)</span> se obvykle určuje z empirických nebo fyzikálních rovnic, např. podle <strong>Penman–Monteithovy</strong> či <strong>Thornthwaitovy</strong> rovnice.</p>
 <p>Potenciální evapotranspirace se používá jako <strong>indikátor sušších podmínek</strong> a jako <strong>vstupní veličina</strong> pro výpočty <strong>vodní bilance</strong>, <strong>zavlažovacích potřeb</strong> i <strong>modelování sucha a klimatu</strong>.</p>
 </div>
 </section>

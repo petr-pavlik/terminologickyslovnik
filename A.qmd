@@ -23,9 +23,10 @@ $$
 u(z)=u\cdot\kappa\ln⁡(z_z0)u(z)=\frac{u_{*}}{\kappa}\ln\left(\frac{z}{z_0}\right)u(z)\kappa u\cdot\ln(z_0z)
 $$
 kde:
- -  $u(z)$ - průměrná rychlost větru ve výšce $z$\
- -  $u_{*}$ - třecí rychlost (*friction velocity*)\
- -  $\kappa$ - von Kármánova konstanta ($\approx)0.41$\
+
+ -  $u(z)$ - je průměrná rychlost větru ve výšce $z$,\
+ -  $u_{*}$ - třecí rychlost (*friction velocity*),\
+ -  $\kappa$ - von Kármánova konstanta ($\approx)0.41$,\
  -  $Z_0$ - délka drsnosti, tedy výška, kde se rychlost větru teoreticky rovná nule.
 
 Hodnota $z$ závisí na charakteru povrchu:\ 
