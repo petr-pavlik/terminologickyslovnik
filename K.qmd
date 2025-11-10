@@ -9,13 +9,15 @@ Tento jev umožňuje, aby se **voda pohybovala proti gravitaci** z vlhčích spo
 ##### Více {.detail}
 ::: collapsible
 Výška kapilárního vzlínání závisí na **velikosti pórů**:
-- v **jemnozrnných půdách** (např. jílech) může dosahovat **desítek centimetrů**,  
-- v **hrubozrnných půdách** (např. píscích) je **mnohem menší**.
+
+-  v **jemnozrnných půdách** (např. jílech) může dosahovat **desítek centimetrů**,\
+-  v **hrubozrnných půdách** (např. píscích) je **mnohem menší**.
 
 Kapilární vzlínání hraje klíčovou roli v:
-- **pohybu vody v půdním profilu**,  
-- **zásobování rostlin vodou**,  
-- **procesu evaporace z půdy**.
+
+-  **pohybu vody v půdním profilu**,\
+-  **zásobování rostlin vodou**,\
+-  **procesu evaporace z půdy**.
 
 Je základním mechanismem, který propojuje **půdní vodu** s **atmosférickými procesy výparu** a ovlivňuje **vodní bilanci půdy i dostupnost vody pro vegetaci**.
 :::
@@ -30,16 +32,18 @@ Obvykle se hodnotí na základě **dlouhodobých pozorování** (standardně za 
 Klima je výsledkem **vzájemného působení složek klimatického systému** –  
 **atmosféry, hydrosféry, kryosféry, litosféry a biosféry**.  
 Je ovlivňováno faktory, jako jsou:
-- **zeměpisná poloha**,  
-- **nadmořská výška**,  
-- **vzdálenost od moře a mořské proudy**,  
-- **reliéf**,  
-- **vegetace**.
+
+-  **zeměpisná poloha**,\ 
+-  **nadmořská výška**,\  
+-  **vzdálenost od moře a mořské proudy**,\  
+-  **reliéf**,\  
+-  **vegetace**.
 
 Studium klimatu (**klimatologie**) se zaměřuje na:
-- **analýzu klimatických charakteristik**,  
-- **klasifikaci klimatických oblastí**,  
-- **dlouhodobé změny klimatu a jejich dopady** na přírodní i společenské systémy.
+
+-  **analýzu klimatických charakteristik**,\  
+-  **klasifikaci klimatických oblastí**,\  
+-  **dlouhodobé změny klimatu a jejich dopady** na přírodní i společenské systémy.
 
 Pochopení klimatu je klíčové pro **modelování vodní bilance**, **zemědělské plánování**, **ekologii** i **hodnocení změny klimatu**.
 :::
@@ -55,16 +59,18 @@ Klimatické modely vycházejí z **rovnic dynamiky tekutin**, **zákonů termody
 Tyto rovnice (např. **Navier–Stokesovy**) jsou **řešeny numericky** v **trojrozměrné síti (gridu)**, která pokrývá celý glóbus.
 
 Podle složitosti rozlišujeme:
-- **jednoduché modely energetické bilance (EBM)** – popisují základní vztah mezi příjmem a ztrátou energie,  
-- **modely obecné cirkulace atmosféry (GCM – General Circulation Models)**,  
-- **regionální klimatické modely (RCM – Regional Climate Models)** – zpřesňují výpočty pro menší oblasti,  
-- **integrované modely systému Země (ESM – Earth System Models)** – zahrnují i **biogeochemické cykly** (uhlík, dusík apod.).
+
+-  **jednoduché modely energetické bilance (EBM)** – popisují základní vztah mezi příjmem a ztrátou energie,\ 
+-  **modely obecné cirkulace atmosféry (GCM – General Circulation Models)**,\  
+-  **regionální klimatické modely (RCM – Regional Climate Models)** – zpřesňují výpočty pro menší oblasti,\  
+-  **integrované modely systému Země (ESM – Earth System Models)** – zahrnují i **biogeochemické cykly** (uhlík, dusík apod.).\
 
 Klimatické modely se používají pro:
-- **projekce budoucího vývoje klimatu**,  
-- **hodnocení dopadů emisních scénářů**,  
-- **studium klimatických procesů**,  
-- **tvorbu adaptačních strategií**.
+
+-  **projekce budoucího vývoje klimatu**,\  
+-  **hodnocení dopadů emisních scénářů**,\  
+-  **studium klimatických procesů**,\  
+-  **tvorbu adaptačních strategií**.
 
 Jsou základem **zpráv IPCC** a představují **klíčový nástroj moderní klimatologie**.
 :::
@@ -78,13 +84,15 @@ Vyjadřuje, **o kolik se změní průměrná globální teplota vzduchu** při *
 ::: collapsible
 Klimatická sensitivita se obvykle udává v **°C na zdvojnásobení CO₂** a podle současných odhadů se pohybuje přibližně v rozmezí **1,5–4,5 °C**.  
 Zahrnuje nejen **přímý radiační účinek CO₂**, ale i **zpětné vazby v klimatickém systému**, například:
-- změny v **obsahu vodní páry**,  
-- **oblačnosti**,  
-- **sněhové pokrývce** a **albedu**.
+
+-  změny v **obsahu vodní páry**,\  
+-  **oblačnosti**,\  
+-  **sněhové pokrývce** a **albedu**.
 
 Rozlišujeme:
-- **okamžitou sensitivitu (TCR – Transient Climate Response)** – změna teploty při postupném nárůstu CO₂ během několika desetiletí,  
-- **rovnovážnou sensitivitu (ECS – Equilibrium Climate Sensitivity)** – dlouhodobá změna po dosažení tepelné rovnováhy systému.
+
+-  **okamžitou sensitivitu (TCR – Transient Climate Response)** – změna teploty při postupném nárůstu CO₂ během několika desetiletí,\  
+-  **rovnovážnou sensitivitu (ECS – Equilibrium Climate Sensitivity)** – dlouhodobá změna po dosažení tepelné rovnováhy systému.\
 
 Klimatická sensitivita je **klíčovým parametrem globálních klimatických modelů (GCM)** a určuje **velikost budoucího oteplení i nejistotu klimatických projekcí**.
 :::
@@ -97,9 +105,10 @@ Při kondenzaci se **uvolňuje latentní teplo**, což má **významný vliv na 
 ##### Více {.detail}
 ::: collapsible
 Kondenzace probíhá na **kondenzačních jádrech** (např. prachové částice, soli, aerosoly) a vede ke vzniku:
-- **mlhy**,  
-- **oblaků**,  
-- **rosy** nebo **jinovatky**.
+
+-  **mlhy**,\  
+-  **oblaků**,\  
+-  **rosy** nebo **jinovatky**.
 
 V širším smyslu představuje kondenzace **klíčový článek koloběhu vody v přírodě**, protože znamená **přechod vodní páry zpět do kapalné fáze**, z níž může následně vznikat **atmosférické srážení**.
 
@@ -115,14 +124,16 @@ Tento proces probíhá **nezávisle na průduších (stomatech)** a představuje
 ##### Více {.detail}
 ::: collapsible
 Kutikulární výpar se stává významnějším tehdy, když:
-- jsou **průduchy uzavřené** (např. při suchu),  
-- má rostlina **tenkou nebo poškozenou kutikulu**.
+
+-  jsou **průduchy uzavřené** (např. při suchu),\  
+-  má rostlina **tenkou nebo poškozenou kutikulu**.
 
 Míra kutikulárního výparu závisí na:
-- **teplotě**,  
-- **vlhkosti vzduchu**,  
-- **intenzitě slunečního záření**,  
-- **vlastnostech kutikuly** (tloušťka, chemické složení, přítomnost vosků).
+
+-  **teplotě**,\  
+-  **vlhkosti vzduchu**,\  
+-  **intenzitě slunečního záření**,\  
+-  **vlastnostech kutikuly** (tloušťka, chemické složení, přítomnost vosků).
 
 Kutikulární výpar hraje roli v **celkové vodní bilanci rostlin** a jejich **přizpůsobení suchým či vlhkým podmínkám prostředí**, zejména u druhů s různou **morfologií a anatomickou stavbou listů**.
 :::

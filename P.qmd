@@ -15,18 +15,17 @@ $$
 
 kde:
 
-\begin{itemize}
-  \item $\lambda E$ – latentní tok tepla (W·m⁻²),
-  \item $R_n$ – tok čisté sálavé energie (W·m⁻²),
-  \item $G$ – tok tepla do půdy (W·m⁻²),
-  \item $\rho$ – hustota vzduchu (kg·m⁻³),
-  \item $c_p$ – měrná tepelná kapacita vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),
-  \item $(e_s - e_a)$ – rozdíl mezi nasyceným a skutečným tlakem vodní páry (Pa),
-  \item $r_a$ – aerodynamický odpor (s·m⁻¹),
-  \item $r_s$ – stomatární (povrchový) odpor (s·m⁻¹),
-  \item $\Delta$ – směrnice křivky nasycení vodní párou (Pa·K⁻¹),
-  \item $\gamma$ – psychrometrická konstanta (Pa·K⁻¹).
-\end{itemize}
+ -  $\lambda E$ – je latentní tok tepla (W·m⁻²),
+ -  $R_n$ – tok čisté sálavé energie (W·m⁻²),
+ -  $G$ – tok tepla do půdy (W·m⁻²),
+ -  $\rho$ – hustota vzduchu (kg·m⁻³),
+ -  $c_p$ – měrná tepelná kapacita vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),
+ -  $(e_s - e_a)$ – rozdíl mezi nasyceným a skutečným tlakem vodní páry (Pa),
+ -  $r_a$ – aerodynamický odpor (s·m⁻¹),
+ -  $r_s$ – stomatární (povrchový) odpor (s·m⁻¹),
+ -  $\Delta$ – směrnice křivky nasycení vodní párou (Pa·K⁻¹),
+ -  $\gamma$ – psychrometrická konstanta (Pa·K⁻¹).
+
 
 Penman–Monteithova rovnice vyjadřuje **rovnováhu mezi energií dostupnou pro výpar a schopností atmosféry odvádět vodní páru**.  
 Tvoří základ **moderních metod pro výpočet evapotranspirace**, **hodnocení vodní bilance** a **modelování výměny energie mezi povrchem a atmosférou**.
@@ -66,17 +65,16 @@ Psychrometrická konstanta se používá při **výpočtu evapotranspirace**, **
 Její hodnota závisí na **atmosférickém tlaku** a přibližně se určuje ze vztahu:
 
 $$
-\gamma = \frac{c_p \, P}{\varepsilon \, \lambda}
+\gamma = \frac{c_p \, AP}{\varepsilon \, \lambda}
 $$
 
 kde:
 
-\begin{itemize}
-  \item $c_p$ – měrná tepelná kapacita suchého vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),
-  \item $P$ – atmosférický tlak (Pa),
-  \item $\varepsilon$ – poměr molekulových hmotností vodní páry a suchého vzduchu (≈ 0,622),
-  \item $\lambda$ – latentní výparné teplo vody (J·kg⁻¹).
-\end{itemize}
+ -  $c_p$ – je měrná tepelná kapacita suchého vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),\
+ -  $AP$ – atmosférický tlak (Pa),\
+ -  $\varepsilon$ – poměr molekulových hmotností vodní páry a suchého vzduchu (≈ 0,622),\
+ -  $\lambda$ – latentní výparné teplo vody (J·kg⁻¹).
+
 
 Při **standardním atmosférickém tlaku** (101,3 kPa) má psychrometrická konstanta hodnotu přibližně **0,066 kPa·°C⁻¹**.  
 Je klíčovým parametrem pro **popis výměny energie a vodní páry** mezi povrchem a atmosférou.
@@ -84,7 +82,7 @@ Je klíčovým parametrem pro **popis výměny energie a vodní páry** mezi pov
 
 #### Potenciální evapotranspirace {#sec-t-potencialni-evapotranspirace}
 
-**Potenciální evapotranspirace** (angl. *potential evapotranspiration*, zkr. *ETₚ*) je **množství vody, které by se mohlo odpařit a transpirovat z povrchu půdy a vegetace**, pokud by byla **k dispozici neomezená zásoba vody**.  
+**Potenciální evapotranspirace** (angl. *potential evapotranspiration*, zkr. *$PET$) je **množství vody, které by se mohlo odpařit a transpirovat z povrchu půdy a vegetace**, pokud by byla **k dispozici neomezená zásoba vody**.  
 Vyjadřuje tedy **maximální možnou intenzitu výparu** za daných **meteorologických podmínek** (teplota, sluneční záření, vítr, vlhkost vzduchu).
 
 ##### Více {.detail}
@@ -92,7 +90,7 @@ Vyjadřuje tedy **maximální možnou intenzitu výparu** za daných **meteorolo
 Potenciální evapotranspirace představuje **atmosférickou poptávku po vodě** a závisí výhradně na **klimatických faktorech**, nikoli na dostupnosti vody v půdě.  
 Při skutečném nedostatku vody bývá reálná (aktuální) evapotranspirace nižší než potenciální.
 
-Hodnota *ETₚ* se obvykle určuje z empirických nebo fyzikálních rovnic, např. podle **Penman–Monteithovy** či **Thornthwaitovy** rovnice.
+Hodnota $PET$ se obvykle určuje z empirických nebo fyzikálních rovnic, např. podle **Penman–Monteithovy** či **Thornthwaitovy** rovnice.
 
 Potenciální evapotranspirace se používá jako **indikátor sušších podmínek** a jako **vstupní veličina** pro výpočty **vodní bilance**, **zavlažovacích potřeb** i **modelování sucha a klimatu**.
 :::

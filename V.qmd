@@ -25,14 +25,16 @@ $$
 \Psi_\ell = \Psi_p + \Psi_s + \Psi_g
 $$
 kde:
-- $\Psi_p$ – tlakový (turgorový) potenciál,
-- $\Psi_s$ – osmotický potenciál (potenciál rozpuštěných látek),
-- $\Psi_g$ – gravitační potenciál (u listů obvykle zanedbatelný).
+
+-  $\Psi_p$ – tlakový (turgorový) potenciál,\
+-  $\Psi_s$ – osmotický potenciál (potenciál rozpuštěných látek),\
+-  $\Psi_g$ – gravitační potenciál (u listů obvykle zanedbatelný).
 
 Typické hodnoty $\Psi_\ell$:
-- dobře zavlažené rostliny: $-0.3 \text{ až } -0.8\ \text{MPa}$,
-- mírný vodní stres: $-1.0 \text{ až } -1.5\ \text{MPa}$,
-- silný stres: $< -2.0\ \text{MPa}$.
+
+-  dobře zavlažené rostliny: $-0.3 \text{ až } -0.8\ \text{MPa}$,\
+-  mírný vodní stres: $-1.0 \text{ až } -1.5\ \text{MPa}$,\
+-  silný stres: $< -2.0\ \text{MPa}$.
 
 Měření $\Psi_\ell$ se provádí např. tlakovou komorou (*Scholanderova komora*) nebo psychrometricky. Tento parametr je klíčový pro hodnocení vodního stavu rostlin, jejich odolnosti vůči suchu a pro řízení závlah v zemědělství.
 :::
