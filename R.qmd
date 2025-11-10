@@ -1,7 +1,111 @@
 ## R
 
-#### Referenční evapotranspirace $\mathsf{(ET_o)}\:$ {#sec-r-referencni-evapotranspirace}
-::: collapsible
+#### Radiace
+
+**Radiace** (angl. radiation) je **přenos energie prostřednictvím elektromagnetického záření**, který nevyžaduje hmotné prostředí. V meteorologii, klimatologii a fyzické geografií označuje **zářivou energii* přicházející ze Slunce nebo vyzařovanou Zemí a její atmosférou**.
+
+
+Rozlišujeme dva hlavní typy radiace:
+
+
+- **krátkovlnnou (solární) radiaci** – záření o vlnových délkách přibližně 0,3–3 μm, které vyzařuje Slunce; část je **pohlcena, rozptýlena nebo odražena** atmosférou a zemským povrchem,
+
+
+- **dlouhovlnnou (terestrickou) radiaci** – záření s vlnovými délkami přibližně 4–100 μm, které **Země a atmosféra vyzařují zpět do prostoru**.
+
+Radiace je hlavním zdrojem energie pro **počasí, klima a biogeofyzikální procesy** – ovlivňuje **teplotu vzduchu, výpar, fotosyntézu, tvorbu oblačnosti i energetickou bilanci povrchu**. Měří se pomocí **pyranometrů (celková krátkovlnná radiace), pyrgeometrů (dlouhovlnná radiace)** a **aktinometrů**, obvykle v jednotkách **W·m⁻²**.
+
+::: 
+
+#### Radiační bilance
+
+**Radiační bilance** (angl. radiation balance nebo radiation budget) je **rozdíl mezi celkovým příjmem a výdejem zářivé energie** na povrchu Země nebo v atmosféře. Vyjadřuje, kolik **slunečního (krátkovlnného) a zemského (dlouhovlnného) záření** daný systém přijímá a kolik ho vyzařuje zpět do okolí.
+
+
+Základní rovnice radiační bilance povrchu je:
+
+
+Rn=(K↓−K↑)+(L↓−L↑)R_n = (K_\downarrow - K_\uparrow) + (L_\downarrow - L_\uparrow)Rn​=(K↓​−K↑​)+(L↓​−L↑​)
+
+kde:
+- Rₙ – čistá radiační bilance (W·m⁻²),
+
+
+- K↓ – dopadající krátkovlnné (sluneční) záření,
+
+
+- K↑ – odražené krátkovlnné záření (závislé na albedu),
+
+
+- L↓ – dopadající dlouhovlnné (atmosférické) záření,
+
+
+L↑ – vyzařované dlouhovlnné záření povrchu.
+
+
+Kladná hodnota Rₙ znamená **přebytek energie** (ohřev povrchu), záporná naopak **ztrátu energie** (ochlazování). Radiační bilance je klíčovou složkou **energetické bilance Země**, určuje **teplotní režim povrchu**, ovlivňuje **evapotranspiraci, konvekci, fotosyntézu a je zásadní pro modelování klimatu a ekosystémových procesů**.
+
+
+#### Relativní vlhkost vzduchu
+
+**Relativní vlhkost vzduchu** (angl. relative humidity, značka RH) je **poměr mezi aktuálním množstvím vodní páry ve vzduchu a maximálním množstvím, které by vzduch mohl při dané teplotě obsahovat (tedy nasycením)**. Vyjadřuje se v procentech a udává, **jak blízko je vzduch stavu nasycení vodní párou**.
+
+Matematicky:
+
+RH=eaes×100RH = \frac{e_a}{e_s} \times 100RH=es​ea​​×100
+
+kde:
+
+- eₐ – skutečný tlak vodní páry (kPa),
+
+
+- eₛ – nasycený tlak vodní páry při dané teplotě (kPa).
+
+
+Relativní vlhkost závisí především na **teplotě vzduchu** – při zahřívání vzduchu klesá (vzduch pojme více vodní páry), při ochlazování stoupá a může dosáhnout **100 %**, kdy nastává **kondenzace** (tvorba rosy, mlhy nebo oblaků).
+
+Relativní vlhkost je důležitým ukazatelem **pohody prostředí, výparu, transpirace, stability atmosféry i energetické bilance**, a měří se **vlhkoměry (hygrometry)** nebo **psychrometry**.
+
+
+#### RCM
+
+**RCM** (Regional Climate Model) je **regionální klimatický model** používaný k simulaci klimatu na menších územních měřítkách než globální modely (GCM). RCM pracuje s **jemnější prostorovou rozlišovací schopností** a popisuje podrobněji **regionální procesy**, jako jsou orografické srážky, místní větry nebo vliv vodních ploch. Model obvykle využívá **okrajové podmínky z GCM** (tzv. downscaling), aby zpřesnil globální klimatické výpočty pro konkrétní oblast. RCM se používají pro **analýzy dopadů změny klimatu** na regionální úrovni, např. pro hodnocení rizik sucha, povodní nebo extrémních teplot.
+
+
+#### Recyklace srážek
+
+
+**Recyklace srážek** (angl. precipitation recycling) je **proces, při němž se část srážkové vody, která spadne na určité území, znovu odpaří (evaporací z povrchu a transpirací vegetace) a následně přispívá ke vzniku dalších srážek ve stejné oblasti**. Jde tedy o uzavřenou část regionálního koloběhu vody, kdy se vlhkost vyprodukovaná v daném regionu vrací zpět ve formě srážek.
+
+Míra recyklace srážek se vyjadřuje pomocí **koeficientu recyklace (ρ)**:
+
+ρ=PlokaˊlnıˊPcelkovaˊρ = \frac{P_\text{lokální}}{P_\text{celková}}ρ=Pcelkovaˊ​Plokaˊlnıˊ​​
+
+kde:
+
+- Pₗₒₖₐₗₙí – srážky vzniklé z lokální evapotranspirace,
+
+
+- P_celková – celkové srážky v oblasti.
+
+
+**Význam recyklace srážek závisí na prostorovém měřítku:**
+
+- v malých povodích (do ~100 km) je recyklace obvykle zanedbatelná,
+
+
+- v regionálním měřítku (stovky až tisíce kilometrů) může tvořit 10–30 % srážek,
+
+
+- ve velkých kontinentálních systémech, jako je Amazonie, Sahel nebo Tibet, může dosahovat až 40–50 %.
+
+
+Recyklace srážek je tedy významným mechanismem **udržování regionální vlhkosti a stability klimatu**, zejména v oblastech s **rozsáhlou vegetací nebo slabým přísunem vlhkosti z oceánu**. Změny ve využití krajiny (např. **odlesňování nebo degradace půdy**) mohou tento proces **narušit** a vést ke **snížení srážek a zesílení sucha**.
+
+#### Referenční evapotranspirace
+
+**Referenční evapotranspirace** (angl. reference evapotranspiration, zkr. ET₀) je teoretická hodnota evapotranspirace stanovená pro **referenční porost** s definovanými vlastnostmi, obvykle pro krátký, dobře zavlažený travní porost s úplným pokryvem půdy. Slouží jako **standardní ukazatel klimatického potenciálu výparu** nezávislý na konkrétní plodině nebo půdních podmínkách. Referenční evapotranspirace se používá při **výpočtu potřeb závlahy a modelování vodní bilance**, přičemž se běžně určuje pomocí rovnice **Penman-Monteith FAO-56**.
+
 <p>
     **Referenční evapotranspirace (ET<sub>o</sub>)** představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s&#183;m<sup>-1</sup>). 
 </p>
@@ -9,14 +113,33 @@
     Referenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ET<sub>o</sub> se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ET<sub>o</sub> velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace (ET<sub>a</sub>) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ET<sub>a</sub>. 
 </p>
 <p>
-    Dle metodiky FAO-56 [@allen1998crop] je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
+    Dle metodiky FAO-56 (Allen et al., 1998) je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
 </p>
 :::
 
-#### Referenční povrch {#sec-r-referencni-povrch}
-::: collapsible
 
-Hypotetický povrch s níže uvedenými celoročně konstantní vlastnostmi označujeme jako referenční povrch.
-Výškou 0,12 m a konstantním albedem 0,23. Referenční povrch definuje povrchový odpor $r_s$.
+#### Referenční povrch
 
-:::
+
+**Referenční povrch** (angl. reference surface) je **standardizovaný ideální povrch**, na který se vztahuje výpočet **referenční evapotranspirace (ET₀)**. Je definován jako **rovinný, homogenní travní porost** o výšce přibližně **0,12 m**, který je **aktivně rostoucí, plně pokrývá půdu** a má **neomezený přístup k vodě**.
+
+Pro tento povrch se obvykle uvažuje:
+
+- **povrchový odpor** (rₛ) = 70 s·m⁻¹,
+
+
+- **aerodynamický odpor** (rₐ) – proměnný, závislý na rychlosti větru a výšce měření.
+
+
+Referenční povrch slouží jako **základní modelová plocha** pro výpočet **referenční evapotranspirace** pomocí např. **Penman–Monteithovy rovnice** a pro odvozování **koeficientů plodin** (Kc), které umožňují převést ET₀ na skutečnou evapotranspiraci konkrétní vegetace nebo ekosystému.
+
+
+#### Rychlost větru
+
+**Rychlost větru** (angl. wind speed) je **fyzikální veličina vyjadřující vzdálenost, kterou urazí vzduchová částice za jednotku času**, tedy **intenzitu horizontálního pohybu vzduchu v atmosféře**. Je jedním ze základních **meteorologických prvků** a důležitým faktorem ovlivňujícím **šíření tepla, vlhkosti, znečištění i výpar vody**.
+
+Rychlost větru se obvykle vyjadřuje v **metrech za sekundu (m·s⁻¹)**. Měří se pomocí **anemometrů** (např. miskové, ultrazvukové, lopatkové) nebo **meteorologických věží a stani**c, standardně ve **výšce 10 metrů nad zemí** na otevřeném prostranství.
+
+Rychlost větru závisí na **tlakových gradientech, drsnosti povrchu, výšce nad terénem a stabilitě atmosféry**. Pro popis síly větru se používá také **Beaufortova stupnice**, která přiřazuje jednotlivým rozmezím rychlosti větru slovní popisy (např. vánek, vítr, bouřlivý vítr, orkán).
+
+Vítr má zásadní vliv na **transport energie a hmoty v atmosféře, disperzi aerosolů a plynů, tvarování krajiny, pohyb mořských proudů i funkci ekosystémů**.
