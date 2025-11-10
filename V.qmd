@@ -35,13 +35,13 @@ Typické hodnoty $\Psi_\ell$:
 - silný stres: $< -2.0\ \text{MPa}$.
 
 Měření $\Psi_\ell$ se provádí např. tlakovou komorou (*Scholanderova komora*) nebo psychrometricky. Tento parametr je klíčový pro hodnocení vodního stavu rostlin, jejich odolnosti vůči suchu a pro řízení závlah v zemědělství.
+:::
 
-
-#### Voda {#sec-v-vypar}
+#### Výpar {#sec-v-vypar}
 **Výpar** (angl. *evaporation*) je fyzikální proces, při němž se voda mění z kapalného skupenství na vodní páru a přechází z povrchu (např. půdy, vodních ploch nebo rostlin) do atmosféry. Probíhá při jakékoli teplotě, pokud jsou splněny podmínky pro únik molekul vody do vzduchu. Rychlost evaporace závisí na teplotě, vlhkosti a pohybu vzduchu, slunečním záření a dostupnosti vody. Evaporace představuje jednu ze složek evapotranspirace a je klíčovým procesem v koloběhu vody a energetické výměně mezi zemským povrchem a atmosférou.
 
 
-#### Voda {#sec-v-vypar-z-vodni-plochy}
+#### Výpar z vodní plochy {#sec-v-vypar-z-vodni-plochy}
 **Výpar z vodní plochy** (angl. *evaporation from open water*) je proces, při němž se voda z volné vodní hladiny mění v páru a přechází do atmosféry. Probíhá na základě přenosu tepla a vodní páry mezi vodní hladinou a vzduchem a je jednou z hlavních složek vodní bilance vodních útvarů (jezer, nádrží, rybníků, oceánů).
 
 ##### Více {.detail}
@@ -52,10 +52,11 @@ Rychlost výparu závisí především na teplotě vody a vzduchu, nasycení vzd
 -  nebo výpočtem podle fyzikálních rovnic (např. Penmanova rovnice).
 
 Výpar z vodní plochy představuje důležitý prvek energetické a vodní bilance a ovlivňuje klima, zásoby vody i ekosystémové procesy v okolí vodních ploch.
+:::
 
 #### Výparoměr {#sec-v-vyparomer}
 **Výparoměr** (angl. *evaporimeter* nebo *evaporation pan*) je přístroj určený k měření výparu vody z volné vodní hladiny, a tedy k odhadu intenzity evaporace v daných meteorologických podmínkách. Základní princip spočívá v sledování úbytku hladiny vody ve výparoměru za určité časové období.
-:::
+
 
 ##### Více {.detail}
 ::: collapsible
