@@ -2,31 +2,31 @@
 
 #### Laminární proudění {#sec-t-laminarni-proudeni}
 
-**Laminární proudění** (angl. *laminar flow*) je **typ proudění tekutin (včetně vzduchu)**, při němž se částice tekutiny **pohybují uspořádaně v paralelních vrstvách (laminách)** a **nevznikají mezi nimi turbulence ani víry**.  
-Rychlost proudění se mění **plynule od nuly u povrchu (vlivem tření)** až po **maximální hodnotu ve středu proudu**.
+**Laminární proudění** (angl. *laminar flow*) je typ proudění tekutin (včetně vzduchu), při němž se částice tekutiny pohybují uspořádaně v paralelních vrstvách (laminách) a nevznikají mezi nimi turbulence ani víry.  
+Rychlost proudění se mění plynule od nuly u povrchu (vlivem tření) až po maximální hodnotu ve středu proudu.
 
 ##### Více {.detail}
 ::: collapsible
-Laminární proudění se vyskytuje při **malých rychlostech proudění**, **nízké hustotě** a **vysoké viskozitě tekutiny**, tedy při **nízkých hodnotách Reynoldsova čísla** ($Re < 2300$).  
+Laminární proudění se vyskytuje při malých rychlostech proudění, nízké hustotě a vysoké viskozitě tekutiny, tedy při nízkých hodnotách Reynoldsova čísla ($Re < 2300$).  
 
-V atmosféře se laminární proudění uplatňuje pouze **v bezprostřední blízkosti povrchu** (tzv. **laminární podvrstva**) nebo při **velmi klidném počasí s malým větrem**.  
-Většina pohybů vzduchu v přízemní vrstvě je však **turbulentní**.
+V atmosféře se laminární proudění uplatňuje pouze v bezprostřední blízkosti povrchu (tzv. laminární podvrstva) nebo při velmi klidném počasí s malým větrem.  
+Většina pohybů vzduchu v přízemní vrstvě je však turbulentní.
 
-Z hlediska **výměny energie a látek** má laminární proudění **omezenou účinnost přenosu tepla, vodní páry a plynů**, protože **nedochází k mísení vzduchu**.  
-Je však důležité v **aerodynamice, meteorologii a fyzice proudění**, kde představuje **základní model ideálního, stabilního proudění**.
+Z hlediska výměny energie a látek má laminární proudění omezenou účinnost přenosu tepla, vodní páry a plynů, protože nedochází k mísení vzduchu.  
+Je však důležité v aerodynamice, meteorologii a fyzice proudění, kde představuje základní model ideálního, stabilního proudění.
 :::
 
 #### Latentní teplo výparu {#sec-t-latentni-teplo-vyparu}
 
-**Latentní teplo výparu** (angl. *latent heat of vaporization*, značka $\lambda$) je **množství tepelné energie potřebné k přeměně jednotkové hmotnosti kapalné vody na vodní páru** při konstantní teplotě a tlaku, **bez změny teploty látky samotné**.  
-Vyjadřuje se v jednotkách **J·kg⁻¹** a při teplotě **20 °C** má hodnotu přibližně **2,45 × 10⁶ J·kg⁻¹**.
+**Latentní teplo výparu** (angl. *latent heat of vaporization*, značka $\lambda$) je množství tepelné energie potřebné k přeměně jednotkové hmotnosti kapalné vody na vodní páru při konstantní teplotě a tlaku, bez změny teploty látky samotné.  
+Vyjadřuje se v jednotkách J·kg⁻¹ a při teplotě 20 °C má hodnotu přibližně 2,45 × 10⁶ J·kg⁻¹.
 
 ##### Více {.detail}
 ::: collapsible
-Latentní teplo výparu představuje **energii spotřebovanou při výparu** (např. při **evapotranspiraci**) nebo **uvolněnou při kondenzaci**.  
-Je tedy **klíčovou veličinou v energetické bilanci povrchu** a **koloběhu vody v atmosféře**.
+Latentní teplo výparu představuje energii spotřebovanou při výparu (např. při evapotranspiraci) nebo uvolněnou při kondenzaci.  
+Je tedy klíčovou veličinou v energetické bilanci povrchu a koloběhu vody v atmosféře.
 
-V meteorologii a hydrologii se používá k převodu mezi **tokem latentního tepla ($\lambda E$)** a **skutečnou evapotranspirací ($ET_a$)**:
+V meteorologii a hydrologii se používá k převodu mezi tokem latentního tepla ($\lambda E$) a skutečnou evapotranspirací ($ET_a$):
 
 $$
 \lambda E = \lambda \cdot ET_a
@@ -36,66 +36,66 @@ kde:<br>
 – $\lambda E$ je energetický tok (W·m⁻²),<br>  
 – $ET_a$ množství odpařené vody (kg·m⁻²·s⁻¹ nebo mm·den⁻¹).
 
-Latentní teplo výparu je klíčovým faktorem při **výpočtech výparu, přenosu energie, tvorbě oblaků** i **stabilitě atmosféry**, protože představuje **hlavní cestu přeměny energie mezi povrchem Země a atmosférou**.
+Latentní teplo výparu je klíčovým faktorem při výpočtech výparu, přenosu energie, tvorbě oblaků i stabilitě atmosféry, protože představuje hlavní cestu přeměny energie mezi povrchem Země a atmosférou.
 :::
 
 
 #### Lenticelární výpar {#sec-t-lenticelarni-vypar}
 
-**Lenticelární výpar** (angl. *lenticellar transpiration* nebo *lenticellar evaporation*) je **odpařování vody z rostlinných pletiv prostřednictvím čoček (lenticel)** – drobných pórů v **peridermu (kůře)** dřevnatých částí rostlin, zejména **stonků a větví**.  
+**Lenticelární výpar** (angl. *lenticellar transpiration* nebo *lenticellar evaporation*) je odpařování vody z rostlinných pletiv prostřednictvím čoček (lenticel) – drobných pórů v peridermu (kůře) dřevnatých částí rostlin, zejména stonků a větví.  
 
 ##### Více {.detail}
 ::: collapsible
-Tento typ výparu tvoří obvykle **velmi malou část celkové transpirace**, protože **lenticely mají omezenou propustnost** a jejich hlavní funkcí je **zajišťovat výměnu plynů** mezi vnitřními pletivy a atmosférou.  
+Tento typ výparu tvoří obvykle velmi malou část celkové transpirace, protože lenticely mají omezenou propustnost a jejich hlavní funkcí je zajišťovat výměnu plynů mezi vnitřními pletivy a atmosférou.  
 
-**Lenticelární výpar** může být významnější:
-- při **poškození pletiv**,  
-- při **ztrátě funkce průduchů**,  
-- během **vegetativního klidu** nebo u **trvale dřevnatých rostlin**.
+Lenticelární výpar může být významnější:
+- při poškození pletiv,  
+- při ztrátě funkce průduchů,  
+- během vegetativního klidu nebo u trvale dřevnatých rostlin.
 
-Z fyziologického hlediska **doplňuje stomatární a kutikulární výpar** a **podílí se na celkové vodní bilanci rostliny**, i když jeho **kvantitativní význam bývá zanedbatelný**.
+Z fyziologického hlediska doplňuje stomatární a kutikulární výpar a podílí se na celkové vodní bilanci rostliny, i když jeho kvantitativní význam bývá zanedbatelný.
 :::
 
 
 #### Litorál {#sec-t-litoral}
 
-**Litorál** (angl. *littoral zone*) je **pobřežní pásmo vodního tělesa**, které zahrnuje **oblast od břehu po místo, kam ještě proniká dostatek světla pro růst vodních rostlin** (do hloubky fotické zóny).  
-V jezerech a rybnících odpovídá **mělčině s dnem osídleným makrofyty**, zatímco v mořském prostředí zahrnuje **pásmo mezi přílivem a odlivem** (*přílivovou zónu*).
+**Litorál** (angl. *littoral zone*) je pobřežní pásmo vodního tělesa, které zahrnuje oblast od břehu po místo, kam ještě proniká dostatek světla pro růst vodních rostlin (do hloubky fotické zóny).  
+V jezerech a rybnících odpovídá mělčině s dnem osídleným makrofyty, zatímco v mořském prostředí zahrnuje pásmo mezi přílivem a odlivem (*přílivovou zónu*).
 
 ##### Více {.detail}
 ::: collapsible
-Litorál je **ekologicky nejbohatší část vodního ekosystému**, protože **kombinuje vlivy vody a souše**.  
-Poskytuje **stanoviště pro vodní i suchozemské organismy**, je místem **intenzivní fotosyntézy**, **rozkladu organické hmoty** i **vývoje mnoha živočichů**.
+Litorál je ekologicky nejbohatší část vodního ekosystému, protože kombinuje vlivy vody a souše.  
+Poskytuje stanoviště pro vodní i suchozemské organismy, je místem intenzivní fotosyntézy, rozkladu organické hmoty i vývoje mnoha živočichů.
 
 Charakter litorálu závisí na:
-- **sklonu břehu**,  
-- **typu substrátu**,  
-- **kolísání hladiny**,  
-- **proudění vody**,  
-- **expozici vůči větru či vlnám**.
+- sklonu břehu,  
+- typu substrátu,  
+- kolísání hladiny,  
+- proudění vody,  
+- expozici vůči větru či vlnám.
 
-V **hydrologii, limnologii a ekologii** má litorál zásadní význam pro **biologickou produkci**, **koloběh živin** a **samočisticí procesy ve vodních nádržích**.
+V hydrologii, limnologii a ekologii má litorál zásadní význam pro biologickou produkci, koloběh živin a samočisticí procesy ve vodních nádržích.
 :::
 
 
 #### Lysimetr {#sec-t-lysimetr}
 
-**Lysimetr** (angl. *lysimeter*) je **měřicí zařízení používané k určování vodní bilance půdy**, zejména **evapotranspirace, vsakování a odtoku**.  
-Obvykle má podobu **nádoby nebo válce naplněného půdou**, v níž jsou pěstovány rostliny a která je **izolována od okolní půdy**, aby bylo možné přesně sledovat **příjem a ztráty vody**.
+**Lysimetr** (angl. *lysimeter*) je měřicí zařízení používané k určování vodní bilance půdy, zejména evapotranspirace, vsakování a odtoku.  
+Obvykle má podobu nádoby nebo válce naplněného půdou, v níž jsou pěstovány rostliny a která je izolována od okolní půdy, aby bylo možné přesně sledovat příjem a ztráty vody.
 
 ##### Více {.detail}
 ::: collapsible
-Množství vody v lysimetru se sleduje pomocí **vážení**, **měření srážek, závlahy, odtoku** a **změn půdní vlhkosti**.  
+Množství vody v lysimetru se sleduje pomocí vážení, měření srážek, závlahy, odtoku a změn půdní vlhkosti.  
 
 Podle konstrukce se rozlišují:
-- **vážkové lysimetry** – měří **změny hmotnosti** celého zařízení,  
-- **nevážkové lysimetry** – určují **vodní bilanci výpočtem** ze vstupních a výstupních toků.
+- vážkové lysimetry – měří změny hmotnosti celého zařízení,  
+- nevážkové lysimetry – určují vodní bilanci výpočtem ze vstupních a výstupních toků.
 
-Lysimetry se používají v **hydrologii, zemědělství a ekologii** k:
-- **kalibraci modelů evapotranspirace**,  
-- **hodnocení hospodaření s vodou**,  
-- **výzkumu interakcí mezi půdou, rostlinami a atmosférou**.
+Lysimetry se používají v hydrologii, zemědělství a ekologii k:
+- kalibraci modelů evapotranspirace,  
+- hodnocení hospodaření s vodou,  
+- výzkumu interakcí mezi půdou, rostlinami a atmosférou.
 
-Jsou klíčovým nástrojem pro **experimentální ověřování procesů koloběhu vody** a pro **určování parametrů vodní bilance** v různých typech ekosystémů.
+Jsou klíčovým nástrojem pro experimentální ověřování procesů koloběhu vody a pro určování parametrů vodní bilance v různých typech ekosystémů.
 :::
 
