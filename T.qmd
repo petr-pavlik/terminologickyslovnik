@@ -8,7 +8,7 @@ aby člověkem vnímaný kombinovaný projev obou těchto veličin byl shodný.
 #### Thorntwaitova rovnice {#sec-t-thorntwaitova-rovnice}
 
 ::: collapsible
-Zakládá na empirickém vztahu mezi ET a změnou průměrné teploty vzduchu.  
+Zakládá na empirickém vztahu mezi ETa a změnou průměrné teploty vzduchu.  
 
 $$
 \mathrm{PET} = 16\left(\dfrac{L}{12}\right)\left(\dfrac{N}{30}\right)\left(\dfrac{10T_d}{I}\right)
