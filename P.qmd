@@ -80,7 +80,7 @@ Je klíčovým parametrem pro popis výměny energie a vodní páry mezi povrche
 
 #### Potenciální evapotranspirace {#sec-t-potencialni-evapotranspirace}
 
-**Potenciální evapotranspirace** (angl. *potential evapotranspiration*, zkr. *$PET$) je množství vody, které by se mohlo odpařit a transpirovat z povrchu půdy a vegetace, pokud by byla k dispozici neomezená zásoba vody.  
+**Potenciální evapotranspirace** (angl. *potential evapotranspiration*, zkr. $PET$) je množství vody, které by se mohlo odpařit a transpirovat z povrchu půdy a vegetace, pokud by byla k dispozici neomezená zásoba vody.  
 Vyjadřuje tedy maximální možnou intenzitu výparu za daných meteorologických podmínek (teplota, sluneční záření, vítr, vlhkost vzduchu).
 
 ##### Více {.detail}
