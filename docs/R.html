@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -60,6 +40,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-88519b7ed269f78a361a19d460ee87e8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -120,35 +101,6 @@ div.csl-indent {
   });
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -258,8 +210,12 @@ window.Quarto = {
   <ul>
   <li><a href="#r" id="toc-r" class="nav-link active" data-scroll-target="#r">R</a>
   <ul>
-  <li><a href="#sec-r-referencni-evapotranspirace" id="toc-sec-r-referencni-evapotranspirace" class="nav-link" data-scroll-target="#sec-r-referencni-evapotranspirace">Referenční evapotranspirace <span class="math inline">\(\mathsf{(ET_o)}\:\)</span></a></li>
-  <li><a href="#sec-r-referencni-povrch" id="toc-sec-r-referencni-povrch" class="nav-link" data-scroll-target="#sec-r-referencni-povrch">Referenční povrch</a></li>
+  <li><a href="#radiace" id="toc-radiace" class="nav-link" data-scroll-target="#radiace">Radiace</a></li>
+  <li><a href="#radiační-bilance" id="toc-radiační-bilance" class="nav-link" data-scroll-target="#radiační-bilance">Radiační bilance</a></li>
+  <li><a href="#relativní-vlhkost-vzduchu" id="toc-relativní-vlhkost-vzduchu" class="nav-link" data-scroll-target="#relativní-vlhkost-vzduchu">Relativní vlhkost vzduchu</a></li>
+  <li><a href="#rcm" id="toc-rcm" class="nav-link" data-scroll-target="#rcm">RCM</a></li>
+  <li><a href="#recyklace-srážek" id="toc-recyklace-srážek" class="nav-link" data-scroll-target="#recyklace-srážek">Recyklace srážek</a></li>
+  <li><a href="#referenční-evapotranspirace" id="toc-referenční-evapotranspirace" class="nav-link" data-scroll-target="#referenční-evapotranspirace">Referenční evapotranspirace</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -272,9 +228,68 @@ window.Quarto = {
 
 <section id="r" class="level2">
 <h2 class="anchored" data-anchor-id="r">R</h2>
-<section id="sec-r-referencni-evapotranspirace" class="level4">
-<h4 class="anchored" data-anchor-id="sec-r-referencni-evapotranspirace">Referenční evapotranspirace <span class="math inline">\(\mathsf{(ET_o)}\:\)</span></h4>
-<div class="collapsible">
+<section id="radiace" class="level4">
+<h4 class="anchored" data-anchor-id="radiace">Radiace</h4>
+<p><strong>Radiace</strong> (angl. radiation) je <strong>přenos energie prostřednictvím elektromagnetického záření</strong>, který nevyžaduje hmotné prostředí. V meteorologii, klimatologii a fyzické geografií označuje <strong>zářivou energii* přicházející ze Slunce nebo vyzařovanou Zemí a její atmosférou</strong>.</p>
+<p>Rozlišujeme dva hlavní typy radiace:</p>
+<ul>
+<li><p><strong>krátkovlnnou (solární) radiaci</strong> – záření o vlnových délkách přibližně 0,3–3 μm, které vyzařuje Slunce; část je <strong>pohlcena, rozptýlena nebo odražena</strong> atmosférou a zemským povrchem,</p></li>
+<li><p><strong>dlouhovlnnou (terestrickou) radiaci</strong> – záření s vlnovými délkami přibližně 4–100 μm, které <strong>Země a atmosféra vyzařují zpět do prostoru</strong>.</p></li>
+</ul>
+<p>Radiace je hlavním zdrojem energie pro <strong>počasí, klima a biogeofyzikální procesy</strong> – ovlivňuje <strong>teplotu vzduchu, výpar, fotosyntézu, tvorbu oblačnosti i energetickou bilanci povrchu</strong>. Měří se pomocí <strong>pyranometrů (celková krátkovlnná radiace), pyrgeometrů (dlouhovlnná radiace)</strong> a <strong>aktinometrů</strong>, obvykle v jednotkách <strong>W·m⁻²</strong>.</p>
+<p>:::</p>
+</section>
+<section id="radiační-bilance" class="level4">
+<h4 class="anchored" data-anchor-id="radiační-bilance">Radiační bilance</h4>
+<p><strong>Radiační bilance</strong> (angl. radiation balance nebo radiation budget) je <strong>rozdíl mezi celkovým příjmem a výdejem zářivé energie</strong> na povrchu Země nebo v atmosféře. Vyjadřuje, kolik <strong>slunečního (krátkovlnného) a zemského (dlouhovlnného) záření</strong> daný systém přijímá a kolik ho vyzařuje zpět do okolí.</p>
+<p>Základní rovnice radiační bilance povrchu je:</p>
+<p>Rn=(K↓−K↑)+(L↓−L↑)R_n = (K_- K_) + (L_- L_)Rn​=(K↓​−K↑​)+(L↓​−L↑​)</p>
+<p>kde: - Rₙ – čistá radiační bilance (W·m⁻²),</p>
+<ul>
+<li><p>K↓ – dopadající krátkovlnné (sluneční) záření,</p></li>
+<li><p>K↑ – odražené krátkovlnné záření (závislé na albedu),</p></li>
+<li><p>L↓ – dopadající dlouhovlnné (atmosférické) záření,</p></li>
+</ul>
+<p>L↑ – vyzařované dlouhovlnné záření povrchu.</p>
+<p>Kladná hodnota Rₙ znamená <strong>přebytek energie</strong> (ohřev povrchu), záporná naopak <strong>ztrátu energie</strong> (ochlazování). Radiační bilance je klíčovou složkou <strong>energetické bilance Země</strong>, určuje <strong>teplotní režim povrchu</strong>, ovlivňuje <strong>evapotranspiraci, konvekci, fotosyntézu a je zásadní pro modelování klimatu a ekosystémových procesů</strong>.</p>
+</section>
+<section id="relativní-vlhkost-vzduchu" class="level4">
+<h4 class="anchored" data-anchor-id="relativní-vlhkost-vzduchu">Relativní vlhkost vzduchu</h4>
+<p><strong>Relativní vlhkost vzduchu</strong> (angl. relative humidity, značka RH) je <strong>poměr mezi aktuálním množstvím vodní páry ve vzduchu a maximálním množstvím, které by vzduch mohl při dané teplotě obsahovat (tedy nasycením)</strong>. Vyjadřuje se v procentech a udává, <strong>jak blízko je vzduch stavu nasycení vodní párou</strong>.</p>
+<p>Matematicky:</p>
+<p>RH=eaes×100RH = 100RH=es​ea​​×100</p>
+<p>kde:</p>
+<ul>
+<li><p>eₐ – skutečný tlak vodní páry (kPa),</p></li>
+<li><p>eₛ – nasycený tlak vodní páry při dané teplotě (kPa).</p></li>
+</ul>
+<p>Relativní vlhkost závisí především na <strong>teplotě vzduchu</strong> – při zahřívání vzduchu klesá (vzduch pojme více vodní páry), při ochlazování stoupá a může dosáhnout <strong>100 %</strong>, kdy nastává <strong>kondenzace</strong> (tvorba rosy, mlhy nebo oblaků).</p>
+<p>Relativní vlhkost je důležitým ukazatelem <strong>pohody prostředí, výparu, transpirace, stability atmosféry i energetické bilance</strong>, a měří se <strong>vlhkoměry (hygrometry)</strong> nebo <strong>psychrometry</strong>.</p>
+</section>
+<section id="rcm" class="level4">
+<h4 class="anchored" data-anchor-id="rcm">RCM</h4>
+<p><strong>RCM</strong> (Regional Climate Model) je <strong>regionální klimatický model</strong> používaný k simulaci klimatu na menších územních měřítkách než globální modely (GCM). RCM pracuje s <strong>jemnější prostorovou rozlišovací schopností</strong> a popisuje podrobněji <strong>regionální procesy</strong>, jako jsou orografické srážky, místní větry nebo vliv vodních ploch. Model obvykle využívá <strong>okrajové podmínky z GCM</strong> (tzv. downscaling), aby zpřesnil globální klimatické výpočty pro konkrétní oblast. RCM se používají pro <strong>analýzy dopadů změny klimatu</strong> na regionální úrovni, např. pro hodnocení rizik sucha, povodní nebo extrémních teplot.</p>
+</section>
+<section id="recyklace-srážek" class="level4">
+<h4 class="anchored" data-anchor-id="recyklace-srážek">Recyklace srážek</h4>
+<p><strong>Recyklace srážek</strong> (angl. precipitation recycling) je <strong>proces, při němž se část srážkové vody, která spadne na určité území, znovu odpaří (evaporací z povrchu a transpirací vegetace) a následně přispívá ke vzniku dalších srážek ve stejné oblasti</strong>. Jde tedy o uzavřenou část regionálního koloběhu vody, kdy se vlhkost vyprodukovaná v daném regionu vrací zpět ve formě srážek.</p>
+<p>Míra recyklace srážek se vyjadřuje pomocí <strong>koeficientu recyklace (ρ)</strong>:</p>
+<p>ρ=PlokaˊlnıˊPcelkovaˊρ = ρ=Pcelkovaˊ​Plokaˊlnıˊ​​</p>
+<p>kde:</p>
+<ul>
+<li><p>Pₗₒₖₐₗₙí – srážky vzniklé z lokální evapotranspirace,</p></li>
+<li><p>P_celková – celkové srážky v oblasti.</p></li>
+</ul>
+<p><strong>Význam recyklace srážek závisí na prostorovém měřítku:</strong></p>
+<ul>
+<li><p>v malých povodích (do ~100 km) je recyklace obvykle zanedbatelná,</p></li>
+<li><p>v regionálním měřítku (stovky až tisíce kilometrů) může tvořit 10–30 % srážek,</p></li>
+<li><p>ve velkých kontinentálních systémech, jako je Amazonie, Sahel nebo Tibet, může dosahovat až 40–50 %.</p></li>
+</ul>
+<p>Recyklace srážek je tedy významným mechanismem <strong>udržování regionální vlhkosti a stability klimatu</strong>, zejména v oblastech s <strong>rozsáhlou vegetací nebo slabým přísunem vlhkosti z oceánu</strong>. Změny ve využití krajiny (např. <strong>odlesňování nebo degradace půdy</strong>) mohou tento proces <strong>narušit</strong> a vést ke <strong>snížení srážek a zesílení sucha</strong>.</p>
+</section>
+<section id="referenční-evapotranspirace" class="level4">
+<h4 class="anchored" data-anchor-id="referenční-evapotranspirace">Referenční evapotranspirace</h4>
 <p>
 <strong>Referenční evapotranspirace (ET<sub>o</sub>)</strong> představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s·m<sup>-1</sup>).
 </p>
@@ -282,26 +297,15 @@ window.Quarto = {
 Referenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ET<sub>o</sub> se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ET<sub>o</sub> velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace (ET<sub>a</sub>) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ET<sub>a</sub>.
 </p>
 <p>
-Dle metodiky FAO-56 <span class="citation" data-cites="allen1998crop">(<a href="#ref-allen1998crop" role="doc-biblioref">Allen et al. 1998</a>)</span> je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
+Dle metodiky FAO-56 (Allen et al., 1998) je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
 </p>
-</div>
-</section>
-<section id="sec-r-referencni-povrch" class="level4">
-<h4 class="anchored" data-anchor-id="sec-r-referencni-povrch">Referenční povrch</h4>
-<div class="collapsible">
-<p>Hypotetický povrch s níže uvedenými celoročně konstantní vlastnostmi označujeme jako referenční povrch. Výškou 0,12 m a konstantním albedem 0,23. Referenční povrch definuje povrchový odpor <span class="math inline">\(r_s\)</span>.</p>
-</div>
-
+<p>:::</p>
 
 
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Reference</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-allen1998crop" class="csl-entry" role="listitem">
-Allen, Richard G, Luis S Pereira, Dirk Raes, Martin Smith, et al. 1998. <span>„Crop evapotranspiration-Guidelines for computing crop water requirements-FAO Irrigation and drainage paper 56"</span>. <em>Fao, Rome</em> 300 (9): D05109.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
