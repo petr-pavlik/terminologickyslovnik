@@ -13,7 +13,7 @@ Z biologického hlediska tvoří 60–90 % hmotnosti živých organismů, podíl
 :::
 
 #### Vodní potenciál listu {#sec-v-vodni-potencial-listu}
-**Vodní potenciál listu** (angl. *leaf water potential*, značka \( \Psi_\ell \)) je fyzikální veličina vyjadřující energetický stav vody v listu – tedy schopnost vody proudit z jedné části rostliny do druhé. Udává, jak pevně je voda vázána v buněčných strukturách a jak snadno může být transportována směrem ke vzduchu.
+**Vodní potenciál listu** (angl. *leaf water potential*, značka $\Psi_\ell$) je fyzikální veličina vyjadřující energetický stav vody v listu – tedy schopnost vody proudit z jedné části rostliny do druhé. Udává, jak pevně je voda vázána v buněčných strukturách a jak snadno může být transportována směrem ke vzduchu.
 
 
 ##### Více {.detail}
