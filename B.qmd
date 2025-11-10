@@ -6,6 +6,8 @@ toc-title: "Na této stránce"
 
 #### Budykova křivka {#sec-b-budykova-krivka}
 
+**Budykova křivka** (angl. Budyko curve) je empirický vztah popisující závislost mezi podílem skutečné evapotranspirace a potenciální evapotranspirace na poměru srážek k potenciální evapotranspiraci v určitém regionu nebo povodí. Vyjadřuje tedy, jak se vodní bilance systému (poměr mezi srážkami, výparem a odtokem) mění v závislosti na klimatických podmínkách.
+
 
 Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu $$
 P = Ea + Q,

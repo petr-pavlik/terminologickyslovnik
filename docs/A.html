@@ -99,6 +99,35 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -199,9 +228,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#a" id="toc-a" class="nav-link active" data-scroll-target="#a">A</a>
   <ul>
   <li><a href="#sec-a-absolutni-vlhkost" id="toc-sec-a-absolutni-vlhkost" class="nav-link" data-scroll-target="#sec-a-absolutni-vlhkost">Absolutní vlhkost</a></li>
+  <li><a href="#sec-a-aerodynamicka-drsnost" id="toc-sec-a-aerodynamicka-drsnost" class="nav-link" data-scroll-target="#sec-a-aerodynamicka-drsnost">Aerodynamická drsnost</a></li>
   <li><a href="#sec-a-aerodynamicky-odpor" id="toc-sec-a-aerodynamicky-odpor" class="nav-link" data-scroll-target="#sec-a-aerodynamicky-odpor">Aerodynamický odpor</a></li>
   <li><a href="#sec-a-aktualni-evapotranspirace" id="toc-sec-a-aktualni-evapotranspirace" class="nav-link" data-scroll-target="#sec-a-aktualni-evapotranspirace">Aktuální evapotranspirace</a></li>
   <li><a href="#sec-a-albedo" id="toc-sec-a-albedo" class="nav-link" data-scroll-target="#sec-a-albedo">Albedo</a></li>
+  <li><a href="#sec-a-anisohydrie" id="toc-sec-a-anisohydrie" class="nav-link" data-scroll-target="#sec-a-anisohydrie">Anisohydrie</a></li>
+  <li><a href="#sec-a-atmosfericky-tlak" id="toc-sec-a-atmosfericky-tlak" class="nav-link" data-scroll-target="#sec-a-atmosfericky-tlak">Atmosférický tlak</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -216,33 +248,65 @@ ul.task-list li input[type="checkbox"] {
 <h1>A</h1>
 <section id="sec-a-absolutni-vlhkost" class="level4">
 <h4 class="anchored" data-anchor-id="sec-a-absolutni-vlhkost">Absolutní vlhkost</h4>
+<p><strong>Absolutní vlhkost</strong> (angl. <em>absolute humidity</em>) je fyzikální veličina vyjadřující <strong>množství vodní páry obsažené ve vzduchu</strong>, obvykle udávané jako <strong>hmotnost vodní páry v jednotkovém objemu vzduchu</strong> (např. v gramech na metr krychlový, g·m⁻³). Udává skutečné množství vodní páry bez ohledu na teplotu nebo tlak vzduchu. Absolutní vlhkost se mění při <strong>změně obsahu vodní páry</strong> nebo při <strong>změně objemu vzduchu</strong> (např. při jeho ochlazení či zahřátí), a je důležitým parametrem pro hodnocení vlhkostních poměrů v atmosféře a procesů kondenzace a výparu.</p>
+</section>
+<section id="sec-a-aerodynamicka-drsnost" class="level4">
+<h4 class="anchored" data-anchor-id="sec-a-aerodynamicka-drsnost">Aerodynamická drsnost</h4>
+<p><strong>Aerodynamická drsnost</strong> (angl. <em>aerodynamic roughness</em>, často označovaná jako <em>roughness length</em>, značka z₀) je <strong>míra nerovnosti povrchu</strong>, která <strong>ovlivňuje pohyb vzduchu v přízemní vrstvě atmosféry</strong>. Vyjadřuje, do jaké výšky nad povrchem sahá vliv tření a turbulence způsobené překážkami (např. vegetací, budovami, reliéfem).</p>
+<section id="více" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více">Více</h5>
 <div class="collapsible">
-
+<p>Formálně je aerodynamická drsnost parametrem v logaritmickém profilu větru: <span class="math display">\[
+u(z)=u\cdot\kappa\ln⁡(z_z0)u(z)=\frac{u_{*}}{\kappa}\ln\left(\frac{z}{z_0}\right)u(z)\kappa u\cdot\ln(z_0z)
+\]</span> kde: - <span class="math inline">\(u(z)\)</span> - průměrná rychlost větru ve výšce <span class="math inline">\(z\)</span><br>
+- <span class="math inline">\(u_{*}\)</span> - třecí rychlost (<em>friction velocity</em>)<br>
+- <span class="math inline">\(\kappa\)</span> - von Kármánova konstanta (<span class="math inline">\(\approx)0.41\)</span><br>
+- <span class="math inline">\(Z_0\)</span> - délka drsnosti, tedy výška, kde se rychlost větru teoreticky rovná nule.</p>
+<p>Hodnota <span class="math inline">\(z\)</span> závisí na charakteru povrchu:&nbsp; - hladká vodní hladina = <span class="math inline">\(Z_0\approx0.0002\:\mathrm{m}\)</span>,&nbsp; - nízká tráva = <span class="math inline">\(Z_0\approx0.01-0.03\:\mathrm{m}\)</span>,&nbsp; - obilné pole = <span class="math inline">\(Z_0\approx0.01\:\mathrm{m}\)</span>,&nbsp; - les nebo město = <span class="math inline">\(Z_0\approx0.5-2\:\mathrm{m}\)</span>.</p>
+<p><strong>Aerodynamická drsnost</strong> je klíčovým <strong>parametrem pro výpočty proudění vzduchu, výměny tepla, vodní páry a plynů mezi povrchem a atmosférou</strong> a používá se v mikrometeorologii, klimatologii i modelování turbulence.</p>
 </div>
+</section>
 </section>
 <section id="sec-a-aerodynamicky-odpor" class="level4">
 <h4 class="anchored" data-anchor-id="sec-a-aerodynamicky-odpor">Aerodynamický odpor</h4>
-<div class="collapsible">
-
-</div>
+<p><strong>Aerodynamický odpor</strong> (angl. <em>aerodynamic resistance</em>) je veličina vyjadřující míru odporu vzduchu proti přenosu tepla, vodní páry nebo plynů mezi povrchem země a atmosférou. Závisí na drsnosti povrchu, rychlosti a stabilitě proudění vzduchu a na výškovém rozdílu mezi zdrojem látky a měřicí hladinou. Aerodynamický odpor představuje opačnou veličinu k účinnosti turbulentní výměny – čím menší je odpor, tím intenzivnější je přenos. V klimatologii a mikrometeorologii se uplatňuje při výpočtech výměny energie a hmoty, např. v rovnicích pro <a href="./E.html#sec-e-evapotranspirace">evapotranspiraci</a> nebo toky plynů mezi povrchem a atmosférou.</p>
 </section>
 <section id="sec-a-aktualni-evapotranspirace" class="level4">
 <h4 class="anchored" data-anchor-id="sec-a-aktualni-evapotranspirace">Aktuální evapotranspirace</h4>
-<div class="collapsible">
-<p>Syn. efektivní evapotranspirace, reálná evapotranspirace. Celkový skutečný výpar z povrchu a transpirace rostlin v přírozených podmínkách.</p>
-</div>
+<p><strong>Aktuální evapotranspirace</strong> (angl. <em>actual evapotranspiration</em>, zkr. <span class="math inline">\(\mathrm{ET_a}\)</span>) je <strong>skutečné množství vody, které se v daném čase a místě odpaří a transpiruje z povrchu půdy a vegetace do atmosféry</strong>. Na rozdíl od <a href="./R.html#sec-r-referencni-evapotranspirace">referenční evapotranspirace</a> závisí aktuální evapotranspirace na dostupnosti vody v půdě, stavu vegetace, meteorologických podmínkách a managementu půdy. Představuje reálnou ztrátu vody z ekosystému a je klíčovým ukazatelem při hodnocení vodní bilance, sucha a efektivity závlah.</p>
 </section>
 <section id="sec-a-albedo" class="level4">
 <h4 class="anchored" data-anchor-id="sec-a-albedo">Albedo</h4>
+<p><strong>Albedo</strong> je fyzikální veličina vyjadřující <strong>poměr mezi množstvím slunečního záření odraženého povrchem a celkovým dopadajícím zářením</strong>.</p>
+<section id="více-1" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-1">Více</h5>
 <div class="collapsible">
-<p>Albedo je poměr slunečního záření, který je difuzně odražen tělesem. Měří se v rozmezí od 0 (absolutně černé těleso) do 1. <strong>Povrchové albedo</strong> je definováno jako poměr <strong>zářivosti</strong> a <em>ozáření</em></p>
-<section id="sec-a-albedo-zemskeho-povrchu" class="level5">
-<h5 class="anchored" data-anchor-id="sec-a-albedo-zemskeho-povrchu">Albedo zemského povrchu</h5>
-<p>Albedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší.</p>
+<p>Udává se jako bezrozměrné číslo v rozmezí 0–1 nebo v procentech. Hodnota albeda závisí na vlastnostech povrchu, jako jsou barva, struktura, vlhkost či úhel dopadu záření – např. sníh má vysoké albedo (0,7–0,9), zatímco tmavý les nebo voda nízké (0,05–0,2). Albedo ovlivňuje energetickou bilanci Země a hraje klíčovou roli v klimatickém systému, protože určuje, kolik sluneční energie je pohlceno nebo odraženo zpět do vesmíru.&nbsp; Albedo povrchu se pohybuje v rozmezí od 0.1 do 0.4, přičemž v urbanizované zástavbě je tento poměr o něco málo vyšší.</p>
+</div>
 </section>
+</section>
+<section id="sec-a-anisohydrie" class="level4">
+<h4 class="anchored" data-anchor-id="sec-a-anisohydrie">Anisohydrie</h4>
+<p><strong>Anisohydrie</strong> (angl. <em>anisohydry</em>) je fyziologická strategie rostlin, při níž rostlina neudržuje stálý vodní potenciál listů (<span class="math inline">\(\psi_i\)</span>) během měnících se podmínek prostředí, ale umožňuje jeho kolísání podle dostupnosti vody v půdě a atmosférického výparu.</p>
+<section id="více-2" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-2">Více</h5>
+<div class="collapsible">
+<p>Rostliny vykazující anisohydrii regulují otevření průduchů méně přísně, čímž si i při poklesu půdní vlhkosti zachovávají vyšší fotosyntetickou aktivitu, avšak za cenu vyšších ztrát vody a rizika kavitace xylému. Anisohydrie je protikladem isohydrie, kdy rostliny udržují relativně stabilní vodní potenciál pomocí rychlého uzavírání průduchů při vodním stresu. Tento koncept se využívá v ekofyziologii a hydrologii rostlin k hodnocení vodní strategie, odolnosti vůči suchu a reakce vegetace na klimatické změny.</p>
+</div>
+</section>
+</section>
+<section id="sec-a-atmosfericky-tlak" class="level4">
+<h4 class="anchored" data-anchor-id="sec-a-atmosfericky-tlak">Atmosférický tlak</h4>
+<p><strong>Atmosférický tlak</strong> (angl. <em>atmospheric pressure</em>) je tlak, který vyvolává hmotnost vzduchového sloupce působícího na jednotku plochy zemského povrchu. Jinými slovy vyjadřuje sílu, kterou atmosféra působí na objekty v dané výšce v důsledku gravitace.</p>
+<section id="více-3" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-3">Více</h5>
+<div class="collapsible">
+<p>Hodnota atmosférického tlaku klesá s nadmořskou výškou, protože se zmenšuje hmotnost vzduchu nad daným místem. Na hladině moře má standardní atmosférický tlak hodnotu <span class="math inline">\(1013,25\:\mathrm{hPa}\)</span> (hektopascalů), což odpovídá 1 atmosféře (<span class="math inline">\(\mathrm{atm}\)</span>) nebo <span class="math inline">\(760\:\mathrm{mm}\)</span> rtuťového sloupce (<span class="math inline">\(\mathrm{mm}\)</span> Hg). Atmosférický tlak se měří pomocí barometrů (rtuťových, aneroidových nebo digitálních) a jeho změny jsou klíčové pro tvorbu a vývoj počasí. Nízký tlak je spojen s cyklonami, oblačností a srážkami, vysoký tlak s anticyklonami, tedy klidným a suchým počasím.<br>
+Atmosférický tlak je základní veličinou meteorologie a klimatologie, protože ovlivňuje pohyb vzduchu (vítr), výpar, kondenzaci i distribuci srážek a je jedním z hlavních prvků atmosférické cirkulace.</p>
 </div>
 
 
+</section>
 </section>
 </section>
 
