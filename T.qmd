@@ -1,6 +1,6 @@
 # T
 
-#### Teplotní index
+#### Teplotní index {#sec-t-tepoltni-index}
 
 Teplotní index je metrika, která v sobě kombinuje teplotu vzduchu a relativní vlhkost tak, 
 aby člověkem vnímaný kombinovaný projev obou těchto veličin byl shodný.
