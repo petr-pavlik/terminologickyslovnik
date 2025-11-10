@@ -100,6 +100,35 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -160,6 +189,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">L</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./M.html"> 
+<span class="menu-text">M</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./O.html"> 
+<span class="menu-text">O</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./P.html"> 
 <span class="menu-text">P</span></a>
   </li>  
@@ -209,7 +246,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#l" id="toc-l" class="nav-link active" data-scroll-target="#l">L</a>
   <ul>
-  <li><a href="#lysimetr" id="toc-lysimetr" class="nav-link" data-scroll-target="#lysimetr">Lysimetr</a></li>
+  <li><a href="#sec-t-laminarni-proudeni" id="toc-sec-t-laminarni-proudeni" class="nav-link" data-scroll-target="#sec-t-laminarni-proudeni">Laminární proudění</a></li>
+  <li><a href="#sec-t-latentni-teplo-vyparu" id="toc-sec-t-latentni-teplo-vyparu" class="nav-link" data-scroll-target="#sec-t-latentni-teplo-vyparu">Latentní teplo výparu</a></li>
+  <li><a href="#sec-t-lenticelarni-vypar" id="toc-sec-t-lenticelarni-vypar" class="nav-link" data-scroll-target="#sec-t-lenticelarni-vypar">Lenticelární výpar</a></li>
+  <li><a href="#sec-t-litoral" id="toc-sec-t-litoral" class="nav-link" data-scroll-target="#sec-t-litoral">Litorál</a></li>
+  <li><a href="#sec-t-lysimetr" id="toc-sec-t-lysimetr" class="nav-link" data-scroll-target="#sec-t-lysimetr">Lysimetr</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -222,13 +263,90 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="l" class="level1">
 <h1>L</h1>
-<section id="lysimetr" class="level4">
-<h4 class="anchored" data-anchor-id="lysimetr">Lysimetr</h4>
+<section id="sec-t-laminarni-proudeni" class="level4">
+<h4 class="anchored" data-anchor-id="sec-t-laminarni-proudeni">Laminární proudění</h4>
+<p><strong>Laminární proudění</strong> (angl. <em>laminar flow</em>) je <strong>typ proudění tekutin (včetně vzduchu)</strong>, při němž se částice tekutiny <strong>pohybují uspořádaně v paralelních vrstvách (laminách)</strong> a <strong>nevznikají mezi nimi turbulence ani víry</strong>.<br>
+Rychlost proudění se mění <strong>plynule od nuly u povrchu (vlivem tření)</strong> až po <strong>maximální hodnotu ve středu proudu</strong>.</p>
+<section id="více" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více">Více</h5>
 <div class="collapsible">
-
+<p>Laminární proudění se vyskytuje při <strong>malých rychlostech proudění</strong>, <strong>nízké hustotě</strong> a <strong>vysoké viskozitě tekutiny</strong>, tedy při <strong>nízkých hodnotách Reynoldsova čísla</strong> (<span class="math inline">\(Re &lt; 2300\)</span>).</p>
+<p>V atmosféře se laminární proudění uplatňuje pouze <strong>v bezprostřední blízkosti povrchu</strong> (tzv. <strong>laminární podvrstva</strong>) nebo při <strong>velmi klidném počasí s malým větrem</strong>.<br>
+Většina pohybů vzduchu v přízemní vrstvě je však <strong>turbulentní</strong>.</p>
+<p>Z hlediska <strong>výměny energie a látek</strong> má laminární proudění <strong>omezenou účinnost přenosu tepla, vodní páry a plynů</strong>, protože <strong>nedochází k mísení vzduchu</strong>.<br>
+Je však důležité v <strong>aerodynamice, meteorologii a fyzice proudění</strong>, kde představuje <strong>základní model ideálního, stabilního proudění</strong>.</p>
+</div>
+</section>
+</section>
+<section id="sec-t-latentni-teplo-vyparu" class="level4">
+<h4 class="anchored" data-anchor-id="sec-t-latentni-teplo-vyparu">Latentní teplo výparu</h4>
+<p><strong>Latentní teplo výparu</strong> (angl. <em>latent heat of vaporization</em>, značka <span class="math inline">\(\lambda\)</span>) je <strong>množství tepelné energie potřebné k přeměně jednotkové hmotnosti kapalné vody na vodní páru</strong> při konstantní teplotě a tlaku, <strong>bez změny teploty látky samotné</strong>.<br>
+Vyjadřuje se v jednotkách <strong>J·kg⁻¹</strong> a při teplotě <strong>20 °C</strong> má hodnotu přibližně <strong>2,45 × 10⁶ J·kg⁻¹</strong>.</p>
+<section id="více-1" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-1">Více</h5>
+<div class="collapsible">
+<p>Latentní teplo výparu představuje <strong>energii spotřebovanou při výparu</strong> (např. při <strong>evapotranspiraci</strong>) nebo <strong>uvolněnou při kondenzaci</strong>.<br>
+Je tedy <strong>klíčovou veličinou v energetické bilanci povrchu</strong> a <strong>koloběhu vody v atmosféře</strong>.</p>
+<p>V meteorologii a hydrologii se používá k převodu mezi <strong>tokem latentního tepla (<span class="math inline">\(\lambda E\)</span>)</strong> a <strong>skutečnou evapotranspirací (<span class="math inline">\(ET_a\)</span>)</strong>:</p>
+<p><span class="math display">\[
+\lambda E = \lambda \cdot ET_a
+\]</span></p>
+<p>kde: - <span class="math inline">\(\lambda E\)</span> – energetický tok (W·m⁻²),<br>
+- <span class="math inline">\(ET_a\)</span> – množství odpařené vody (kg·m⁻²·s⁻¹ nebo mm·den⁻¹).</p>
+<p>Latentní teplo výparu je klíčovým faktorem při <strong>výpočtech výparu, přenosu energie, tvorbě oblaků</strong> i <strong>stabilitě atmosféry</strong>, protože představuje <strong>hlavní cestu přeměny energie mezi povrchem Země a atmosférou</strong>.</p>
+</div>
+</section>
+</section>
+<section id="sec-t-lenticelarni-vypar" class="level4">
+<h4 class="anchored" data-anchor-id="sec-t-lenticelarni-vypar">Lenticelární výpar</h4>
+<p><strong>Lenticelární výpar</strong> (angl. <em>lenticellar transpiration</em> nebo <em>lenticellar evaporation</em>) je <strong>odpařování vody z rostlinných pletiv prostřednictvím čoček (lenticel)</strong> – drobných pórů v <strong>peridermu (kůře)</strong> dřevnatých částí rostlin, zejména <strong>stonků a větví</strong>.</p>
+<section id="více-2" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-2">Více</h5>
+<div class="collapsible">
+<p>Tento typ výparu tvoří obvykle <strong>velmi malou část celkové transpirace</strong>, protože <strong>lenticely mají omezenou propustnost</strong> a jejich hlavní funkcí je <strong>zajišťovat výměnu plynů</strong> mezi vnitřními pletivy a atmosférou.</p>
+<p><strong>Lenticelární výpar</strong> může být významnější: - při <strong>poškození pletiv</strong>,<br>
+- při <strong>ztrátě funkce průduchů</strong>,<br>
+- během <strong>vegetativního klidu</strong> nebo u <strong>trvale dřevnatých rostlin</strong>.</p>
+<p>Z fyziologického hlediska <strong>doplňuje stomatární a kutikulární výpar</strong> a <strong>podílí se na celkové vodní bilanci rostliny</strong>, i když jeho <strong>kvantitativní význam bývá zanedbatelný</strong>.</p>
+</div>
+</section>
+</section>
+<section id="sec-t-litoral" class="level4">
+<h4 class="anchored" data-anchor-id="sec-t-litoral">Litorál</h4>
+<p><strong>Litorál</strong> (angl. <em>littoral zone</em>) je <strong>pobřežní pásmo vodního tělesa</strong>, které zahrnuje <strong>oblast od břehu po místo, kam ještě proniká dostatek světla pro růst vodních rostlin</strong> (do hloubky fotické zóny).<br>
+V jezerech a rybnících odpovídá <strong>mělčině s dnem osídleným makrofyty</strong>, zatímco v mořském prostředí zahrnuje <strong>pásmo mezi přílivem a odlivem</strong> (<em>přílivovou zónu</em>).</p>
+<section id="více-3" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-3">Více</h5>
+<div class="collapsible">
+<p>Litorál je <strong>ekologicky nejbohatší část vodního ekosystému</strong>, protože <strong>kombinuje vlivy vody a souše</strong>.<br>
+Poskytuje <strong>stanoviště pro vodní i suchozemské organismy</strong>, je místem <strong>intenzivní fotosyntézy</strong>, <strong>rozkladu organické hmoty</strong> i <strong>vývoje mnoha živočichů</strong>.</p>
+<p>Charakter litorálu závisí na: - <strong>sklonu břehu</strong>,<br>
+- <strong>typu substrátu</strong>,<br>
+- <strong>kolísání hladiny</strong>,<br>
+- <strong>proudění vody</strong>,<br>
+- <strong>expozici vůči větru či vlnám</strong>.</p>
+<p>V <strong>hydrologii, limnologii a ekologii</strong> má litorál zásadní význam pro <strong>biologickou produkci</strong>, <strong>koloběh živin</strong> a <strong>samočisticí procesy ve vodních nádržích</strong>.</p>
+</div>
+</section>
+</section>
+<section id="sec-t-lysimetr" class="level4">
+<h4 class="anchored" data-anchor-id="sec-t-lysimetr">Lysimetr</h4>
+<p><strong>Lysimetr</strong> (angl. <em>lysimeter</em>) je <strong>měřicí zařízení používané k určování vodní bilance půdy</strong>, zejména <strong>evapotranspirace, vsakování a odtoku</strong>.<br>
+Obvykle má podobu <strong>nádoby nebo válce naplněného půdou</strong>, v níž jsou pěstovány rostliny a která je <strong>izolována od okolní půdy</strong>, aby bylo možné přesně sledovat <strong>příjem a ztráty vody</strong>.</p>
+<section id="více-4" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-4">Více</h5>
+<div class="collapsible">
+<p>Množství vody v lysimetru se sleduje pomocí <strong>vážení</strong>, <strong>měření srážek, závlahy, odtoku</strong> a <strong>změn půdní vlhkosti</strong>.</p>
+<p>Podle konstrukce se rozlišují: - <strong>vážkové lysimetry</strong> – měří <strong>změny hmotnosti</strong> celého zařízení,<br>
+- <strong>nevážkové lysimetry</strong> – určují <strong>vodní bilanci výpočtem</strong> ze vstupních a výstupních toků.</p>
+<p>Lysimetry se používají v <strong>hydrologii, zemědělství a ekologii</strong> k: - <strong>kalibraci modelů evapotranspirace</strong>,<br>
+- <strong>hodnocení hospodaření s vodou</strong>,<br>
+- <strong>výzkumu interakcí mezi půdou, rostlinami a atmosférou</strong>.</p>
+<p>Jsou klíčovým nástrojem pro <strong>experimentální ověřování procesů koloběhu vody</strong> a pro <strong>určování parametrů vodní bilance</strong> v různých typech ekosystémů.</p>
 </div>
 
 
+</section>
 </section>
 </section>
 

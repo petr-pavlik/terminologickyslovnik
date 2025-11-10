@@ -1,0 +1,93 @@
+# M
+
+#### Meteorologie {#sec-t-meteorologie}
+
+**Meteorologie** (angl. *meteorology*) je **věda o atmosféře a jejích dějích**, která studuje **fyzikální a chemické procesy ovlivňující počasí a klima**.  
+Zabývá se **složením, strukturou a dynamikou atmosféry**, **výměnou energie, vlhkosti a hybnosti** mezi Zemí a atmosférou a vznikem **meteorologických jevů**, jako jsou **vítr, srážky, oblačnost, bouřky nebo mlhy**.
+
+##### Více {.detail}
+::: collapsible
+Základními obory meteorologie jsou:
+
+- **synoptická meteorologie** – analýza a předpověď počasí,  
+- **fyzikální meteorologie** – studium mikrofyzikálních procesů v atmosféře,  
+- **dynamická meteorologie** – popis pohybů vzduchu pomocí rovnic proudění,  
+- **mikrometeorologie** – výzkum procesů v přízemní vrstvě atmosféry,  
+- **agrometeorologie** – studium vztahů mezi počasím a zemědělskou produkcí.
+
+Meteorologie využívá **měření, modelování a dálkový průzkum Země** (např. **meteorologické radary a družice**).  
+Je základem pro **předpověď počasí**, **klimatologii**, **letectví**, **hydrologii** i pro **hodnocení dopadů změny klimatu**.
+:::
+
+#### METRIC {#sec-t-metric}
+
+**METRIC** (*Mapping Evapotranspiration at High Resolution with Internalized Calibration*) je **fyzikálně založený dálkový model pro výpočet prostorově rozlišené aktuální evapotranspirace (ET)** z družicových dat, vyvinutý týmem **R. G. Allena z University of Idaho**.  
+Model využívá **energetickou bilanci povrchu** ve tvaru:
+
+$$
+R_n - G - H = \lambda E
+$$
+
+kde:
+
+\begin{itemize}
+  \item $R_n$ – čistá radiační bilance (W·m⁻²),
+  \item $G$ – tok tepla do půdy (W·m⁻²),
+  \item $H$ – tok citelného tepla (W·m⁻²),
+  \item $\lambda E$ – latentní tok tepla (evapotranspirace, W·m⁻²).
+\end{itemize}
+
+##### Více {.detail}
+::: collapsible
+Základem modelu je **výpočet jednotlivých složek energetické bilance** z **družicových snímků** (např. *Landsat*) v kombinaci s **meteorologickými daty**.  
+Tok citelného tepla ($H$) je **kalibrován vnitřně** pomocí tzv. *„hot“* a *„cold“* pixelů – **referenčních míst s minimální a maximální evapotranspirací** – což zajišťuje **přesnost bez nutnosti přímých měření z povrchu**.
+
+Model METRIC umožňuje:
+
+- **mapování aktuální evapotranspirace** na úrovni jednotlivých polí, povodí či regionů,  
+- **odhad vodní bilance a závlahové potřeby**,  
+- **monitorování vodního stresu vegetace**.
+
+METRIC je široce využíván v **hydrologii**, **zemědělství**, **správě vodních zdrojů** i **klimatických studiích** jako nástroj pro **kvantifikaci spotřeby vody vegetací** na základě **družicového pozorování v reálném prostoru a čase**.
+:::
+
+
+#### Mezní vrstva atmosféry {#sec-t-mezni-vrstva-atmosfery}
+
+**Mezní vrstva atmosféry** (angl. *atmospheric boundary layer*, zkratka *ABL* nebo *PBL – Planetary Boundary Layer*) je **nejnižší část troposféry**, která je **přímo ovlivňována zemským povrchem** a reaguje na jeho změny v řádu **minut až hodin**.  
+V této vrstvě probíhá **intenzivní výměna tepla, vodní páry, hybnosti a plynů** mezi povrchem a volnou atmosférou.
+
+##### Více {.detail}
+::: collapsible
+**Výška mezní vrstvy** se mění podle **denní doby a stability atmosféry**:
+
+- **přes den** se vlivem ohřevu povrchu vytváří **konvektivní mezní vrstva** o výšce obvykle **1–2 km**,  
+- **v noci** se povrch ochlazuje a vzniká **stabilní mezní vrstva**, která bývá tenčí (**několik stovek metrů**),  
+- nad ní se může vyskytovat **reziduální vrstva** tvořená zbytky denní turbulence.
+
+Mezní vrstva se dále člení na:
+
+- **přízemní (povrchovou) vrstvu** – do výšky cca **50–100 m**, kde turbulence přímo ovlivňuje výměnu energie a látek s povrchem,  
+- **zbytek turbulentní vrstvy** – oblast, kde se turbulence postupně zmenšuje směrem vzhůru.
+
+Studium mezní vrstvy atmosféry je klíčové pro **mikrometeorologii**, **klimatologii**, **hydrologii** a **ekologii**, protože určuje **šíření tepla, vlhkosti a znečištění**, **pohyb vzduchu** i **podmínky pro vznik oblačnosti a konvekce**.
+:::
+
+#### Mikrometeorologie {#sec-t-mikrometeorologie}
+
+**Mikrometeorologie** (angl. *micrometeorology*) je **obor meteorologie**, který se zabývá **fyzikálními procesy a výměnou energie, hmoty a hybnosti v nejnižší části atmosféry** – tzv. **přízemní (mezní) vrstvě atmosféry**, typicky do výšky **několika stovek metrů nad zemí**.  
+Studuje **krátkodobé a prostorově omezené jevy**, které ovlivňují **teplotu, vlhkost, proudění vzduchu, výpar, přenos tepla a plynů** v bezprostřední blízkosti **zemského povrchu, vegetace či vodních ploch**.
+
+##### Více {.detail}
+::: collapsible
+Hlavní témata mikrometeorologie zahrnují:
+
+- **energetickou a radiační bilanci povrchu**,  
+- **turbulentní proudění a výměnu látek** (CO₂, H₂O, teplo),  
+- **měření mikrometeorologickými metodami** – např. *eddy covariance*, *Bowenův poměr*, *surface renewal*,  
+- **strukturu a dynamiku mezní vrstvy atmosféry**,  
+- **interakce mezi půdou, vegetací a atmosférou** (*PBL – Planetary Boundary Layer*).
+
+Mikrometeorologie má zásadní význam pro **hydrologii, klimatologii, ekologii a zemědělství**, protože poskytuje podklady pro **pochopení výměny energie a vody mezi biosférou a atmosférou**, **modelování evapotranspirace** i **hodnocení dopadů klimatických změn v lokálním měřítku**.
+:::
+
