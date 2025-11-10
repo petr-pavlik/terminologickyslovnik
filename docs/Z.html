@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>t – Terminologický slovník výparu</title>
+<title>z – Terminologický slovník výparu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -100,35 +100,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -201,7 +172,7 @@ window.Quarto = {
 <span class="menu-text">S</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./T.html" aria-current="page"> 
+    <a class="nav-link" href="./T.html"> 
 <span class="menu-text">T</span></a>
   </li>  
   <li class="nav-item">
@@ -209,7 +180,7 @@ window.Quarto = {
 <span class="menu-text">V</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Z.html"> 
+    <a class="nav-link active" href="./Z.html" aria-current="page"> 
 <span class="menu-text">Z</span></a>
   </li>  
   <li class="nav-item">
@@ -236,13 +207,9 @@ window.Quarto = {
     <h2 id="toc-title">Na této stránce</h2>
    
   <ul>
-  <li><a href="#t" id="toc-t" class="nav-link active" data-scroll-target="#t">T</a>
+  <li><a href="#z" id="toc-z" class="nav-link active" data-scroll-target="#z">Z</a>
   <ul>
-  <li><a href="#sec-t-tepoltni-index" id="toc-sec-t-tepoltni-index" class="nav-link" data-scroll-target="#sec-t-tepoltni-index">Teplotní index</a></li>
-  <li><a href="#sec-t-thorntwaitova-rovnice" id="toc-sec-t-thorntwaitova-rovnice" class="nav-link" data-scroll-target="#sec-t-thorntwaitova-rovnice">Thorntwaitova rovnice</a></li>
-  <li><a href="#sec-t-tlak-vodni-pary" id="toc-sec-t-tlak-vodni-pary" class="nav-link" data-scroll-target="#sec-t-tlak-vodni-pary">Tlak vodní páry</a></li>
-  <li><a href="#sec-t-transpirace" id="toc-sec-t-transpirace" class="nav-link" data-scroll-target="#sec-t-transpirace">Transpirace</a></li>
-  <li><a href="#sec-t-transpiracni-vlahova-potreba" id="toc-sec-t-transpiracni-vlahova-potreba" class="nav-link" data-scroll-target="#sec-t-transpiracni-vlahova-potreba">Transpirační vláhová potřeba</a></li>
+  <li><a href="#sec-z-zmena-klimatu" id="toc-sec-z-zmena-klimatu" class="nav-link" data-scroll-target="#sec-z-zmena-klimatu">Změna klimatu</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -253,47 +220,19 @@ window.Quarto = {
 
 
 
-<section id="t" class="level1">
-<h1>T</h1>
-<section id="sec-t-tepoltni-index" class="level4">
-<h4 class="anchored" data-anchor-id="sec-t-tepoltni-index">Teplotní index</h4>
-<p>Teplotní index je metrika, která v sobě kombinuje teplotu vzduchu a relativní vlhkost tak, aby člověkem vnímaný kombinovaný projev obou těchto veličin byl shodný.</p>
-</section>
-<section id="sec-t-thorntwaitova-rovnice" class="level4">
-<h4 class="anchored" data-anchor-id="sec-t-thorntwaitova-rovnice">Thorntwaitova rovnice</h4>
+<section id="z" class="level1">
+<h1>Z</h1>
+<section id="sec-z-zmena-klimatu" class="level4">
+<h4 class="anchored" data-anchor-id="sec-z-zmena-klimatu">Změna klimatu</h4>
+<p><strong>Změna klimatu</strong> (angl. <em>climate change</em>) je dlouhodobá změna průměrného stavu klimatu Země nebo jeho jednotlivých složek, která se projevuje například změnami teploty, srážek, větrných poměrů či četnosti extrémních jevů. Tyto změny mohou být způsobeny přirozenými procesy (např. vulkanickou činností, změnami sluneční aktivity, vnitřní variabilitou klimatu) nebo vlivem člověka.</p>
+<section id="více" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více">Více</h5>
 <div class="collapsible">
-<p>Zakládá na empirickém vztahu mezi ETa a změnou průměrné teploty vzduchu.</p>
-<p><span class="math display">\[
-\mathrm{PET} = 16\left(\dfrac{L}{12}\right)\left(\dfrac{N}{30}\right)\left(\dfrac{10T_d}{I}\right)
-\]</span> kde <span class="math inline">\(I\)</span> je tepelný index</p>
-<p><span class="math display">\[
-I =\sum_{i=1}^{12}\left(\dfrac{T_{m_i}}{5}\right)
-\]</span></p>
-</div>
-</section>
-<section id="sec-t-tlak-vodni-pary" class="level4">
-<h4 class="anchored" data-anchor-id="sec-t-tlak-vodni-pary">Tlak vodní páry</h4>
-<p>some text</p>
-<section id="detail" class="level5 detail">
-<h5 class="detail anchored" data-anchor-id="detail">Detail</h5>
-<div class="collapsible">
-<p>text in more detail</p>
-</div>
-</section>
-</section>
-<section id="sec-t-transpirace" class="level4">
-<h4 class="anchored" data-anchor-id="sec-t-transpirace">Transpirace</h4>
-<div class="collapsible">
-<p>Číselný index, vyjadřující stuoeń sucha klimatu v dané lokalitě se nazývá index aridity. Aridita, nebo-li vyprahlost je odlišný termín od sucha, neboť označuje stálý stav. Stav sucha je naproti tomu epizodní. Ke sledování aridity se používá více indexů.</p>
-</div>
-</section>
-<section id="sec-t-transpiracni-vlahova-potreba" class="level4">
-<h4 class="anchored" data-anchor-id="sec-t-transpiracni-vlahova-potreba">Transpirační vláhová potřeba</h4>
-<div class="collapsible">
-
+<p>V současnosti pojem označuje především globální oteplování způsobené zvýšenou koncentrací skleníkových plynů v atmosféře v důsledku spalování fosilních paliv, odlesňování a změn využívání půdy. Důsledkem změny klimatu jsou např. zvýšení průměrné globální teploty, ústup ledovců, vzestup hladiny moří, častější výskyt sucha, vln veder a extrémních srážek. Změna klimatu má zásadní dopady na ekosystémy, zemědělství, vodní zdroje, zdraví lidí i ekonomiku a je předmětem mezinárodních dohod, jako je Rámcová úmluva OSN o změně klimatu (UNFCCC) a Pařížská dohoda.</p>
 </div>
 
 
+</section>
 </section>
 </section>
 
