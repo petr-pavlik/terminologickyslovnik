@@ -399,6 +399,46 @@ Vysoké hodnoty sytostního doplňku znamenají **suchý vzduch s vysokým poten
 Sytostní doplněk je **klíčovým ukazatelem** pro hodnocení **výparu a transpirace rostlin**, **intenzity evapotranspirace**, **stresu suchem** a **výměny vodní páry mezi povrchem a atmosférou**.
 :::
 
+#### Surface renewal {#sec-t-surface-renewal}
+
+**Surface renewal** (nemá zavedený český ekvivalent) je **mikrometeorologická metoda** používaná k **odhadu turbulentních toků tepla, vodní páry nebo CO₂** mezi povrchem a atmosférou.  
+Zakládá se na **analýze rychlých teplotních fluktuací** v přízemní vrstvě vzduchu nad povrchem.
+
+##### Více {.detail}
+::: collapsible
+Principem je, že **turbulentní víry periodicky „obnovují“ vzduch u povrchu** – střídavě přinášejí teplejší nebo chladnější vzduch z vyšších vrstev a odvádějí vzduch ochlazený nebo ohřátý kontaktem s povrchem.  
+Tvar těchto teplotních změn v čase (tzv. *rampový signál*) obsahuje informaci o **intenzitě turbulentní výměny**.
+
+Z analýzy časového průběhu teploty se určuje **tok citelného tepla ($H$)** podle vztahu:
+
+$$
+H = \rho \, c_p \, \alpha \, \frac{A}{\tau}
+$$
+
+kde:
+
+\begin{itemize}
+  \item $\rho$ – hustota vzduchu (kg·m⁻³),
+  \item $c_p$ – měrná tepelná kapacita vzduchu (J·kg⁻¹·K⁻¹),
+  \item $A$ – průměrná amplituda rampy (°C·s),
+  \item $\tau$ – průměrná doba trvání rampy (s),
+  \item $\alpha$ – empirický kalibrační koeficient.
+\end{itemize}
+
+Metoda *surface renewal* je často **kalibrována vůči metodě eddy covariance**, přičemž umožňuje **měřit turbulentní toky s nižšími náklady**, protože vyžaduje pouze **rychlý teplotní senzor (termistor)** místo plné soustavy **trojosých anemometrů**.
+
+**Výhody:**
+- nižší cena a spotřeba energie,  
+- vhodná i pro malé a vzdálené experimentální plochy,  
+- možnost odhadu toků v reálném čase.
+
+**Nevýhody:**
+- nutnost kalibrace,  
+- menší přesnost při nestabilních nebo silně proměnlivých podmínkách.
+
+Metoda *surface renewal* se používá v **agrometeorologii, hydrologii, ekofyziologii a monitoringu evapotranspirace**, zejména pro **kvantifikaci toků energie a vody** nad vegetací či půdou.
+:::
+
 
 
 
@@ -538,45 +578,5 @@ Ve skutečnosti je tento graf možné prodloužit až do:
 </script>
 
 
-:::
-
-#### Surface renewal {#sec-t-surface-renewal}
-
-**Surface renewal** (nemá zavedený český ekvivalent) je **mikrometeorologická metoda** používaná k **odhadu turbulentních toků tepla, vodní páry nebo CO₂** mezi povrchem a atmosférou.  
-Zakládá se na **analýze rychlých teplotních fluktuací** v přízemní vrstvě vzduchu nad povrchem.
-
-##### Více {.detail}
-::: collapsible
-Principem je, že **turbulentní víry periodicky „obnovují“ vzduch u povrchu** – střídavě přinášejí teplejší nebo chladnější vzduch z vyšších vrstev a odvádějí vzduch ochlazený nebo ohřátý kontaktem s povrchem.  
-Tvar těchto teplotních změn v čase (tzv. *rampový signál*) obsahuje informaci o **intenzitě turbulentní výměny**.
-
-Z analýzy časového průběhu teploty se určuje **tok citelného tepla ($H$)** podle vztahu:
-
-$$
-H = \rho \, c_p \, \alpha \, \frac{A}{\tau}
-$$
-
-kde:
-
-\begin{itemize}
-  \item $\rho$ – hustota vzduchu (kg·m⁻³),
-  \item $c_p$ – měrná tepelná kapacita vzduchu (J·kg⁻¹·K⁻¹),
-  \item $A$ – průměrná amplituda rampy (°C·s),
-  \item $\tau$ – průměrná doba trvání rampy (s),
-  \item $\alpha$ – empirický kalibrační koeficient.
-\end{itemize}
-
-Metoda *surface renewal* je často **kalibrována vůči metodě eddy covariance**, přičemž umožňuje **měřit turbulentní toky s nižšími náklady**, protože vyžaduje pouze **rychlý teplotní senzor (termistor)** místo plné soustavy **trojosých anemometrů**.
-
-**Výhody:**
-- nižší cena a spotřeba energie,  
-- vhodná i pro malé a vzdálené experimentální plochy,  
-- možnost odhadu toků v reálném čase.
-
-**Nevýhody:**
-- nutnost kalibrace,  
-- menší přesnost při nestabilních nebo silně proměnlivých podmínkách.
-
-Metoda *surface renewal* se používá v **agrometeorologii, hydrologii, ekofyziologii a monitoringu evapotranspirace**, zejména pro **kvantifikaci toků energie a vody** nad vegetací či půdou.
 :::
 
