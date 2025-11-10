@@ -6,3 +6,5 @@
 /.quarto/
 *.DS_Store
 R.qmd
+
+**/*.quarto_ipynb
