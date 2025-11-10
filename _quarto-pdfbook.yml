@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: docs-pdf   # separate folder for the combined PDF
+  # use as: quarto render --profile pdfbook
+
+book:
+  title: "Terminologický slovník výparu"
+  chapters:
+    - index.qmd
+    - A.qmd
+    - B.qmd
+    - C.qmd
+    - E.qmd
+    - G.qmd
+    - I.qmd
+    - K.qmd
+    - L.qmd
+    - M.qmd
+    - O.qmd
+    - P.qmd
+    - R.qmd
+    - S.qmd
+    - T.qmd
+    - V.qmd
+    - Z.qmd
+    - Rozcestnik.qmd
+    - Literatura.qmd
+
+format:
+  pdf:
+    pdf-engine: lualatex
+    papersize: a4
+    lang: cs
