@@ -1,6 +1,6 @@
 # Z
 
-#### Změna klimatu {#sec-z-zmena klimatu}
+#### Změna klimatu {#sec-z-zmena-klimatu}
 **Změna klimatu** (angl. *climate change*) je dlouhodobá změna průměrného stavu klimatu Země nebo jeho jednotlivých složek, která se projevuje například změnami teploty, srážek, větrných poměrů či četnosti extrémních jevů. Tyto změny mohou být způsobeny přirozenými procesy (např. vulkanickou činností, změnami sluneční aktivity, vnitřní variabilitou klimatu) nebo vlivem člověka.
 
 ##### Více {.detail}
