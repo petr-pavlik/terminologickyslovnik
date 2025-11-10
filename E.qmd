@@ -1,12 +1,12 @@
 ## E
 
-#### Eddy-kovariance {#sec-e-eddy-kovariance}
+#### Eddy-kovarianční metoda {#sec-e-eddy-kovariancni-metoda}
 
-(ekv. *eddy covariance*) Tento termín se do českého jazyka obvykle nepřekládá. Označuje se tak běžně kovariance vzduchového víření. 
+**Eddy kovarianční metoda** (angl. *eddy covariance*) je mikrometeorologická technika používaná k měření výměny plynů, tepla nebo hybnosti mezi zemským povrchem a atmosférou. Je založena na analýze krátkodobých fluktuací vertikální rychlosti větru a koncentrace sledované látky (např. CO₂ nebo vodní páry). Z kovariance těchto odchylek se vypočítává tok, který udává, kolik látky je přenášeno víry vzduchu směrem nahoru či dolů. Metoda se využívá zejména při výzkumu uhlíkového cyklu, evapotranspirace a energetické bilance ekosystémů.
 
-##### V detailu
+##### Více {.detail}
 ::: collapsible
-A tak ale himl
+
 :::
 
 #### Evaporace {#sec-e-evaporace}
@@ -20,6 +20,28 @@ Odpařování z volné vodní hladiny, půdy a dalších povrchů bez zapojení 
 K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 \%$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než $70 \%$ zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze [sublimace](S.qmd#sec-s-sublimace).
 
 V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.
+:::
+
+#### Evaporační frakce
+
+**Evaporační frakce** (angl. *evaporative fraction*, značka $\mathm{EF}$) je 
+bezrozměrný ukazatel, který vyjadřuje, jaká část dostupné energie na povrchu 
+je využita k výparu vody ([latentnímu teplu]{L.qmd#sec-l-latentni-teplo}) ve 
+srovnání s energií přeměněnou na citelné teplo.
+
+
+##### Více {.detail}
+::: collapsible
+
+$$
+\mathrm{EF} = \frac{\mathrm{LH}}{\mathrm{LH} + H}
+$$
+alternativně:
+
+$$
+\mathrm{EF} = \dfrac{\lambda E}{R_n - G_0}
+$$
+
 :::
 
 #### Evaporační vláhová potřeba {#sec-e-evapotranspiracni-vlahova-potreba}

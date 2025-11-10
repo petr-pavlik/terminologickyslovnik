@@ -197,6 +197,10 @@ window.Quarto = {
 <span class="menu-text">B</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./C.html"> 
+<span class="menu-text">C</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./E.html" aria-current="page"> 
 <span class="menu-text">E</span></a>
   </li>  
@@ -262,8 +266,9 @@ window.Quarto = {
   <ul>
   <li><a href="#e" id="toc-e" class="nav-link active" data-scroll-target="#e">E</a>
   <ul>
-  <li><a href="#sec-e-eddy-kovariance" id="toc-sec-e-eddy-kovariance" class="nav-link" data-scroll-target="#sec-e-eddy-kovariance">Eddy-kovariance</a></li>
+  <li><a href="#sec-e-eddy-kovariancni-metoda" id="toc-sec-e-eddy-kovariancni-metoda" class="nav-link" data-scroll-target="#sec-e-eddy-kovariancni-metoda">Eddy-kovarianční metoda</a></li>
   <li><a href="#sec-e-evaporace" id="toc-sec-e-evaporace" class="nav-link" data-scroll-target="#sec-e-evaporace">Evaporace</a></li>
+  <li><a href="#evaporační-frakce" id="toc-evaporační-frakce" class="nav-link" data-scroll-target="#evaporační-frakce">Evaporační frakce</a></li>
   <li><a href="#sec-e-evapotranspiracni-vlahova-potreba" id="toc-sec-e-evapotranspiracni-vlahova-potreba" class="nav-link" data-scroll-target="#sec-e-evapotranspiracni-vlahova-potreba">Evaporační vláhová potřeba</a></li>
   <li><a href="#sec-e-evapotranspirace" id="toc-sec-e-evapotranspirace" class="nav-link" data-scroll-target="#sec-e-evapotranspirace">Evapotranspirace</a></li>
   <li><a href="#sec-e-evapotranspirace-aktualni" id="toc-sec-e-evapotranspirace-aktualni" class="nav-link" data-scroll-target="#sec-e-evapotranspirace-aktualni">Evapotranspirace aktuální</a></li>
@@ -280,13 +285,13 @@ window.Quarto = {
 
 <section id="e" class="level2">
 <h2 class="anchored" data-anchor-id="e">E</h2>
-<section id="sec-e-eddy-kovariance" class="level4">
-<h4 class="anchored" data-anchor-id="sec-e-eddy-kovariance">Eddy-kovariance</h4>
-<p>(ekv. <em>eddy covariance</em>) Tento termín se do českého jazyka obvykle nepřekládá. Označuje se tak běžně kovariance vzduchového víření.</p>
-<section id="v-detailu" class="level5">
-<h5 class="anchored" data-anchor-id="v-detailu">V detailu</h5>
+<section id="sec-e-eddy-kovariancni-metoda" class="level4">
+<h4 class="anchored" data-anchor-id="sec-e-eddy-kovariancni-metoda">Eddy-kovarianční metoda</h4>
+<p><strong>Eddy kovarianční metoda</strong> (angl. <em>eddy covariance</em>) je mikrometeorologická technika používaná k měření výměny plynů, tepla nebo hybnosti mezi zemským povrchem a atmosférou. Je založena na analýze krátkodobých fluktuací vertikální rychlosti větru a koncentrace sledované látky (např. CO₂ nebo vodní páry). Z kovariance těchto odchylek se vypočítává tok, který udává, kolik látky je přenášeno víry vzduchu směrem nahoru či dolů. Metoda se využívá zejména při výzkumu uhlíkového cyklu, evapotranspirace a energetické bilance ekosystémů.</p>
+<section id="více" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více">Více</h5>
 <div class="collapsible">
-<p>A tak ale himl</p>
+
 </div>
 </section>
 </section>
@@ -298,6 +303,21 @@ window.Quarto = {
 <p>K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než <span class="math inline">\(70 \%\)</span> zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze <a href="./S.html#sec-s-sublimace">sublimace</a>.</p>
 <p>V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.</p>
 </div>
+</section>
+<section id="evaporační-frakce" class="level4">
+<h4 class="anchored" data-anchor-id="evaporační-frakce">Evaporační frakce</h4>
+<p><strong>Evaporační frakce</strong> (angl. <em>evaporative fraction</em>, značka <span class="math inline">\(\mathm{EF}\)</span>) je bezrozměrný ukazatel, který vyjadřuje, jaká část dostupné energie na povrchu je využita k výparu vody ([latentnímu teplu]{L.qmd#sec-l-latentni-teplo}) ve srovnání s energií přeměněnou na citelné teplo.</p>
+<section id="více-1" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-1">Více</h5>
+<div class="collapsible">
+<p><span class="math display">\[
+\mathrm{EF} = \frac{\mathrm{LH}}{\mathrm{LH} + H}
+\]</span> alternativně:</p>
+<p><span class="math display">\[
+\mathrm{EF} = \dfrac{\lambda E}{R_n - G_0}
+\]</span></p>
+</div>
+</section>
 </section>
 <section id="sec-e-evapotranspiracni-vlahova-potreba" class="level4">
 <h4 class="anchored" data-anchor-id="sec-e-evapotranspiracni-vlahova-potreba">Evaporační vláhová potřeba</h4>
@@ -312,7 +332,7 @@ window.Quarto = {
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">runif</span>(<span class="dv">1</span>)</span></code><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.8394564</code></pre>
+<pre><code>[1] 0.2076654</code></pre>
 </div>
 </div>
 </div>

@@ -1,0 +1,38 @@
+---
+toc-title: "Na této stránce"
+---
+
+## C 
+
+#### Citlivost průduchů {#sec-c-citlivost-pruduchu}
+
+**Citlivost průduchů** na deficit nasycení vodních par (angl. *stomatal sensitivity* 
+to vapor pressure deficit) vyjadřuje, jak silně reagují průduchy rostlin (stomata) 
+na změny deficitu nasycení vodních par (VPD – *Vapor Pressure Deficit*), 
+tedy na rozdíl mezi aktuálním a nasyceným tlakem vodní páry ve vzduchu.
+
+
+##### Více {.detail}
+::: collapsible
+VPD určuje „poptávku“ atmosféry po vodní páře – čím je vyšší, tím je vyšší 
+potenciální výpar. Rostliny na rostoucí VPD reagují uzavíráním průduchů, 
+aby omezily transpiraci a zabránily nadměrné ztrátě vody. Citlivost průduchů 
+lze popsat empiricky například pomocí vztahu:
+
+$$
+g_s = g_{s_\mathrm{ref}} - m\ln(\mathrm{VPD})
+$$
+kde:
+
+ -  $g_s$ – aktuální stomatární vodivost,\
+ -  $g_{s_\mathrm{ref}}$ – referenční vodivost při VPD = 1 kPa,\
+ -  $m$ – parametr vyjadřující citlivost průduchů na změnu VPD.\
+
+Rostliny s vysokou citlivostí (velké $m$) průduchy při zvýšení VPD rychle 
+uzavírají tzn. šetří vodu, ale omezují fotosyntézu. Naopak druhy s nízkou 
+citlivostí si při vyšším VPD udržují otevřenější průduchy (udržují asimilaci), 
+ale riskují vodní stres. Citlivost průduchů na VPD je důležitým fyziologickým 
+parametrem v ekofyziologii, modelování transpirace a hodnocení odolnosti 
+rostlin vůči suchu, protože určuje strategii hospodaření s vodou (isohydrickou 
+nebo anisohydrickou).
+:::

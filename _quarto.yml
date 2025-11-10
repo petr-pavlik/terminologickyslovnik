@@ -11,6 +11,7 @@ website:
         text: "<i class='fa-solid fa-house'></i>"
       - A.qmd
       - B.qmd
+      - C.qmd
       - E.qmd
       - G.qmd
       - I.qmd

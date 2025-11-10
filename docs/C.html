@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>p – Terminologický slovník výparu</title>
+<title>c – Terminologický slovník výparu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -162,7 +162,7 @@ window.Quarto = {
 <span class="menu-text">B</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./C.html"> 
+    <a class="nav-link active" href="./C.html" aria-current="page"> 
 <span class="menu-text">C</span></a>
   </li>  
   <li class="nav-item">
@@ -186,7 +186,7 @@ window.Quarto = {
 <span class="menu-text">L</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./P.html" aria-current="page"> 
+    <a class="nav-link" href="./P.html"> 
 <span class="menu-text">P</span></a>
   </li>  
   <li class="nav-item">
@@ -229,11 +229,9 @@ window.Quarto = {
     <h2 id="toc-title">Na této stránce</h2>
    
   <ul>
-  <li><a href="#p" id="toc-p" class="nav-link active" data-scroll-target="#p">P</a>
+  <li><a href="#c" id="toc-c" class="nav-link active" data-scroll-target="#c">C</a>
   <ul>
-  <li><a href="#sec-p-penman-monteithova-rovnice" id="toc-sec-p-penman-monteithova-rovnice" class="nav-link" data-scroll-target="#sec-p-penman-monteithova-rovnice">Penman-Monteithova rovnice</a></li>
-  <li><a href="#sec-p-potencialni-evapotranspirace" id="toc-sec-p-potencialni-evapotranspirace" class="nav-link" data-scroll-target="#sec-p-potencialni-evapotranspirace">Potenciální evapotranspirace</a></li>
-  <li><a href="#sec-p-psychrometricka-konstanta" id="toc-sec-p-psychrometricka-konstanta" class="nav-link" data-scroll-target="#sec-p-psychrometricka-konstanta">Psychrometrická konstanta</a></li>
+  <li><a href="#sec-c-citlivost-pruduchu" id="toc-sec-c-citlivost-pruduchu" class="nav-link" data-scroll-target="#sec-c-citlivost-pruduchu">Citlivost průduchů</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -244,95 +242,31 @@ window.Quarto = {
 
 
 
-<section id="p" class="level1">
-<h1>P</h1>
-<section id="sec-p-penman-monteithova-rovnice" class="level4">
-<h4 class="anchored" data-anchor-id="sec-p-penman-monteithova-rovnice">Penman-Monteithova rovnice</h4>
+<section id="c" class="level2">
+<h2 class="anchored" data-anchor-id="c">C</h2>
+<section id="sec-c-citlivost-pruduchu" class="level4">
+<h4 class="anchored" data-anchor-id="sec-c-citlivost-pruduchu">Citlivost průduchů</h4>
+<p><strong>Citlivost průduchů</strong> na deficit nasycení vodních par (angl. <em>stomatal sensitivity</em> to vapor pressure deficit) vyjadřuje, jak silně reagují průduchy rostlin (stomata) na změny deficitu nasycení vodních par (VPD – <em>Vapor Pressure Deficit</em>), tedy na rozdíl mezi aktuálním a nasyceným tlakem vodní páry ve vzduchu.</p>
+<section id="více" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více">Více</h5>
 <div class="collapsible">
-<p>Fyzikální kombinace energetické bilance a aerodynamického přenosu. Počítá se s využitím tzv. <em>referenčního povrchu</em>, což je travina tolice vojtěška (také pod označením <em>alfalfa</em>).</p>
+<p>VPD určuje „poptávku“ atmosféry po vodní páře – čím je vyšší, tím je vyšší potenciální výpar. Rostliny na rostoucí VPD reagují uzavíráním průduchů, aby omezily transpiraci a zabránily nadměrné ztrátě vody. Citlivost průduchů lze popsat empiricky například pomocí vztahu:</p>
 <p><span class="math display">\[
-\lambda\mathrm{ET} = \dfrac{\Delta(R_n - G) + \rho_ac_p\dfrac{e_s-e_a}{r_a}}{\Delta+\gamma(1 + \dfrac{r_s}{r_a})}
-\]</span> Výhodou rovnice je její univerzálkní použití, nevýhodou pak množství dat, které je potřeba k jejímu spočtení.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 26%">
-<col style="width: 62%">
-<col style="width: 10%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Značka</th>
-<th>Popis</th>
-<th>Hodnota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(\mathsf{\lambda}\)</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(\mathsf{\gamma}\)</span></td>
-<td>psychrometrická konstanta</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(e_s\)</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(e_a\)</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(r_a\)</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(r_s\)</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(\mathsf{\rho_a}\)</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(c_p\)</span></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+g_s = g_{s_\mathrm{ref}} - m\ln(\mathrm{VPD})
+\]</span> kde:</p>
+<ul>
+<li><span class="math inline">\(g_s\)</span> – aktuální stomatární vodivost,<br>
+</li>
+<li><span class="math inline">\(g_{s_\mathrm{ref}}\)</span> – referenční vodivost při VPD = 1 kPa,<br>
+</li>
+<li><span class="math inline">\(m\)</span> – parametr vyjadřující citlivost průduchů na změnu VPD.<br>
+</li>
+</ul>
+<p>Rostliny s vysokou citlivostí (velké <span class="math inline">\(m\)</span>) průduchy při zvýšení VPD rychle uzavírají tzn. šetří vodu, ale omezují fotosyntézu. Naopak druhy s nízkou citlivostí si při vyšším VPD udržují otevřenější průduchy (udržují asimilaci), ale riskují vodní stres. Citlivost průduchů na VPD je důležitým fyziologickým parametrem v ekofyziologii, modelování transpirace a hodnocení odolnosti rostlin vůči suchu, protože určuje strategii hospodaření s vodou (isohydrickou nebo anisohydrickou).</p>
 </div>
+
+
 </section>
-<section id="sec-p-potencialni-evapotranspirace" class="level4">
-<h4 class="anchored" data-anchor-id="sec-p-potencialni-evapotranspirace">Potenciální evapotranspirace</h4>
-<div class="collapsible">
-<p>Často se pod akronymem <span class="math inline">\(\mathrm{PET}\)</span> označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem. Definice potenciální evapotranspirace prošla vývvojem.</p>
-<blockquote class="blockquote">
-<p><strong>Thorntwaite</strong>: Evapotranspirace z libovolného území, na kterém rose libovolná vegetace dostatečně zásobená půdní vláhou, přičemž na povrchu listů není žádná intercipovaná voda.</p>
-</blockquote>
-<p>Penmman dále rozvinul vztah obecného porostu na referenční vegataci.</p>
-<blockquote class="blockquote">
-<p><strong>Penman</strong>: Evapotranspirace krátce střiženého hustého trávníku, dostatečně zásobeného půvní vláhou.</p>
-</blockquote>
-<p>S pomoci specificky zvolené rostliny - Tolice vojtěšky, jinak alfalfa (<em>Medicago sativa sp.</em>), byl urřen výpar z referenčního povrchu - tzv. <em>referenční plodinu</em>.</p>
-</div>
-</section>
-<section id="sec-p-psychrometricka-konstanta" class="level4">
-<h4 class="anchored" data-anchor-id="sec-p-psychrometricka-konstanta">Psychrometrická konstanta</h4>
-<p>Fyzikální konstanta, která se používá při výpočtech vlhkosti vzduchu v psychrometrické rovnici.</p>
-<div class="collapsible">
-
-</div>
-
-
 </section>
 </section>
 
