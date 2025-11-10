@@ -288,15 +288,15 @@ Je základem pro <strong>předpověď počasí</strong>, <strong>klimatologii</s
 </section>
 <section id="sec-t-metric" class="level4">
 <h4 class="anchored" data-anchor-id="sec-t-metric">METRIC</h4>
-<p><strong>METRIC</strong> (<em>Mapping Evapotranspiration at High Resolution with Internalized Calibration</em>) je <strong>fyzikálně založený dálkový model pro výpočet prostorově rozlišené aktuální evapotranspirace (ET)</strong> z družicových dat, vyvinutý týmem <strong>R. G. Allena z University of Idaho</strong>.<br>
-Model využívá <strong>energetickou bilanci povrchu</strong> ve tvaru:</p>
+<p><strong>METRIC</strong> (<em>Mapping Evapotranspiration at High Resolution with Internalized Calibration</em>) je <strong>fyzikálně založený dálkový model pro výpočet prostorově rozlišené aktuální evapotranspirace (ET)</strong> z družicových dat, vyvinutý týmem <strong>R. G. Allena z University of Idaho</strong>.</p>
+<section id="více-1" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-1">Více</h5>
+<div class="collapsible">
+<p>Model využívá <strong>energetickou bilanci povrchu</strong> ve tvaru:</p>
 <p><span class="math display">\[
 R_n - G - H = \lambda E
 \]</span></p>
 <p>kde:</p>
-<section id="více-1" class="level5 detail">
-<h5 class="detail anchored" data-anchor-id="více-1">Více</h5>
-<div class="collapsible">
 <p>Základem modelu je <strong>výpočet jednotlivých složek energetické bilance</strong> z <strong>družicových snímků</strong> (např. <em>Landsat</em>) v kombinaci s <strong>meteorologickými daty</strong>.<br>
 Tok citelného tepla (<span class="math inline">\(H\)</span>) je <strong>kalibrován vnitřně</strong> pomocí tzv. <em>„hot“</em> a <em>„cold“</em> pixelů – <strong>referenčních míst s minimální a maximální evapotranspirací</strong> – což zajišťuje <strong>přesnost bez nutnosti přímých měření z povrchu</strong>.</p>
 <p>Model METRIC umožňuje:</p>
