@@ -182,6 +182,10 @@ window.Quarto = {
 <span class="menu-text">B</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./C.html"> 
+<span class="menu-text">C</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./E.html"> 
 <span class="menu-text">E</span></a>
   </li>  
@@ -263,18 +267,18 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="b">B</h2>
 <section id="sec-b-budykova-krivka" class="level4">
 <h4 class="anchored" data-anchor-id="sec-b-budykova-krivka">Budykova křivka</h4>
-<p><strong>Budykova křivka</strong> (angl. Budyko curve) je empirický vztah popisující závislost mezi podílem skutečné evapotranspirace a potenciální evapotranspirace na poměru srážek k potenciální evapotranspiraci v určitém regionu nebo povodí. Vyjadřuje tedy, jak se vodní bilance systému (poměr mezi srážkami, výparem a odtokem) mění v závislosti na klimatických podmínkách.</p>
-<p>Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu <span class="math display">\[
-P = Ea + Q,
-\]</span> kde <span class="math inline">\(\mathsf{P}\)</span> je dlouhodobý roční srážkový úhrn, <span class="math inline">\(\mathsf{Ea}\)</span> je výška dlouhodobé roční aktuální evapotranspirace a <span class="math inline">\(Q\)</span> je dlouhodobá výška ročního odtoku.</p>
+<p><strong>Budykova křivka</strong> (angl. <em>Budyko curve</em>) je <strong>empirický vztah popisující závislost mezi podílem skutečné evapotranspirace a potenciální evapotranspirace na poměru srážek k potenciální evapotranspiraci</strong> v určitém regionu nebo povodí. Vyjadřuje tedy, jak se vodní bilance systému (poměr mezi srážkami, výparem a odtokem) mění v závislosti na klimatických podmínkách.</p>
 <section id="více" class="level5 detail">
 <h5 class="detail anchored" data-anchor-id="více">Více</h5>
 <div class="collapsible">
+<p>Budykova křivka je součástí modelu dlouhodobé hydrologické bilance. Přepodkladem je platnost následujícího vztahu <span class="math display">\[
+P = \mathrm{Ea} + Q,
+\]</span> kde <span class="math inline">\(\mathsf{P}\)</span> je dlouhodobý roční srážkový úhrn, <span class="math inline">\(\mathrm{Ea}\)</span> je výška dlouhodobé roční aktuální evapotranspirace a <span class="math inline">\(Q\)</span> je dlouhodobá výška ročního odtoku.</p>
 <p>Dle tohoto vztahu je možné vyjádřit douhodobý součinitel odtoku</p>
 <p><span class="math display">\[
-\frac{\mathsf{Q}}{\mathsf{P}} = 1- \frac{Ea}{P}.
+\frac{Q}{P} = 1- \frac{\mathrm{Ea}}{P}.
 \]</span> Dále je základním předpokladem platnost následujícího předpokladu <span class="math display">\[
-\frac{Ea}{P} = f (P, Ep),
+\frac{\mathrm{Ea}}{P} = f (P, \mathrm{PET}),
 \]</span> kde <span class="math inline">\(Ep\)</span> je výška dlouhodobé roční potenciální evapotranspirace.</p>
 <p>Budykovu křivku je možné vyjádřit například Schreiberovým modelem <span class="math display">\[
 \frac{Ea}{P} = 1- \exp(-\mathrm{AI}),
@@ -422,16 +426,28 @@ P = Ea + Q,
 </section>
 <section id="bowenův-poměr" class="level4">
 <h4 class="anchored" data-anchor-id="bowenův-poměr">Bowenův poměr</h4>
+<p><strong>Bowenův poměr</strong> (angl. <em>Bowen ratio</em>) je bezrozměrná veličina vyjadřující <strong>poměr mezi tokem citelného tepla a tokem latentního tepla z povrchu do atmosféry</strong>. Udává, jak se rozděluje energie přijatá povrchem mezi ohřev vzduchu (citelné teplo) a výpar vody (latentní teplo).</p>
+<section id="více-1" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-1">Více</h5>
 <div class="collapsible">
-<p>Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá <em>Bowenův poměr</em>. Tento poměr je přímo měřitelný.</p>
+<p>Matematicky:</p>
 <p><span class="math display">\[
-B = \dfrac{Q_h}{Q_e}
-\]</span> kde <span class="math inline">\(Q_h\)</span> je teplo zjevné a <span class="math inline">\(Q_e\)</span> teplo latentní <a href="#sec-b-budykova-krivka" class="quarto-xref">Sekce&nbsp;1.0.1</a>.</p>
+B = \dfrac{Q_h}{\mathrm{LH}}
+\]</span></p>
+<p>kde:</p>
+<ul>
+<li><span class="math inline">\(Q_h\)</span> je tok citelného tepla a<br>
+</li>
+<li><span class="math inline">\(\mathrm{LH}\)</span> tok latentního tepla.</li>
+</ul>
+<p>Nízké hodnoty (<span class="math inline">\(B &lt; 1\)</span>) znamenají převahu výparu, typickou pro vlhké povrchy, zatímco vysoké hodnoty (<span class="math inline">\(B &gt; 1\)</span>) značí převahu ohřevu vzduchu nad výparem, charakteristickou pro suché oblasti. Bowenův poměr se používá při hodnocení energetické bilance povrchu, výpočtu evapotranspirace a analýze klimatických a hydrologických procesů.</p>
+<p>Poměr množství tepla, které zemský povrch předává kombinací molekulární vodivosti a turbulentní výměny do atmosféry a množství tepla, jež se na něm spotřebovává na výpařování vody, se nazývá <em>Bowenův poměr</em>. Tento poměr je přímo měřitelný.</p>
 <p>Typické hodnoty bowenova poměru uvádí tabulka <span class="citation" data-cites="campbell2000introduction">(<a href="#ref-campbell2000introduction" role="doc-biblioref">Campbell a Norman 2000</a>)</span></p>
 </div>
 
 
 
+</section>
 </section>
 </section>
 
