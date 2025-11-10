@@ -280,7 +280,7 @@ window.Quarto = {
 <p>Teorie optimality vychází z předpokladu, že stomatární vodivost (<span class="math inline">\(g_s\)</span>) je výsledkem evolučně „optimálního“ chování rostliny vzhledem k okolnímu prostředí, nikoli pouze fyziologické reakce. Formálně se popisuje např. pomocí modelu optimalizace marginálních nákladů:</p>
 <p><span class="math display">\[
 \frac{\partial A}{\partial g_s} = \lambda \frac{\partial E}{\partial g_s}
-\]</span> kde:</p>
+\]</span> kde:<br> – <span class="math inline">\(A\)</span> je rychlost asimilace CO<span class="math inline">\(_2\)</span>,<br> – <span class="math inline">\(E\)</span> je rychlost transpirace,<br> – <span class="math inline">\(\lambda\)</span> je parametr vyjadřující poměr mezi hodnotou uhlíku a náklady na ztrátu vody.</p>
 <p>Z teorie optimality vycházejí moderní modely stomatární vodivosti (např. Ball–Berry, Leuning, Medlyn, Katul) i pokročilé modely fotosyntézy a výměny energie.</p>
 <p>V širším smyslu se teorie optimality uplatňuje i při modelování chování ekosystémů a vegetace — předpokládá, že biologické systémy se vyvíjejí a fungují tak, aby efektivně využívaly zdroje (světlo, vodu, uhlík) a minimalizovaly energetické ztráty.</p>
 </div>
@@ -315,7 +315,7 @@ window.Quarto = {
 <p><span class="math display">\[
 ET_m = 16 \left( \frac{L_m}{12} \right) \left( \frac{N_m}{30} \right) \left( \frac{10 \, T_m}{I} \right)^a
 \]</span></p>
-<p>kde:</p>
+<p>kde:<br> – <span class="math inline">\(ET_m\)</span> je měsíční potenciální evapotranspirace (mm),<br> – <span class="math inline">\(T_m\)</span> průměrná měsíční teplota (°C),<br> – <span class="math inline">\(L_m\)</span> průměrná délka dne (h),<br> – <span class="math inline">\(N_m\)</span> počet dní v měsíci,<br> – <span class="math inline">\(I\)</span> teplotní index, tj. součet <span class="math inline">\(\left( \frac{T_m}{5} \right)^{1.514}\)</span> za celý rok,<br> – <span class="math inline">\(a\)</span> empirický exponent vypočítaný z hodnoty <span class="math inline">\(I\)</span> podle vztahu:</p>
 <p><span class="math display">\[
 a = 6.75 \times 10^{-7} I^3 - 7.71 \times 10^{-5} I^2 + 1.79 \times 10^{-2} I + 0.492
 \]</span></p>
@@ -367,7 +367,7 @@ V zemědělské praxi se obvykle odvozuje z <strong>referenční evapotranspirac
 <p><span class="math display">\[
 ET_c = K_c \times ET_0
 \]</span></p>
-<p>kde:</p>
+<p>kde:<br> – <span class="math inline">\(ET_c\)</span> je transpirační (celková) vláhová potřeba plodiny,<br> – <span class="math inline">\(K_c\)</span> koeficient plodiny, vyjadřující poměr mezi výparem konkrétní plodiny a referenční evapotranspirací,<br> – <span class="math inline">\(ET_0\)</span> referenční evapotranspirace stanovená pro standardní povrch.</p>
 <p>Transpirační vláhová potřeba je klíčovým ukazatelem při <strong>plánování závlah</strong>, <strong>hodnocení vodní bilance</strong> a <strong>řízení hospodaření s vodou v zemědělství</strong>, protože umožňuje stanovit, kolik vody je třeba dodat pro udržení optimálních podmínek růstu a produkce.</p>
 </div>
 </section>
@@ -382,7 +382,7 @@ ET_c = K_c \times ET_0
 <p><span class="math display">\[
 K_t = \frac{W}{B}
 \]</span></p>
-<p>kde:</p>
+<p>kde:<br> – <span class="math inline">\(K_t\)</span> je transpirační koeficient,<br> – <span class="math inline">\(W\)</span> množství vody spotřebované rostlinou (obvykle v litrech nebo kilogramech),<br> – <span class="math inline">\(B\)</span> množství vytvořené sušiny (v kilogra–</p>
 <p>Hodnoty transpiračního koeficientu se obvykle pohybují v rozmezí <strong>200 až 1000</strong>, což znamená, že rostlina spotřebuje přibližně <strong>200–1000 kg vody na vytvoření 1 kg sušiny</strong>.<br>
 Rozdíly závisí na druhu rostliny, podmínkách prostředí a intenzitě transpirace.</p>
 <p>Rostliny s <strong>nižším transpiračním koeficientem</strong> využívají vodu efektivněji a jsou lépe přizpůsobeny suchým podmínkám, zatímco druhy s <strong>vyšším koeficientem</strong> potřebují více vody na jednotku biomasy.</p>
@@ -420,7 +420,7 @@ Turbulentní proudění tak tvoří <strong>hlavní mechanismus výměny energie
 <p><span class="math display">\[
 R_n - G = H + \lambda E
 \]</span></p>
-<p>kde:</p>
+<p>kde:<br> – <span class="math inline">\(R_n\)</span> je čistá radiační bilance,<br> – <span class="math inline">\(G\)</span> tok tepla do půdy,<br> – <span class="math inline">\(H\)</span> tok citelného tepla,<br> – <span class="math inline">\(\lambda E\)</span> latentní tok tepla (evapotranspirace).</p>
 <p>V rámci modelu <strong>TSEB</strong> se celkový tok citelného i latentního tepla dělí na <strong>složku půdní</strong> (<span class="math inline">\(H_s\)</span>, <span class="math inline">\(\lambda E_s\)</span>) a <strong>složku vegetační</strong> (<span class="math inline">\(H_c\)</span>, <span class="math inline">\(\lambda E_c\)</span>).<br>
 Tento přístup umožňuje přesnější popis <strong>heterogenních povrchů</strong>, kde se teploty půdy a porostu výrazně liší.</p>
 <p>Model využívá vstupy z <strong>družicových měření</strong> (např. teploty povrchu, albeda, indexů vegetace jako NDVI) a <strong>meteorologických údajů</strong>.<br>

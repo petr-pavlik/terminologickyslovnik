@@ -10,21 +10,20 @@ Popisuje **výpar z povrchu (včetně vegetace)** na základě **radiačních, t
 Obecný tvar rovnice je:
 
 $$
-\lambda E = \frac{ \Delta (R_n - G) + \rho c_p \frac{(e_s - e_a)}{r_a} }{ \Delta + \gamma \left( 1 + \frac{r_s}{r_a} \right) }
+\lambda ET = \frac{ \Delta (R_n - G) + \rho c_p \frac{(e_s - e_a)}{r_a} }{ \Delta + \gamma \left( 1 + \frac{r_s}{r_a} \right) }
 $$
 
-kde:
-
- -  $\lambda E$ – je latentní tok tepla (W·m⁻²),
- -  $R_n$ – tok čisté sálavé energie (W·m⁻²),
- -  $G$ – tok tepla do půdy (W·m⁻²),
- -  $\rho$ – hustota vzduchu (kg·m⁻³),
- -  $c_p$ – měrná tepelná kapacita vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),
- -  $(e_s - e_a)$ – rozdíl mezi nasyceným a skutečným tlakem vodní páry (Pa),
- -  $r_a$ – aerodynamický odpor (s·m⁻¹),
- -  $r_s$ – stomatární (povrchový) odpor (s·m⁻¹),
- -  $\Delta$ – směrnice křivky nasycení vodní párou (Pa·K⁻¹),
- -  $\gamma$ – psychrometrická konstanta (Pa·K⁻¹).
+kde:<br>
+– $\lambda ET$ je latentní tok tepla (W·m⁻²),<br>
+– $R_n$ tok čisté sálavé energie (W·m⁻²),<br>
+– $G$ tok tepla do půdy (W·m⁻²),<br>
+– $\rho$ hustota vzduchu (kg·m⁻³),<br>
+– $c_p$ měrná tepelná kapacita vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),<br>
+– $(e_s - e_a)$ rozdíl mezi nasyceným a skutečným tlakem vodní páry (Pa),<br>
+– $r_a$ aerodynamický odpor (s·m⁻¹),<br>
+– $r_s$ stomatární (povrchový) odpor (s·m⁻¹),<br>
+– $\Delta$ směrnice křivky nasycení vodní párou (Pa·K⁻¹),<br>
+– $\gamma$ psychrometrická konstanta (Pa·K⁻¹).
 
 
 Penman–Monteithova rovnice vyjadřuje **rovnováhu mezi energií dostupnou pro výpar a schopností atmosféry odvádět vodní páru**.  
@@ -68,12 +67,11 @@ $$
 \gamma = \frac{c_p \, AP}{\varepsilon \, \lambda}
 $$
 
-kde:
-
- -  $c_p$ – je měrná tepelná kapacita suchého vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),\
- -  $AP$ – atmosférický tlak (Pa),\
- -  $\varepsilon$ – poměr molekulových hmotností vodní páry a suchého vzduchu (≈ 0,622),\
- -  $\lambda$ – latentní výparné teplo vody (J·kg⁻¹).
+kde:<br>
+– $c_p$ je měrná tepelná kapacita suchého vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),<br>
+– $AP$ atmosférický tlak (Pa),<br>
+– $\varepsilon$ poměr molekulových hmotností vodní páry a suchého vzduchu (≈ 0,622),<br>
+– $\lambda$ latentní výparné teplo vody (J·kg⁻¹).
 
 
 Při **standardním atmosférickém tlaku** (101,3 kPa) má psychrometrická konstanta hodnotu přibližně **0,066 kPa·°C⁻¹**.  

@@ -31,14 +31,12 @@ $$
 R_n - G - H = \lambda E
 $$
 
-kde:
+<br>
+– $R_n$ je čistá radiační bilance (W·m⁻²),<br>
+– $G$ tok tepla do půdy (W·m⁻²),<br>
+– $H$ tok citelného tepla (W·m⁻²),<br>
+– $\lambda E$ latentní tok tepla (evapotranspirace, W·m⁻²).
 
-\begin{itemize}
-  \item $R_n$ – čistá radiační bilance (W·m⁻²),
-  \item $G$ – tok tepla do půdy (W·m⁻²),
-  \item $H$ – tok citelného tepla (W·m⁻²),
-  \item $\lambda E$ – latentní tok tepla (evapotranspirace, W·m⁻²).
-\end{itemize}
 
 Základem modelu je **výpočet jednotlivých složek energetické bilance** z **družicových snímků** (např. *Landsat*) v kombinaci s **meteorologickými daty**.  
 Tok citelného tepla ($H$) je **kalibrován vnitřně** pomocí tzv. *„hot“* a *„cold“* pixelů – **referenčních míst s minimální a maximální evapotranspirací** – což zajišťuje **přesnost bez nutnosti přímých měření z povrchu**.

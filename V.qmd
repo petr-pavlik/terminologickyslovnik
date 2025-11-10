@@ -24,11 +24,10 @@ Vodní potenciál listu je výsledkem (převážně) součtu složek:
 $$
 \Psi_\ell = \Psi_p + \Psi_s + \Psi_g
 $$
-kde:
-
--  $\Psi_p$ – tlakový (turgorový) potenciál,\
--  $\Psi_s$ – osmotický potenciál (potenciál rozpuštěných látek),\
--  $\Psi_g$ – gravitační potenciál (u listů obvykle zanedbatelný).
+kde:<br>
+– $\Psi_p$ je tlakový (turgorový) potenciál,<br>
+– $\Psi_s$ osmotický potenciál (potenciál rozpuštěných látek),<br>
+– $\Psi_g$ gravitační potenciál (u listů obvykle zanedbatelný).
 
 Typické hodnoty $\Psi_\ell$:
 
