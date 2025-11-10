@@ -1,159 +1,142 @@
 # S
 
-#### Sap flow {#sec-t-sap-flow}
-
-**Sap flow** (česky *tok mízy* nebo *tok xylémové vody*) je **pohyb vody a rozpuštěných látek v cévních svazcích (xylému)** rostlin, který zajišťuje **transport vody z kořenů přes kmen až do listů**. Tento tok je řízen **transpiračním sáním**, tj. rozdílem vodního potenciálu mezi vlhkou půdou a sušším vzduchem, který vzniká v důsledku **odpařování vody z listů (transpirace)**.
-
-##### Více {.detail}
-::: collapsible
-Měření toku mízy se používá ke **kvantifikaci transpirace jednotlivých rostlin nebo stromů** a k hodnocení jejich **vodního režimu**.  
-V praxi se využívají různé **tepelně založené metody**, které sledují šíření tepla v kmeni:
-
-- **metoda tepelného pulzu** (*heat pulse method*),  
-- **metoda tepelné dissipace** (*Granierova metoda*),  
-- **metoda teplotní bilance kmene** (*Kučera–Čermák, trunk heat balance, THB*), která určuje tok mízy z **energetické bilance zahřívaného úseku kmene**.
-
-Tok mízy je klíčovým parametrem ve **fyziologii rostlin, ekohydrologii a lesní klimatologii**, protože umožňuje **odhadovat transpiraci** na úrovni jednotlivých stromů i celých ekosystémů.  
-Slouží rovněž k **kalibraci modelů výměny vody mezi vegetací a atmosférou** a k hodnocení **vodního stresu** u rostlin.
-:::
-
 #### Scintilometrie {#sec-t-scintilometrie}
 
-**Scintilometrie** (angl. *scintillometry*) je **mikrometeorologická metoda** používaná k **měření turbulentních toků tepla a vodní páry** mezi zemským povrchem a atmosférou na **velkoplošné škále** (řádově stovky metrů až několik kilometrů).
+**Scintilometrie** (angl. *scintillometry*) je mikrometeorologická metoda používaná k měření turbulentních toků tepla a vodní páry mezi zemským povrchem a atmosférou na velkoplošné škále (řádově stovky metrů až několik kilometrů).
 
 ##### Více {.detail}
 ::: collapsible
-Princip metody spočívá v tom, že **scintilometr vysílá paprsek elektromagnetického záření** (obvykle v infračervené nebo mikrovlnné oblasti) mezi **vysílačem a přijímačem**.  
-**Turbulence v atmosféře** způsobují malé **fluktuace indexu lomu vzduchu**, které vedou ke kolísání intenzity přijatého signálu – tzv. *scintilacím*.  
-Z míry těchto fluktuací lze pomocí teoretických vztahů určit **strukturální charakteristiky turbulence**, např.:
+Princip metody spočívá v tom, že scintilometr vysílá paprsek elektromagnetického záření (obvykle v infračervené nebo mikrovlnné oblasti) mezi vysílačem a přijímačem.  
+Turbulence v atmosféře způsobují malé fluktuace indexu lomu vzduchu, které vedou ke kolísání intenzity přijatého signálu – tzv. *scintilacím*.  
+Z míry těchto fluktuací lze pomocí teoretických vztahů určit strukturální charakteristiky turbulence, např.:
 
 - strukturální parametr teploty $C_T^2$,  
 - strukturální parametr vlhkosti $C_q^2$,
 
-a následně **vypočítat toky citelného a latentního tepla**.
+a následně vypočítat toky citelného a latentního tepla.
 
-Scintilometrie umožňuje **neinvazivní a plošné měření toků energie**, které doplňuje **bodové metody**, jako je *eddy covariance*.  
-Používá se při **výzkumu výměny energie a vody**, **kalibraci modelů evapotranspirace**, **studiu heterogenních povrchů** a **hodnocení vodní bilance ekosystémů**.
+Scintilometrie umožňuje neinvazivní a plošné měření toků energie, které doplňuje bodové metody, jako je *eddy covariance*.  
+Používá se při výzkumu výměny energie a vody, kalibraci modelů evapotranspirace, studiu heterogenních povrchů a hodnocení vodní bilance ekosystémů.
 :::
 
 
 #### Skleníkové plyny {#sec-t-sklenikove-plyny}
 
-**Skleníkové plyny** (angl. *greenhouse gases*, zkratka *GHG*) jsou **plyny v atmosféře**, které **pohlcují a znovu vyzařují dlouhovlnné (infračervené) záření**, čímž přispívají k **oteplování dolních vrstev atmosféry** – tzv. *skleníkovému efektu*.  
-Tento jev je **přirozený a nezbytný pro udržení života na Zemi**, ale **zvýšené koncentrace skleníkových plynů vlivem lidské činnosti** zesilují přirozený skleníkový efekt a způsobují **globální oteplování**.
+**Skleníkové plyny** (angl. *greenhouse gases*, zkratka *GHG*) jsou plyny v atmosféře, které pohlcují a znovu vyzařují dlouhovlnné (infračervené) záření, čímž přispívají k oteplování dolních vrstev atmosféry – tzv. *skleníkovému efektu*.  
+Tento jev je přirozený a nezbytný pro udržení života na Zemi, ale zvýšené koncentrace skleníkových plynů vlivem lidské činnosti zesilují přirozený skleníkový efekt a způsobují globální oteplování.
 
 ##### Více {.detail}
 ::: collapsible
-**Hlavní skleníkové plyny:**
+Hlavní skleníkové plyny:
 
-- **vodní pára (H₂O)** – nejhojnější přirozený skleníkový plyn, jeho množství závisí na teplotě,  
-- **oxid uhličitý (CO₂)** – vzniká spalováním fosilních paliv, odlesňováním a dýcháním organismů,  
-- **metan (CH₄)** – uvolňuje se při rozkladu organické hmoty, v zemědělství (např. z rýžovišť a trávení přežvýkavců) či těžbě paliv,  
-- **oxid dusný (N₂O)** – pochází především z hnojení a spalovacích procesů,  
-- **ozon (O₃)** – v troposféře vzniká fotochemickými reakcemi znečišťujících látek,  
-- **fluorované plyny (CFC, HFC, SF₆ aj.)** – syntetické plyny s vysokým oteplovacím potenciálem.
+- vodní pára (H₂O) – nejhojnější přirozený skleníkový plyn, jeho množství závisí na teplotě,  
+- oxid uhličitý (CO₂) – vzniká spalováním fosilních paliv, odlesňováním a dýcháním organismů,  
+- metan (CH₄) – uvolňuje se při rozkladu organické hmoty, v zemědělství (např. z rýžovišť a trávení přežvýkavců) či těžbě paliv,  
+- oxid dusný (N₂O) – pochází především z hnojení a spalovacích procesů,  
+- ozon (O₃) – v troposféře vzniká fotochemickými reakcemi znečišťujících látek,  
+- fluorované plyny (CFC, HFC, SF₆ aj.) – syntetické plyny s vysokým oteplovacím potenciálem.
 
-Skleníkové plyny se často vyjadřují pomocí **ekvivalentu CO₂** (*CO₂-eq*), který umožňuje srovnání jejich **globálního oteplovacího potenciálu (GWP)**.  
+Skleníkové plyny se často vyjadřují pomocí ekvivalentu CO₂ (*CO₂-eq*), který umožňuje srovnání jejich globálního oteplovacího potenciálu (GWP).  
 
-Studium skleníkových plynů je zásadní pro **modelování změny klimatu**, **tvorbu emisních inventur** a **navrhování opatření ke snižování emisí**.
+Studium skleníkových plynů je zásadní pro modelování změny klimatu, tvorbu emisních inventur a navrhování opatření ke snižování emisí.
 :::
 
 
 #### Srážky {#sec-t-srazky}
 
-**Srážky** (angl. *precipitation*) jsou **vodní částice vzniklé kondenzací vodní páry v atmosféře**, které **dopadají na zemský povrch** nebo se v atmosféře **vyskytují v podobě mlhy či mrholení**.  
-Podle skupenství rozlišujeme **kapalné srážky** (déšť, mrholení) a **tuhé srážky** (sníh, krupky, kroupy).
+**Srážky** (angl. *precipitation*) jsou vodní částice vzniklé kondenzací vodní páry v atmosféře, které dopadají na zemský povrch nebo se v atmosféře vyskytují v podobě mlhy či mrholení.  
+Podle skupenství rozlišujeme kapalné srážky (déšť, mrholení) a tuhé srážky (sníh, krupky, kroupy).
 
 ##### Více {.detail}
 ::: collapsible
-Srážky vznikají, když se **vodní pára v atmosféře ochladí pod teplotu nasycení**, dojde ke **kondenzaci na kondenzačních jádrech** a následně ke **spojování kapek nebo krystalků** do částic dostatečně velkých, aby **překonaly vztlak vzduchu** a **spadly k zemi**.
+Srážky vznikají, když se vodní pára v atmosféře ochladí pod teplotu nasycení, dojde ke kondenzaci na kondenzačních jádrech a následně ke spojování kapek nebo krystalků do částic dostatečně velkých, aby překonaly vztlak vzduchu a spadly k zemi.
 
-Množství srážek se měří pomocí **srážkoměrů** (*ombrometrů*) a vyjadřuje se jako **výška vodního sloupce v milimetrech (mm)** za určité období.  
+Množství srážek se měří pomocí srážkoměrů (*ombrometrů*) a vyjadřuje se jako výška vodního sloupce v milimetrech (mm) za určité období.  
 
-Srážky představují **hlavní zdroj vody v pevninském hydrologickém cyklu** a jsou klíčovým faktorem **vodní bilance, tvorby odtoku, půdní vlhkosti** i **ekologických a klimatických procesů**.
+Srážky představují hlavní zdroj vody v pevninském hydrologickém cyklu a jsou klíčovým faktorem vodní bilance, tvorby odtoku, půdní vlhkosti i ekologických a klimatických procesů.
 :::
 
 
 #### Stabilita atmosféry {#sec-t-stabilita-atmosfery}
 
-**Stabilita atmosféry** (angl. *atmospheric stability*) je **míra odolnosti vzduchové hmoty vůči vertikálnímu pohybu**.  
-Určuje, zda má vystupující nebo klesající vzduchová částice tendenci **vrátit se do původní polohy (stabilní stav)**, **pokračovat v pohybu (nestabilní stav)**, nebo **zůstat v rovnováze (neutrální stav)**.
+**Stabilita atmosféry** (angl. *atmospheric stability*) je míra odolnosti vzduchové hmoty vůči vertikálnímu pohybu.  
+Určuje, zda má vystupující nebo klesající vzduchová částice tendenci vrátit se do původní polohy (stabilní stav), pokračovat v pohybu (nestabilní stav), nebo zůstat v rovnováze (neutrální stav).
 
 ##### Více {.detail}
 ::: collapsible
-Základem hodnocení stability je **srovnání skutečného teplotního gradientu atmosféry ($\Gamma$)** – tedy poklesu teploty se vzrůstající výškou – s **adiabatickým teplotním gradientem**, tj. poklesem teploty vzduchu při výstupu bez výměny tepla:
+Základem hodnocení stability je srovnání skutečného teplotního gradientu atmosféry ($\Gamma$) – tedy poklesu teploty se vzrůstající výškou – s adiabatickým teplotním gradientem, tj. poklesem teploty vzduchu při výstupu bez výměny tepla:
 
-- **suchá adiabata:** přibližně $9{,}8\ ^\circ\mathrm{C·km^{-1}}$,  
-- **vlhká adiabata:** přibližně $4{-}7\ ^\circ\mathrm{C·km^{-1}}$ (závisí na obsahu vodní páry).
+- suchá adiabata: přibližně $9{,}8\ ^\circ\mathrm{C·km^{-1}}$,  
+- vlhká adiabata: přibližně $4{-}7\ ^\circ\mathrm{C·km^{-1}}$ (závisí na obsahu vodní páry).
 
 Rozlišujeme tři základní stavy:
 
-- **stabilní atmosféra** – skutečný teplotní gradient je **menší než adiabatický** (vzduch se při výstupu ochlazuje rychleji než okolí → klesá zpět); brání **konvekci**, omezuje **turbulenci**, typická pro **noční inverze**,  
-- **nestabilní atmosféra** – skutečný gradient je **větší než adiabatický** (vzduchová částice je teplejší než okolí → stoupá dále); podporuje **konvekci, tvorbu oblaků a turbulentní mísení**,  
-- **neutrální atmosféra** – teplotní gradient **odpovídá adiabatickému**, vertikální pohyby nejsou tlumeny ani podporovány.
+- stabilní atmosféra – skutečný teplotní gradient je menší než adiabatický (vzduch se při výstupu ochlazuje rychleji než okolí → klesá zpět); brání konvekci, omezuje turbulenci, typická pro noční inverze,  
+- nestabilní atmosféra – skutečný gradient je větší než adiabatický (vzduchová částice je teplejší než okolí → stoupá dále); podporuje konvekci, tvorbu oblaků a turbulentní mísení,  
+- neutrální atmosféra – teplotní gradient odpovídá adiabatickému, vertikální pohyby nejsou tlumeny ani podporovány.
 
-V mikrometeorologii se stabilita atmosféry často vyjadřuje pomocí **Monin–Obuchovovy délky ($L$)**, která charakterizuje poměr mezi **mechanicky a tepelně vyvolanou turbulencí**:
+V mikrometeorologii se stabilita atmosféry často vyjadřuje pomocí Monin–Obuchovovy délky ($L$), která charakterizuje poměr mezi mechanicky a tepelně vyvolanou turbulencí:
 
 - $L > 0$ → stabilní podmínky,  
 - $L < 0$ → nestabilní podmínky,  
 - $L \to \infty$ → neutrální podmínky.
 
-**Stabilita atmosféry** ovlivňuje **šíření tepla, vlhkosti a znečištění**, **vznik oblačnosti** i **efektivitu turbulentní výměny**, a je klíčovým parametrem v **mikrometeorologii, klimatologii, hydrologii i numerickém modelování atmosféry**.
+Stabilita atmosféry ovlivňuje šíření tepla, vlhkosti a znečištění, vznik oblačnosti i efektivitu turbulentní výměny, a je klíčovým parametrem v mikrometeorologii, klimatologii, hydrologii i numerickém modelování atmosféry.
 :::
 
 
 #### Stomatální vodivost {#sec-t-stomatalni-vodivost}
 
-**Stomatální vodivost** (angl. *stomatal conductance*, značka $g_s$) je **míra schopnosti průduchů (stomat)** propouštět **vodní páru a plyny** mezi vnitřním prostředím listu a atmosférou.  
-Vyjadřuje, **jak snadno dochází k výměně vodní páry, oxidu uhličitého a kyslíku** přes průduchy na povrchu listu.
+**Stomatální vodivost** (angl. *stomatal conductance*, značka $g_s$) je míra schopnosti průduchů (stomat) propouštět vodní páru a plyny mezi vnitřním prostředím listu a atmosférou.  
+Vyjadřuje, jak snadno dochází k výměně vodní páry, oxidu uhličitého a kyslíku přes průduchy na povrchu listu.
 
 ##### Více {.detail}
 ::: collapsible
-Stomatální vodivost se obvykle udává v jednotkách **mol·m⁻²·s⁻¹** nebo jako převrácená hodnota **stomatárního odporu ($r_s$)** v jednotkách **s·m⁻¹**.  
+Stomatální vodivost se obvykle udává v jednotkách mol·m⁻²·s⁻¹ nebo jako převrácená hodnota stomatárního odporu ($r_s$) v jednotkách s·m⁻¹.  
 
 Je ovlivněna řadou faktorů, zejména:
-- **intenzitou světla**,  
-- **teplotou**,  
-- **relativní vlhkostí vzduchu**,  
-- **koncentrací CO₂**,  
-- **dostupností vody**,  
-- a **fyziologickým stavem rostliny**.
+- intenzitou světla,  
+- teplotou,  
+- relativní vlhkostí vzduchu,  
+- koncentrací CO₂,  
+- dostupností vody,  
+- a fyziologickým stavem rostliny.
 
-Vysoká stomatální vodivost znamená, že **průduchy jsou otevřené** a umožňují **intenzivní výměnu plynů a transpiraci**,  
-zatímco nízká hodnota signalizuje **uzavírání průduchů** a **omezení ztrát vody**.
+Vysoká stomatální vodivost znamená, že průduchy jsou otevřené a umožňují intenzivní výměnu plynů a transpiraci,  
+zatímco nízká hodnota signalizuje uzavírání průduchů a omezení ztrát vody.
 
-Stomatální vodivost je **klíčovým parametrem** při **modelování transpirace, fotosyntézy** a **vodní bilance rostlin**, a často se používá jako indikátor **reakce rostlin na stres** (např. sucho či vysokou teplotu).
+Stomatální vodivost je klíčovým parametrem při modelování transpirace, fotosyntézy a vodní bilance rostlin, a často se používá jako indikátor reakce rostlin na stres (např. sucho či vysokou teplotu).
 
 :::
 
 
 #### Stres suchem {#sec-t-stres-suchem}
 
-**Stres suchem** (angl. *drought stress* nebo *water stress*) je **fyziologický stav rostliny vznikající při nedostatku dostupné vody v půdě**, kdy **příjem vody kořeny nestačí pokrýt její ztráty transpirací**.  
-Důsledkem je **snížení turgoru buněk**, **uzavírání průduchů (stomat)** a **omezení fotosyntézy, růstu i výnosu**.
+**Stres suchem** (angl. *drought stress* nebo *water stress*) je fyziologický stav rostliny vznikající při nedostatku dostupné vody v půdě, kdy příjem vody kořeny nestačí pokrýt její ztráty transpirací.  
+Důsledkem je snížení turgoru buněk, uzavírání průduchů (stomat) a omezení fotosyntézy, růstu i výnosu.
 
 ##### Více {.detail}
 ::: collapsible
-Intenzita stresu suchem závisí na **délce a závažnosti suchého období**, **hloubce a vododržnosti půdy**, **druhu a vývojové fázi rostliny**, ale také na **teplotě a relativní vlhkosti vzduchu**.
+Intenzita stresu suchem závisí na délce a závažnosti suchého období, hloubce a vododržnosti půdy, druhu a vývojové fázi rostliny, ale také na teplotě a relativní vlhkosti vzduchu.
 
 Typické projevy zahrnují:
 
-- **snížení vodního potenciálu rostliny**,  
-- **zpomalení nebo zastavení růstu**,  
-- **vadnutí a svinování listů**,  
-- **akumulaci osmoticky aktivních látek** (např. prolinu),  
-- **v extrémních případech odumírání pletiv**.
+- snížení vodního potenciálu rostliny,  
+- zpomalení nebo zastavení růstu,  
+- vadnutí a svinování listů,  
+- akumulaci osmoticky aktivních látek (např. prolinu),  
+- v extrémních případech odumírání pletiv.
 
-Stres suchem je jedním z **nejvýznamnějších abiotických stresových faktorů**, který **ovlivňuje produktivitu plodin, stabilitu ekosystémů** a v širším měřítku také **vodní bilanci krajiny**.  
+Stres suchem je jedním z nejvýznamnějších abiotických stresových faktorů, který ovlivňuje produktivitu plodin, stabilitu ekosystémů a v širším měřítku také vodní bilanci krajiny.  
 
-Porozumění mechanismům vodního stresu je zásadní pro **šlechtění odolných rostlin**, **optimalizaci závlah** a **adaptaci zemědělství na změnu klimatu**.
+Porozumění mechanismům vodního stresu je zásadní pro šlechtění odolných rostlin, optimalizaci závlah a adaptaci zemědělství na změnu klimatu.
 :::
 
 
 #### Sublimace {#sec-s-sublimace}
 
-**Sublimace** (angl. *sublimation*) je **fyzikální proces přeměny pevné látky přímo na páru**, aniž by prošla kapalnou fází.  
-V hydrologii a meteorologii označuje **přeměnu ledu nebo sněhu přímo na vodní páru**. Sublimace hraje v hydrologickém cyklu řádově menší roli, než evaporace. Sublimace se vyskytuje ve vyšší míře ve vyšších nadmořských výškách, kde je tlak vzduchu menší nž v nižsích. K sublimaci je potřebná silná sluneční energie. Nízké teploty, silný vítr, intenzivní sluneční záření, velmi nízký tlak vzduchu.
+**Sublimace** (angl. *sublimation*) je fyzikální proces přeměny pevné látky přímo na páru, aniž by prošla kapalnou fází.  
+V hydrologii a meteorologii označuje přeměnu ledu nebo sněhu přímo na vodní páru. Sublimace hraje v hydrologickém cyklu řádově menší roli, než evaporace. Sublimace se vyskytuje ve vyšší míře ve vyšších nadmořských výškách, kde je tlak vzduchu menší nž v nižsích. K sublimaci je potřebná silná sluneční energie. Nízké teploty, silný vítr, intenzivní sluneční záření, velmi nízký tlak vzduchu.
 
 ##### Více {.detail}
 ::: collapsible
@@ -375,8 +358,8 @@ Krychlový centimetr (1 gram) ve formě ledu vyžaduje 80 kalorií k roztavení,
 
 #### Sytostní doplněk {#sec-t-sytostni-doplnek}
 
-**Sytostní doplněk** (angl. *saturation deficit* nebo *vapor pressure deficit*, zkratka *VPD*) je **veličina vyjadřující rozdíl mezi nasyceným tlakem vodní páry a skutečným tlakem vodní páry ve vzduchu**.  
-Udává tedy, **kolik vodní páry chybí k dosažení nasycení**.
+**Sytostní doplněk** (angl. *saturation deficit* nebo *vapor pressure deficit*, zkratka *VPD*) je veličina vyjadřující rozdíl mezi nasyceným tlakem vodní páry a skutečným tlakem vodní páry ve vzduchu.  
+Udává tedy, kolik vodní páry chybí k dosažení nasycení.
 
 ##### Více {.detail}
 ::: collapsible
@@ -391,22 +374,22 @@ kde:<br>
 – $e_s$ nasycený tlak vodní páry při dané teplotě (kPa),<br>
 – $e_a$ aktuální (skutečný) tlak vodní páry (kPa).
 
-Vysoké hodnoty sytostního doplňku znamenají **suchý vzduch s vysokým potenciálem výparu**, zatímco nízké hodnoty odpovídají **vlhkému vzduchu blízkému nasycení**.  
+Vysoké hodnoty sytostního doplňku znamenají suchý vzduch s vysokým potenciálem výparu, zatímco nízké hodnoty odpovídají vlhkému vzduchu blízkému nasycení.  
 
-Sytostní doplněk je **klíčovým ukazatelem** pro hodnocení **výparu a transpirace rostlin**, **intenzity evapotranspirace**, **stresu suchem** a **výměny vodní páry mezi povrchem a atmosférou**.
+Sytostní doplněk je klíčovým ukazatelem pro hodnocení výparu a transpirace rostlin, intenzity evapotranspirace, stresu suchem a výměny vodní páry mezi povrchem a atmosférou.
 :::
 
 #### Surface renewal {#sec-t-surface-renewal}
 
-**Surface renewal** (nemá zavedený český ekvivalent) je **mikrometeorologická metoda** používaná k **odhadu turbulentních toků tepla, vodní páry nebo CO₂** mezi povrchem a atmosférou.  
-Zakládá se na **analýze rychlých teplotních fluktuací** v přízemní vrstvě vzduchu nad povrchem.
+**Surface renewal** (nemá zavedený český ekvivalent) je mikrometeorologická metoda používaná k odhadu turbulentních toků tepla, vodní páry nebo CO₂ mezi povrchem a atmosférou.  
+Zakládá se na analýze rychlých teplotních fluktuací v přízemní vrstvě vzduchu nad povrchem.
 
 ##### Více {.detail}
 ::: collapsible
-Principem je, že **turbulentní víry periodicky „obnovují“ vzduch u povrchu** – střídavě přinášejí teplejší nebo chladnější vzduch z vyšších vrstev a odvádějí vzduch ochlazený nebo ohřátý kontaktem s povrchem.  
-Tvar těchto teplotních změn v čase (tzv. *rampový signál*) obsahuje informaci o **intenzitě turbulentní výměny**.
+Principem je, že turbulentní víry periodicky „obnovují“ vzduch u povrchu – střídavě přinášejí teplejší nebo chladnější vzduch z vyšších vrstev a odvádějí vzduch ochlazený nebo ohřátý kontaktem s povrchem.  
+Tvar těchto teplotních změn v čase (tzv. *rampový signál*) obsahuje informaci o intenzitě turbulentní výměny.
 
-Z analýzy časového průběhu teploty se určuje **tok citelného tepla ($H$)** podle vztahu:
+Z analýzy časového průběhu teploty se určuje tok citelného tepla ($H$) podle vztahu:
 
 $$
 H = \rho \, c_p \, \alpha \, \frac{A}{\tau}
@@ -420,18 +403,18 @@ kde:<br>
 – $\alpha$ empirický kalibrační koeficient.
 
 
-Metoda *surface renewal* je často **kalibrována vůči metodě eddy covariance**, přičemž umožňuje **měřit turbulentní toky s nižšími náklady**, protože vyžaduje pouze **rychlý teplotní senzor (termistor)** místo plné soustavy **trojosých anemometrů**.
+Metoda *surface renewal* je často kalibrována vůči metodě eddy covariance, přičemž umožňuje měřit turbulentní toky s nižšími náklady, protože vyžaduje pouze rychlý teplotní senzor (termistor) místo plné soustavy trojosých anemometrů.
 
-**Výhody:**
+Výhody:
 - nižší cena a spotřeba energie,  
 - vhodná i pro malé a vzdálené experimentální plochy,  
 - možnost odhadu toků v reálném čase.
 
-**Nevýhody:**
+Nevýhody:
 - nutnost kalibrace,  
 - menší přesnost při nestabilních nebo silně proměnlivých podmínkách.
 
-Metoda *surface renewal* se používá v **agrometeorologii, hydrologii, ekofyziologii a monitoringu evapotranspirace**, zejména pro **kvantifikaci toků energie a vody** nad vegetací či půdou.
+Metoda *surface renewal* se používá v agrometeorologii, hydrologii, ekofyziologii a monitoringu evapotranspirace, zejména pro kvantifikaci toků energie a vody nad vegetací či půdou.
 :::
 
 

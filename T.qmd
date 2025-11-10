@@ -45,7 +45,7 @@ Teplota vzduchu se obvykle udává ve stupních Celsia (°C), případně Kelvin
 
 #### Teplotní index {#sec-t-teplotni-index}
 
-Teplotní index je metrika, která v sobě kombinuje teplotu vzduchu a relativní vlhkost tak, 
+**Teplotní index** je metrika, která v sobě kombinuje teplotu vzduchu a relativní vlhkost tak, 
 aby člověkem vnímaný kombinovaný projev obou těchto veličin byl shodný.
 
 #### Thorntwaitova rovnice {#sec-t-thorntwaitova-rovnice}
@@ -117,6 +117,23 @@ Tok citelného tepla závisí na teplotním rozdílu mezi povrchem a vzduchem, r
 Na rozdíl od citelného tepla, které mění teplotu vzduchu, latentní tok tepla nemění okamžitě teplotu prostředí, ale přenáší energii prostřednictvím fázových přeměn vody. Je klíčovou složkou energetické bilance povrchu a hraje zásadní roli v koloběhu vody, tvorbě oblaků a klimatu.
 
 
+#### Tok mízy {#sec-t-sap-flow}
+
+**Tok mízy** (angl. *sap flow*) je pohyb vody a rozpuštěných látek v cévních svazcích (xylému) rostlin, který zajišťuje transport vody z kořenů přes kmen až do listů. Tento tok je řízen transpiračním sáním, tj. rozdílem vodního potenciálu mezi vlhkou půdou a sušším vzduchem, který vzniká v důsledku odpařování vody z listů (transpirace).
+
+##### Více {.detail}
+::: collapsible
+Měření toku mízy se používá ke kvantifikaci transpirace jednotlivých rostlin nebo stromů a k hodnocení jejich vodního režimu.  
+V praxi se využívají různé tepelně založené metody, které sledují šíření tepla v kmeni:
+
+- metoda tepelného pulzu (*heat pulse method*),  
+- metoda tepelné dissipace (*Granierova metoda*),  
+- metoda teplotní bilance kmene (*Kučera–Čermák, trunk heat balance, THB*), která určuje tok mízy z energetické bilance zahřívaného úseku kmene.
+
+Tok mízy je klíčovým parametrem ve fyziologii rostlin, ekohydrologii a lesní klimatologii, protože umožňuje odhadovat transpiraci na úrovni jednotlivých stromů i celých ekosystémů.  
+Slouží rovněž k kalibraci modelů výměny vody mezi vegetací a atmosférou a k hodnocení vodního stresu u rostlin.
+:::
+
 
 #### Transpirace {#sec-t-transpirace}
 
@@ -131,7 +148,7 @@ Míra transpirace závisí na druhu rostliny, teplotě, světelných podmínkác
 ##### Více {.detail}
 ::: collapsible
 Transpirační vláhová potřeba závisí na druhu a vývojové fázi rostliny, délce vegetačního období, klimatických podmínkách (teplota, sluneční záření, vítr, vlhkost vzduchu) a vlastnostech půdy.  
-V zemědělské praxi se obvykle odvozuje z **referenční evapotranspirace** ($ET_0$) a **koeficientu plodiny** ($K_c$) podle vztahu:
+V zemědělské praxi se obvykle odvozuje z referenční evapotranspirace ($ET_0$) a koeficientu plodiny ($K_c$) podle vztahu:
 
 $$
 ET_c = K_c \times ET_0
@@ -143,13 +160,13 @@ kde:<br>
 – $ET_0$ referenční evapotranspirace stanovená pro standardní povrch.
 
 
-Transpirační vláhová potřeba je klíčovým ukazatelem při **plánování závlah**, **hodnocení vodní bilance** a **řízení hospodaření s vodou v zemědělství**, protože umožňuje stanovit, kolik vody je třeba dodat pro udržení optimálních podmínek růstu a produkce.
+Transpirační vláhová potřeba je klíčovým ukazatelem při plánování závlah, hodnocení vodní bilance a řízení hospodaření s vodou v zemědělství, protože umožňuje stanovit, kolik vody je třeba dodat pro udržení optimálních podmínek růstu a produkce.
 :::
 
 
 #### Transpirační koeficient {#sec-t-transpiracni-koeficient}
 
-**Transpirační koeficient** (angl. *transpiration coefficient* nebo *water use efficiency*) je ukazatel vyjadřující množství vody, které rostlina spotřebuje transpirací na vytvoření jednotky sušiny biomasy. Udává tedy **vodní náročnost rostliny** z hlediska jejího růstu.
+**Transpirační koeficient** (angl. *transpiration coefficient* nebo *water use efficiency*) je ukazatel vyjadřující množství vody, které rostlina spotřebuje transpirací na vytvoření jednotky sušiny biomasy. Udává tedy vodní náročnost rostliny z hlediska jejího růstu.
 
 ##### Více {.detail}
 ::: collapsible
@@ -164,37 +181,37 @@ kde:<br>
 – $W$ množství vody spotřebované rostlinou (obvykle v litrech nebo kilogramech),<br>
 – $B$ množství vytvořené sušiny (v kilogra– 
 
-Hodnoty transpiračního koeficientu se obvykle pohybují v rozmezí **200 až 1000**, což znamená, že rostlina spotřebuje přibližně **200–1000 kg vody na vytvoření 1 kg sušiny**.  
+Hodnoty transpiračního koeficientu se obvykle pohybují v rozmezí 200 až 1000, což znamená, že rostlina spotřebuje přibližně 200–1000 kg vody na vytvoření 1 kg sušiny.  
 Rozdíly závisí na druhu rostliny, podmínkách prostředí a intenzitě transpirace.
 
-Rostliny s **nižším transpiračním koeficientem** využívají vodu efektivněji a jsou lépe přizpůsobeny suchým podmínkám, zatímco druhy s **vyšším koeficientem** potřebují více vody na jednotku biomasy.  
+Rostliny s nižším transpiračním koeficientem využívají vodu efektivněji a jsou lépe přizpůsobeny suchým podmínkám, zatímco druhy s vyšším koeficientem potřebují více vody na jednotku biomasy.  
 
-Tento ukazatel se využívá ve **fyziologii rostlin, zemědělství a ekologii** při hodnocení **vodní efektivity a odolnosti vůči suchu**.
+Tento ukazatel se využívá ve fyziologii rostlin, zemědělství a ekologii při hodnocení vodní efektivity a odolnosti vůči suchu.
 :::
 
 #### Turbulentní proudění {#sec-t-turbulentni-proudeni}
 
 **Turbulentní proudění** (angl. *turbulent flow*) je typ proudění tekutin (včetně vzduchu), při němž se rychlost i směr proudění chaoticky a nepravidelně mění v čase i prostoru.  
-Na rozdíl od **laminárního proudění**, kde se částice pohybují uspořádaně ve vrstvách, je turbulentní proudění charakterizováno **víry, mísením a náhodnými fluktuacemi rychlosti**.
+Na rozdíl od laminárního proudění, kde se částice pohybují uspořádaně ve vrstvách, je turbulentní proudění charakterizováno víry, mísením a náhodnými fluktuacemi rychlosti.
 
 ##### Více {.detail}
 ::: collapsible
 V atmosféře vzniká turbulence působením:
 
-- **mechanických vlivů** – nerovností terénu, vegetace, staveb nebo jiných překážek,  
-- **tepelných vlivů** – konvekcí způsobenou ohřevem zemského povrchu a vzestupem teplejšího vzduchu.
+- mechanických vlivů – nerovností terénu, vegetace, staveb nebo jiných překážek,  
+- tepelných vlivů – konvekcí způsobenou ohřevem zemského povrchu a vzestupem teplejšího vzduchu.
 
-Turbulentní proudění je klíčové pro **přenos tepla, vodní páry, plynů a hybnosti** mezi povrchem a atmosférou.  
-Popisuje se pomocí **statistických veličin** (např. kovariancí) a **empirických modelů**, zejména **Monin-Obuchovovy podobnostní teorie**.
+Turbulentní proudění je klíčové pro přenos tepla, vodní páry, plynů a hybnosti mezi povrchem a atmosférou.  
+Popisuje se pomocí statistických veličin (např. kovariancí) a empirických modelů, zejména Monin-Obuchovovy podobnostní teorie.
 
-V mikrometeorologii představuje turbulence základní princip metody **eddy kovariance**, která umožňuje **měřit toky energie a látek**.  
-Turbulentní proudění tak tvoří **hlavní mechanismus výměny energie a hmoty** v přízemní vrstvě atmosféry.
+V mikrometeorologii představuje turbulence základní princip metody eddy kovariance, která umožňuje měřit toky energie a látek.  
+Turbulentní proudění tak tvoří hlavní mechanismus výměny energie a hmoty v přízemní vrstvě atmosféry.
 :::
 
 
 #### TSEB {#sec-t-tseb}
 
-**TSEB** (*Two-Source Energy Balance model*) je fyzikálně založený model energetické bilance povrchu, který rozděluje výměnu energie mezi **vegetaci a půdu**. Umožňuje tak **odděleně kvantifikovat toky tepla a výparu** z vegetačního porostu a z půdního povrchu.
+**TSEB** (*Two-Source Energy Balance model*) je fyzikálně založený model energetické bilance povrchu, který rozděluje výměnu energie mezi vegetaci a půdu. Umožňuje tak odděleně kvantifikovat toky tepla a výparu z vegetačního porostu a z půdního povrchu.
 
 ##### Více {.detail}
 ::: collapsible
@@ -211,32 +228,32 @@ kde:<br>
 – $\lambda E$ latentní tok tepla (evapotranspirace).
 
 
-V rámci modelu **TSEB** se celkový tok citelného i latentního tepla dělí na **složku půdní** ($H_s$, $\lambda E_s$) a **složku vegetační** ($H_c$, $\lambda E_c$).  
-Tento přístup umožňuje přesnější popis **heterogenních povrchů**, kde se teploty půdy a porostu výrazně liší.
+V rámci modelu TSEB se celkový tok citelného i latentního tepla dělí na složku půdní ($H_s$, $\lambda E_s$) a složku vegetační ($H_c$, $\lambda E_c$).  
+Tento přístup umožňuje přesnější popis heterogenních povrchů, kde se teploty půdy a porostu výrazně liší.
 
-Model využívá vstupy z **družicových měření** (např. teploty povrchu, albeda, indexů vegetace jako NDVI) a **meteorologických údajů**.  
-Na jejich základě odhaduje **teploty koruny a půdy**, **toky tepla** a následně i **aktuální evapotranspiraci**.
+Model využívá vstupy z družicových měření (např. teploty povrchu, albeda, indexů vegetace jako NDVI) a meteorologických údajů.  
+Na jejich základě odhaduje teploty koruny a půdy, toky tepla a následně i aktuální evapotranspiraci.
 
-Model **TSEB** je jedním z nejrozšířenějších **dálkových modelů evapotranspirace** a tvoří základ pro řadu dalších přístupů, např. **ALEXI**, **DisALEXI** nebo **TSEB-PT**.  
-Je široce využíván v **ekohydrologii, zemědělství, vodním hospodářství a klimatologii** pro **monitorování výměny energie a vody** mezi vegetací, půdou a atmosférou.
+Model TSEB je jedním z nejrozšířenějších dálkových modelů evapotranspirace a tvoří základ pro řadu dalších přístupů, např. ALEXI, DisALEXI nebo TSEB-PT.  
+Je široce využíván v ekohydrologii, zemědělství, vodním hospodářství a klimatologii pro monitorování výměny energie a vody mezi vegetací, půdou a atmosférou.
 :::
 
 #### Turgor {#sec-t-turgor}
 
-**Turgor** (angl. *turgor pressure* nebo *cell turgor*) je **tlak buněčné šťávy na buněčnou stěnu rostlinné buňky**, který vzniká v důsledku **osmózy** – pronikání vody do buňky přes semipermeabilní membránu. Tento tlak udržuje **pevnost, napětí a vzpřímený tvar rostlinných pletiv**.
+**Turgor** (angl. *turgor pressure* nebo *cell turgor*) je tlak buněčné šťávy na buněčnou stěnu rostlinné buňky, který vzniká v důsledku osmózy – pronikání vody do buňky přes semipermeabilní membránu. Tento tlak udržuje pevnost, napětí a vzpřímený tvar rostlinných pletiv.
 
 ##### Více {.detail}
 ::: collapsible
-Když je rostlina dobře zásobená vodou, buňky jsou **turgescentní** – mají vysoký turgor, což umožňuje listům a stonkům zůstat **pevné a napjaté**.  
-Při nedostatku vody dochází ke **ztrátě turgoru** (tzv. *plazmolýze*), buňky ochabují a rostlina **vadne**.
+Když je rostlina dobře zásobená vodou, buňky jsou turgescentní – mají vysoký turgor, což umožňuje listům a stonkům zůstat pevné a napjaté.  
+Při nedostatku vody dochází ke ztrátě turgoru (tzv. *plazmolýze*), buňky ochabují a rostlina vadne.
 
 Turgor je nezbytný pro:
 
-- **mechanickou stabilitu** rostlin,  
-- **růst buněk** (rozpínání buněčné stěny tlakem vody),  
-- **otevírání a zavírání průduchů**,  
-- **transport látek** uvnitř pletiv.  
+- mechanickou stabilitu rostlin,  
+- růst buněk (rozpínání buněčné stěny tlakem vody),  
+- otevírání a zavírání průduchů,  
+- transport látek uvnitř pletiv.  
 
-Je tedy **klíčovým fyziologickým ukazatelem vodního stavu rostliny** a její **reakce na stres suchem či osmotické změny prostředí**.
+Je tedy klíčovým fyziologickým ukazatelem vodního stavu rostliny a její reakce na stres suchem či osmotické změny prostředí.
 :::
 

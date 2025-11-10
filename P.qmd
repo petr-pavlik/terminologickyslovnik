@@ -2,8 +2,8 @@
 
 #### Penman–Monteithova rovnice {#sec-t-penman-monteithova-rovnice}
 
-**Penman–Monteithova rovnice** (angl. *Penman–Monteith equation*) je **fyzikálně založený vztah pro výpočet evapotranspirace**, který spojuje **energetickou bilanci povrchu** a **aerodynamické procesy turbulentního přenosu**.  
-Popisuje **výpar z povrchu (včetně vegetace)** na základě **radiačních, teplotních a větrných podmínek** i **výměny vodní páry mezi povrchem a atmosférou**.
+**Penman–Monteithova rovnice** (angl. *Penman–Monteith equation*) je fyzikálně založený vztah pro výpočet evapotranspirace, který spojuje energetickou bilanci povrchu a aerodynamické procesy turbulentního přenosu.  
+Popisuje výpar z povrchu (včetně vegetace) na základě radiačních, teplotních a větrných podmínek i výměny vodní páry mezi povrchem a atmosférou.
 
 ##### Více {.detail}
 ::: collapsible
@@ -26,42 +26,42 @@ kde:<br>
 – $\gamma$ psychrometrická konstanta (Pa·K⁻¹).
 
 
-Penman–Monteithova rovnice vyjadřuje **rovnováhu mezi energií dostupnou pro výpar a schopností atmosféry odvádět vodní páru**.  
-Tvoří základ **moderních metod pro výpočet evapotranspirace**, **hodnocení vodní bilance** a **modelování výměny energie mezi povrchem a atmosférou**.
+Penman–Monteithova rovnice vyjadřuje rovnováhu mezi energií dostupnou pro výpar a schopností atmosféry odvádět vodní páru.  
+Tvoří základ moderních metod pro výpočet evapotranspirace, hodnocení vodní bilance a modelování výměny energie mezi povrchem a atmosférou.
 :::
 
 
 #### Porometr {#sec-t-porometr}
 
-**Porometr** (angl. *porometer*) je **přístroj používaný k měření vodivosti průduchů listů** (stomatární vodivosti, $g_s$), tedy schopnosti průduchů **propouštět vodní páru a plyny** mezi vnitřním prostředím listu a atmosférou.  
-Měření porometrem umožňuje stanovit **intenzitu transpirace a výměny plynů**, a tím posoudit **fyziologický stav rostliny** a její **reakci na vnější podmínky**.
+**Porometr** (angl. *porometer*) je přístroj používaný k měření vodivosti průduchů listů (stomatární vodivosti, $g_s$), tedy schopnosti průduchů propouštět vodní páru a plyny mezi vnitřním prostředím listu a atmosférou.  
+Měření porometrem umožňuje stanovit intenzitu transpirace a výměny plynů, a tím posoudit fyziologický stav rostliny a její reakci na vnější podmínky.
 
 ##### Více {.detail}
 ::: collapsible
 Podle principu měření rozlišujeme dva hlavní typy porometrů:
 
-- **statický (difuzní) porometr** – sleduje rychlost zvyšování vlhkosti vzduchu v uzavřené komoře přiložené k listu,  
-- **dynamický porometr** – měří rozdíl vlhkosti mezi vzduchem vstupujícím a vystupujícím z průtočné komory.
+- statický (difuzní) porometr – sleduje rychlost zvyšování vlhkosti vzduchu v uzavřené komoře přiložené k listu,  
+- dynamický porometr – měří rozdíl vlhkosti mezi vzduchem vstupujícím a vystupujícím z průtočné komory.
 
-Porometry se používají ve **fyziologii rostlin, ekologii a zemědělském výzkumu** ke sledování:
+Porometry se používají ve fyziologii rostlin, ekologii a zemědělském výzkumu ke sledování:
 
-- **otevírání a zavírání průduchů**,  
-- **vodního stresu**,  
-- **vlivu závlah, světla, teploty a koncentrace CO₂**.
+- otevírání a zavírání průduchů,  
+- vodního stresu,  
+- vlivu závlah, světla, teploty a koncentrace CO₂.
 
-Jsou důležitým nástrojem při studiu **transpirace, fotosyntézy** a **vodní bilance rostlin**, protože umožňují **neinvazivní a přesné měření výměny plynů** na úrovni jednotlivých listů.
+Jsou důležitým nástrojem při studiu transpirace, fotosyntézy a vodní bilance rostlin, protože umožňují neinvazivní a přesné měření výměny plynů na úrovni jednotlivých listů.
 :::
 
 
 #### Psychrometrická konstanta {#sec-t-psychrometricka-konstanta}
 
-**Psychrometrická konstanta** (angl. *psychrometric constant*, značka $\gamma$) je **termodynamická veličina**, která vyjadřuje **vztah mezi změnou teploty a tlakem vodní páry při výparu nebo kondenzaci**.  
-Udává, **o kolik se musí změnit teplota vzduchu, aby došlo ke změně nasyceného tlaku vodní páry o určitou hodnotu**.
+**Psychrometrická konstanta** (angl. *psychrometric constant*, značka $\gamma$) je termodynamická veličina, která vyjadřuje vztah mezi změnou teploty a tlakem vodní páry při výparu nebo kondenzaci.  
+Udává, o kolik se musí změnit teplota vzduchu, aby došlo ke změně nasyceného tlaku vodní páry o určitou hodnotu.
 
 ##### Více {.detail}
 ::: collapsible
-Psychrometrická konstanta se používá při **výpočtu evapotranspirace**, **vlhkosti vzduchu** a v **psychrometrických rovnicích** (např. v *Penman–Monteithově rovnici*).  
-Její hodnota závisí na **atmosférickém tlaku** a přibližně se určuje ze vztahu:
+Psychrometrická konstanta se používá při výpočtu evapotranspirace, vlhkosti vzduchu a v psychrometrických rovnicích (např. v *Penman–Monteithově rovnici*).  
+Její hodnota závisí na atmosférickém tlaku a přibližně se určuje ze vztahu:
 
 $$
 \gamma = \frac{c_p \, AP}{\varepsilon \, \lambda}
@@ -74,68 +74,68 @@ kde:<br>
 – $\lambda$ latentní výparné teplo vody (J·kg⁻¹).
 
 
-Při **standardním atmosférickém tlaku** (101,3 kPa) má psychrometrická konstanta hodnotu přibližně **0,066 kPa·°C⁻¹**.  
-Je klíčovým parametrem pro **popis výměny energie a vodní páry** mezi povrchem a atmosférou.
+Při standardním atmosférickém tlaku (101,3 kPa) má psychrometrická konstanta hodnotu přibližně 0,066 kPa·°C⁻¹.  
+Je klíčovým parametrem pro popis výměny energie a vodní páry mezi povrchem a atmosférou.
 :::
 
 #### Potenciální evapotranspirace {#sec-t-potencialni-evapotranspirace}
 
-**Potenciální evapotranspirace** (angl. *potential evapotranspiration*, zkr. *$PET$) je **množství vody, které by se mohlo odpařit a transpirovat z povrchu půdy a vegetace**, pokud by byla **k dispozici neomezená zásoba vody**.  
-Vyjadřuje tedy **maximální možnou intenzitu výparu** za daných **meteorologických podmínek** (teplota, sluneční záření, vítr, vlhkost vzduchu).
+**Potenciální evapotranspirace** (angl. *potential evapotranspiration*, zkr. *$PET$) je množství vody, které by se mohlo odpařit a transpirovat z povrchu půdy a vegetace, pokud by byla k dispozici neomezená zásoba vody.  
+Vyjadřuje tedy maximální možnou intenzitu výparu za daných meteorologických podmínek (teplota, sluneční záření, vítr, vlhkost vzduchu).
 
 ##### Více {.detail}
 ::: collapsible
-Potenciální evapotranspirace představuje **atmosférickou poptávku po vodě** a závisí výhradně na **klimatických faktorech**, nikoli na dostupnosti vody v půdě.  
+Potenciální evapotranspirace představuje atmosférickou poptávku po vodě a závisí výhradně na klimatických faktorech, nikoli na dostupnosti vody v půdě.  
 Při skutečném nedostatku vody bývá reálná (aktuální) evapotranspirace nižší než potenciální.
 
-Hodnota $PET$ se obvykle určuje z empirických nebo fyzikálních rovnic, např. podle **Penman–Monteithovy** či **Thornthwaitovy** rovnice.
+Hodnota $PET$ se obvykle určuje z empirických nebo fyzikálních rovnic, např. podle Penman–Monteithovy či Thornthwaitovy rovnice.
 
-Potenciální evapotranspirace se používá jako **indikátor sušších podmínek** a jako **vstupní veličina** pro výpočty **vodní bilance**, **zavlažovacích potřeb** i **modelování sucha a klimatu**.
+Potenciální evapotranspirace se používá jako indikátor sušších podmínek a jako vstupní veličina pro výpočty vodní bilance, zavlažovacích potřeb i modelování sucha a klimatu.
 :::
 
 
 #### Půdní sací potenciál {#sec-t-pudni-saci-potencial}
 
-**Půdní sací potenciál** (angl. *soil water suction* nebo *matric potential*) je **míra síly, kterou je voda v půdě poutána k pevným částicím a pórovému systému**, a zároveň **energie, kterou musí rostlina nebo jiný proces vynaložit, aby tuto vodu uvolnil**.  
-Vyjadřuje se jako **záporný tlak** (nejčastěji v jednotkách kPa nebo MPa) vzhledem k volné vodní hladině.
+**Půdní sací potenciál** (angl. *soil water suction* nebo *matric potential*) je míra síly, kterou je voda v půdě poutána k pevným částicím a pórovému systému, a zároveň energie, kterou musí rostlina nebo jiný proces vynaložit, aby tuto vodu uvolnil.  
+Vyjadřuje se jako záporný tlak (nejčastěji v jednotkách kPa nebo MPa) vzhledem k volné vodní hladině.
 
 ##### Více {.detail}
 ::: collapsible
-Půdní sací potenciál odráží **dostupnost vody pro rostliny** – čím je jeho hodnota **nižší (více záporná)**, tím je voda v půdě **pevněji vázána** a **hůře dostupná**.
+Půdní sací potenciál odráží dostupnost vody pro rostliny – čím je jeho hodnota nižší (více záporná), tím je voda v půdě pevněji vázána a hůře dostupná.
 
-**Typické hodnoty:**
-- při **polní kapacitě**: přibližně –10 až –30 kPa,  
-- při **bodu vadnutí**: přibližně –1500 kPa.
+Typické hodnoty:
+- při polní kapacitě: přibližně –10 až –30 kPa,  
+- při bodu vadnutí: přibližně –1500 kPa.
 
-Půdní sací potenciál je součástí **celkového vodního potenciálu půdy** a společně s **gravitačním** a **osmotickým potenciálem** určuje **směr a rychlost pohybů vody v půdě**.  
+Půdní sací potenciál je součástí celkového vodního potenciálu půdy a společně s gravitačním a osmotickým potenciálem určuje směr a rychlost pohybů vody v půdě.  
 
-Měří se například **tenzometry** (v rozsahu do cca –85 kPa) nebo **elektronickými senzory**, které využívají **změny elektrického odporu či kapacity** půdního prostředí.
+Měří se například tenzometry (v rozsahu do cca –85 kPa) nebo elektronickými senzory, které využívají změny elektrického odporu či kapacity půdního prostředí.
 
-Je to **klíčový parametr** pro **hydrologické modelování**, **řízení závlah** a **hodnocení vodního stresu rostlin**.
+Je to klíčový parametr pro hydrologické modelování, řízení závlah a hodnocení vodního stresu rostlin.
 :::
 
 
 #### Půdní vlhkost {#sec-t-pudni-vlhkost}
 
-**Půdní vlhkost** (angl. *soil moisture*) je **množství vody obsažené v půdě**, které je buď **vázané na půdní částice**, nebo **volně vyplňuje póry** mezi nimi.  
-Představuje **klíčový prvek vodní bilance půdy** a zásadně ovlivňuje **růst rostlin, infiltrační schopnost půdy, odtok i výpar**.
+**Půdní vlhkost** (angl. *soil moisture*) je množství vody obsažené v půdě, které je buď vázané na půdní částice, nebo volně vyplňuje póry mezi nimi.  
+Představuje klíčový prvek vodní bilance půdy a zásadně ovlivňuje růst rostlin, infiltrační schopnost půdy, odtok i výpar.
 
 ##### Více {.detail}
 ::: collapsible
 Půdní vlhkost se nejčastěji vyjadřuje:
 
-- jako **objemová vlhkost** – poměr objemu vody k objemu půdy ($\mathrm{m^3·m^{-3}}$ nebo %),  
-- nebo jako **hmotnostní vlhkost** – poměr hmotnosti vody k hmotnosti suché půdy ($\mathrm{kg·kg^{-1}}$ nebo %).
+- jako objemová vlhkost – poměr objemu vody k objemu půdy ($\mathrm{m^3·m^{-3}}$ nebo %),  
+- nebo jako hmotnostní vlhkost – poměr hmotnosti vody k hmotnosti suché půdy ($\mathrm{kg·kg^{-1}}$ nebo %).
 
-Rozlišujeme několik **stavů půdní vlhkosti**:
+Rozlišujeme několik stavů půdní vlhkosti:
 
-- **polní kapacita** – množství vody, které půda udrží po odtoku přebytečné vody gravitací,  
-- **bod vadnutí** – minimální vlhkost, při níž rostliny již nedokážou odebírat vodu,  
-- **dostupná voda** – rozdíl mezi polní kapacitou a bodem vadnutí.
+- polní kapacita – množství vody, které půda udrží po odtoku přebytečné vody gravitací,  
+- bod vadnutí – minimální vlhkost, při níž rostliny již nedokážou odebírat vodu,  
+- dostupná voda – rozdíl mezi polní kapacitou a bodem vadnutí.
 
-Měření půdní vlhkosti se provádí **gravimetricky**, **tenzometricky** nebo pomocí **senzorů na principu dielektrických vlastností půdy** (např. **TDR, FDR**).
+Měření půdní vlhkosti se provádí gravimetricky, tenzometricky nebo pomocí senzorů na principu dielektrických vlastností půdy (např. TDR, FDR).
 
-Půdní vlhkost je zásadní pro **zemědělství, hydrologii, meteorologii** i **modelování výměny vody a energie mezi půdou, vegetací a atmosférou**.
+Půdní vlhkost je zásadní pro zemědělství, hydrologii, meteorologii i modelování výměny vody a energie mezi půdou, vegetací a atmosférou.
 :::
 
 
@@ -169,11 +169,11 @@ $$ Výhodou rovnice je její univerzálkní použití, nevýhodou pak množství
 ::: collapsible
 Často se pod akronymem $\mathrm{PET}$ označuje množství vody, které je vypařeno a transpirováno půdou, specifickou plodinou, nebo obecně na daném území. To vše za předpokladu, že dostatek vody není limitujícím faktormem. Definice potenciální evapotranspirace prošla vývvojem.
 
-> **Thorntwaite**: Evapotranspirace z libovolného území, na kterém rose libovolná vegetace dostatečně zásobená půdní vláhou, přičemž na povrchu listů není žádná intercipovaná voda.
+> Thorntwaite: Evapotranspirace z libovolného území, na kterém rose libovolná vegetace dostatečně zásobená půdní vláhou, přičemž na povrchu listů není žádná intercipovaná voda.
 
 Penmman dále rozvinul vztah obecného porostu na referenční vegataci.
 
-> **Penman**: Evapotranspirace krátce střiženého hustého trávníku, dostatečně zásobeného půvní vláhou.
+> Penman: Evapotranspirace krátce střiženého hustého trávníku, dostatečně zásobeného půvní vláhou.
 
 S pomoci specificky zvolené rostliny - Tolice vojtěšky, jinak alfalfa (*Medicago sativa sp.*), byl urřen výpar z referenčního povrchu - tzv. *referenční plodinu*.
 :::

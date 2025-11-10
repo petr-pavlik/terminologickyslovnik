@@ -3,139 +3,139 @@
 
 #### Kapilární vzlínání {#sec-t-kapilarni-vzlinani}
 
-**Kapilární vzlínání** (angl. *capillary rise* nebo *capillary action*) je **fyzikální proces**, při němž **voda stoupá vzhůru v úzkých pórech nebo trhlinách půdy** v důsledku **povrchového napětí vody** a **adhezních sil** mezi vodou a pevnými částicemi půdy.  
-Tento jev umožňuje, aby se **voda pohybovala proti gravitaci** z vlhčích spodních vrstev směrem k povrchu, kde může být **využita rostlinami** nebo se může **odpařovat**.
+**Kapilární vzlínání** (angl. *capillary rise* nebo *capillary action*) je fyzikální proces, při němž voda stoupá vzhůru v úzkých pórech nebo trhlinách půdy v důsledku povrchového napětí vody a adhezních sil mezi vodou a pevnými částicemi půdy.  
+Tento jev umožňuje, aby se voda pohybovala proti gravitaci z vlhčích spodních vrstev směrem k povrchu, kde může být využita rostlinami nebo se může odpařovat.
 
 ##### Více {.detail}
 ::: collapsible
-Výška kapilárního vzlínání závisí na **velikosti pórů**:
+Výška kapilárního vzlínání závisí na velikosti pórů:
 
--  v **jemnozrnných půdách** (např. jílech) může dosahovat **desítek centimetrů**,\
--  v **hrubozrnných půdách** (např. píscích) je **mnohem menší**.
+-  v jemnozrnných půdách (např. jílech) může dosahovat desítek centimetrů,\
+-  v hrubozrnných půdách (např. píscích) je mnohem menší.
 
 Kapilární vzlínání hraje klíčovou roli v:
 
--  **pohybu vody v půdním profilu**,\
--  **zásobování rostlin vodou**,\
--  **procesu evaporace z půdy**.
+-  pohybu vody v půdním profilu,\
+-  zásobování rostlin vodou,\
+-  procesu evaporace z půdy.
 
-Je základním mechanismem, který propojuje **půdní vodu** s **atmosférickými procesy výparu** a ovlivňuje **vodní bilanci půdy i dostupnost vody pro vegetaci**.
+Je základním mechanismem, který propojuje půdní vodu s atmosférickými procesy výparu a ovlivňuje vodní bilanci půdy i dostupnost vody pro vegetaci.
 :::
 
 #### Klima {#sec-t-klima}
 
-**Klima** (angl. *climate*) je **dlouhodobý průměrný stav počasí** v určité oblasti, popisovaný **statistickými charakteristikami meteorologických prvků**, jako jsou **teplota, srážky, vlhkost, vítr, sluneční svit či tlak vzduchu**.  
-Obvykle se hodnotí na základě **dlouhodobých pozorování** (standardně za období alespoň **30 let**) a představuje **souhrn podmínek atmosféry typických pro dané místo nebo region**.
+**Klima** (angl. *climate*) je dlouhodobý průměrný stav počasí v určité oblasti, popisovaný statistickými charakteristikami meteorologických prvků, jako jsou teplota, srážky, vlhkost, vítr, sluneční svit či tlak vzduchu.  
+Obvykle se hodnotí na základě dlouhodobých pozorování (standardně za období alespoň 30 let) a představuje souhrn podmínek atmosféry typických pro dané místo nebo region.
 
 ##### Více {.detail}
 ::: collapsible
-Klima je výsledkem **vzájemného působení složek klimatického systému** –  
-**atmosféry, hydrosféry, kryosféry, litosféry a biosféry**.  
+Klima je výsledkem vzájemného působení složek klimatického systému –  
+atmosféry, hydrosféry, kryosféry, litosféry a biosféry.  
 Je ovlivňováno faktory, jako jsou:
 
--  **zeměpisná poloha**,\ 
--  **nadmořská výška**,\  
--  **vzdálenost od moře a mořské proudy**,\  
--  **reliéf**,\  
--  **vegetace**.
+-  zeměpisná poloha,\ 
+-  nadmořská výška,\  
+-  vzdálenost od moře a mořské proudy,\  
+-  reliéf,\  
+-  vegetace.
 
-Studium klimatu (**klimatologie**) se zaměřuje na:
+Studium klimatu (klimatologie) se zaměřuje na:
 
--  **analýzu klimatických charakteristik**,\  
--  **klasifikaci klimatických oblastí**,\  
--  **dlouhodobé změny klimatu a jejich dopady** na přírodní i společenské systémy.
+-  analýzu klimatických charakteristik,\  
+-  klasifikaci klimatických oblastí,\  
+-  dlouhodobé změny klimatu a jejich dopady na přírodní i společenské systémy.
 
-Pochopení klimatu je klíčové pro **modelování vodní bilance**, **zemědělské plánování**, **ekologii** i **hodnocení změny klimatu**.
+Pochopení klimatu je klíčové pro modelování vodní bilance, zemědělské plánování, ekologii i hodnocení změny klimatu.
 :::
 
 #### Klimatický model {#sec-t-klimaticky-model}
 
-**Klimatický model** (angl. *climate model*) je **numerický model založený na fyzikálních zákonech**, který **simuluje chování klimatického systému Země** – tedy **atmosféry, oceánů, pevniny, ledového pokryvu a biosféry** – a jejich **vzájemné interakce**.  
-Cílem je **pochopit, rekonstruovat a předpovídat vývoj klimatu** v různých **časových a prostorových měřítcích**.
+**Klimatický model** (angl. *climate model*) je numerický model založený na fyzikálních zákonech, který simuluje chování klimatického systému Země – tedy atmosféry, oceánů, pevniny, ledového pokryvu a biosféry – a jejich vzájemné interakce.  
+Cílem je pochopit, rekonstruovat a předpovídat vývoj klimatu v různých časových a prostorových měřítcích.
 
 ##### Více {.detail}
 ::: collapsible
-Klimatické modely vycházejí z **rovnic dynamiky tekutin**, **zákonů termodynamiky**, **přenosu záření** a **koloběhu vody**.  
-Tyto rovnice (např. **Navier–Stokesovy**) jsou **řešeny numericky** v **trojrozměrné síti (gridu)**, která pokrývá celý glóbus.
+Klimatické modely vycházejí z rovnic dynamiky tekutin, zákonů termodynamiky, přenosu záření a koloběhu vody.  
+Tyto rovnice (např. Navier–Stokesovy) jsou řešeny numericky v trojrozměrné síti (gridu), která pokrývá celý glóbus.
 
 Podle složitosti rozlišujeme:
 
--  **jednoduché modely energetické bilance (EBM)** – popisují základní vztah mezi příjmem a ztrátou energie,\ 
--  **modely obecné cirkulace atmosféry (GCM – General Circulation Models)**,\  
--  **regionální klimatické modely (RCM – Regional Climate Models)** – zpřesňují výpočty pro menší oblasti,\  
--  **integrované modely systému Země (ESM – Earth System Models)** – zahrnují i **biogeochemické cykly** (uhlík, dusík apod.).\
+-  jednoduché modely energetické bilance (EBM) – popisují základní vztah mezi příjmem a ztrátou energie,\ 
+-  modely obecné cirkulace atmosféry (GCM – General Circulation Models),\  
+-  regionální klimatické modely (RCM – Regional Climate Models) – zpřesňují výpočty pro menší oblasti,\  
+-  integrované modely systému Země (ESM – Earth System Models) – zahrnují i biogeochemické cykly (uhlík, dusík apod.).\
 
 Klimatické modely se používají pro:
 
--  **projekce budoucího vývoje klimatu**,\  
--  **hodnocení dopadů emisních scénářů**,\  
--  **studium klimatických procesů**,\  
--  **tvorbu adaptačních strategií**.
+-  projekce budoucího vývoje klimatu,\  
+-  hodnocení dopadů emisních scénářů,\  
+-  studium klimatických procesů,\  
+-  tvorbu adaptačních strategií.
 
-Jsou základem **zpráv IPCC** a představují **klíčový nástroj moderní klimatologie**.
+Jsou základem zpráv IPCC a představují klíčový nástroj moderní klimatologie.
 :::
 
 #### Klimatická sensitivita {#sec-t-klimaticka-sensitivita}
 
-**Klimatická sensitivita** (angl. *climate sensitivity*) je **míra odezvy klimatického systému Země na změnu radiační bilance**, obvykle v důsledku **změny koncentrace skleníkových plynů**.  
-Vyjadřuje, **o kolik se změní průměrná globální teplota vzduchu** při **rovnovážném zdvojnásobení koncentrace CO₂** v atmosféře oproti předindustriální úrovni.
+**Klimatická sensitivita** (angl. *climate sensitivity*) je míra odezvy klimatického systému Země na změnu radiační bilance, obvykle v důsledku změny koncentrace skleníkových plynů.  
+Vyjadřuje, o kolik se změní průměrná globální teplota vzduchu při rovnovážném zdvojnásobení koncentrace CO₂ v atmosféře oproti předindustriální úrovni.
 
 ##### Více {.detail}
 ::: collapsible
-Klimatická sensitivita se obvykle udává v **°C na zdvojnásobení CO₂** a podle současných odhadů se pohybuje přibližně v rozmezí **1,5–4,5 °C**.  
-Zahrnuje nejen **přímý radiační účinek CO₂**, ale i **zpětné vazby v klimatickém systému**, například:
+Klimatická sensitivita se obvykle udává v °C na zdvojnásobení CO₂ a podle současných odhadů se pohybuje přibližně v rozmezí 1,5–4,5 °C.  
+Zahrnuje nejen přímý radiační účinek CO₂, ale i zpětné vazby v klimatickém systému, například:
 
--  změny v **obsahu vodní páry**,\  
--  **oblačnosti**,\  
--  **sněhové pokrývce** a **albedu**.
+-  změny v obsahu vodní páry,\  
+-  oblačnosti,\  
+-  sněhové pokrývce a albedu.
 
 Rozlišujeme:
 
--  **okamžitou sensitivitu (TCR – Transient Climate Response)** – změna teploty při postupném nárůstu CO₂ během několika desetiletí,\  
--  **rovnovážnou sensitivitu (ECS – Equilibrium Climate Sensitivity)** – dlouhodobá změna po dosažení tepelné rovnováhy systému.\
+-  okamžitou sensitivitu (TCR – Transient Climate Response) – změna teploty při postupném nárůstu CO₂ během několika desetiletí,\  
+-  rovnovážnou sensitivitu (ECS – Equilibrium Climate Sensitivity) – dlouhodobá změna po dosažení tepelné rovnováhy systému.\
 
-Klimatická sensitivita je **klíčovým parametrem globálních klimatických modelů (GCM)** a určuje **velikost budoucího oteplení i nejistotu klimatických projekcí**.
+Klimatická sensitivita je klíčovým parametrem globálních klimatických modelů (GCM) a určuje velikost budoucího oteplení i nejistotu klimatických projekcí.
 :::
 
 #### Kondenzace {#sec-t-kondenzace}
 
-**Kondenzace** (angl. *condensation*) je **fyzikální proces přeměny vodní páry na kapalnou vodu**, který nastává tehdy, když se **vzduch ochladí na teplotu rosného bodu** nebo se **zvýší obsah vodní páry nad hranici nasycení**.  
-Při kondenzaci se **uvolňuje latentní teplo**, což má **významný vliv na energetickou bilanci atmosféry**.
+**Kondenzace** (angl. *condensation*) je fyzikální proces přeměny vodní páry na kapalnou vodu, který nastává tehdy, když se vzduch ochladí na teplotu rosného bodu nebo se zvýší obsah vodní páry nad hranici nasycení.  
+Při kondenzaci se uvolňuje latentní teplo, což má významný vliv na energetickou bilanci atmosféry.
 
 ##### Více {.detail}
 ::: collapsible
-Kondenzace probíhá na **kondenzačních jádrech** (např. prachové částice, soli, aerosoly) a vede ke vzniku:
+Kondenzace probíhá na kondenzačních jádrech (např. prachové částice, soli, aerosoly) a vede ke vzniku:
 
--  **mlhy**,\  
--  **oblaků**,\  
--  **rosy** nebo **jinovatky**.
+-  mlhy,\  
+-  oblaků,\  
+-  rosy nebo jinovatky.
 
-V širším smyslu představuje kondenzace **klíčový článek koloběhu vody v přírodě**, protože znamená **přechod vodní páry zpět do kapalné fáze**, z níž může následně vznikat **atmosférické srážení**.
+V širším smyslu představuje kondenzace klíčový článek koloběhu vody v přírodě, protože znamená přechod vodní páry zpět do kapalné fáze, z níž může následně vznikat atmosférické srážení.
 
-Proces kondenzace je úzce spjat s **radiací, stabilitou atmosféry** a **energetickými přeměnami** v troposféře.
+Proces kondenzace je úzce spjat s radiací, stabilitou atmosféry a energetickými přeměnami v troposféře.
 :::
 
 
 #### Kutikulární výpar {#sec-t-kutikularni-vypar}
 
-**Kutikulární výpar** (angl. *cuticular transpiration* nebo *cuticular evaporation*) je **odpařování vody z povrchu listů rostlin přes kutikulu** – tenkou voskovitou vrstvu, která pokrývá epidermis a **chrání rostlinu před nadměrnou ztrátou vody**.  
-Tento proces probíhá **nezávisle na průduších (stomatech)** a představuje obvykle **malou část celkové transpirace**.
+**Kutikulární výpar** (angl. *cuticular transpiration* nebo *cuticular evaporation*) je odpařování vody z povrchu listů rostlin přes kutikulu – tenkou voskovitou vrstvu, která pokrývá epidermis a chrání rostlinu před nadměrnou ztrátou vody.  
+Tento proces probíhá nezávisle na průduších (stomatech) a představuje obvykle malou část celkové transpirace.
 
 ##### Více {.detail}
 ::: collapsible
 Kutikulární výpar se stává významnějším tehdy, když:
 
--  jsou **průduchy uzavřené** (např. při suchu),\  
--  má rostlina **tenkou nebo poškozenou kutikulu**.
+-  jsou průduchy uzavřené (např. při suchu),\  
+-  má rostlina tenkou nebo poškozenou kutikulu.
 
 Míra kutikulárního výparu závisí na:
 
--  **teplotě**,\  
--  **vlhkosti vzduchu**,\  
--  **intenzitě slunečního záření**,\  
--  **vlastnostech kutikuly** (tloušťka, chemické složení, přítomnost vosků).
+-  teplotě,\  
+-  vlhkosti vzduchu,\  
+-  intenzitě slunečního záření,\  
+-  vlastnostech kutikuly (tloušťka, chemické složení, přítomnost vosků).
 
-Kutikulární výpar hraje roli v **celkové vodní bilanci rostlin** a jejich **přizpůsobení suchým či vlhkým podmínkám prostředí**, zejména u druhů s různou **morfologií a anatomickou stavbou listů**.
+Kutikulární výpar hraje roli v celkové vodní bilanci rostlin a jejich přizpůsobení suchým či vlhkým podmínkám prostředí, zejména u druhů s různou morfologií a anatomickou stavbou listů.
 :::
 
 
