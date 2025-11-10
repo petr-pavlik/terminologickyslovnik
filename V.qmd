@@ -1,30 +1,41 @@
 ## V
 
-#### Výpar {#sec-v-vypar}
+#### Voda {#sec-v-voda}
+**Voda** (chemický vzorec H₂O) je nejrozšířenější chemická sloučenina na Zemi a základní podmínka života. Je bezbarvá, bez chuti a bez zápachu, v přírodě se vyskytuje ve všech třech skupenstvích – kapalném, pevném (led, sníh) a plynném (vodní pára).
+
+
+##### Více {.detail}
 ::: collapsible
-  <p>This is the content inside the collapsible div.</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-  </ul>
+Voda má unikátní fyzikální a chemické vlastnosti: vysoké výparné teplo, měrnou tepelnou kapacitu, povrchové napětí a schopnost rozpouštět široké spektrum látek. Tyto vlastnosti z ní činí klíčové médium pro přenos energie a látek v biosféře i v geosféře.
+V přírodě je voda součástí koloběhu vody, při němž cirkuluje mezi atmosférou, povrchem Země a podzemím prostřednictvím procesů výparu, kondenzace, srážek, infiltrace a odtoku.
+Z biologického hlediska tvoří 60–90 % hmotnosti živých organismů, podílí se na transportu živin, termoregulaci a metabolických reakcích.
+ V širším kontextu představuje klíčový prvek hydrologického, klimatického i ekologického systému a její množství, kvalita a dostupnost jsou zásadní pro přírodní i společenské procesy.
 :::
 
-#### Výpar z vodní plochy {#sec-v-vypar-z-vodni-plochy}
-::: collapsible
-  <p>This is the content inside the collapsible div.</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-  </ul>
-:::
+#### Vodní potenciál listu {#sec-v-vodni-potencial-listu}
+**Vodní potenciál listu** (angl. *leaf water potential*, značka \( \Psi_\ell \)) je fyzikální veličina vyjadřující energetický stav vody v listu – tedy schopnost vody proudit z jedné části rostliny do druhé. Udává, jak pevně je voda vázána v buněčných strukturách a jak snadno může být transportována směrem ke vzduchu.
 
-#### Výparoměr {#sec-v-vyparomer}
+
+##### Více {.detail}
 ::: collapsible
-This is the content inside the collapsible div
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-  </ul>
+Vyjadřuje se v jednotkách tlaku (nejčastěji v megapascalech, MPa) a má záporné hodnoty (čím nižší hodnota, tím větší deficit vody).
+
+Vodní potenciál listu je výsledkem (převážně) součtu složek:
+\[
+\Psi_\ell = \Psi_p + \Psi_s + \Psi_g
+\]
+kde:
+- \( \Psi_p \) – tlakový (turgorový) potenciál,
+- \( \Psi_s \) – osmotický potenciál (potenciál rozpuštěných látek),
+- \( \Psi_g \) – gravitační potenciál (u listů obvykle zanedbatelný).
+
+Typické hodnoty \( \Psi_\ell \):
+- dobře zavlažené rostliny: \(-0.3 \text{ až } -0.8\ \text{MPa}\),
+- mírný vodní stres: \(-1.0 \text{ až } -1.5\ \text{MPa}\),
+- silný stres: \(< -2.0\ \text{MPa}\).
+
+Měření \( \Psi_\ell \) se provádí např. tlakovou komorou (*Scholanderova komora*) nebo psychrometricky. Tento parametr je klíčový pro hodnocení vodního stavu rostlin, jejich odolnosti vůči suchu a pro řízení závlah v zemědělství.
+:::
 
 ##### Výparoměr břehový {#sec-v-vyparomer-brehovy}
 
