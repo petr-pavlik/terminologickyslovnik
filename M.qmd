@@ -22,6 +22,9 @@ Je základem pro **předpověď počasí**, **klimatologii**, **letectví**, **h
 #### METRIC {#sec-t-metric}
 
 **METRIC** (*Mapping Evapotranspiration at High Resolution with Internalized Calibration*) je **fyzikálně založený dálkový model pro výpočet prostorově rozlišené aktuální evapotranspirace (ET)** z družicových dat, vyvinutý týmem **R. G. Allena z University of Idaho**.  
+
+##### Více {.detail}
+::: collapsible
 Model využívá **energetickou bilanci povrchu** ve tvaru:
 
 $$
@@ -37,8 +40,6 @@ kde:
   \item $\lambda E$ – latentní tok tepla (evapotranspirace, W·m⁻²).
 \end{itemize}
 
-##### Více {.detail}
-::: collapsible
 Základem modelu je **výpočet jednotlivých složek energetické bilance** z **družicových snímků** (např. *Landsat*) v kombinaci s **meteorologickými daty**.  
 Tok citelného tepla ($H$) je **kalibrován vnitřně** pomocí tzv. *„hot“* a *„cold“* pixelů – **referenčních míst s minimální a maximální evapotranspirací** – což zajišťuje **přesnost bez nutnosti přímých měření z povrchu**.
 
