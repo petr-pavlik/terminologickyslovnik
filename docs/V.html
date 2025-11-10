@@ -100,6 +100,35 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -237,19 +266,47 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="sec-v-vodni-potencial-listu">Vodní potenciál listu</h4>
 <p><strong>Vodní potenciál listu</strong> (angl. <em>leaf water potential</em>, značka ( _)) je fyzikální veličina vyjadřující energetický stav vody v listu – tedy schopnost vody proudit z jedné části rostliny do druhé. Udává, jak pevně je voda vázána v buněčných strukturách a jak snadno může být transportována směrem ke vzduchu.</p>
 <section id="více-1" class="level5 detail">
-<h5 class="detail anchored" data-anchor-id="více-1">Více</h5>
+<h5 class="detail anchored">Více</h5>
 <div class="collapsible">
 <p>Vyjadřuje se v jednotkách tlaku (nejčastěji v megapascalech, MPa) a má záporné hodnoty (čím nižší hodnota, tím větší deficit vody).</p>
-<p>Vodní potenciál listu je výsledkem (převážně) součtu složek: [ _= _p + _s + _g ] kde: - ( _p ) – tlakový (turgorový) potenciál, - ( _s ) – osmotický potenciál (potenciál rozpuštěných látek), - ( _g ) – gravitační potenciál (u listů obvykle zanedbatelný).</p>
-<p>Typické hodnoty ( _): - dobře zavlažené rostliny: (-0.3 -0.8&nbsp;), - mírný vodní stres: (-1.0 -1.5&nbsp;), - silný stres: (&lt; -2.0&nbsp;).</p>
-<p>Měření ( _) se provádí např. tlakovou komorou (<em>Scholanderova komora</em>) nebo psychrometricky. Tento parametr je klíčový pro hodnocení vodního stavu rostlin, jejich odolnosti vůči suchu a pro řízení závlah v zemědělství.</p>
+<p>Vodní potenciál listu je výsledkem (převážně) součtu složek: <span class="math display">\[
+\Psi_\ell = \Psi_p + \Psi_s + \Psi_g
+\]</span> kde: - <span class="math inline">\(\Psi_p\)</span> – tlakový (turgorový) potenciál, - <span class="math inline">\(\Psi_s\)</span> – osmotický potenciál (potenciál rozpuštěných látek), - <span class="math inline">\(\Psi_g\)</span> – gravitační potenciál (u listů obvykle zanedbatelný).</p>
+<p>Typické hodnoty <span class="math inline">\(\Psi_\ell\)</span>: - dobře zavlažené rostliny: <span class="math inline">\(-0.3 \text{ až } -0.8\ \text{MPa}\)</span>, - mírný vodní stres: <span class="math inline">\(-1.0 \text{ až } -1.5\ \text{MPa}\)</span>, - silný stres: <span class="math inline">\(&lt; -2.0\ \text{MPa}\)</span>.</p>
+<p>Měření <span class="math inline">\(\Psi_\ell\)</span> se provádí např. tlakovou komorou (<em>Scholanderova komora</em>) nebo psychrometricky. Tento parametr je klíčový pro hodnocení vodního stavu rostlin, jejich odolnosti vůči suchu a pro řízení závlah v zemědělství.</p>
+<section id="sec-v-vypar" class="level4">
+<h4 class="anchored" data-anchor-id="sec-v-vypar">Voda</h4>
+<p><strong>Výpar</strong> (angl. <em>evaporation</em>) je fyzikální proces, při němž se voda mění z kapalného skupenství na vodní páru a přechází z povrchu (např. půdy, vodních ploch nebo rostlin) do atmosféry. Probíhá při jakékoli teplotě, pokud jsou splněny podmínky pro únik molekul vody do vzduchu. Rychlost evaporace závisí na teplotě, vlhkosti a pohybu vzduchu, slunečním záření a dostupnosti vody. Evaporace představuje jednu ze složek evapotranspirace a je klíčovým procesem v koloběhu vody a energetické výměně mezi zemským povrchem a atmosférou.</p>
+</section>
+<section id="sec-v-vypar-z-vodni-plochy" class="level4">
+<h4 class="anchored" data-anchor-id="sec-v-vypar-z-vodni-plochy">Voda</h4>
+<p><strong>Výpar z vodní plochy</strong> (angl. <em>evaporation from open water</em>) je proces, při němž se voda z volné vodní hladiny mění v páru a přechází do atmosféry. Probíhá na základě přenosu tepla a vodní páry mezi vodní hladinou a vzduchem a je jednou z hlavních složek vodní bilance vodních útvarů (jezer, nádrží, rybníků, oceánů).</p>
+<section id="více-2" class="level5 detail">
+<h5 class="detail anchored">Více</h5>
+<div class="collapsible">
+<p>Rychlost výparu závisí především na teplotě vody a vzduchu, nasycení vzduchu vodní párou (vlhkosti), rychlosti větru, slunečním záření a tlaku vzduchu. Výpar z vodní plochy se nejčastěji určuje:</p>
+<ul>
+<li>přímým měřením (např. pomocí výparoměrů – evaporimetrů typu Class A pan),<br>
+</li>
+<li>nebo výpočtem podle fyzikálních rovnic (např. Penmanova rovnice).</li>
+</ul>
+<p>Výpar z vodní plochy představuje důležitý prvek energetické a vodní bilance a ovlivňuje klima, zásoby vody i ekosystémové procesy v okolí vodních ploch.</p>
+<section id="sec-v-vyparomer" class="level4">
+<h4 class="anchored" data-anchor-id="sec-v-vyparomer">Výparoměr</h4>
+<p><strong>Výparoměr</strong> (angl. <em>evaporimeter</em> nebo <em>evaporation pan</em>) je přístroj určený k měření výparu vody z volné vodní hladiny, a tedy k odhadu intenzity evaporace v daných meteorologických podmínkách. Základní princip spočívá v sledování úbytku hladiny vody ve výparoměru za určité časové období.</p>
+</section>
 </div>
 </section>
-<section id="sec-v-vyparomer-brehovy" class="level5">
-<h5 class="anchored" data-anchor-id="sec-v-vyparomer-brehovy">Výparoměr břehový</h5>
-<p>:::</p>
+<section id="více-3" class="level5 detail">
+<h5 class="detail anchored" data-anchor-id="více-3">Více</h5>
+<div class="collapsible">
+<p>Nejpoužívanějším typem je americký výparoměr typu Class A pan, což je otevřená kovová nádoba o průměru 1,21 m a hloubce 0,25 m, umístěná na stojanu nad zemí. Výpar se určuje z denní změny výšky vodní hladiny, přičemž se provádějí korekce na srážky a doplňování vody. Výsledky z výparoměru se často převádějí na výpar z přírodní vodní plochy pomocí koeficientu výparoměru (pan coefficient), který zohledňuje rozdíly mezi podmínkami ve výparoměru a ve skutečném prostředí. Výparoměry se využívají v hydrologii, klimatologii a vodním hospodářství k hodnocení vodní bilance, návrhu závlah a studiu výměny energie mezi vodou a atmosférou.</p>
+</div>
 
 
+</section>
+</section>
+</div>
 </section>
 </section>
 </section>
