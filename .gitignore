@@ -6,5 +6,6 @@
 /.quarto/
 *.DS_Store
 R.qmd
+*.pdf
 
 **/*.quarto_ipynb
