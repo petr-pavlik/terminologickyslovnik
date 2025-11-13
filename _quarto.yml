@@ -5,30 +5,52 @@ project:
 website:
   title: "Terminologický slovník výparu"
   favicon: ""
+
   navbar:
     left:
       - href: index.qmd
         text: "<i class='fa-solid fa-house'></i>"
-      - A.qmd
-      - B.qmd
-      - C.qmd
-      - E.qmd
-      - G.qmd
-      - I.qmd
-      - K.qmd
-      - L.qmd
-      - M.qmd
-      - O.qmd
-      - P.qmd
-      - R.qmd
-      - S.qmd
-      - T.qmd
-      - V.qmd
-      - Z.qmd
       - href: Rozcestnik.qmd
         text: Rozcestník
       - href: Literatura.qmd
         text: Literatura
+
+  sidebar:
+    style: docked
+    search: false      # or true, as you prefer
+
+    header: |
+      <h4>Počáteční písmeno</h4>
+      <table class="alphabet-table">
+        <tr>
+          <td><a href="A.qmd">A</a></td>
+          <td><a href="B.qmd">B</a></td>
+          <td><a href="C.qmd">C</a></td>
+          <td><a href="E.qmd">E</a></td>
+        </tr>
+        <tr>
+          <td><a href="G.qmd">G</a></td>
+          <td><a href="I.qmd">I</a></td>
+          <td><a href="K.qmd">K</a></td>
+          <td><a href="L.qmd">L</a></td>
+        </tr>
+        <tr>
+          <td><a href="M.qmd">M</a></td>
+          <td><a href="O.qmd">O</a></td>
+          <td><a href="P.qmd">P</a></td>
+          <td><a href="R.qmd">R</a></td>
+        </tr>
+        <tr>
+          <td><a href="S.qmd">S</a></td>
+          <td><a href="T.qmd">T</a></td>
+          <td><a href="V.qmd">V</a></td>
+          <td><a href="Z.qmd">Z</a></td>
+        </tr>
+      </table>
+    
+    contents:
+      - auto: false
+
 lang: cz
 
 format:
@@ -39,6 +61,9 @@ format:
     toc: true
     toc-depth: 4
     toc-title: "Na této stránce"
+    grid:
+      sidebar-width: 22%
+      margin-width: 22%
     include-in-header:
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -85,5 +110,5 @@ format:
             2025 Terminologický slovník výparu. <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/CC_BY_icon.svg/2880px-CC_BY_icon.svg.png" width=100 style="margin-left:10px">
           <span>
         </footer>
-        
+
 bibliography: references.bib

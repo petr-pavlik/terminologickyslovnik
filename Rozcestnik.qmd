@@ -8,32 +8,85 @@ format:
 # Rozcestník
 
 ### Soupis hesel obsažených v tomto slovníku:
-[*Alfalfa*](./B.html#sec-b-budykova-krivka)\
 [*Absolutní vlhkost*](./A.html#sec-a-absolutni-vlhost)\
+[*Aerodynamická drsnost*](./A.html#sec-a-aerodynamicka-drsnost)\
 [*Aerodynamický odpor*](./A.html#sec-a-aerodynamicky-odpor)\
 [*Aktuální evapotranspirace*](./A.html#sec-a-aktualni-evapotranspirace)\
 [*Albedo*](./A.html#sec-a-albedo)\
+[*Anisorhydrie*](./A.html#sec-a-anisohydrie)\
+[*Atmosférický tlak*](./A.html#sec-a-atmosfericky-tlak)\
 [*Aerodynamická resistence*](./A.html#sec-a-aerodynamicka-resistence)\
 [*Budykova křívka*](./B.html#sec-b-budykova-krivka)\
 [*Bowenův poměr*](./B.html#sec-b-bowenuv-pomer)\
-[*Eddy kovariance*](./E.html#sec-e-eddy-kovariance)\
+[*Citlivost průduůchů*](./B.html#sec-c-citlivost-pruduchu)\
+[*Eddy kovarianční metoda*](./E.html#sec-e-eddy-kovariancni-metoda)\
 [*Evaporace*](./E.html#sec-e-evaporace)\
+[*Evaporační frakce*](./E.html#sec-e-evaporacni-frakce)\
 [*Evaporační vláhová potřeba*](./E.html#sec-e-evaporacni-vlahova-potreba)\
 [*Evapotranspirace*](./E.html#sec-e-evapotranspirace)\
 [*Evapotranspirace aktuální*](./E.html#sec-e-evapotrsnpirace-aktualni)\
 [*Evapotranspirace referenční*](./E.html#sec-e-evapotranspirace-referencni)
-[**](./)
-[**](./)
-[**](./)
-[**](./)
-[**](./)
-[**](./)
-[**](./)
-[**](./)
-[**](./)
-[**](./)
-[**](./)
-[**](./)
+[*GLEAM*](./G.html#sec-g-gleam)\
+[*Gutace*](./G.html#sec-g-gutace)\
+[*Index aridity*](./I.html#sec-i-index-aridity)\
+[*Index sucha*](./I.html#sec-i-index-sucha)\
+[*Intercepce*](./I.html#sec-i-intercepce)\
+[*Intercepční výpar*](./I.html#sec-i-intercepcni-vypar)\
+[*Kapilární vzlínání*](./K.html#sec-k-kapilarni-vzlinani)\
+[*Klima*](./K.html#sec-k-klima)\
+[*Klimatický model*](./K.html#sec-k-klimaticky-model)\
+[*Klimatická sensitivita*](./K.html#sec-k-klimaticka-sensitivita)\
+[*Kondenzace*](./K.html#sec-k-kondenzace)\
+[*Kutikulární výpar*](./K.html#sec-k-kutikularni-vypar)\
+[*Laminární proudění*](./L.html#sec-l-laminarni-proudeni)\
+[*Latentní teplo výparu*](./L.html#sec-l-latentni-teplo-vyparu)\
+[*Lenticalární výpar*](./L.html#sec-l-lenticelarni-vypar)\
+[*Litorál*](./L.html#sec-l-litorál)\
+[*Meteorologie*](./M.html#sec-m-meteorologie)\
+[*METRIC*](./M.html#sec-m-metric)\
+[*Mezní vrstva atmosféry*](./M.html#sec-m-mezni-vrstva-atmosfery)\
+[*Mikrometeorologie*](./M.html#sec-m-mikrometeorologie)\
+[*Odtok*](./O.html#sec-o-odtok)\
+[*Penman-Monteithova rovnice*](./P.html#sec-p-penman-monteithova-rovnice)\
+[*Porometr*](./P.html#sec-p-porometr)\
+[*Psychromtetrická konstanta*](./P.html#sec-p-psychrometricka-konstanta)\
+[*Potenciální evapotranspirace*](./P.html#sec-p-potencialni-evapotranspirace)\
+[*Půdní sací potenciál*](./P.html#sec-p-pudni-saci-potencial)\
+[*Půdní vlhkost*](./P.html#sec-p-pudni-vlhkost)\
+[*Radiace*](./R.html#sec-r-radiace)\
+[*Radiační bilance*](./R.html#sec-r-radiacni-bilance)\
+[*Relativní vlhkost vzduchu*](./R.html#sec-r-relativni-vlhkost-vzduchu)\
+[*RCM*](./R.html#sec-r-rcm)\
+[*Recyklace srážek*](./R.html#sec-r-recyklace-srazek)\
+[*Referenční evapotranspirace*](./R.html#sec-r-referencni-evapotranspirace)\
+[*Referenční povrch*](./R.html#sec-r-referencni-povrch)\
+[*Rychlost větru*](./R.html#sec-r-rychost-vetru)\
+[*Scintilometrie*](./S.html#sec-s-scintilometrie)\
+[*Skleníkové plyny*](./S.html#sec-s-sklenikove-plyny)\
+[*Srážky*](./S.html#sec-s-srazky)\
+[*Stability atmosféry*](./S.html#sec-s-stabilita-atmosfery)\
+[*Stomatální vodivost*](./S.html#sec-s-stomatalni-vodivost)\
+[*Sublimace*](./S.html#sec-s-sublimace)\
+[*Sytostní doplněk*](./S.html#sec-s-sytostni-doplnek)\
+[*Teorie optimality*](./T.html#sec-t-teorie-optimality)\
+[*Teplota vzdcuchu*](./T.html#sec-t-teorie-optimality)\
+[*Teplotní index*](./T.html#sec-t-teplotni-index)\
+[*Thorntwaitova rovnice*](./T.html#sec-t-thorntwaitova-rovnice)\
+[*Tlak vodní páry*](./T.html#sec-t-tlak-vodni-pary)\
+[*Tok citelného tepla*](./T.html#sec-t-tok-citelneho-tepla)\
+[*Tok latentního tepla*](./T.html#sec-t-tok-latentniho-tepla)\
+[*Tok mízy*](./T.html#sec-t-tok-mizy)\
+[*Transpirační vláhová potřeba*](./T.html#sec-t-transpiracni-vlahova-potreba)\
+[*Transpirační koeficient*](./T.html#sec-t-transpiracni-koeficient)\
+[*Turbulentní proudění*](./T.html#sec-t-turbulentni-proudeni)\
+[*TSEB*](./T.html#sec-t-tseb)\
+[*Turgor*](./T.html#sec-t-turgor)\
+[*Voda*](./V.html#sec-v-voda)\
+[*Vodní potenciál listu*](./V.html#sec-v-vodni-potencial-listu)\
+[*Výpar*](./V.html#sec-v-vypar)\
+[*Výpar z vodní plochy*](./V.html#sec-v-vypar-z-vodni-plochy)\
+[*Výparoměr*](./V.html#sec-v-vyparomer)\
+[*Změna klimatu*](./Z.html#sec-z-zmena-klimatu)\
 
 
 ### Applety:

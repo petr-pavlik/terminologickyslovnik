@@ -13,17 +13,17 @@ $$
 \lambda ET = \frac{ \Delta (R_n - G) + \rho c_p \frac{(e_s - e_a)}{r_a} }{ \Delta + \gamma \left( 1 + \frac{r_s}{r_a} \right) }
 $$
 
-kde:<br>
-– $\lambda ET$ je latentní tok tepla (W·m⁻²),<br>
-– $R_n$ tok čisté sálavé energie (W·m⁻²),<br>
-– $G$ tok tepla do půdy (W·m⁻²),<br>
-– $\rho$ hustota vzduchu (kg·m⁻³),<br>
-– $c_p$ měrná tepelná kapacita vzduchu při stálém tlaku (J·kg⁻¹·K⁻¹),<br>
-– $(e_s - e_a)$ rozdíl mezi nasyceným a skutečným tlakem vodní páry (Pa),<br>
-– $r_a$ aerodynamický odpor (s·m⁻¹),<br>
-– $r_s$ stomatární (povrchový) odpor (s·m⁻¹),<br>
-– $\Delta$ směrnice křivky nasycení vodní párou (Pa·K⁻¹),<br>
-– $\gamma$ psychrometrická konstanta (Pa·K⁻¹).
+kde:\   
+– $\lambda ET$ je latentní tok tepla (W·m⁻²),\ 
+– $R_n$ tok čisté sálavé energie (W·m⁻²),\ 
+– $G$ tok tepla do půdy (W·m⁻²), \ 
+– $\rho$ hustota vzduchu (kg·m⁻³),\ 
+– $c_p$ měrná tepelná kapacita vzduchu při stálém tlaku $(\mathrm{J\cdot kg^{-1}\cdot K^{-1}})$,\ 
+– $(e_s - e_a)$ rozdíl mezi nasyceným a skutečným tlakem vodní páry $(\mathrm{Pa})$,\ 
+– $r_a$ aerodynamický odpor $(\mathrm{s·m^{-1}})$, \
+– $r_s$ stomatární (povrchový) odpor $(\mathrm{s·m^{-1}})$,\
+– $\Delta$ směrnice křivky nasycení vodní párou $(\mathrm{Pa·K^{-1}})$,\
+– $\gamma$ psychrometrická konstanta $(\mathrm{Pa·K^{-1}})$.
 
 
 Penman–Monteithova rovnice vyjadřuje rovnováhu mezi energií dostupnou pro výpar a schopností atmosféry odvádět vodní páru.  

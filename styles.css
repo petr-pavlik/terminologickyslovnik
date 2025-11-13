@@ -103,3 +103,36 @@ input[type=range]::-moz-range-thumb {
   cursor: pointer;
   border: none;
 }
+
+/* Rigid alphabet matrix in sidebar */
+.alphabet-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0.75rem;
+}
+
+.alphabet-table td {
+  width: 25%;                  /* 4 columns */
+  padding: 2px;
+}
+
+/* Letter tiles */
+.alphabet-table a {
+  display: block;
+  text-align: center;
+  padding: 6px 0;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Hover */
+.alphabet-table a:hover {
+  background-color: rgba(255, 217, 0, 0.1);
+  text: black;
+  font-weight: 600;
+}

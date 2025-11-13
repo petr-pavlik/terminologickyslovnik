@@ -11,10 +11,10 @@
 Rozlišujeme dva hlavní typy radiace:
 
 
-- **krátkovlnnou (solární) radiaci** – záření o vlnových délkách přibližně 0,3–3 μm, které vyzařuje Slunce; část je **pohlcena, rozptýlena nebo odražena** atmosférou a zemským povrchem,
+- **krátkovlnnou (solární) radiaci** – záření o vlnových délkách přibližně $0,3–3 \mathrm{\mu m}$, které vyzařuje Slunce; část je **pohlcena, rozptýlena nebo odražena** atmosférou a zemským povrchem,
 
 
-- **dlouhovlnnou (terestrickou) radiaci** – záření s vlnovými délkami přibližně 4–100 μm, které **Země a atmosféra vyzařují zpět do prostoru**.
+- **dlouhovlnnou (terestrickou) radiaci** – záření s vlnovými délkami přibližně $4–100 \mathrm{\mu m}$, které **Země a atmosféra vyzařují zpět do prostoru**.
 
 Radiace je hlavním zdrojem energie pro **počasí, klima a biogeofyzikální procesy** – ovlivňuje **teplotu vzduchu, výpar, fotosyntézu, tvorbu oblačnosti i energetickou bilanci povrchu**. Měří se pomocí **pyranometrů (celková krátkovlnná radiace), pyrgeometrů (dlouhovlnná radiace)** a **aktinometrů**, obvykle v jednotkách **W·m⁻²**.
 
@@ -29,23 +29,25 @@ Radiace je hlavním zdrojem energie pro **počasí, klima a biogeofyzikální pr
 ::: collapsible
 Základní rovnice radiační bilance povrchu je:
 
+$$
+R_n = (K_\downarrow - K_\uparrow) + (L_\downarrow - L_\uparrow)
+$$
 
-Rn=(K↓−K↑)+(L↓−L↑)R_n = (K_\downarrow - K_\uparrow) + (L_\downarrow - L_\uparrow)Rn​=(K↓​−K↑​)+(L↓​−L↑​)
 
 kde:
-- Rₙ – čistá radiační bilance (W·m⁻²),
+- $R_n$ – čistá radiační bilance ($\mathrm{W·m^2}$),
 
 
-- K↓ – dopadající krátkovlnné (sluneční) záření,
+- $K\downarrow$ – dopadající krátkovlnné (sluneční) záření,
 
 
-- K↑ – odražené krátkovlnné záření (závislé na albedu),
+- $K\uparrow$ – odražené krátkovlnné záření (závislé na albedu),
 
 
-- L↓ – dopadající dlouhovlnné (atmosférické) záření,
+- $L\downarrow$ – dopadající dlouhovlnné (atmosférické) záření,
 
 
-L↑ – vyzařované dlouhovlnné záření povrchu.
+- $L\uparrow$ – vyzařované dlouhovlnné záření povrchu.
 
 
 Kladná hodnota Rₙ znamená **přebytek energie** (ohřev povrchu), záporná naopak **ztrátu energie** (ochlazování). Radiační bilance je klíčovou složkou **energetické bilance Země**, určuje **teplotní režim povrchu**, ovlivňuje **evapotranspiraci, konvekci, fotosyntézu a je zásadní pro modelování klimatu a ekosystémových procesů**.
@@ -61,15 +63,15 @@ Kladná hodnota Rₙ znamená **přebytek energie** (ohřev povrchu), záporná 
 
 ::: collapsible
 Matematicky:
-
-RH=eaes×100RH = \frac{e_a}{e_s} \times 100RH=es​ea​​×100
-
+$$
+\mathrm{RH} = e_ae_s100\:\mathrm{RH} = \frac{e_a}{e_s} 100
+$$
 kde:
 
-- eₐ – skutečný tlak vodní páry (kPa),
+- $e_a$– skutečný tlak vodní páry ($\mathrm{kPa}$),
 
 
-- eₛ – nasycený tlak vodní páry při dané teplotě (kPa).
+- $e_s$ – nasycený tlak vodní páry při dané teplotě ($\mathrm{kPa}$).
 
 
 Relativní vlhkost závisí především na **teplotě vzduchu** – při zahřívání vzduchu klesá (vzduch pojme více vodní páry), při ochlazování stoupá a může dosáhnout **100 %**, kdy nastává **kondenzace** (tvorba rosy, mlhy nebo oblaků).
@@ -98,21 +100,21 @@ Míra recyklace srážek se vyjadřuje pomocí **koeficientu recyklace (ρ)**:
 
 kde:
 
-- Pₗₒₖₐₗₙí – srážky vzniklé z lokální evapotranspirace,
+- $P_{\mathrm{lokální}}$– srážky vzniklé z lokální evapotranspirace,
 
 
-- P_celková – celkové srážky v oblasti.
+- $P_{\mathrm{celková}}$ – celkové srážky v oblasti.
 
 
 **Význam recyklace srážek závisí na prostorovém měřítku:**
 
-- v malých povodích (do ~100 km) je recyklace obvykle zanedbatelná,
+- v malých povodích (do $\sim 100\:\mathrm{km}$) je recyklace obvykle zanedbatelná,
 
 
-- v regionálním měřítku (stovky až tisíce kilometrů) může tvořit 10–30 % srážek,
+- v regionálním měřítku (stovky až tisíce kilometrů) může tvořit $10–30$ \% srážek,
 
 
-- ve velkých kontinentálních systémech, jako je Amazonie, Sahel nebo Tibet, může dosahovat až 40–50 %.
+- ve velkých kontinentálních systémech, jako je Amazonie, Sahel nebo Tibet, může dosahovat až $40–50$ \%.
 
 
 Recyklace srážek je tedy významným mechanismem **udržování regionální vlhkosti a stability klimatu**, zejména v oblastech s **rozsáhlou vegetací nebo slabým přísunem vlhkosti z oceánu**. Změny ve využití krajiny (např. **odlesňování nebo degradace půdy**) mohou tento proces **narušit** a vést ke **snížení srážek a zesílení sucha**.
@@ -121,7 +123,7 @@ Recyklace srážek je tedy významným mechanismem **udržování regionální v
 
 #### Referenční evapotranspirace
 
-**Referenční evapotranspirace** (angl. reference evapotranspiration, zkr. ET₀) je teoretická hodnota evapotranspirace stanovená pro **referenční porost** s definovanými vlastnostmi, obvykle pro krátký, dobře zavlažený travní porost s úplným pokryvem půdy. Slouží jako **standardní ukazatel klimatického potenciálu výparu** nezávislý na konkrétní plodině nebo půdních podmínkách. Referenční evapotranspirace se používá při **výpočtu potřeb závlahy a modelování vodní bilance**, přičemž se běžně určuje pomocí rovnice **Penman-Monteith FAO-56**.
+**Referenční evapotranspirace** (angl. reference evapotranspiration, zkr. $\mathrm{ET}_0$) je teoretická hodnota evapotranspirace stanovená pro **referenční porost** s definovanými vlastnostmi, obvykle pro krátký, dobře zavlažený travní porost s úplným pokryvem půdy. Slouží jako **standardní ukazatel klimatického potenciálu výparu** nezávislý na konkrétní plodině nebo půdních podmínkách. Referenční evapotranspirace se používá při **výpočtu potřeb závlahy a modelování vodní bilance**, přičemž se běžně určuje pomocí rovnice **Penman-Monteith FAO-56**.
 
 ##### Více {.detail}
 
@@ -131,7 +133,7 @@ Recyklace srážek je tedy významným mechanismem **udržování regionální v
     **Referenční evapotranspirace (ET<sub>o</sub>)** představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s&#183;m<sup>-1</sup>). 
 </p>
 <p>
-    Referenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ET<sub>o</sub> se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je ET<sub>o</sub> velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace (ET<sub>a</sub>) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ET<sub>a</sub>. 
+    Referenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ET<sub>o</sub> se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je $\mathrm{ET}_a$ velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace ($\mathrm{ET}_a$) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ET<sub>a</sub>. 
 </p>
 <p>
     Dle metodiky FAO-56 (Allen et al., 1998) je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
@@ -151,13 +153,13 @@ Recyklace srážek je tedy významným mechanismem **udržování regionální v
 
 Pro tento povrch se obvykle uvažuje:
 
-- **povrchový odpor** (rₛ) = 70 s·m⁻¹,
+- **povrchový odpor** ($r_s$) = $\mathrm{70\:s·m^{-1}}$,
 
 
-- **aerodynamický odpor** (rₐ) – proměnný, závislý na rychlosti větru a výšce měření.
+- **aerodynamický odpor** ($r_s$) – proměnný, závislý na rychlosti větru a výšce měření.
 
 
-Referenční povrch slouží jako **základní modelová plocha** pro výpočet **referenční evapotranspirace** pomocí např. **Penman–Monteithovy rovnice** a pro odvozování **koeficientů plodin** (Kc), které umožňují převést ET₀ na skutečnou evapotranspiraci konkrétní vegetace nebo ekosystému.
+Referenční povrch slouží jako **základní modelová plocha** pro výpočet **referenční evapotranspirace** pomocí např. **Penman–Monteithovy rovnice** a pro odvozování **koeficientů plodin** ($Kc$), které umožňují převést $ET_a$ na skutečnou evapotranspiraci konkrétní vegetace nebo ekosystému.
 
 :::
 

@@ -46,9 +46,8 @@ Detailní porozumnění tohoto procesu v podmínkách České republiky a region
 \
 Vznik tohoto slovníku byl podpořen **Národní agenturou pro zemědělský výzkum** projektem s názvem *"Vliv změny klimatu na evapotranspiraci a vodní bilanci v krajině v kontextu zabezpečenosti a udržitelnosti vodních zdrojů"* \
 
-##### Autoři
+<h5><b>Autorský tým</b></h5>
 
-
-Milan Fischer [![ORCID](images/ORCIDiD_iconvector.svg){width=15}](https://orcid.org/0000-0002-7841-9317){target=_blank rel="noopener"},
-Petr Máca [![ORCID](images/ORCIDiD_iconvector.svg){width=15}](https://orcid.org/0000-0002-4972-3993){target=_blank rel="noopener"},
-Petr Pavlík [![ORCID](images/ORCIDiD_iconvector.svg){width=15}](https://orcid.org/0000-0002-6138-1156){target=_blank rel="noopener"}, ...
+Milan Fischer [![ORCID](images/ORCIDiD_iconvector.svg){width=15}](https://orcid.org/0000-0002-7841-9317){target=_blank rel="noopener"}\
+Petr Máca [![ORCID](images/ORCIDiD_iconvector.svg){width=15}](https://orcid.org/0000-0002-4972-3993){target=_blank rel="noopener"}\
+Petr Pavlík [![ORCID](images/ORCIDiD_iconvector.svg){width=15}](https://orcid.org/0000-0002-6138-1156){target=_blank rel="noopener"} \
