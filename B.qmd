@@ -37,7 +37,7 @@ $$ Index aridity rozděluje území do dvou skupin:
 
 Jejich limitní faktory ukazuje následující obrázek.
 
-![Příklad Budykovy křivky a limitních faktorů povodí, $E_p = PET_{LT}$](images/BCmodel/bc.png){width="2000"}
+<!-- ![Příklad Budykovy křivky a limitních faktorů povodí, $E_p = PET_{LT}$](images/BCmodel/bc.png){width="2000"} -->
 
 
 ```{=html}

@@ -90,3 +90,4 @@ format:
 
 
 ### Applety:
+[*Modely Budykovy křivky*](./B.html#sec-b-budykova-krivka)\

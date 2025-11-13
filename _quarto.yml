@@ -20,7 +20,7 @@ website:
     search: false      # or true, as you prefer
 
     header: |
-      <h4>Počáteční písmeno</h4>
+      <h4 style="margin-left:15px;">Počáteční písmeno</h4>
       <table class="alphabet-table">
         <tr>
           <td><a href="A.qmd">A</a></td>
@@ -29,21 +29,24 @@ website:
           <td><a href="E.qmd">E</a></td>
         </tr>
         <tr>
+          <td><a href="F.qmd">G</a></td>
           <td><a href="G.qmd">G</a></td>
           <td><a href="I.qmd">I</a></td>
           <td><a href="K.qmd">K</a></td>
-          <td><a href="L.qmd">L</a></td>
         </tr>
         <tr>
+          <td><a href="L.qmd">L</a></td>
           <td><a href="M.qmd">M</a></td>
           <td><a href="O.qmd">O</a></td>
           <td><a href="P.qmd">P</a></td>
-          <td><a href="R.qmd">R</a></td>
         </tr>
         <tr>
+          <td><a href="R.qmd">R</a></td>
           <td><a href="S.qmd">S</a></td>
           <td><a href="T.qmd">T</a></td>
           <td><a href="V.qmd">V</a></td>
+        </tr>
+        <tr>
           <td><a href="Z.qmd">Z</a></td>
         </tr>
       </table>

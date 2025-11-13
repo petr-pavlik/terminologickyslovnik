@@ -1,0 +1,25 @@
+## F
+
+#### Fertilizační efekt {#sec-f-fertilizacni-efekt}
+**Fertilizační efekt** (angl. *fertilization effect* nebo $\mathrm{CO}_2$ 
+*fertilization effect*) je pozitivní vliv zvýšené koncentrace oxidu uhličitého 
+($\mathrm{CO}_2$) v atmosféře na fotosyntézu a růst rostlin. Vyšší dostupnost 
+$\mathrm{CO}_2$, který je základním substrátem fotosyntézy, může zvyšovat asimilační 
+aktivitu rostlin, zejména u druhů se C₃ fotosyntézou (např. většina stromů a obilnin).
+
+Tento efekt se projevuje například:
+
+  -   zvýšením čisté fotosyntézy,\
+  -   rychlejším růstem biomasy,\
+  -   vyšší účinností využití vody (WUE) díky částečnému uzavírání průduchů a snížení transpirace.
+
+##### Více {.detail}
+::: collapsible
+Velikost fertilizačního efektu však závisí na dostupnosti dalších zdrojů – především 
+živin (zejména dusíku), vody, světla a teplotě prostředí. V reálných ekosystémech bývá 
+proto často omezená a může se s časem snižovat.
+Fertilizační efekt CO₂ je významným faktorem při modelování koloběhu uhlíku, 
+produktivity ekosystémů i projekcích změny klimatu, protože ovlivňuje rovnováhu 
+mezi emisemi a pohlcováním uhlíku v biosféře.
+
+:::

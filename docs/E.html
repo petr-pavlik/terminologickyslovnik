@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -220,7 +185,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
-<h4>
+<h4 style="margin-left:15px;">
 Počáteční písmeno
 </h4>
 <table class="alphabet-table">
@@ -240,6 +205,9 @@ Počáteční písmeno
 </tr>
 <tr>
 <td>
+<a href="./F.html">G</a>
+</td>
+<td>
 <a href="./G.html">G</a>
 </td>
 <td>
@@ -248,11 +216,11 @@ Počáteční písmeno
 <td>
 <a href="./K.html">K</a>
 </td>
+</tr>
+<tr>
 <td>
 <a href="./L.html">L</a>
 </td>
-</tr>
-<tr>
 <td>
 <a href="./M.html">M</a>
 </td>
@@ -262,11 +230,11 @@ Počáteční písmeno
 <td>
 <a href="./P.html">P</a>
 </td>
+</tr>
+<tr>
 <td>
 <a href="./R.html">R</a>
 </td>
-</tr>
-<tr>
 <td>
 <a href="./S.html">S</a>
 </td>
@@ -276,6 +244,8 @@ Počáteční písmeno
 <td>
 <a href="./V.html">V</a>
 </td>
+</tr>
+<tr>
 <td>
 <a href="./Z.html">Z</a>
 </td>
@@ -303,7 +273,6 @@ Počáteční písmeno
   <li><a href="#sec-e-eddy-kovariancni-metoda" id="toc-sec-e-eddy-kovariancni-metoda" class="nav-link" data-scroll-target="#sec-e-eddy-kovariancni-metoda">Eddy-kovarianční metoda</a></li>
   <li><a href="#sec-e-evaporace" id="toc-sec-e-evaporace" class="nav-link" data-scroll-target="#sec-e-evaporace">Evaporace</a></li>
   <li><a href="#evaporační-frakce" id="toc-evaporační-frakce" class="nav-link" data-scroll-target="#evaporační-frakce">Evaporační frakce</a></li>
-  <li><a href="#sec-e-evapotranspiracni-vlahova-potreba" id="toc-sec-e-evapotranspiracni-vlahova-potreba" class="nav-link" data-scroll-target="#sec-e-evapotranspiracni-vlahova-potreba">Evaporační vláhová potřeba</a></li>
   <li><a href="#sec-e-evapotranspirace" id="toc-sec-e-evapotranspirace" class="nav-link" data-scroll-target="#sec-e-evapotranspirace">Evapotranspirace</a></li>
   <li><a href="#sec-e-evapotranspirace-aktualni" id="toc-sec-e-evapotranspirace-aktualni" class="nav-link" data-scroll-target="#sec-e-evapotranspirace-aktualni">Evapotranspirace aktuální</a></li>
   <li><a href="#sec-e-evapotranspirace-referencni" id="toc-sec-e-evapotranspirace-referencni" class="nav-link" data-scroll-target="#sec-e-evapotranspirace-referencni">Evapotranspirace referenční</a></li>
@@ -331,16 +300,11 @@ Počáteční písmeno
 </section>
 <section id="sec-e-evaporace" class="level4">
 <h4 class="anchored" data-anchor-id="sec-e-evaporace">Evaporace</h4>
-<p>Odpařování z volné vodní hladiny, půdy a dalších povrchů bez zapojení živé vegetace.</p>
-<div class="collapsible">
-<p><strong>Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára)</strong>. Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.</p>
-<p>K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 %$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než <span class="math inline">\(70 \%\)</span> zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze <a href="./S.html#sec-s-sublimace">sublimace</a>.</p>
-<p>V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.</p>
-</div>
+<p><strong>Evaporace</strong> (též výpar, angl. <em>evaporation</em>) je <strong>fyzikální proces</strong>, při němž se <strong>voda mění z kapalného skupenství na vodní páru</strong> a přechází z povrchu (např. půdy, vodních ploch nebo rostlin) do atmosféry. Probíhá při jakékoli teplotě, pokud jsou splněny podmínky pro únik molekul vody do vzduchu. Rychlost evaporace závisí na teplotě, vlhkosti a pohybu vzduchu, slunečním záření a dostupnosti vody. Evaporace představuje jednu ze složek evapotranspirace a je klíčovým procesem v koloběhu vody a energetické výměně mezi zemským povrchem a atmosférou.</p>
 </section>
 <section id="evaporační-frakce" class="level4">
 <h4 class="anchored" data-anchor-id="evaporační-frakce">Evaporační frakce</h4>
-<p><strong>Evaporační frakce</strong> (angl. <em>evaporative fraction</em>, značka <span class="math inline">\(\mathm{EF}\)</span>) je bezrozměrný ukazatel, který vyjadřuje, jaká část dostupné energie na povrchu je využita k výparu vody ([latentnímu teplu]{L.qmd#sec-l-latentni-teplo}) ve srovnání s energií přeměněnou na citelné teplo.</p>
+<p><strong>Evaporační frakce</strong> (angl. <em>evaporative fraction</em>, značka <span class="math inline">\(\mathrm{EF}\)</span>) je bezrozměrný ukazatel, který vyjadřuje, jaká část dostupné energie na povrchu je využita k výparu vody ([latentnímu teplu]{L.qmd#sec-l-latentni-teplo}) ve srovnání s energií přeměněnou na citelné teplo.</p>
 <section id="více-1" class="level5 detail">
 <h5 class="detail anchored" data-anchor-id="více-1">Více</h5>
 <div class="collapsible">
@@ -353,37 +317,17 @@ Počáteční písmeno
 </div>
 </section>
 </section>
-<section id="sec-e-evapotranspiracni-vlahova-potreba" class="level4">
-<h4 class="anchored" data-anchor-id="sec-e-evapotranspiracni-vlahova-potreba">Evaporační vláhová potřeba</h4>
-<div class="collapsible">
-
-</div>
-</section>
 <section id="sec-e-evapotranspirace" class="level4">
 <h4 class="anchored" data-anchor-id="sec-e-evapotranspirace">Evapotranspirace</h4>
-<div class="collapsible">
-<p>Pod pojmem <em>evapotranspirace</em> se rozumí celkový výpar do atmosféry na určitém území.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">runif</span>(<span class="dv">1</span>)</span></code></pre></div><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.6844419</code></pre>
-</div>
-</div>
-</div>
+<p><strong>Evapotranspirace</strong> je souhrnný proces, při němž se voda z povrchu země vrací do atmosféry ve formě vodní páry prostřednictvím výparu (evaporace) z půdy, vodních ploch a povrchů rostlin a transpirace, tedy uvolňování vodní páry rostlinami přes průduchy. Tento proces hraje klíčovou roli v koloběhu vody a energetické bilanci ekosystémů, protože spojuje fyzikální odpařování s biologickou aktivitou rostlin.</p>
 </section>
 <section id="sec-e-evapotranspirace-aktualni" class="level4">
 <h4 class="anchored" data-anchor-id="sec-e-evapotranspirace-aktualni">Evapotranspirace aktuální</h4>
-<div class="collapsible">
-<p>Viz. <a href="./A.html#"><em>Aktuální evapotranpirace</em></a></p>
-</div>
+<p><strong>Evapotranspirace aktuální</strong> (angl. <em>actual evapotranspiration</em>, zkr. <span class="math inline">\(\mathrm{ET}_a\)</span>) je <strong>skutečné množství vody, které se v daném čase a místě odpaří a transpiruje z povrchu půdy a vegetace</strong> do atmosféry. Na rozdíl od referenční evapotranspirace závisí aktuální evapotranspirace na dostupnosti vody v půdě, stavu vegetace, meteorologických podmínkách a managementu půdy. Představuje reálnou ztrátu vody z ekosystému a je klíčovým ukazatelem při hodnocení vodní bilance, sucha a efektivity závlah.</p>
 </section>
 <section id="sec-e-evapotranspirace-referencni" class="level4">
 <h4 class="anchored" data-anchor-id="sec-e-evapotranspirace-referencni">Evapotranspirace referenční</h4>
-<div class="collapsible">
-<p>
-Viz <a href="R.html#">Referenční evapotranspirace</a>
-</p>
-</div>
+<p><strong>Evapotranspirace referenční</strong> (angl. <em>reference evapotranspiration</em>, zkr. <span class="math inline">\(\mathrm{ET}_0\)</span>) je <strong>teoretická hodnota evapotranspirace stanovená pro referenční porost s definovanými vlastnostmi</strong>, obvykle pro krátký, dobře zavlažený travní porost s úplným pokryvem půdy. Slouží jako standardní ukazatel klimatického potenciálu výparu nezávislý na konkrétní plodině nebo půdních podmínkách. Referenční evapotranspirace se používá při výpočtu potřeb závlahy a modelování vodní bilance, přičemž se běžně určuje pomocí rovnice <a href="./P.html#sec-p-penman-monteith">Penman-Monteith</a> FAO-56.</p>
 
 
 </section>

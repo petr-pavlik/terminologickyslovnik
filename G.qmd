@@ -1,8 +1,15 @@
 # G
 
+#### GCM {#sec-g-gcm}
+**GCM** (*General Circulation Model* nebo *Global Climate Model*) je **numerický model globální cirkulace atmosféry a oceánů, používaný k simulaci a předpovědi klimatu na Zemi**. GCM rozděluje planetu na trojrozměrnou síť (mřížku) a řeší fyzikální rovnice popisující **pohyb vzduchu a vody, výměnu energie, záření, srážky a další procesy** v každé buňce této sítě. Umožňuje zkoumat, jak se mění klima v čase vlivem přirozených i antropogenních faktorů (např. změny koncentrace skleníkových plynů). GCM tvoří základ projekcí budoucího klimatu a jsou klíčovou součástí hodnocení změny klimatu prováděného např. Mezivládním panelem pro změnu klimatu (IPCC).
+
+
 #### GLEAM {#sec-g-gleam}
+**GLEAM** (*Global Land Evaporation Amsterdam Model*) je **globální model pro odhad evapotranspirace z pevninského povrchu založený na kombinaci dálkového průzkumu Země (satelitních dat) a fyzikálních principů**. Model rozděluje evapotranspiraci na složky – intercepční výpar, výpar z půdy a transpiraci rostlin – a pro jejich výpočet využívá informace o radiaci, teplotě, půdní vlhkosti, vegetačních vlastnostech a meteorologických podmínkách.
+
+##### Více {.detail}
 ::: collapsible
-**Global Land Evapotranspiration Amsteram Model** je produkt dálkového zpracování dat, který patří mezi vegetačně určené modely. Pokrývá continuálně v denním kroku časové rozpětí 1980--2023 v prostorovém měřítku 0.1<sup>o</sup>. V aktuální verzi GLEAM4 vychází z 
+GLEAM se používá pro monitorování vodní bilance, hodnocení sucha, kalibraci hydrologických modelů a analýzy dopadů změny klimatu na evapotranspiraci. Vývoj modelu probíhá na Vrije Universiteit Amsterdam a jeho výstupy jsou veřejně dostupné ve formě globálních map a časových řad evapotranspirace.
 :::
 
 #### Gutace {#sec-g-gutace}

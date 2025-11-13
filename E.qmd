@@ -11,20 +11,12 @@
 
 #### Evaporace {#sec-e-evaporace}
 
-Odpařování z volné vodní hladiny, půdy a dalších povrchů bez zapojení živé vegetace.
+**Evaporace** (též výpar, angl. *evaporation*) je **fyzikální proces**, při němž se **voda mění z kapalného skupenství na vodní páru** a přechází z povrchu (např. půdy, vodních ploch nebo rostlin) do atmosféry. Probíhá při jakékoli teplotě, pokud jsou splněny podmínky pro únik molekul vody do vzduchu. Rychlost evaporace závisí na teplotě, vlhkosti a pohybu vzduchu, slunečním záření a dostupnosti vody. Evaporace představuje jednu ze složek evapotranspirace a je klíčovým procesem v koloběhu vody a energetické výměně mezi zemským povrchem a atmosférou.
 
-::: collapsible
-
-**Evaporace je proces přeměny vody z tekutého do plynného skupenství (vodní pára)**. Voda se ze zemského povrchu do atmosféry dostává procesem zvaným výpar.
-
-K vypařování dochází, když uvolněná tepelná energie donutí rozbít vazby, které drží pohromadě molekuly vody. Většina vody v atmosféře $ 90 \%$ pochází z vody vypařující se z oceánů, moří, jezer a řek (oceány pokrývají více než $70 \%$ zemského povrchu). Zbytek vlhkosti pochází z rostlinné transpirace a (velmi malé množství) ze [sublimace](S.qmd#sec-s-sublimace).
-
-V území k výparu dochází současně s transpirací a rozlišit tyto dva procesy od sebe nebývá jednoduché.
-:::
 
 #### Evaporační frakce
 
-**Evaporační frakce** (angl. *evaporative fraction*, značka $\mathm{EF}$) je 
+**Evaporační frakce** (angl. *evaporative fraction*, značka $\mathrm{EF}$) je 
 bezrozměrný ukazatel, který vyjadřuje, jaká část dostupné energie na povrchu 
 je využita k výparu vody ([latentnímu teplu]{L.qmd#sec-l-latentni-teplo}) ve 
 srovnání s energií přeměněnou na citelné teplo.
@@ -44,29 +36,29 @@ $$
 
 :::
 
-#### Evaporační vláhová potřeba {#sec-e-evapotranspiracni-vlahova-potreba}
-::: collapsible
-
-:::
-
 #### Evapotranspirace {#sec-e-evapotranspirace}
-::: collapsible
-Pod pojmem *evapotranspirace* se rozumí celkový výpar do atmosféry na určitém území.
-```{r}
-runif(1)
-```
+**Evapotranspirace** je souhrnný proces, při němž se voda z povrchu země vrací 
+do atmosféry ve formě vodní páry prostřednictvím výparu (evaporace) z půdy, 
+vodních ploch a povrchů rostlin a transpirace, tedy uvolňování vodní páry rostlinami 
+přes průduchy. Tento proces hraje klíčovou roli v koloběhu vody a energetické bilanci 
+ekosystémů, protože spojuje fyzikální odpařování s biologickou aktivitou rostlin.
     
-:::
 
 #### Evapotranspirace aktuální {#sec-e-evapotranspirace-aktualni}
-::: collapsible
-Viz. [*Aktuální evapotranpirace*](./A.html#)
-
-
-:::
+**Evapotranspirace aktuální** (angl. *actual evapotranspiration*, zkr. $\mathrm{ET}_a$) 
+je **skutečné množství vody, které se v daném čase a místě odpaří a transpiruje z povrchu 
+půdy a vegetace** do atmosféry. Na rozdíl od referenční evapotranspirace závisí aktuální 
+evapotranspirace na dostupnosti vody v půdě, stavu vegetace, meteorologických podmínkách a 
+managementu půdy. Představuje reálnou ztrátu vody z ekosystému a je klíčovým ukazatelem při 
+hodnocení vodní bilance, sucha a efektivity závlah.
 
 #### Evapotranspirace referenční {#sec-e-evapotranspirace-referencni}
-::: collapsible
-  <p>Viz <a href="R.html#">Referenční evapotranspirace</a></p>
-:::
+**Evapotranspirace referenční** (angl. *reference evapotranspiration*, zkr. $\mathrm{ET}_0$) 
+je **teoretická hodnota evapotranspirace stanovená pro referenční porost s definovanými 
+vlastnostmi**, obvykle pro krátký, dobře zavlažený travní porost s úplným pokryvem půdy. 
+Slouží jako standardní ukazatel klimatického potenciálu výparu nezávislý na konkrétní 
+plodině nebo půdních podmínkách. Referenční evapotranspirace se používá při výpočtu 
+potřeb závlahy a modelování vodní bilance, přičemž se běžně určuje pomocí rovnice 
+[Penman-Monteith](./P.html#sec-p-penman-monteith) FAO-56.
+
 
