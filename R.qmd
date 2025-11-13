@@ -64,7 +64,7 @@ Kladná hodnota Rₙ znamená **přebytek energie** (ohřev povrchu), záporná 
 ::: collapsible
 Matematicky:
 $$
-\mathrm{RH} = e_ae_s100\:\mathrm{RH} = \frac{e_a}{e_s} 100
+\mathrm{RH} = \frac{e_a}{e_s} 100
 $$
 kde:
 
