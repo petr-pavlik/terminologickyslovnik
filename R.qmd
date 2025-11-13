@@ -95,26 +95,20 @@ Relativní vlhkost je důležitým ukazatelem **pohody prostředí, výparu, tra
 ::: collapsible
 
 Míra recyklace srážek se vyjadřuje pomocí **koeficientu recyklace (ρ)**:
-
-ρ=PlokaˊlnıˊPcelkovaˊρ = \frac{P_\text{lokální}}{P_\text{celková}}ρ=Pcelkovaˊ​Plokaˊlnıˊ​​
-
+$$
+\rho = \dfrac{P_\mathrm{lokální}}{P_\mathrm{celkové}}
+$$
 kde:
 
-- $P_{\mathrm{lokální}}$– srážky vzniklé z lokální evapotranspirace,
-
-
-- $P_{\mathrm{celková}}$ – celkové srážky v oblasti.
+-   $P_{\mathrm{lokální}}$– srážky vzniklé z lokální evapotranspirace,
+-   $P_{\mathrm{celková}}$ – celkové srážky v oblasti.
 
 
 **Význam recyklace srážek závisí na prostorovém měřítku:**
 
-- v malých povodích (do $\sim 100\:\mathrm{km}$) je recyklace obvykle zanedbatelná,
-
-
-- v regionálním měřítku (stovky až tisíce kilometrů) může tvořit $10–30$ \% srážek,
-
-
-- ve velkých kontinentálních systémech, jako je Amazonie, Sahel nebo Tibet, může dosahovat až $40–50$ \%.
+-   v malých povodích (do $\sim 100\:\mathrm{km}$) je recyklace obvykle zanedbatelná,\
+-   v regionálním měřítku (stovky až tisíce kilometrů) může tvořit $10–30$ \% srážek,\
+-   ve velkých kontinentálních systémech, jako je Amazonie, Sahel nebo Tibet, může dosahovat až $40–50$ \%.
 
 
 Recyklace srážek je tedy významným mechanismem **udržování regionální vlhkosti a stability klimatu**, zejména v oblastech s **rozsáhlou vegetací nebo slabým přísunem vlhkosti z oceánu**. Změny ve využití krajiny (např. **odlesňování nebo degradace půdy**) mohou tento proces **narušit** a vést ke **snížení srážek a zesílení sucha**.
@@ -130,13 +124,13 @@ Recyklace srážek je tedy významným mechanismem **udržování regionální v
 ::: collapsible
 
 <p>
-    **Referenční evapotranspirace (ET<sub>o</sub>)** představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou 12 cm a definovanými vlastnostmi (konstantní albedo 0,23 a konstantní povrchový odpor 70 s&#183;m<sup>-1</sup>). 
+    **Referenční evapotranspirace (ET<sub>o</sub>)** představuje celkovou ztrátu vody výparem z referenčního povrchu, který by nebyl limitován vodou ani živinami. Tento referenční povrch je obvykle definován jako rovnoměrně pokrytý travní porost s výškou $\mathrm{12\:cm}$ a definovanými vlastnostmi (konstantní albedo $0,23$ a konstantní povrchový odpor $\mathrm{70\:s\cdot m^{-1}}$). 
 </p>
 <p>
-    Referenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí ET<sub>o</sub> se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je $\mathrm{ET}_a$ velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace ($\mathrm{ET}_a$) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření ET<sub>a</sub>. 
+    Referenční evapotranspirace je používána jako standardní měřítko pro hodnocení vodní bilance a potřeb zavlažování v zemědělství. Například pomocí $\mathrm{ET}_0$ se mohou zemědělci rozhodovat, kolik vody je potřeba dodat plodinám, aby nahradili ztráty vody způsobené výparem z půdy a transpirací. Mimo to, je $\mathrm{ET}_a$ velmi vhodná pro normalizaci hodnot aktuální evapotrapsirace ($\mathrm{ET}_a$) napříč různými klimatickými poměry a umožňuje tak lepší zobecnění výsledků měření $\mathrm{ET}_a$. 
 </p>
 <p>
-    Dle metodiky FAO-56 (Allen et al., 1998) je ET<sub>o</sub> vypočítána pomocí Penman-Monteithovy rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
+    Dle metodiky FAO-56 (Allen et al., 1998) je ET<sub>o</sub> vypočítána pomocí [Penman-Monteithovy](./P.html#sec-p-penman-monteithova-rovnice) rovnice, která kombinuje vliv teploty, radiace, vlhkosti a rychlosti větru.
 </p>
 :::
 
